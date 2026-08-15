@@ -1,0 +1,46 @@
+import json
+import os
+from datetime import datetime
+from pathlib import Path
+
+from .models import JobPosting
+
+
+SEEN_JOBS_PATH = Path(__file__).parent.parent / "data" / "seen_jobs.json"
+
+
+def load_seen_jobs() -> dict:
+    """Load seen jobs from seen_jobs.json, return empty dict if missing."""
+    if not SEEN_JOBS_PATH.exists():
+        return {}
+    with open(SEEN_JOBS_PATH) as f:
+        return json.load(f)
+
+
+def save_seen_jobs(seen_jobs: dict) -> None:
+    """Save seen jobs to seen_jobs.json."""
+    SEEN_JOBS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(SEEN_JOBS_PATH, "w") as f:
+        json.dump(seen_jobs, f, indent=2)
+
+
+def process_postings(current_postings: list[JobPosting]) -> tuple[list[JobPosting], dict]:
+    """
+    Compare current postings against seen_jobs.json.
+
+    Returns:
+        (new_postings, updated_seen_jobs_dict)
+    """
+    seen_jobs = load_seen_jobs()
+    new_postings = []
+    now = datetime.utcnow().isoformat() + "Z"
+
+    for posting in current_postings:
+        key = posting.dedup_key()
+        if key not in seen_jobs:
+            new_postings.append(posting)
+            seen_jobs[key] = {"first_seen": now, "title": posting.title}
+        else:
+            seen_jobs[key]["title"] = posting.title
+
+    return new_postings, seen_jobs
