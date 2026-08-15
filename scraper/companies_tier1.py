@@ -15,7 +15,8 @@ from .models import JobPosting
 logger = logging.getLogger(__name__)
 TIMEOUT = 15
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-REQUEST_DELAY = 0.5  # Delay between requests in seconds
+REQUEST_DELAY = 0.3  # Delay between requests in seconds
+MAX_PAGES = 60  # Safety cap on pagination loops so a runaway API can't hang the job
 
 
 def fetch_with_retry(url: str, method: str = "GET", json_data: dict = None, timeout: int = TIMEOUT) -> Optional[dict]:
@@ -96,7 +97,7 @@ def fetch_jibe(domain: str, company: str) -> list[JobPosting]:
     """Fetch jobs from Jibe/Phenom platform."""
     postings = []
     page = 1
-    while True:
+    while page <= MAX_PAGES:
         url = f"https://{domain}/api/jobs?page={page}&sortBy=relevance&descending=false&internal=false"
         data = fetch_with_retry(url)
         if not data or "jobs" not in data:
@@ -137,7 +138,9 @@ def fetch_eightfold(domain: str, query_domain: str, company: str) -> list[JobPos
     """Fetch jobs from Eightfold platform."""
     postings = []
     start = 0
-    while True:
+    pages_fetched = 0
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
         url = f"https://{domain}/api/pcsx/search?domain={query_domain}&query=&location=&start={start}"
         data = fetch_with_retry(url)
         if not data or "data" not in data:
@@ -199,8 +202,10 @@ def fetch_oracle_fusion(host: str, site_number: str, company: str) -> list[JobPo
     postings = []
     offset = 0
     total_count = None
+    pages_fetched = 0
 
-    while True:
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
         url = (f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
                f"?onlyData=true&expand=requisitionList"
                f"&finder=findReqs;siteNumber={site_number},limit=25,sortBy=POSTING_DATES_DESC,offset={offset}")
@@ -255,8 +260,10 @@ def fetch_workday_cxs(endpoint_url: str, company: str) -> list[JobPosting]:
     postings = []
     offset = 0
     total = None
+    pages_fetched = 0
 
-    while True:
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
         data = fetch_with_retry(
             endpoint_url,
             method="POST",
@@ -310,7 +317,9 @@ def fetch_amazon() -> list[JobPosting]:
     """Fetch jobs from Amazon."""
     postings = []
     offset = 0
-    while True:
+    pages_fetched = 0
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
         url = (f"https://www.amazon.jobs/en/search.json?result_limit=100&sort=recent"
                f"&base_query=software%20engineer&country=IND&offset={offset}")
         data = fetch_with_retry(url)
@@ -690,21 +699,33 @@ def fetch_tower_research() -> list[JobPosting]:
     return postings
 
 
-# Registry of all tier 1 company fetchers
-# v1: Fast Greenhouse + minimal others
-# Note: Many large job boards timeout or hang due to pagination/rate limiting
-# Disabled in v1 (can be added back with pagination limits/timeouts):
-#  - All Eightfold companies (Microsoft, NVIDIA, Qualcomm) - slow pagination
-#  - All Jibe companies (S&P, Schneider) - slow pagination
-#  - Oracle Fusion (JPMorgan, TI) - slow/complex API
-#  - Salesforce Workday - slow
-#  - Amazon - large dataset
-#  - HTML-based (Apple, Databricks, Uber, etc.) - need selector verification
+# Registry of all tier 1 company fetchers.
+# All "confirmed" sources from AGENT.MD (companies with a documented, working
+# API/JSON response shape). Pagination loops are capped by MAX_PAGES so a
+# large board (e.g. Microsoft) can't stall the run.
+#
+# Excluded (per AGENT.MD, these are NOT confirmed - selectors/payloads were
+# never captured against the live site, so implementing them would mean
+# guessing): Databricks, Uber, Intuit, EA, Adobe, Warner Bros Discovery,
+# Cohesity, Concentrix.
 TIER1_COMPANIES = {
     "Harness": fetch_harness,
     "Razorpay": fetch_razorpay,
     "Arcesium": fetch_arcesium,
+    "S&P Global": fetch_sp_global,
+    "Schneider Electric": fetch_schneider_electric,
+    "Microsoft": fetch_microsoft,
+    "NVIDIA": fetch_nvidia,
+    "Qualcomm": fetch_qualcomm,
+    "JPMorgan": fetch_jpmorgan,
+    "Texas Instruments": fetch_texas_instruments,
+    "Salesforce": fetch_salesforce,
+    "Amazon": fetch_amazon,
     "Atlassian": fetch_atlassian,
+    "Apple": fetch_apple,
+    "Incepto": fetch_incepto,
+    "D.E. Shaw": fetch_deshaw,
+    "Tower Research Capital": fetch_tower_research,
 }
 
 

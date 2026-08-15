@@ -5,6 +5,7 @@ import sys
 from .companies_tier1 import fetch_all_tier1
 from .companies_tier2 import fetch_all_tier2
 from .diff import process_postings, save_seen_jobs
+from .filters import filter_entry_level
 from .notify import send_email
 
 
@@ -33,6 +34,10 @@ def run_scraper(tier: int) -> None:
         logger.info(f"Fetched {len(postings)} postings")
         if failed:
             logger.warning(f"Failed to fetch: {', '.join(failed)}")
+
+        # Filter down to fresher/entry-level/SDE-1 software engineering roles only
+        postings = filter_entry_level(postings)
+        logger.info(f"{len(postings)} postings match entry-level/fresher/SDE-1 filter")
 
         # Process postings (diff against seen jobs)
         logger.info("Processing postings (diffing against seen jobs)...")
