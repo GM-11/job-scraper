@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 from datetime import datetime
 from pathlib import Path
@@ -6,15 +7,24 @@ from pathlib import Path
 from .models import JobPosting
 
 
+logger = logging.getLogger(__name__)
+
 SEEN_JOBS_PATH = Path(__file__).parent.parent / "data" / "seen_jobs.json"
 
 
 def load_seen_jobs() -> dict:
-    """Load seen jobs from seen_jobs.json, return empty dict if missing."""
+    """Load seen jobs from seen_jobs.json, return empty dict if missing or empty/corrupt."""
     if not SEEN_JOBS_PATH.exists():
         return {}
     with open(SEEN_JOBS_PATH) as f:
-        return json.load(f)
+        content = f.read()
+    if not content.strip():
+        return {}
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError as e:
+        logger.warning(f"seen_jobs.json is corrupt ({e}), starting fresh")
+        return {}
 
 
 def save_seen_jobs(seen_jobs: dict) -> None:

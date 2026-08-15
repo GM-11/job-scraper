@@ -7,10 +7,8 @@ from .diff import process_postings, save_seen_jobs
 from .filters import filter_entry_level
 from .notify import send_email
 
-
 logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
