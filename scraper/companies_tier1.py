@@ -4,13 +4,11 @@ import logging
 import re
 import time
 from datetime import datetime
-from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
 
 from .models import JobPosting
-
 
 logger = logging.getLogger(__name__)
 TIMEOUT = 5
@@ -24,13 +22,17 @@ class FetchTimeoutError(Exception):
     be queued and retried once after the other companies have run."""
 
 
-def fetch_with_retry(url: str, method: str = "GET", json_data: dict = None, timeout: int = TIMEOUT) -> Optional[dict]:
+def fetch_with_retry(
+    url: str, method: str = "GET", json_data: dict | None = None, timeout: int = TIMEOUT
+) -> dict | None:
     """Fetch URL with error handling. Raises FetchTimeoutError on timeout so
     callers can requeue the whole company for a single retry pass."""
     try:
         headers = {"User-Agent": USER_AGENT}
         if method == "POST":
-            response = requests.post(url, json=json_data, headers=headers, timeout=timeout)
+            response = requests.post(
+                url, json=json_data, headers=headers, timeout=timeout
+            )
         else:
             response = requests.get(url, headers=headers, timeout=timeout)
         response.raise_for_status()
@@ -47,7 +49,9 @@ def fetch_with_retry(url: str, method: str = "GET", json_data: dict = None, time
         return None
 
 
-def hash_job_id(title: str, location: Optional[str] = None, extra: Optional[str] = None) -> str:
+def hash_job_id(
+    title: str, location: str | None = None, extra: str | None = None
+) -> str:
     """Create a synthetic job_id from title and location."""
     parts = [title]
     if location:
@@ -59,6 +63,7 @@ def hash_job_id(title: str, location: Optional[str] = None, extra: Optional[str]
 
 
 # === GREENHOUSE COMPANIES ===
+
 
 def fetch_greenhouse(board_token: str, company: str) -> list[JobPosting]:
     """Fetch jobs from Greenhouse API."""
@@ -73,15 +78,17 @@ def fetch_greenhouse(board_token: str, company: str) -> list[JobPosting]:
         location = job.get("location", {})
         location_name = location.get("name") if isinstance(location, dict) else None
 
-        postings.append(JobPosting(
-            company=company,
-            job_id=str(job.get("id")),
-            title=job.get("title", ""),
-            location=location_name,
-            url=job.get("absolute_url"),
-            posted_date=job.get("updated_at"),
-            tier="1"
-        ))
+        postings.append(
+            JobPosting(
+                company=company,
+                job_id=str(job.get("id")),
+                title=job.get("title", ""),
+                location=location_name,
+                url=job.get("absolute_url"),
+                posted_date=job.get("updated_at"),
+                tier="1",
+            )
+        )
     return postings
 
 
@@ -99,6 +106,7 @@ def fetch_arcesium() -> list[JobPosting]:
 
 # === JIBE/PHENOM COMPANIES ===
 
+
 def fetch_jibe(domain: str, company: str) -> list[JobPosting]:
     """Fetch jobs from Jibe/Phenom platform."""
     postings = []
@@ -115,15 +123,17 @@ def fetch_jibe(domain: str, company: str) -> list[JobPosting]:
 
         for job in jobs:
             job_data = job.get("data", {})
-            postings.append(JobPosting(
-                company=company,
-                job_id=str(job_data.get("req_id", "")),
-                title=job_data.get("title", ""),
-                location=None,
-                url=None,
-                posted_date=None,
-                tier="1"
-            ))
+            postings.append(
+                JobPosting(
+                    company=company,
+                    job_id=str(job_data.get("req_id", "")),
+                    title=job_data.get("title", ""),
+                    location=None,
+                    url=None,
+                    posted_date=None,
+                    tier="1",
+                )
+            )
         page += 1
         time.sleep(REQUEST_DELAY)
 
@@ -139,6 +149,7 @@ def fetch_schneider_electric() -> list[JobPosting]:
 
 
 # === EIGHTFOLD COMPANIES ===
+
 
 def fetch_eightfold(domain: str, query_domain: str, company: str) -> list[JobPosting]:
     """Fetch jobs from Eightfold platform."""
@@ -174,15 +185,17 @@ def fetch_eightfold(domain: str, query_domain: str, company: str) -> list[JobPos
             locations = pos.get("locations") or []
             location = ", ".join(locations) if locations else None
 
-            postings.append(JobPosting(
-                company=company,
-                job_id=str(pos.get("id")),
-                title=pos.get("name", ""),
-                location=location,
-                url=full_url,
-                posted_date=posted_date,
-                tier="1"
-            ))
+            postings.append(
+                JobPosting(
+                    company=company,
+                    job_id=str(pos.get("id")),
+                    title=pos.get("name", ""),
+                    location=location,
+                    url=full_url,
+                    posted_date=posted_date,
+                    tier="1",
+                )
+            )
 
         start += len(positions)
         if start >= total_count:
@@ -206,6 +219,7 @@ def fetch_qualcomm() -> list[JobPosting]:
 
 # === ORACLE FUSION COMPANIES ===
 
+
 def fetch_oracle_fusion(host: str, site_number: str, company: str) -> list[JobPosting]:
     """Fetch jobs from Oracle Fusion Cloud."""
     postings = []
@@ -215,9 +229,11 @@ def fetch_oracle_fusion(host: str, site_number: str, company: str) -> list[JobPo
 
     while pages_fetched < MAX_PAGES:
         pages_fetched += 1
-        url = (f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
-               f"?onlyData=true&expand=requisitionList"
-               f"&finder=findReqs;siteNumber={site_number},limit=25,sortBy=POSTING_DATES_DESC,offset={offset}")
+        url = (
+            f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+            f"?onlyData=true&expand=requisitionList"
+            f"&finder=findReqs;siteNumber={site_number},limit=25,sortBy=POSTING_DATES_DESC,offset={offset}"
+        )
 
         data = fetch_with_retry(url)
         if not data or "items" not in data:
@@ -236,15 +252,17 @@ def fetch_oracle_fusion(host: str, site_number: str, company: str) -> list[JobPo
             break
 
         for req in requisition_list:
-            postings.append(JobPosting(
-                company=company,
-                job_id=str(req.get("Id")),
-                title=req.get("Title", ""),
-                location=req.get("PrimaryLocationCountry"),
-                url=None,
-                posted_date=req.get("PostedDate"),
-                tier="1"
-            ))
+            postings.append(
+                JobPosting(
+                    company=company,
+                    job_id=str(req.get("Id")),
+                    title=req.get("Title", ""),
+                    location=req.get("PrimaryLocationCountry"),
+                    url=None,
+                    posted_date=req.get("PostedDate"),
+                    tier="1",
+                )
+            )
 
         offset += 25
         if offset >= (total_count or 0):
@@ -264,6 +282,7 @@ def fetch_texas_instruments() -> list[JobPosting]:
 
 # === WORKDAY COMPANIES ===
 
+
 def fetch_workday_cxs(endpoint_url: str, company: str) -> list[JobPosting]:
     """Fetch jobs from Workday CxS platform."""
     postings = []
@@ -276,7 +295,12 @@ def fetch_workday_cxs(endpoint_url: str, company: str) -> list[JobPosting]:
         data = fetch_with_retry(
             endpoint_url,
             method="POST",
-            json_data={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": ""}
+            json_data={
+                "appliedFacets": {},
+                "limit": 20,
+                "offset": offset,
+                "searchText": "",
+            },
         )
         if not data:
             break
@@ -290,20 +314,30 @@ def fetch_workday_cxs(endpoint_url: str, company: str) -> list[JobPosting]:
 
         for posting in job_postings:
             bullet_fields = posting.get("bulletFields", [])
-            job_id = bullet_fields[0] if bullet_fields else hash_job_id(posting.get("title", ""))
+            job_id = (
+                bullet_fields[0]
+                if bullet_fields
+                else hash_job_id(posting.get("title", ""))
+            )
 
             external_path = posting.get("externalPath", "")
-            url = f"https://salesforce.wd12.myworkdayjobs.com/External_Career_Site{external_path}" if external_path else None
+            url = (
+                f"https://salesforce.wd12.myworkdayjobs.com/External_Career_Site{external_path}"
+                if external_path
+                else None
+            )
 
-            postings.append(JobPosting(
-                company=company,
-                job_id=job_id,
-                title=posting.get("title", ""),
-                location=None,
-                url=url,
-                posted_date=posting.get("postedOn"),
-                tier="1"
-            ))
+            postings.append(
+                JobPosting(
+                    company=company,
+                    job_id=job_id,
+                    title=posting.get("title", ""),
+                    location=None,
+                    url=url,
+                    posted_date=posting.get("postedOn"),
+                    tier="1",
+                )
+            )
 
         offset += 20
         if offset >= (total or 0):
@@ -316,11 +350,12 @@ def fetch_workday_cxs(endpoint_url: str, company: str) -> list[JobPosting]:
 def fetch_salesforce() -> list[JobPosting]:
     return fetch_workday_cxs(
         "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
-        "Salesforce"
+        "Salesforce",
     )
 
 
 # === CUSTOM/ONE-OFF COMPANIES ===
+
 
 def fetch_amazon() -> list[JobPosting]:
     """Fetch jobs from Amazon."""
@@ -329,8 +364,10 @@ def fetch_amazon() -> list[JobPosting]:
     pages_fetched = 0
     while pages_fetched < MAX_PAGES:
         pages_fetched += 1
-        url = (f"https://www.amazon.jobs/en/search.json?result_limit=100&sort=recent"
-               f"&base_query=software%20engineer&country=IND&offset={offset}")
+        url = (
+            f"https://www.amazon.jobs/en/search.json?result_limit=100&sort=recent"
+            f"&base_query=software%20engineer&country=IND&offset={offset}"
+        )
         data = fetch_with_retry(url)
         if not data:
             break
@@ -342,15 +379,17 @@ def fetch_amazon() -> list[JobPosting]:
         total_hits = data.get("hits", 0)
 
         for job in jobs:
-            postings.append(JobPosting(
-                company="Amazon",
-                job_id=str(job.get("id_icims")),
-                title=job.get("title", ""),
-                location=None,
-                url=f"https://www.amazon.jobs{job.get('job_path', '')}",
-                posted_date=job.get("posted_date"),
-                tier="1"
-            ))
+            postings.append(
+                JobPosting(
+                    company="Amazon",
+                    job_id=str(job.get("id_icims")),
+                    title=job.get("title", ""),
+                    location=None,
+                    url=f"https://www.amazon.jobs{job.get('job_path', '')}",
+                    posted_date=job.get("posted_date"),
+                    tier="1",
+                )
+            )
 
         offset += 100
         if offset >= total_hits:
@@ -373,15 +412,17 @@ def fetch_atlassian() -> list[JobPosting]:
         locations = item.get("locations") or []
         location = ", ".join(locations) if locations else None
 
-        postings.append(JobPosting(
-            company="Atlassian",
-            job_id=str(item.get("id")),
-            title=item.get("title", ""),
-            location=location,
-            url=portal_job_post.get("portalUrl"),
-            posted_date=portal_job_post.get("updatedDate"),
-            tier="1"
-        ))
+        postings.append(
+            JobPosting(
+                company="Atlassian",
+                job_id=str(item.get("id")),
+                title=item.get("title", ""),
+                location=location,
+                url=portal_job_post.get("portalUrl"),
+                posted_date=portal_job_post.get("updatedDate"),
+                tier="1",
+            )
+        )
 
     return postings
 
@@ -392,12 +433,16 @@ def fetch_apple() -> list[JobPosting]:
     url = "https://jobs.apple.com/en-us/search?location=india-INDC"
 
     try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(
+            url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT
+        )
         response.raise_for_status()
         html = response.text
 
         # Extract __staticRouterHydrationData from HTML
-        match = re.search(r'window\.__staticRouterHydrationData\s*=\s*(\{.*?\})', html, re.DOTALL)
+        match = re.search(
+            r"window\.__staticRouterHydrationData\s*=\s*(\{.*?\})", html, re.DOTALL
+        )
         if not match:
             logger.warning("Could not find hydration data in Apple jobs page")
             return []
@@ -420,18 +465,24 @@ def fetch_apple() -> list[JobPosting]:
                         if isinstance(result, dict):
                             pos_id = result.get("positionId")
                             if pos_id:
-                                title = result.get("transformedPostingTitle") or result.get("postingTitle", "")
-                                posting_date = result.get("postDateInGMT") or result.get("postingDate")
+                                title = result.get(
+                                    "transformedPostingTitle"
+                                ) or result.get("postingTitle", "")
+                                posting_date = result.get(
+                                    "postDateInGMT"
+                                ) or result.get("postingDate")
                                 url = f"https://jobs.apple.com/en-us/details/{pos_id}/{result.get('transformedPostingTitle', 'job')}"
-                                jobs.append(JobPosting(
-                                    company="Apple",
-                                    job_id=str(pos_id),
-                                    title=title,
-                                    location=None,
-                                    url=url,
-                                    posted_date=posting_date,
-                                    tier="1"
-                                ))
+                                jobs.append(
+                                    JobPosting(
+                                        company="Apple",
+                                        job_id=str(pos_id),
+                                        title=title,
+                                        location=None,
+                                        url=url,
+                                        posted_date=posting_date,
+                                        tier="1",
+                                    )
+                                )
                 for v in obj.values():
                     jobs.extend(extract_jobs_recursive(v))
             elif isinstance(obj, list):
@@ -460,22 +511,28 @@ def fetch_databricks() -> list[JobPosting]:
         soup = BeautifulSoup(response.text, "html.parser")
 
         # Look for job listings (this is a placeholder - actual selectors need verification)
-        job_elements = soup.find_all(class_=re.compile(r"job|position|opening", re.I))
+        job_elements = soup.find_all(
+            class_=re.compile(r"job|position|opening", re.IGNORECASE)
+        )
         logger.info(f"Databricks: found {len(job_elements)} potential job elements")
 
-        for elem in job_elements[:100]:  # Limit to first 100 to avoid processing overhead
+        for elem in job_elements[
+            :100
+        ]:  # Limit to first 100 to avoid processing overhead
             title = elem.get_text(strip=True)
             if title and len(title) > 3:
                 job_id = hash_job_id(title)
-                postings.append(JobPosting(
-                    company="Databricks",
-                    job_id=job_id,
-                    title=title,
-                    location=None,
-                    url=None,
-                    posted_date=None,
-                    tier="1"
-                ))
+                postings.append(
+                    JobPosting(
+                        company="Databricks",
+                        job_id=job_id,
+                        title=title,
+                        location=None,
+                        url=None,
+                        posted_date=None,
+                        tier="1",
+                    )
+                )
     except requests.Timeout:
         logger.error("Databricks: request timeout")
     except Exception as e:
@@ -494,22 +551,26 @@ def fetch_uber() -> list[JobPosting]:
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        job_elements = soup.find_all(class_=re.compile(r"job|position|opening", re.I))
+        job_elements = soup.find_all(
+            class_=re.compile(r"job|position|opening", re.IGNORECASE)
+        )
         logger.info(f"Uber: found {len(job_elements)} potential job elements")
 
         for elem in job_elements[:100]:
             title = elem.get_text(strip=True)
             if title and len(title) > 3:
                 job_id = hash_job_id(title)
-                postings.append(JobPosting(
-                    company="Uber",
-                    job_id=job_id,
-                    title=title,
-                    location=None,
-                    url=None,
-                    posted_date=None,
-                    tier="1"
-                ))
+                postings.append(
+                    JobPosting(
+                        company="Uber",
+                        job_id=job_id,
+                        title=title,
+                        location=None,
+                        url=None,
+                        posted_date=None,
+                        tier="1",
+                    )
+                )
     except requests.Timeout:
         logger.error("Uber: request timeout")
     except Exception as e:
@@ -528,22 +589,26 @@ def fetch_intuit() -> list[JobPosting]:
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        job_elements = soup.find_all(class_=re.compile(r"job|position|opening", re.I))
+        job_elements = soup.find_all(
+            class_=re.compile(r"job|position|opening", re.IGNORECASE)
+        )
         logger.info(f"Intuit: found {len(job_elements)} potential job elements")
 
         for elem in job_elements[:100]:
             title = elem.get_text(strip=True)
             if title and len(title) > 3:
                 job_id = hash_job_id(title)
-                postings.append(JobPosting(
-                    company="Intuit",
-                    job_id=job_id,
-                    title=title,
-                    location=None,
-                    url=None,
-                    posted_date=None,
-                    tier="1"
-                ))
+                postings.append(
+                    JobPosting(
+                        company="Intuit",
+                        job_id=job_id,
+                        title=title,
+                        location=None,
+                        url=None,
+                        posted_date=None,
+                        tier="1",
+                    )
+                )
     except requests.Timeout:
         logger.error("Intuit: request timeout")
     except Exception as e:
@@ -562,22 +627,26 @@ def fetch_ea() -> list[JobPosting]:
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        job_elements = soup.find_all(class_=re.compile(r"job|position|opening", re.I))
+        job_elements = soup.find_all(
+            class_=re.compile(r"job|position|opening", re.IGNORECASE)
+        )
         logger.info(f"EA: found {len(job_elements)} potential job elements")
 
         for elem in job_elements[:100]:
             title = elem.get_text(strip=True)
             if title and len(title) > 3:
                 job_id = hash_job_id(title)
-                postings.append(JobPosting(
-                    company="EA",
-                    job_id=job_id,
-                    title=title,
-                    location=None,
-                    url=None,
-                    posted_date=None,
-                    tier="1"
-                ))
+                postings.append(
+                    JobPosting(
+                        company="EA",
+                        job_id=job_id,
+                        title=title,
+                        location=None,
+                        url=None,
+                        posted_date=None,
+                        tier="1",
+                    )
+                )
     except requests.Timeout:
         logger.error("EA: request timeout")
     except Exception as e:
@@ -592,7 +661,9 @@ def fetch_incepto() -> list[JobPosting]:
     postings = []
 
     try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(
+            url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT
+        )
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
@@ -601,17 +672,27 @@ def fetch_incepto() -> list[JobPosting]:
         if next_data:
             try:
                 data = json.loads(next_data.string)
-                jobs = data.get("props", {}).get("pageProps", {}).get("initialState", {}).get("jobs", {}).get("items", [])
+                jobs = (
+                    data.get("props", {})
+                    .get("pageProps", {})
+                    .get("initialState", {})
+                    .get("jobs", {})
+                    .get("items", [])
+                )
                 for job in jobs:
-                    postings.append(JobPosting(
-                        company="Incepto",
-                        job_id=str(job.get("id", hash_job_id(job.get("title", "")))),
-                        title=job.get("title", ""),
-                        location=None,
-                        url=None,
-                        posted_date=None,
-                        tier="1"
-                    ))
+                    postings.append(
+                        JobPosting(
+                            company="Incepto",
+                            job_id=str(
+                                job.get("id", hash_job_id(job.get("title", "")))
+                            ),
+                            title=job.get("title", ""),
+                            location=None,
+                            url=None,
+                            posted_date=None,
+                            tier="1",
+                        )
+                    )
             except json.JSONDecodeError:
                 logger.warning("Could not parse Incepto JSON")
     except requests.Timeout:
@@ -629,7 +710,11 @@ def fetch_deshaw() -> list[JobPosting]:
 
     try:
         # Step 1: Get buildId from main careers page
-        response = requests.get("https://www.deshaw.com/careers", headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(
+            "https://www.deshaw.com/careers",
+            headers={"User-Agent": USER_AGENT},
+            timeout=TIMEOUT,
+        )
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
@@ -651,7 +736,9 @@ def fetch_deshaw() -> list[JobPosting]:
 
         # Step 2: Fetch job data using buildId
         url = f"https://www.deshaw.com/_next/data/{build_id}/en/careers.json"
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(
+            url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT
+        )
         response.raise_for_status()
         data = response.json()
 
@@ -662,15 +749,19 @@ def fetch_deshaw() -> list[JobPosting]:
             if isinstance(obj, dict):
                 if "jobs" in obj and isinstance(obj["jobs"], list):
                     for job in obj["jobs"]:
-                        jobs.append(JobPosting(
-                            company="D.E. Shaw",
-                            job_id=str(job.get("id", hash_job_id(job.get("title", "")))),
-                            title=job.get("title", ""),
-                            location=job.get("location"),
-                            url=None,
-                            posted_date=None,
-                            tier="1"
-                        ))
+                        jobs.append(
+                            JobPosting(
+                                company="D.E. Shaw",
+                                job_id=str(
+                                    job.get("id", hash_job_id(job.get("title", "")))
+                                ),
+                                title=job.get("title", ""),
+                                location=job.get("location"),
+                                url=None,
+                                posted_date=None,
+                                tier="1",
+                            )
+                        )
                 for v in obj.values():
                     jobs.extend(extract_jobs_from_deshaw(v))
             elif isinstance(obj, list):
@@ -690,9 +781,12 @@ def fetch_deshaw() -> list[JobPosting]:
 
 # === TOWER RESEARCH CAPITAL ===
 
+
 def fetch_tower_research() -> list[JobPosting]:
     """Fetch jobs from Tower Research Capital (SmartRecruiters)."""
-    url = "https://api.smartrecruiters.com/v1/companies/TowerResearchCapitalLLC/postings"
+    url = (
+        "https://api.smartrecruiters.com/v1/companies/TowerResearchCapitalLLC/postings"
+    )
     data = fetch_with_retry(url)
     if not data:
         return []
@@ -701,19 +795,23 @@ def fetch_tower_research() -> list[JobPosting]:
     postings_list = data.get("content", []) if isinstance(data, dict) else []
 
     for posting in postings_list:
-        postings.append(JobPosting(
-            company="Tower Research Capital",
-            job_id=str(posting.get("id")),
-            title=posting.get("name", ""),
-            location=None,
-            url=posting.get("url"),
-            posted_date=None,
-            tier="1"
-        ))
+        postings.append(
+            JobPosting(
+                company="Tower Research Capital",
+                job_id=str(posting.get("id")),
+                title=posting.get("name", ""),
+                location=None,
+                url=posting.get("url"),
+                posted_date=None,
+                tier="1",
+            )
+        )
 
     # Flag if suspiciously few postings
     if len(postings) < 5:
-        logger.warning(f"Tower Research Capital returned only {len(postings)} postings; verify source")
+        logger.warning(
+            f"Tower Research Capital returned only {len(postings)} postings; verify source"
+        )
 
     return postings
 
@@ -766,7 +864,9 @@ def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
             logger.debug(f"  {company_name}: {len(postings)} jobs")
             all_postings.extend(postings)
         except FetchTimeoutError:
-            logger.warning(f"⏱ {company_name}: timed out (>{TIMEOUT}s), queued for retry")
+            logger.warning(
+                f"⏱ {company_name}: timed out (>{TIMEOUT}s), queued for retry"
+            )
             retry_queue.append((company_name, fetcher))
         except Exception as e:
             logger.error(f"✗ {company_name}: {e}")
@@ -774,15 +874,21 @@ def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
         time.sleep(REQUEST_DELAY)
 
     if retry_queue:
-        logger.debug(f"Retrying {len(retry_queue)} timed-out compan{'y' if len(retry_queue) == 1 else 'ies'}...")
+        logger.debug(
+            f"Retrying {len(retry_queue)} timed-out compan{'y' if len(retry_queue) == 1 else 'ies'}..."
+        )
         for company_name, fetcher in retry_queue:
             logger.debug(f"Retrying {company_name}...")
             try:
                 postings = fetcher()
-                logger.debug(f"  {company_name}: {len(postings)} jobs (retry succeeded)")
+                logger.debug(
+                    f"  {company_name}: {len(postings)} jobs (retry succeeded)"
+                )
                 all_postings.extend(postings)
             except FetchTimeoutError:
-                logger.error(f"✗ {company_name}: timed out again (>{TIMEOUT}s), giving up")
+                logger.error(
+                    f"✗ {company_name}: timed out again (>{TIMEOUT}s), giving up"
+                )
                 failed.append(company_name)
             except Exception as e:
                 logger.error(f"✗ {company_name}: {e}")

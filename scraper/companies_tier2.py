@@ -1,10 +1,8 @@
 import hashlib
 import logging
-from typing import Optional
 from urllib.parse import urljoin
 
 from .models import JobPosting
-
 
 logger = logging.getLogger(__name__)
 
@@ -20,7 +18,9 @@ SELECTOR_TIMEOUT_MS = 15000
 MAX_PAGEUP_PAGES = 3
 
 
-def hash_job_id(title: str, location: Optional[str] = None, extra: Optional[str] = None) -> str:
+def hash_job_id(
+    title: str, location: str | None = None, extra: str | None = None
+) -> str:
     """Create a synthetic job_id from title and location."""
     parts = [title]
     if location:
@@ -31,7 +31,9 @@ def hash_job_id(title: str, location: Optional[str] = None, extra: Optional[str]
     return hashlib.md5(key.encode()).hexdigest()[:16]
 
 
-def _fetch_pageup_board(base_url: str, company: str, max_pages: int = MAX_PAGEUP_PAGES) -> list[JobPosting]:
+def _fetch_pageup_board(
+    base_url: str, company: str, max_pages: int = MAX_PAGEUP_PAGES
+) -> list[JobPosting]:
     """Fetch jobs from a PageUp-platform board (Nutanix, ServiceNow share this
     exact DOM structure: div.card-job containers with an a.js-view-job link,
     a job-meta location element, and ?page=N pagination)."""
@@ -56,7 +58,9 @@ def _fetch_pageup_board(base_url: str, company: str, max_pages: int = MAX_PAGEUP
                 try:
                     page.wait_for_selector("div.card-job", timeout=SELECTOR_TIMEOUT_MS)
                 except Exception:
-                    logger.warning(f"{company}: no job cards on page {page_num}, stopping pagination")
+                    logger.warning(
+                        f"{company}: no job cards on page {page_num}, stopping pagination"
+                    )
                     break
 
                 cards = page.query_selector_all("div.card-job")
@@ -71,25 +75,31 @@ def _fetch_pageup_board(base_url: str, company: str, max_pages: int = MAX_PAGEUP
                     href = title_el.get_attribute("href") or ""
                     job_url = urljoin(base_url, href) if href else None
 
-                    location_el = card.query_selector("[class*='job-meta-location'], ul.job-meta li")
+                    location_el = card.query_selector(
+                        "[class*='job-meta-location'], ul.job-meta li"
+                    )
                     location = location_el.inner_text().strip() if location_el else None
 
                     job_id = card.get_attribute("data-id")
                     if not job_id:
                         actions_el = card.query_selector("[data-id]")
-                        job_id = actions_el.get_attribute("data-id") if actions_el else None
+                        job_id = (
+                            actions_el.get_attribute("data-id") if actions_el else None
+                        )
                     if not job_id:
                         job_id = hash_job_id(title, location)
 
-                    postings.append(JobPosting(
-                        company=company,
-                        job_id=job_id,
-                        title=title,
-                        location=location,
-                        url=job_url,
-                        posted_date=None,
-                        tier="2"
-                    ))
+                    postings.append(
+                        JobPosting(
+                            company=company,
+                            job_id=job_id,
+                            title=title,
+                            location=location,
+                            url=job_url,
+                            posted_date=None,
+                            tier="2",
+                        )
+                    )
 
                 if len(cards) < 20:
                     break
@@ -133,12 +143,20 @@ def fetch_goldman_sachs() -> list[JobPosting]:
             page = browser.new_page(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
             )
-            page.goto(f"{base_url}/campus", wait_until="domcontentloaded", timeout=GOTO_TIMEOUT_MS)
+            page.goto(
+                f"{base_url}/campus",
+                wait_until="domcontentloaded",
+                timeout=GOTO_TIMEOUT_MS,
+            )
 
             try:
-                page.wait_for_selector("a[href^='/roles/']", timeout=SELECTOR_TIMEOUT_MS)
+                page.wait_for_selector(
+                    "a[href^='/roles/']", timeout=SELECTOR_TIMEOUT_MS
+                )
             except Exception:
-                logger.warning("Goldman Sachs: no role links appeared, page structure may have changed")
+                logger.warning(
+                    "Goldman Sachs: no role links appeared, page structure may have changed"
+                )
 
             links = page.query_selector_all("a[href^='/roles/']")
             for link in links:
@@ -148,21 +166,31 @@ def fetch_goldman_sachs() -> list[JobPosting]:
                 job_id = href.split("/roles/")[-1].strip("/")
 
                 title_el = link.query_selector("span")
-                title = title_el.inner_text().strip() if title_el else link.inner_text().strip()
+                title = (
+                    title_el.inner_text().strip()
+                    if title_el
+                    else link.inner_text().strip()
+                )
 
                 location_el = link.query_selector("[data-testid='location']")
-                location = location_el.inner_text().strip().replace("\n", " ") if location_el else None
+                location = (
+                    location_el.inner_text().strip().replace("\n", " ")
+                    if location_el
+                    else None
+                )
 
                 if title and job_id:
-                    postings.append(JobPosting(
-                        company="Goldman Sachs",
-                        job_id=job_id,
-                        title=title,
-                        location=location,
-                        url=urljoin(base_url, href),
-                        posted_date=None,
-                        tier="2"
-                    ))
+                    postings.append(
+                        JobPosting(
+                            company="Goldman Sachs",
+                            job_id=job_id,
+                            title=title,
+                            location=location,
+                            url=urljoin(base_url, href),
+                            posted_date=None,
+                            tier="2",
+                        )
+                    )
 
             browser.close()
     except Exception as e:
@@ -196,13 +224,17 @@ def fetch_google() -> list[JobPosting]:
             page.goto(
                 "https://www.google.com/about/careers/applications/jobs/results/",
                 wait_until="domcontentloaded",
-                timeout=GOTO_TIMEOUT_MS
+                timeout=GOTO_TIMEOUT_MS,
             )
 
             try:
-                page.wait_for_selector("a[href*='jobs/results/']", timeout=SELECTOR_TIMEOUT_MS)
+                page.wait_for_selector(
+                    "a[href*='jobs/results/']", timeout=SELECTOR_TIMEOUT_MS
+                )
             except Exception:
-                logger.warning("Google: no job links appeared, page structure may have changed")
+                logger.warning(
+                    "Google: no job links appeared, page structure may have changed"
+                )
 
             job_links = page.query_selector_all("a[href*='jobs/results/']")
             seen_ids = set()
@@ -216,23 +248,39 @@ def fetch_google() -> list[JobPosting]:
                     continue
                 seen_ids.add(job_id)
 
-                card = link.evaluate_handle("el => el.closest('div.sMn82b') || el.parentElement")
-                title_el = card.as_element().query_selector("h3") if card.as_element() else None
-                title = title_el.inner_text().strip() if title_el else link.inner_text().strip()
+                card = link.evaluate_handle(
+                    "el => el.closest('div.sMn82b') || el.parentElement"
+                )
+                title_el = (
+                    card.as_element().query_selector("h3")
+                    if card.as_element()
+                    else None
+                )
+                title = (
+                    title_el.inner_text().strip()
+                    if title_el
+                    else link.inner_text().strip()
+                )
 
-                location_el = card.as_element().query_selector("[class*='r0wTof']") if card.as_element() else None
+                location_el = (
+                    card.as_element().query_selector("[class*='r0wTof']")
+                    if card.as_element()
+                    else None
+                )
                 location = location_el.inner_text().strip() if location_el else None
 
                 if title:
-                    postings.append(JobPosting(
-                        company="Google",
-                        job_id=job_id,
-                        title=title,
-                        location=location,
-                        url=urljoin(base_url, href),
-                        posted_date=None,
-                        tier="2"
-                    ))
+                    postings.append(
+                        JobPosting(
+                            company="Google",
+                            job_id=job_id,
+                            title=title,
+                            location=location,
+                            url=urljoin(base_url, href),
+                            posted_date=None,
+                            tier="2",
+                        )
+                    )
 
             browser.close()
     except Exception as e:
