@@ -19,32 +19,46 @@ def run_scraper(tier: int) -> None:
     """Run scraper for specified tier."""
     logger.info(f"Starting job scraper (tier {tier})")
 
-    if tier == 1:
-        postings, failed = fetch_all_tier1()
-    elif tier == 2:
-        postings, failed = fetch_all_tier2()
-    else:
-        logger.error(f"Invalid tier: {tier}")
-        sys.exit(1)
-
-    logger.info(f"Fetched {len(postings)} postings from {len(failed)} failed companies: {failed}")
-
-    # Process postings (diff against seen jobs)
-    new_postings, updated_seen = process_postings(postings)
-    logger.info(f"Found {len(new_postings)} new postings")
-
-    # Save updated seen jobs
-    save_seen_jobs(updated_seen)
-    logger.info("Saved updated seen_jobs.json")
-
-    # Send email notification
     try:
-        send_email(new_postings, failed)
-        logger.info("Sent email notification")
-    except Exception as e:
-        logger.error(f"Failed to send email: {e}", exc_info=True)
+        if tier == 1:
+            logger.info("Fetching tier 1 companies (API-based)...")
+            postings, failed = fetch_all_tier1()
+        elif tier == 2:
+            logger.info("Fetching tier 2 companies (Playwright-based)...")
+            postings, failed = fetch_all_tier2()
+        else:
+            logger.error(f"Invalid tier: {tier}")
+            sys.exit(1)
 
-    logger.info("Scraper completed successfully")
+        logger.info(f"Fetched {len(postings)} postings")
+        if failed:
+            logger.warning(f"Failed to fetch: {', '.join(failed)}")
+
+        # Process postings (diff against seen jobs)
+        logger.info("Processing postings (diffing against seen jobs)...")
+        new_postings, updated_seen = process_postings(postings)
+        logger.info(f"Found {len(new_postings)} new postings")
+
+        # Save updated seen jobs
+        logger.info("Saving seen_jobs.json...")
+        save_seen_jobs(updated_seen)
+        logger.info("Saved updated seen_jobs.json")
+
+        # Send email notification
+        logger.info("Sending email notification...")
+        try:
+            send_email(new_postings, failed)
+            if new_postings:
+                logger.info("Sent email notification")
+            else:
+                logger.info("No new postings, skipping email")
+        except Exception as e:
+            logger.error(f"Failed to send email: {e}", exc_info=True)
+
+        logger.info("Scraper completed successfully")
+    except Exception as e:
+        logger.error(f"Scraper failed: {e}", exc_info=True)
+        sys.exit(1)
 
 
 def main():

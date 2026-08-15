@@ -27,12 +27,16 @@ def fetch_with_retry(url: str, method: str = "GET", json_data: dict = None, time
         else:
             response = requests.get(url, headers=headers, timeout=timeout)
         response.raise_for_status()
-        return response.json() if response.text else None
+        data = response.json() if response.text else None
+        return data
     except requests.Timeout:
-        logger.error(f"Timeout fetching {url}")
+        logger.debug(f"Timeout (>{timeout}s) fetching {url}")
+        return None
+    except requests.ConnectionError as e:
+        logger.debug(f"Connection error: {url} - {e}")
         return None
     except Exception as e:
-        logger.error(f"Error fetching {url}: {e}")
+        logger.debug(f"Error fetching {url}: {type(e).__name__}: {str(e)[:100]}")
         return None
 
 
@@ -687,28 +691,20 @@ def fetch_tower_research() -> list[JobPosting]:
 
 
 # Registry of all tier 1 company fetchers
+# v1: Fast Greenhouse + minimal others
+# Note: Many large job boards timeout or hang due to pagination/rate limiting
+# Disabled in v1 (can be added back with pagination limits/timeouts):
+#  - All Eightfold companies (Microsoft, NVIDIA, Qualcomm) - slow pagination
+#  - All Jibe companies (S&P, Schneider) - slow pagination
+#  - Oracle Fusion (JPMorgan, TI) - slow/complex API
+#  - Salesforce Workday - slow
+#  - Amazon - large dataset
+#  - HTML-based (Apple, Databricks, Uber, etc.) - need selector verification
 TIER1_COMPANIES = {
     "Harness": fetch_harness,
     "Razorpay": fetch_razorpay,
     "Arcesium": fetch_arcesium,
-    "S&P Global": fetch_sp_global,
-    "Schneider Electric": fetch_schneider_electric,
-    "Microsoft": fetch_microsoft,
-    "NVIDIA": fetch_nvidia,
-    "Qualcomm": fetch_qualcomm,
-    "JPMorgan": fetch_jpmorgan,
-    "Texas Instruments": fetch_texas_instruments,
-    "Salesforce": fetch_salesforce,
-    "Amazon": fetch_amazon,
     "Atlassian": fetch_atlassian,
-    "Apple": fetch_apple,
-    "Databricks": fetch_databricks,
-    "Uber": fetch_uber,
-    "Intuit": fetch_intuit,
-    "EA": fetch_ea,
-    "Incepto": fetch_incepto,
-    "D.E. Shaw": fetch_deshaw,
-    "Tower Research Capital": fetch_tower_research,
 }
 
 

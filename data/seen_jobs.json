@@ -1,0 +1,1626 @@
+{
+  "Harness:5088981007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "AppSec Sales Engineer "
+  },
+  "Harness:5193861007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "AppSec Sales Engineer East"
+  },
+  "Harness:5194077007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "AppSec Sales Engineer - East"
+  },
+  "Harness:5193863007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "AppSec Sales Engineer - East"
+  },
+  "Harness:5198641007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Content Engineer, Developer Relations"
+  },
+  "Harness:5193999007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Account Manager"
+  },
+  "Harness:5187599007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Architect (Forward Deployed Engineer)"
+  },
+  "Harness:5156206007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Engineer I"
+  },
+  "Harness:5137484007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Director of Quality Engineering & Automation"
+  },
+  "Harness:5201203007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Director Software Engineering - AppSec Platform "
+  },
+  "Harness:5183106007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Director Software Engineering - Continuous Delivery"
+  },
+  "Harness:4681087007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Engineering Manager"
+  },
+  "Harness:5180998007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Engineering Manager "
+  },
+  "Harness:5121055007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Engineering Manager - CI"
+  },
+  "Harness:5073164007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Engineering Manager - Data Platform"
+  },
+  "Harness:4952240007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive - Austin"
+  },
+  "Harness:4545504007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive - Federal/Civilian (DC)"
+  },
+  "Harness:4688668007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive- Germany"
+  },
+  "Harness:4600129007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive - London"
+  },
+  "Harness:5022469007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive (Melbourne)"
+  },
+  "Harness:5166750007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive - Netherlands"
+  },
+  "Harness:4667645007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive - NY"
+  },
+  "Harness:5181919007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive (Sydney)"
+  },
+  "Harness:5062241007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Forward Deployed Engineer"
+  },
+  "Harness:5112622007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "GTM Systems Manager"
+  },
+  "Harness:5102468007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "GTM Systems Manager"
+  },
+  "Harness:5180465007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "IT Support Specialist II"
+  },
+  "Harness:5202755007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Learning and Development Manager"
+  },
+  "Harness:4968985007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Mid-Market Account Executive"
+  },
+  "Harness:4662182007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Mid-Market Account Executive - Austin"
+  },
+  "Harness:5051489007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Partner Sales Manager - LATAM"
+  },
+  "Harness:5175674007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal / Director, Product Management \u2013 Code & Container Security"
+  },
+  "Harness:5075790007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Software Engineer"
+  },
+  "Harness:5180974007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Software Engineer- CD"
+  },
+  "Harness:5174597007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Professional Services Engagement Manager"
+  },
+  "Harness:5165202007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Professional Services Engagement Manager"
+  },
+  "Harness:5053352007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "RVP Enterprise Sales - NY"
+  },
+  "Harness:5076093007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative - Austin"
+  },
+  "Harness:5087274007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": " Sales Development Representative - Austin (Portuguese Speaking) "
+  },
+  "Harness:5172907007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative - Austin (Spanish Speaking)"
+  },
+  "Harness:4696716007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative  - Boston"
+  },
+  "Harness:5170171007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": " Sales Development Representative - Boston  (Portuguese Speaking) "
+  },
+  "Harness:4696743007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative  - London"
+  },
+  "Harness:5142299007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Engineer"
+  },
+  "Harness:5145394007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Engineer - Los Angeles"
+  },
+  "Harness:5144579007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Engineer Manager UK"
+  },
+  "Harness:5001069007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Engineer - San Francisco"
+  },
+  "Harness:5109117007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Engineer - Seattle"
+  },
+  "Harness:5063514007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Customer Architect - AppSec (Enterprise and Federal) "
+  },
+  "Harness:5047997007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Devops Engineer - Customer Engineering Team"
+  },
+  "Harness:5201350007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Engineering Manager - AST"
+  },
+  "Harness:5080619007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Engineering Manager - Code"
+  },
+  "Harness:4332590007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - Atlanta"
+  },
+  "Harness:5057744007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - Chicago"
+  },
+  "Harness:5061546007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - Denver"
+  },
+  "Harness:5083358007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - IN"
+  },
+  "Harness:4963915007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - London"
+  },
+  "Harness:5155675007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - Los Angeles"
+  },
+  "Harness:5092810007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - North Carolina"
+  },
+  "Harness:4332714007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - North Carolina"
+  },
+  "Harness:5092812007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - North Carolina"
+  },
+  "Harness:5129190007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - OH"
+  },
+  "Harness:5156941007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - Orange County, CA"
+  },
+  "Harness:4974533007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - San Francisco "
+  },
+  "Harness:5154583007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - Seattle"
+  },
+  "Harness:5099958007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive, Security - Bay Area"
+  },
+  "Harness:5176038007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive, Security - Dubai"
+  },
+  "Harness:5176029007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive, Security - Southeast "
+  },
+  "Harness:4963861007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Executive - Sweden"
+  },
+  "Harness:5044593007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Sales Engineer - New York"
+  },
+  "Harness:5088261007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Implementation Engineer "
+  },
+  "Harness:5145945007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Manager, Tax (Head of Tax)"
+  },
+  "Harness:5145944007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Manager, Treasury"
+  },
+  "Harness:5074953007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Product Manager, Continuous Integration"
+  },
+  "Harness:5210430007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Sales Engineer "
+  },
+  "Harness:5181753007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Sales Engineer - Singapore"
+  },
+  "Harness:5137903007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Sales Engineer - Sweden"
+  },
+  "Harness:5198053007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Technical Content Strategist "
+  },
+  "Harness:5181892007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sr. Revenue Accountant / Revenue Accounting Lead"
+  },
+  "Harness:5176776007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Product Manager - Continuous Deployment"
+  },
+  "Harness:5057966007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Product Manager \u2013 Platform & Data Collection"
+  },
+  "Harness:4948399007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Security Research Engineer"
+  },
+  "Harness:4803804007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Software Engineer"
+  },
+  "Harness:4802247007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Software Engineer"
+  },
+  "Harness:4988528007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Software Engineer"
+  },
+  "Harness:5192927007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Software Engineer - Cloud Platform Engineering"
+  },
+  "Harness:5160430007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Software Engineer - Data Platform "
+  },
+  "Harness:5039535007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Web Strategy, SEO & AI Lead"
+  },
+  "Razorpay:4716521005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Associate Manager, Enterprise Partnerships"
+  },
+  "Razorpay:4718628005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Associate Manager, Solutions Engineering"
+  },
+  "Razorpay:4723737005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Associate Manager, Startup Accounts"
+  },
+  "Razorpay:4697514005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Engineering Manager "
+  },
+  "Razorpay:4723067005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Forward Deployed Engineer"
+  },
+  "Razorpay:4699107005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Full Stack Builder"
+  },
+  "Razorpay:4715751005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Group Manager, Sales Enablement"
+  },
+  "Razorpay:4715340005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Lead Data Analyst"
+  },
+  "Razorpay:4721044005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Lead Product Designer"
+  },
+  "Razorpay:4694487005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, AEO"
+  },
+  "Razorpay:4715361005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Affordability"
+  },
+  "Razorpay:4718634005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Cross Border"
+  },
+  "Razorpay:4716152005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Product Marketing"
+  },
+  "Razorpay:4716967005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Area Manager, Government & Transit (POS)"
+  },
+  "Razorpay:4705896005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Associate, Emerging Business"
+  },
+  "Razorpay:4715775005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Associate, Enterprise Partnerships"
+  },
+  "Razorpay:4709725005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Manager, Sales"
+  },
+  "Razorpay:4673867005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Product Designer"
+  },
+  "Razorpay:4716555005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Product Manager"
+  },
+  "Razorpay:4716514005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Software Development Engineer"
+  },
+  "Razorpay:4721391005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solutions Consultant"
+  },
+  "Razorpay:4661194005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solutions Engineer"
+  },
+  "Razorpay:4717436005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Staff Data Privacy Engineer"
+  },
+  "Razorpay:4651045005": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Technical Account Manager"
+  },
+  "Arcesium:5092481007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Client Success Manager"
+  },
+  "Arcesium:5056665007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Compensation & Benefits Manager"
+  },
+  "Arcesium:5169479007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Lead Infrastructure Engineer"
+  },
+  "Arcesium:4526979007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Lead Infrastructure Engineer"
+  },
+  "Arcesium:5209554007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Lead Infrastructure Engineer - Developer Experience"
+  },
+  "Arcesium:5165409007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Legal Operations and Contracts Manager"
+  },
+  "Arcesium:4854828007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager - Compensation and Benefits"
+  },
+  "Arcesium:4371875007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Financial Operations"
+  },
+  "Arcesium:5143964007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager - Middle Office Forward Deployed Data Strategy, CPD"
+  },
+  "Arcesium:5090453007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager / Senior Manager, Fund and Investor Allocation - Client and Partner Development"
+  },
+  "Arcesium:5102311007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Pre-Sales Consultant"
+  },
+  "Arcesium:5141577007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal, Client Delivery & Implementations"
+  },
+  "Arcesium:5140690007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal, Client Delivery & Implementations"
+  },
+  "Arcesium:5207754007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Consultant - Corp Tech"
+  },
+  "Arcesium:5207755007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Engineer - SRE"
+  },
+  "Arcesium:5115434007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Solution Architect - CPD, FDSA Functional "
+  },
+  "Arcesium:5159583007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product Lead - Opterra - Financial Data Stack"
+  },
+  "Arcesium:5154109007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product Lead - Opterra - Investment & Portfolio Accounting (UBOR)"
+  },
+  "Arcesium:5165752007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product Lead - Opterra - Management & General Accounting "
+  },
+  "Arcesium:5179900007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product Lead - Opterra - Treasury "
+  },
+  "Arcesium:5205738007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product Lead - Technical Writer"
+  },
+  "Arcesium:5035947007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product Manager - Opterra - Performance & Investor Allocations (PerformA)"
+  },
+  "Arcesium:5104600007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product Manager - Order & Portfolio Management System"
+  },
+  "Arcesium:5102343007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Executive"
+  },
+  "Arcesium:5199032007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Account Manager"
+  },
+  "Arcesium:5170323007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Analyst, FinOp"
+  },
+  "Arcesium:5115553007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Consultant - Margin Calculator Group"
+  },
+  "Arcesium:5117608007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Inside Sales Representative, EMEA"
+  },
+  "Arcesium:5166700007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Manager, Financial Operations"
+  },
+  "Arcesium:4325356007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Principal Engineer"
+  },
+  "Arcesium:5189137007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Product Consultant"
+  },
+  "Arcesium:4670550007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Site Reliability Engineer - PSRE"
+  },
+  "Arcesium:5194791007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Software Engineer - Infrastructure"
+  },
+  "Arcesium:5208873007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "SSE - Information Security Engineer"
+  },
+  "Arcesium:5196941007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Vice President, Corporate Strategy "
+  },
+  "Arcesium:5204600007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Vice President - Senior Principal Infrastructure Engineer - Delivery Lead"
+  },
+  "Atlassian:25583": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive - Japanese Speaking"
+  },
+  "Atlassian:25019": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise"
+  },
+  "Atlassian:25020": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise"
+  },
+  "Atlassian:25480": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market"
+  },
+  "Atlassian:25493": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market (Filipino Speaking)"
+  },
+  "Atlassian:25492": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market (Malaysia - Bahasa)"
+  },
+  "Atlassian:25488": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market (SEA)"
+  },
+  "Atlassian:25491": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid-Market (Korean speaking)"
+  },
+  "Atlassian:25720": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid-Market (Mandarin speaking)"
+  },
+  "Atlassian:25834": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid-Market (Thailand)"
+  },
+  "Atlassian:25173": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid-Market, ANZ"
+  },
+  "Atlassian:25498": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Strategic"
+  },
+  "Atlassian:25719": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Program Manager | DX"
+  },
+  "Atlassian:26059": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Success Manager"
+  },
+  "Atlassian:25357": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Design Manager"
+  },
+  "Atlassian:25606": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Director Account Executive, Strategic"
+  },
+  "Atlassian:25305": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "GSI Partner Manager - India"
+  },
+  "Atlassian:25536": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Head of Deal Desk, APAC"
+  },
+  "Atlassian:25838": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Inside Sales Account Executive EMEA - AI & Digital Natives"
+  },
+  "Atlassian:26659": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Machine Learning Platform Engineer"
+  },
+  "Atlassian:25610": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Account Executives, Mid-Market"
+  },
+  "Atlassian:26573": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Data Scientist"
+  },
+  "Atlassian:26576": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Data Scientist"
+  },
+  "Atlassian:25799": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Forward Deployed Engineer"
+  },
+  "Atlassian:25808": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Machine Learning Engineer"
+  },
+  "Atlassian:25809": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Machine Learning Engineer"
+  },
+  "Atlassian:26636": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Software Engineer"
+  },
+  "Atlassian:25693": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Software Engineer - Search and Data"
+  },
+  "Atlassian:25629": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative"
+  },
+  "Atlassian:25627": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Enterprise"
+  },
+  "Atlassian:25635": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Japan"
+  },
+  "Atlassian:26568": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Data Engineer"
+  },
+  "Atlassian:25165": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Data Engineering Manager"
+  },
+  "Atlassian:26571": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Data Engineering Manager"
+  },
+  "Atlassian:25753": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Enterprise Account Manager, Korea"
+  },
+  "Atlassian:25682": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Machine Learning Systems Engineering Manager - AI & ML Platform"
+  },
+  "Atlassian:25304": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Partner Solutions Architect"
+  },
+  "Atlassian:25718": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Principal Engineer, Search Platform"
+  },
+  "Atlassian:25798": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Principal Forward Deployed Engineer"
+  },
+  "Atlassian:25314": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solutions Engineer"
+  },
+  "Atlassian:25402": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solutions Engineer - South Korea"
+  },
+  "Atlassian:25689": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive - Service Collection (India)"
+  },
+  "Atlassian:25607": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Director (Mandarin Speaking)"
+  },
+  "Atlassian:25473": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive - Expansion in DACH (German speaker)"
+  },
+  "Atlassian:26379": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive Manager"
+  },
+  "Atlassian:25730": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, DX Enterprise, EMEA"
+  },
+  "Atlassian:25723": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, DX Strategic EMEA"
+  },
+  "Atlassian:25428": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise"
+  },
+  "Atlassian:24918": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise DACH (German Speaking)"
+  },
+  "Atlassian:26371": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise DACH (German Speaking)"
+  },
+  "Atlassian:25013": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise DACH Public Sector (German Speaking)"
+  },
+  "Atlassian:25431": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise New Logo Benelux and Nordics"
+  },
+  "Atlassian:25433": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise New Logo UKI"
+  },
+  "Atlassian:25436": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise New Logo, Iberia/Italy"
+  },
+  "Atlassian:25217": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise New Logos DACH (German speaking)"
+  },
+  "Atlassian:25427": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise New Logos France (French speaking)"
+  },
+  "Atlassian:25216": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise Poland and CEE"
+  },
+  "Atlassian:25434": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise Southern Europe (Italian Speaking)"
+  },
+  "Atlassian:25429": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise Turkey and Middle East"
+  },
+  "Atlassian:25426": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise, Benelux and Nordics"
+  },
+  "Atlassian:25714": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market France (French speaking)"
+  },
+  "Atlassian:25477": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market, Nordics"
+  },
+  "Atlassian:25727": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid-Market | DX"
+  },
+  "Atlassian:25089": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid-Market UKI"
+  },
+  "Atlassian:25474": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Migration - DACH"
+  },
+  "Atlassian:25171": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Enterprise - German speaking"
+  },
+  "Atlassian:23948": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Enterprise, Benelux & Nordics"
+  },
+  "Atlassian:25691": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Mid-Market, French speaking"
+  },
+  "Atlassian:25376": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Strategic - DACH"
+  },
+  "Atlassian:25256": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Strategic - France"
+  },
+  "Atlassian:26570": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "APAC Marketing Lead, DX"
+  },
+  "Atlassian:19166": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Advocate - Japanese Speaking"
+  },
+  "Atlassian:26372": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Retention Manager, Mid-Market, Renewals (German Speaking)"
+  },
+  "Atlassian:26380": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Success Architect (AI)"
+  },
+  "Atlassian:26045": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Success Manager"
+  },
+  "Atlassian:25199": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Director Public Sector Sales"
+  },
+  "Atlassian:26566": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "EMEA Regional Marketing Manager, DX"
+  },
+  "Atlassian:25257": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Engagement Manager (German speaking)"
+  },
+  "Atlassian:25503": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Manager - Southern Europe"
+  },
+  "Atlassian:25524": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Solutions Engineer - French (+ Spanish or Italian)"
+  },
+  "Atlassian:25775": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Solutions Engineer, New Logo  (Italian speaking)"
+  },
+  "Atlassian:25762": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Solutions Engineer, New Logo (German speaking)"
+  },
+  "Atlassian:24883": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Head of EMEA Sales, DX"
+  },
+  "Atlassian:26264": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Head of Sales Development, Strategic & Enterprise"
+  },
+  "Atlassian:25190": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Account Executives, Enterprise (Emerging Markets)"
+  },
+  "Atlassian:25552": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Account Executives, Enterprise (Southern Europe)"
+  },
+  "Atlassian:25189": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Account Executives, Enterprise New Logos EMEA"
+  },
+  "Atlassian:25232": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Enterprise Solutions Engineering \u2014 Nordics & BeNeLux"
+  },
+  "Atlassian:26063": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Customer Success Manager, Strategic DACH"
+  },
+  "Atlassian:26057": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Customer Success Manager, Strategic, France"
+  },
+  "Atlassian:25264": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Solutions Engineer, Strategic"
+  },
+  "Atlassian:25271": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Value Advisor, DACH"
+  },
+  "Atlassian:25554": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Regional Sales Director, DACH (German speaking)"
+  },
+  "Atlassian:25227": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Regional Sales Manager, Developer Experience (EMEA)"
+  },
+  "Atlassian:25549": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative | DX"
+  },
+  "Atlassian:25673": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Enterprise"
+  },
+  "Atlassian:25630": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Enterprise DACH"
+  },
+  "Atlassian:25623": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Enterprise Emerging Markets"
+  },
+  "Atlassian:25686": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Enterprise, Southern Europe"
+  },
+  "Atlassian:25622": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Enterprise, UKI Public Sector"
+  },
+  "Atlassian:25633": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Mid-Market DACH"
+  },
+  "Atlassian:25398": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Mid-Market JSM DACH & Emerging Markets"
+  },
+  "Atlassian:26025": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Strategic"
+  },
+  "Atlassian:25560": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Strategy Collections"
+  },
+  "Atlassian:26040": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Account Executive, Mid-Market Southern Europe"
+  },
+  "Atlassian:25638": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Engagement Manager (Dutch speaking)"
+  },
+  "Atlassian:26664": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Fullstack Software Engineer, DX"
+  },
+  "Atlassian:26039": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Partner Manager DACH (German Speaking)"
+  },
+  "Atlassian:26241": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Principal Customer Success Manager, Strategic - France"
+  },
+  "Atlassian:24899": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Researcher, DX"
+  },
+  "Atlassian:25543": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Sales Development Representative | DX"
+  },
+  "Atlassian:26249": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Services Solutions Advocate"
+  },
+  "Atlassian:26250": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Services Solutions Advocate"
+  },
+  "Atlassian:25393": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solution Architect"
+  },
+  "Atlassian:25148": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solution Engineer (German Speaking)"
+  },
+  "Atlassian:25356": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solution Sales Executive, AI Enterprise"
+  },
+  "Atlassian:24713": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solutions Architect | DX"
+  },
+  "Atlassian:25162": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solutions Engineer, Enterprise"
+  },
+  "Atlassian:25252": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solutions Engineer, Enterprise - Central & West"
+  },
+  "Atlassian:25837": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solutions Engineer, Strategic"
+  },
+  "Atlassian:26007": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "SMB Solution Sales Executive, LATAM"
+  },
+  "Atlassian:25237": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Consultant, DACH (Cloud Platform)"
+  },
+  "Atlassian:25258": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive, ITSM / ESM - Benelux & Nordics"
+  },
+  "Atlassian:25317": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive, ITSM / ESM \u2014 DACH (German Speaking)"
+  },
+  "Atlassian:25707": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive, JSM- Canada"
+  },
+  "Atlassian:25764": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solutions Engineer, Mid-Market CEE (Polish Speaker)"
+  },
+  "Atlassian:25763": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solutions Engineer, Mid-Market DACH (German speaker)"
+  },
+  "Atlassian:26574": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solutions Engineering Program Manager"
+  },
+  "Atlassian:25221": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive, Benelux and Nordics"
+  },
+  "Atlassian:25265": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive, DACH (German speaking)"
+  },
+  "Atlassian:25224": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive, Nordics"
+  },
+  "Atlassian:25170": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Solutions Sales Executive - Southern Europe"
+  },
+  "Atlassian:25169": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Solutions Sales Executive, DACH"
+  },
+  "Atlassian:26280": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Support Account Manager"
+  },
+  "Atlassian:26635": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Support Account Manager"
+  },
+  "Atlassian:25419": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise - Financial Services"
+  },
+  "Atlassian:26076": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Enterprise | DX"
+  },
+  "Atlassian:25701": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market (LATAM)"
+  },
+  "Atlassian:26075": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market | DX"
+  },
+  "Atlassian:25370": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market Canada"
+  },
+  "Atlassian:25522": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market Central"
+  },
+  "Atlassian:25469": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market LATAM (Portuguese Speaking)"
+  },
+  "Atlassian:25462": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid Market West - Cloud Transformation"
+  },
+  "Atlassian:25537": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Mid-Market West"
+  },
+  "Atlassian:25047": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Public Sector - National Security"
+  },
+  "Atlassian:25219": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Executive, Public Sector - State and Local Government (West)"
+  },
+  "Atlassian:25587": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Enterprise"
+  },
+  "Atlassian:26381": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Public Sector"
+  },
+  "Atlassian:25497": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Account Manager, Strategic"
+  },
+  "Atlassian:25634": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "AI Productivity Lead, Sales Development"
+  },
+  "Atlassian:25384": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Associate Customer Success Manager"
+  },
+  "Atlassian:26293": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Corporate Finance Analyst"
+  },
+  "Atlassian:26633": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Customer Success Architect (AI)"
+  },
+  "Atlassian:25348": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Director, Workforce Intelligence Architect"
+  },
+  "Atlassian:26362": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Account Executive, LATAM (Spanish-speaking) | DX"
+  },
+  "Atlassian:25098": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Enterprise Sales Manager"
+  },
+  "Atlassian:26345": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Fullstack Software Engineer, DX"
+  },
+  "Atlassian:26245": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Head of Customer Success - Strategic"
+  },
+  "Atlassian:26064": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Head of Data Engineering"
+  },
+  "Atlassian:26375": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Lead Design Technologist"
+  },
+  "Atlassian:25349": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Lead Product Designer, Loom"
+  },
+  "Atlassian:26041": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager - Solutions Engineering | DX"
+  },
+  "Atlassian:25320": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Account Executive Mid Market East"
+  },
+  "Atlassian:25188": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Account Executives, Enterprise"
+  },
+  "Atlassian:25197": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Account Executives, Mid-Market Canada"
+  },
+  "Atlassian:25195": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Account Executives, Mid-Market West"
+  },
+  "Atlassian:25833": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Enterprise Sales - West"
+  },
+  "Atlassian:25663": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, MidMarket Sales | DX"
+  },
+  "Atlassian:25786": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Sales Development Enterprise"
+  },
+  "Atlassian:24855": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, SDR"
+  },
+  "Atlassian:25387": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Solution Architects"
+  },
+  "Atlassian:25229": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Manager, Solution Sales, Service Collection"
+  },
+  "Atlassian:26363": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Mid Market Account Executive, LATAM (Spanish-Speaking) | DX"
+  },
+  "Atlassian:25742": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Partner Development Manager"
+  },
+  "Atlassian:26354": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Performance Marketing Manager, DX"
+  },
+  "Atlassian:25586": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Backend Software Engineer"
+  },
+  "Atlassian:25751": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Customer Success Manager"
+  },
+  "Atlassian:25752": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Customer Success Manager, DX"
+  },
+  "Atlassian:26043": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Customer Success Manager, Enterprise"
+  },
+  "Atlassian:26575": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Data Scientist"
+  },
+  "Atlassian:25789": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Engineer"
+  },
+  "Atlassian:26359": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Engineer - Kubernetes Platform"
+  },
+  "Atlassian:26247": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Engineer, Backend Engineering"
+  },
+  "Atlassian:25321": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Enterprise Delivery Manager, Migrations"
+  },
+  "Atlassian:26288": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Enterprise Security Engineer"
+  },
+  "Atlassian:25246": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Forward Deployed Architect"
+  },
+  "Atlassian:25812": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Forward Deployed Engineer"
+  },
+  "Atlassian:25715": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal JSM Solution Sales Executive, Public Sector"
+  },
+  "Atlassian:25394": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Machine Learning Engineer"
+  },
+  "Atlassian:25738": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Machine Learning System Engineer"
+  },
+  "Atlassian:25292": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Machine Learning Systems Engineer"
+  },
+  "Atlassian:26078": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Product Management Manager, IAM & Identity Platform / Guard"
+  },
+  "Atlassian:26340": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Product Manager, System Insights for DX"
+  },
+  "Atlassian:25391": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Solution Architect"
+  },
+  "Atlassian:25128": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Strategist, AI Sales Strategy"
+  },
+  "Atlassian:25377": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal Value Advisor, Value Management Office"
+  },
+  "Atlassian:26037": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Principal, Success Portfolio Design & Transformation"
+  },
+  "Atlassian:25371": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product & Solutions Enablement Manager"
+  },
+  "Atlassian:26289": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Product Manager, Rovo"
+  },
+  "Atlassian:25113": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Regional Marketing Manager, Brazil"
+  },
+  "Atlassian:25755": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative"
+  },
+  "Atlassian:25754": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, DX"
+  },
+  "Atlassian:25550": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sales Development Representative, Mid Market"
+  },
+  "Atlassian:25210": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Account Executive , AI & Digital Natives (Bay Area)"
+  },
+  "Atlassian:25211": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Account Executive , AI and Digital Native (NYC)"
+  },
+  "Atlassian:25559": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Account Executive, Enterprise - East & Central"
+  },
+  "Atlassian:25759": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Account Executive, Enterprise - West"
+  },
+  "Atlassian:25075": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Account Executive, Public Sector"
+  },
+  "Atlassian:26572": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Data Engineer, DX"
+  },
+  "Atlassian:24872": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Design Manager, Jira AI"
+  },
+  "Atlassian:26656": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Engineering Manager \u2013 Incident Response"
+  },
+  "Atlassian:26229": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Finance Manager - R&D"
+  },
+  "Atlassian:26065": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Global Alliance Manager, Accenture"
+  },
+  "Atlassian:25842": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Machine Learning Engineer Manager"
+  },
+  "Atlassian:25747": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Machine Learning Manager"
+  },
+  "Atlassian:25737": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Machine Learning System Engineer"
+  },
+  "Atlassian:26660": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Machine Learning System Engineer"
+  },
+  "Atlassian:26357": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Manager, Agentic AI Integrations"
+  },
+  "Atlassian:25186": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Manager, AI & Digital Natives"
+  },
+  "Atlassian:25231": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Manager, Enterprise Solutions Engineering"
+  },
+  "Atlassian:26297": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Manager, Onboarding, TWC"
+  },
+  "Atlassian:25741": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Partner Development Manager"
+  },
+  "Atlassian:25716": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Principal Engineer"
+  },
+  "Atlassian:25800": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Principal Forward Deployed Engineer"
+  },
+  "Atlassian:25679": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Principal Product Manager, Atlassian Government Cloud"
+  },
+  "Atlassian:25678": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Product Manager - Atlassian Government Cloud"
+  },
+  "Atlassian:26663": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Product Manager, Data Platform & Connectors"
+  },
+  "Atlassian:26662": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Product Manager, Self-Reported Insights"
+  },
+  "Atlassian:24984": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Program Manager, Event Technology"
+  },
+  "Atlassian:26038": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Sales Compensation Analyst"
+  },
+  "Atlassian:26631": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Sales Development Representative"
+  },
+  "Atlassian:25389": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solution Architect"
+  },
+  "Atlassian:25307": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solution Consultant, Teamwork Foundations + AI"
+  },
+  "Atlassian:25777": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solutions Engineer, Enterprise - East"
+  },
+  "Atlassian:25590": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Solutions Sales Executive, Teamwork Collection"
+  },
+  "Atlassian:25365": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Systems Engineer \u2014 AI Code Metrics Daemon"
+  },
+  "Atlassian:25513": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Tax Accountant - Provision and Compliance"
+  },
+  "Atlassian:25236": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Senior Value Advisor, Value Management Office"
+  },
+  "Atlassian:25740": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Services Solutions Advocate"
+  },
+  "Atlassian:26265": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Software Engineer"
+  },
+  "Atlassian:26283": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive (JA)"
+  },
+  "Atlassian:25840": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive, Developer Experience"
+  },
+  "Atlassian:25709": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive, JSM"
+  },
+  "Atlassian:25711": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive, JSM"
+  },
+  "Atlassian:25372": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solution Sales Executive, JSM, Strategic Accounts"
+  },
+  "Atlassian:24856": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solutions Architect Manager | DX"
+  },
+  "Atlassian:25244": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solutions Engineer, Mid Market"
+  },
+  "Atlassian:25180": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Solutions Engineer, Mid Market (LATAM) - Potuguese Speaking"
+  },
+  "Atlassian:26248": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sr. Account Executive, Public Sector - Federal Civilian"
+  },
+  "Atlassian:26049": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Sr. Principal Customer Success Manager"
+  },
+  "Atlassian:25594": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive - Central"
+  },
+  "Atlassian:25582": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive - Cincinnati, OH"
+  },
+  "Atlassian:25581": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive - Cleveland, OH"
+  },
+  "Atlassian:25090": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive - East"
+  },
+  "Atlassian:25580": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive - Indianapolis, IN"
+  },
+  "Atlassian:25758": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Strategic Account Executive - West"
+  },
+  "Atlassian:25354": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "Technical Revenue Accounting Manager- Enterprise Sales EMEA"
+  },
+  "Atlassian:25785": {
+    "first_seen": "2026-08-15T08:19:43.748266Z",
+    "title": "West Coast - ServiceCollection Solution Sales Executive"
+  }
+}
