@@ -4,6 +4,9 @@ on:
     - cron: '0 3,8,12,16 * * *'
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -25,4 +28,5 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add data/seen_jobs.json
           git diff --staged --quiet || git commit -m "chore: update seen jobs"
+          git pull --rebase
           git push
