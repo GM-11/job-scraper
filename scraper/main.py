@@ -1,4 +1,3 @@
-import argparse
 import logging
 import sys
 
@@ -16,20 +15,19 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def run_scraper(tier: int) -> None:
-    """Run scraper for specified tier."""
-    logger.info(f"Starting job scraper (tier {tier})")
+def run_scraper() -> None:
+    """Run the full scraper: tier 1 (API-based) and tier 2 (Playwright-based) together."""
+    logger.info("Starting job scraper")
 
     try:
-        if tier == 1:
-            logger.info("Fetching tier 1 companies (API-based)...")
-            postings, failed = fetch_all_tier1()
-        elif tier == 2:
-            logger.info("Fetching tier 2 companies (Playwright-based)...")
-            postings, failed = fetch_all_tier2()
-        else:
-            logger.error(f"Invalid tier: {tier}")
-            sys.exit(1)
+        logger.info("Fetching tier 1 companies (API-based)...")
+        tier1_postings, tier1_failed = fetch_all_tier1()
+
+        logger.info("Fetching tier 2 companies (Playwright-based)...")
+        tier2_postings, tier2_failed = fetch_all_tier2()
+
+        postings = tier1_postings + tier2_postings
+        failed = tier1_failed + tier2_failed
 
         logger.info(f"Fetched {len(postings)} postings")
         if failed:
@@ -67,11 +65,7 @@ def run_scraper(tier: int) -> None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Job scraper for GitHub Actions")
-    parser.add_argument("--tier", type=int, choices=[1, 2], required=True, help="Which tier to scrape (1 or 2)")
-    args = parser.parse_args()
-
-    run_scraper(args.tier)
+    run_scraper()
 
 
 if __name__ == "__main__":
