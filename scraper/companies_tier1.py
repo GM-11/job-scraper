@@ -13,14 +13,20 @@ from .models import JobPosting
 
 
 logger = logging.getLogger(__name__)
-TIMEOUT = 15
+TIMEOUT = 5
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 REQUEST_DELAY = 0.3  # Delay between requests in seconds
 MAX_PAGES = 60  # Safety cap on pagination loops so a runaway API can't hang the job
 
 
+class FetchTimeoutError(Exception):
+    """Raised when a request exceeds TIMEOUT, so the whole company fetch can
+    be queued and retried once after the other companies have run."""
+
+
 def fetch_with_retry(url: str, method: str = "GET", json_data: dict = None, timeout: int = TIMEOUT) -> Optional[dict]:
-    """Fetch URL with error handling."""
+    """Fetch URL with error handling. Raises FetchTimeoutError on timeout so
+    callers can requeue the whole company for a single retry pass."""
     try:
         headers = {"User-Agent": USER_AGENT}
         if method == "POST":
@@ -32,7 +38,7 @@ def fetch_with_retry(url: str, method: str = "GET", json_data: dict = None, time
         return data
     except requests.Timeout:
         logger.debug(f"Timeout (>{timeout}s) fetching {url}")
-        return None
+        raise FetchTimeoutError(f"Timed out fetching {url}")
     except requests.ConnectionError as e:
         logger.debug(f"Connection error: {url} - {e}")
         return None
@@ -380,7 +386,7 @@ def fetch_apple() -> list[JobPosting]:
     url = "https://jobs.apple.com/en-us/search?location=india-INDC"
 
     try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=10)
+        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
         response.raise_for_status()
         html = response.text
 
@@ -429,7 +435,8 @@ def fetch_apple() -> list[JobPosting]:
 
         postings = extract_jobs_recursive(data)
     except requests.Timeout:
-        logger.error("Apple: request timeout")
+        logger.warning(f"Apple: request timed out (>{TIMEOUT}s)")
+        raise FetchTimeoutError("Apple timed out")
     except Exception as e:
         logger.error(f"Apple: {e}")
 
@@ -601,6 +608,9 @@ def fetch_incepto() -> list[JobPosting]:
                     ))
             except json.JSONDecodeError:
                 logger.warning("Could not parse Incepto JSON")
+    except requests.Timeout:
+        logger.warning(f"Incepto: request timed out (>{TIMEOUT}s)")
+        raise FetchTimeoutError("Incepto timed out")
     except Exception as e:
         logger.error(f"Error fetching Incepto jobs: {e}")
 
@@ -663,6 +673,9 @@ def fetch_deshaw() -> list[JobPosting]:
             return jobs
 
         postings = extract_jobs_from_deshaw(data)
+    except requests.Timeout:
+        logger.warning(f"D.E. Shaw: request timed out (>{TIMEOUT}s)")
+        raise FetchTimeoutError("D.E. Shaw timed out")
     except Exception as e:
         logger.error(f"Error fetching D.E. Shaw jobs: {e}")
 
@@ -730,9 +743,15 @@ TIER1_COMPANIES = {
 
 
 def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
-    """Fetch all tier 1 companies, return postings and list of failed companies."""
+    """Fetch all tier 1 companies, return postings and list of failed companies.
+
+    Every request is capped at TIMEOUT (5s). A company whose fetch times out
+    is queued and retried once, after all other companies have been
+    attempted; a second timeout on retry marks it as failed.
+    """
     all_postings = []
     failed = []
+    retry_queue = []
 
     for company_name, fetcher in TIER1_COMPANIES.items():
         logger.info(f"Fetching {company_name}...")
@@ -740,9 +759,28 @@ def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
             postings = fetcher()
             logger.info(f"  ✓ {company_name}: {len(postings)} jobs")
             all_postings.extend(postings)
+        except FetchTimeoutError:
+            logger.warning(f"⏱ {company_name}: timed out (>{TIMEOUT}s), queued for retry")
+            retry_queue.append((company_name, fetcher))
         except Exception as e:
             logger.error(f"✗ {company_name}: {e}")
             failed.append(company_name)
         time.sleep(REQUEST_DELAY)
+
+    if retry_queue:
+        logger.info(f"Retrying {len(retry_queue)} timed-out compan{'y' if len(retry_queue) == 1 else 'ies'}...")
+        for company_name, fetcher in retry_queue:
+            logger.info(f"Retrying {company_name}...")
+            try:
+                postings = fetcher()
+                logger.info(f"  ✓ {company_name}: {len(postings)} jobs (retry succeeded)")
+                all_postings.extend(postings)
+            except FetchTimeoutError:
+                logger.error(f"✗ {company_name}: timed out again (>{TIMEOUT}s), giving up")
+                failed.append(company_name)
+            except Exception as e:
+                logger.error(f"✗ {company_name}: {e}")
+                failed.append(company_name)
+            time.sleep(REQUEST_DELAY)
 
     return all_postings, failed
