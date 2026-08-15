@@ -74,9 +74,29 @@ ROLE_KEYWORD_PATTERNS = [
     r"\bprogrammer\b",
 ]
 
+# Location strings indicating an India-based posting - country name plus the
+# major Indian tech hub cities, for sources that only report a city.
+INDIA_LOCATION_PATTERNS = [
+    r"\bindia\b",
+    r"\bbengaluru\b",
+    r"\bbangalore\b",
+    r"\bhyderabad\b",
+    r"\bpune\b",
+    r"\bmumbai\b",
+    r"\bchennai\b",
+    r"\bnew\s*delhi\b",
+    r"\bdelhi\b",
+    r"\bgurugram\b",
+    r"\bgurgaon\b",
+    r"\bnoida\b",
+    r"\bkolkata\b",
+    r"\bahmedabad\b",
+]
+
 _entry_re = re.compile("|".join(ENTRY_LEVEL_PATTERNS), re.IGNORECASE)
 _exclude_re = re.compile("|".join(SENIORITY_EXCLUDE_PATTERNS), re.IGNORECASE)
 _role_re = re.compile("|".join(ROLE_KEYWORD_PATTERNS), re.IGNORECASE)
+_india_re = re.compile("|".join(INDIA_LOCATION_PATTERNS), re.IGNORECASE)
 
 
 def is_entry_level_swe(title: str) -> bool:
@@ -173,15 +193,30 @@ def is_recently_posted(posted_date: Optional[str], window_days: int = RECENCY_WI
     return parsed >= cutoff
 
 
+def is_india_location(location: Optional[str]) -> bool:
+    """Return True if location is an India-based posting.
+
+    Many sources don't expose location at all; when it's missing, the
+    posting is kept rather than dropped, consistent with how missing dates
+    are handled - we'd rather surface a possible match than silently lose
+    postings from sources with incomplete location data.
+    """
+    if not location:
+        return True
+    return bool(_india_re.search(location))
+
+
 def filter_entry_level(postings: list) -> list:
     """Filter a list of JobPosting objects to entry-level SWE roles that:
     - reference a software engineering role with an entry-level signal
     - don't target a graduating class later than MAX_GRAD_YEAR
     - were posted within RECENCY_WINDOW_DAYS (when a date is available)
+    - are India-based (when a location is available)
     """
     return [
         p for p in postings
         if is_entry_level_swe(p.title)
         and is_grad_year_acceptable(p.title)
         and is_recently_posted(p.posted_date)
+        and is_india_location(p.location)
     ]

@@ -171,11 +171,14 @@ def fetch_eightfold(domain: str, query_domain: str, company: str) -> list[JobPos
             url_path = pos.get("positionUrl", "")
             full_url = f"https://{domain}{url_path}" if url_path else None
 
+            locations = pos.get("locations") or []
+            location = ", ".join(locations) if locations else None
+
             postings.append(JobPosting(
                 company=company,
                 job_id=str(pos.get("id")),
                 title=pos.get("name", ""),
-                location=None,
+                location=location,
                 url=full_url,
                 posted_date=posted_date,
                 tier="1"
@@ -367,11 +370,14 @@ def fetch_atlassian() -> list[JobPosting]:
     postings = []
     for item in data if isinstance(data, list) else []:
         portal_job_post = item.get("portalJobPost", {})
+        locations = item.get("locations") or []
+        location = ", ".join(locations) if locations else None
+
         postings.append(JobPosting(
             company="Atlassian",
             job_id=str(item.get("id")),
             title=item.get("title", ""),
-            location=None,
+            location=location,
             url=portal_job_post.get("portalUrl"),
             posted_date=portal_job_post.get("updatedDate"),
             tier="1"
@@ -754,10 +760,10 @@ def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
     retry_queue = []
 
     for company_name, fetcher in TIER1_COMPANIES.items():
-        logger.info(f"Fetching {company_name}...")
+        logger.debug(f"Fetching {company_name}...")
         try:
             postings = fetcher()
-            logger.info(f"  ✓ {company_name}: {len(postings)} jobs")
+            logger.debug(f"  {company_name}: {len(postings)} jobs")
             all_postings.extend(postings)
         except FetchTimeoutError:
             logger.warning(f"⏱ {company_name}: timed out (>{TIMEOUT}s), queued for retry")
@@ -768,12 +774,12 @@ def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
         time.sleep(REQUEST_DELAY)
 
     if retry_queue:
-        logger.info(f"Retrying {len(retry_queue)} timed-out compan{'y' if len(retry_queue) == 1 else 'ies'}...")
+        logger.debug(f"Retrying {len(retry_queue)} timed-out compan{'y' if len(retry_queue) == 1 else 'ies'}...")
         for company_name, fetcher in retry_queue:
-            logger.info(f"Retrying {company_name}...")
+            logger.debug(f"Retrying {company_name}...")
             try:
                 postings = fetcher()
-                logger.info(f"  ✓ {company_name}: {len(postings)} jobs (retry succeeded)")
+                logger.debug(f"  {company_name}: {len(postings)} jobs (retry succeeded)")
                 all_postings.extend(postings)
             except FetchTimeoutError:
                 logger.error(f"✗ {company_name}: timed out again (>{TIMEOUT}s), giving up")

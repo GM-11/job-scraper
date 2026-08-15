@@ -4,7 +4,7 @@ import sys
 from .companies_tier1 import fetch_all_tier1
 from .companies_tier2 import fetch_all_tier2
 from .diff import process_postings, save_seen_jobs
-from .filters import filter_entry_level
+from .filters import MAX_GRAD_YEAR, RECENCY_WINDOW_DAYS, filter_entry_level
 from .notify import send_email
 
 logging.basicConfig(
@@ -27,13 +27,19 @@ def run_scraper() -> None:
         postings = tier1_postings + tier2_postings
         failed = tier1_failed + tier2_failed
 
-        logger.info(f"Fetched {len(postings)} postings")
+        logger.debug(f"Fetched {len(postings)} postings")
         if failed:
             logger.warning(f"Failed to fetch: {', '.join(failed)}")
 
-        # Filter down to fresher/entry-level/SDE-1 software engineering roles only
+        # Filter down to fresher/entry-level/SDE-1/India-based roles from the last week
         postings = filter_entry_level(postings)
-        logger.info(f"{len(postings)} postings match entry-level/fresher/SDE-1 filter")
+        logger.info(
+            f"{len(postings)} postings match filters "
+            f"(entry-level, India, last {RECENCY_WINDOW_DAYS} days, grad year <= {MAX_GRAD_YEAR}):"
+        )
+        for p in postings:
+            loc = f" — {p.location}" if p.location else ""
+            logger.info(f"  [{p.company}] {p.title}{loc} (job_id={p.job_id}) {p.url or ''}")
 
         # Process postings (diff against seen jobs)
         logger.info("Processing postings (diffing against seen jobs)...")

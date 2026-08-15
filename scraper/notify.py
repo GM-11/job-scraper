@@ -24,8 +24,9 @@ def send_email(new_postings: list[JobPosting], failed_companies: list[str] = Non
             loc = f" — {j.location}" if j.location else ""
             date = f" ({j.posted_date})" if j.posted_date else ""
             body_lines.append(f"  • {j.title}{loc}{date}")
+            body_lines.append(f"    Job ID: {j.job_id}")
             if j.url:
-                body_lines.append(f"    {j.url}")
+                body_lines.append(f"    Link: {j.url}")
 
     if failed_companies:
         body_lines.append(f"\n\n⚠ Failed to check: {', '.join(failed_companies)}")
