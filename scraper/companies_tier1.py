@@ -18,16 +18,19 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 REQUEST_DELAY = 0.5  # Delay between requests in seconds
 
 
-def fetch_with_retry(url: str, method: str = "GET", json_data: dict = None) -> Optional[dict]:
+def fetch_with_retry(url: str, method: str = "GET", json_data: dict = None, timeout: int = TIMEOUT) -> Optional[dict]:
     """Fetch URL with error handling."""
     try:
         headers = {"User-Agent": USER_AGENT}
         if method == "POST":
-            response = requests.post(url, json=json_data, headers=headers, timeout=TIMEOUT)
+            response = requests.post(url, json=json_data, headers=headers, timeout=timeout)
         else:
-            response = requests.get(url, headers=headers, timeout=TIMEOUT)
+            response = requests.get(url, headers=headers, timeout=timeout)
         response.raise_for_status()
         return response.json() if response.text else None
+    except requests.Timeout:
+        logger.error(f"Timeout fetching {url}")
+        return None
     except Exception as e:
         logger.error(f"Error fetching {url}: {e}")
         return None
@@ -364,7 +367,7 @@ def fetch_apple() -> list[JobPosting]:
     url = "https://jobs.apple.com/en-us/search?location=india-INDC"
 
     try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=10)
         response.raise_for_status()
         html = response.text
 
@@ -412,8 +415,10 @@ def fetch_apple() -> list[JobPosting]:
             return jobs
 
         postings = extract_jobs_recursive(data)
+    except requests.Timeout:
+        logger.error("Apple: request timeout")
     except Exception as e:
-        logger.error(f"Error fetching Apple jobs: {e}")
+        logger.error(f"Apple: {e}")
 
     return postings
 
@@ -424,16 +429,17 @@ def fetch_databricks() -> list[JobPosting]:
     postings = []
 
     try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # This needs inspection of actual HTML structure
-        # Placeholder implementation
-        job_elements = soup.find_all(class_=re.compile(r"job|position", re.I))
-        for elem in job_elements:
+        # Look for job listings (this is a placeholder - actual selectors need verification)
+        job_elements = soup.find_all(class_=re.compile(r"job|position|opening", re.I))
+        logger.info(f"Databricks: found {len(job_elements)} potential job elements")
+
+        for elem in job_elements[:100]:  # Limit to first 100 to avoid processing overhead
             title = elem.get_text(strip=True)
-            if title:
+            if title and len(title) > 3:
                 job_id = hash_job_id(title)
                 postings.append(JobPosting(
                     company="Databricks",
@@ -444,8 +450,10 @@ def fetch_databricks() -> list[JobPosting]:
                     posted_date=None,
                     tier="1"
                 ))
+    except requests.Timeout:
+        logger.error("Databricks: request timeout")
     except Exception as e:
-        logger.error(f"Error fetching Databricks jobs: {e}")
+        logger.error(f"Databricks: {e}")
 
     return postings
 
@@ -456,16 +464,16 @@ def fetch_uber() -> list[JobPosting]:
     postings = []
 
     try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # This needs inspection of actual HTML structure
-        # Placeholder implementation
-        job_elements = soup.find_all(class_=re.compile(r"job|position", re.I))
-        for elem in job_elements:
+        job_elements = soup.find_all(class_=re.compile(r"job|position|opening", re.I))
+        logger.info(f"Uber: found {len(job_elements)} potential job elements")
+
+        for elem in job_elements[:100]:
             title = elem.get_text(strip=True)
-            if title:
+            if title and len(title) > 3:
                 job_id = hash_job_id(title)
                 postings.append(JobPosting(
                     company="Uber",
@@ -476,8 +484,10 @@ def fetch_uber() -> list[JobPosting]:
                     posted_date=None,
                     tier="1"
                 ))
+    except requests.Timeout:
+        logger.error("Uber: request timeout")
     except Exception as e:
-        logger.error(f"Error fetching Uber jobs: {e}")
+        logger.error(f"Uber: {e}")
 
     return postings
 
@@ -488,16 +498,16 @@ def fetch_intuit() -> list[JobPosting]:
     postings = []
 
     try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # This needs inspection of actual HTML structure
-        # Placeholder implementation
-        job_elements = soup.find_all(class_=re.compile(r"job|position", re.I))
-        for elem in job_elements:
+        job_elements = soup.find_all(class_=re.compile(r"job|position|opening", re.I))
+        logger.info(f"Intuit: found {len(job_elements)} potential job elements")
+
+        for elem in job_elements[:100]:
             title = elem.get_text(strip=True)
-            if title:
+            if title and len(title) > 3:
                 job_id = hash_job_id(title)
                 postings.append(JobPosting(
                     company="Intuit",
@@ -508,8 +518,10 @@ def fetch_intuit() -> list[JobPosting]:
                     posted_date=None,
                     tier="1"
                 ))
+    except requests.Timeout:
+        logger.error("Intuit: request timeout")
     except Exception as e:
-        logger.error(f"Error fetching Intuit jobs: {e}")
+        logger.error(f"Intuit: {e}")
 
     return postings
 
@@ -520,16 +532,16 @@ def fetch_ea() -> list[JobPosting]:
     postings = []
 
     try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # This needs inspection of actual HTML structure
-        # Placeholder implementation
-        job_elements = soup.find_all(class_=re.compile(r"job|position", re.I))
-        for elem in job_elements:
+        job_elements = soup.find_all(class_=re.compile(r"job|position|opening", re.I))
+        logger.info(f"EA: found {len(job_elements)} potential job elements")
+
+        for elem in job_elements[:100]:
             title = elem.get_text(strip=True)
-            if title:
+            if title and len(title) > 3:
                 job_id = hash_job_id(title)
                 postings.append(JobPosting(
                     company="EA",
@@ -540,8 +552,10 @@ def fetch_ea() -> list[JobPosting]:
                     posted_date=None,
                     tier="1"
                 ))
+    except requests.Timeout:
+        logger.error("EA: request timeout")
     except Exception as e:
-        logger.error(f"Error fetching EA jobs: {e}")
+        logger.error(f"EA: {e}")
 
     return postings
 
@@ -704,11 +718,13 @@ def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
     failed = []
 
     for company_name, fetcher in TIER1_COMPANIES.items():
+        logger.info(f"Fetching {company_name}...")
         try:
             postings = fetcher()
+            logger.info(f"  ✓ {company_name}: {len(postings)} jobs")
             all_postings.extend(postings)
         except Exception as e:
-            logger.error(f"Failed to fetch {company_name}: {e}")
+            logger.error(f"✗ {company_name}: {e}")
             failed.append(company_name)
         time.sleep(REQUEST_DELAY)
 
