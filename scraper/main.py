@@ -58,7 +58,7 @@ def run_scraper() -> None:
             if new_postings:
                 logger.info("Sent email notification")
             else:
-                logger.info("No new postings, skipping email")
+                logger.info("No new postings, sent 'no new jobs' email")
         except Exception as e:
             logger.error(f"Failed to send email: {e}", exc_info=True)
 

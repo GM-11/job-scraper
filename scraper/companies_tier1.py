@@ -439,18 +439,20 @@ def fetch_apple() -> list[JobPosting]:
         response.raise_for_status()
         html = response.text
 
-        # Extract __staticRouterHydrationData from HTML
+        # Extract __staticRouterHydrationData from HTML. Apple wraps the data
+        # as a JSON-encoded string passed to JSON.parse(...), so it must be
+        # decoded twice: once for the JS string literal, once for the JSON payload.
         match = re.search(
-            r"window\.__staticRouterHydrationData\s*=\s*(\{.*?\})", html, re.DOTALL
+            r"window\.__staticRouterHydrationData\s*=\s*JSON\.parse\((\".*?\")\)\s*;",
+            html,
+            re.DOTALL,
         )
         if not match:
             logger.warning("Could not find hydration data in Apple jobs page")
             return []
 
-        json_str = match.group(1)
-        # Parse the JSON (may need unescaping)
         try:
-            data = json.loads(json_str)
+            data = json.loads(json.loads(match.group(1)))
         except json.JSONDecodeError:
             logger.warning("Could not parse Apple jobs JSON")
             return []
@@ -471,13 +473,20 @@ def fetch_apple() -> list[JobPosting]:
                                 posting_date = result.get(
                                     "postDateInGMT"
                                 ) or result.get("postingDate")
+                                locations = result.get("locations") or []
+                                location = (
+                                    ", ".join(
+                                        loc.get("name", "") for loc in locations if loc.get("name")
+                                    )
+                                    or None
+                                )
                                 url = f"https://jobs.apple.com/en-us/details/{pos_id}/{result.get('transformedPostingTitle', 'job')}"
                                 jobs.append(
                                     JobPosting(
                                         company="Apple",
                                         job_id=str(pos_id),
                                         title=title,
-                                        location=None,
+                                        location=location,
                                         url=url,
                                         posted_date=posting_date,
                                         tier="1",

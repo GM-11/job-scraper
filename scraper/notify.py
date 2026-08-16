@@ -6,27 +6,30 @@ from .models import JobPosting
 
 
 def send_email(new_postings: list[JobPosting], failed_companies: list[str] = None) -> None:
-    """Send email notification of new job postings."""
-    if not new_postings:
-        return
-
+    """Send email notification of new job postings (or a no-new-jobs notice)."""
     if failed_companies is None:
         failed_companies = []
 
-    body_lines = [f"{len(new_postings)} new job posting(s) found:\n"]
-    by_company = {}
-    for p in new_postings:
-        by_company.setdefault(p.company, []).append(p)
+    if new_postings:
+        body_lines = [f"{len(new_postings)} new job posting(s) found:\n"]
+        by_company = {}
+        for p in new_postings:
+            by_company.setdefault(p.company, []).append(p)
 
-    for company, jobs in sorted(by_company.items()):
-        body_lines.append(f"\n=== {company} ({len(jobs)}) ===")
-        for j in jobs:
-            loc = f" — {j.location}" if j.location else ""
-            date = f" ({j.posted_date})" if j.posted_date else ""
-            body_lines.append(f"  • {j.title}{loc}{date}")
-            body_lines.append(f"    Job ID: {j.job_id}")
-            if j.url:
-                body_lines.append(f"    Link: {j.url}")
+        for company, jobs in sorted(by_company.items()):
+            body_lines.append(f"\n=== {company} ({len(jobs)}) ===")
+            for j in jobs:
+                loc = f" — {j.location}" if j.location else ""
+                date = f" ({j.posted_date})" if j.posted_date else ""
+                body_lines.append(f"  • {j.title}{loc}{date}")
+                body_lines.append(f"    Job ID: {j.job_id}")
+                if j.url:
+                    body_lines.append(f"    Link: {j.url}")
+
+        subject = f"Job Alert: {len(new_postings)} new posting(s)"
+    else:
+        body_lines = ["No new job postings found in this run."]
+        subject = "Job Alert: no new postings"
 
     if failed_companies:
         body_lines.append(f"\n\n⚠ Failed to check: {', '.join(failed_companies)}")
@@ -43,7 +46,7 @@ def send_email(new_postings: list[JobPosting], failed_companies: list[str] = Non
         return
 
     msg = MIMEText(body)
-    msg["Subject"] = f"Job Alert: {len(new_postings)} new posting(s)"
+    msg["Subject"] = subject
     msg["From"] = smtp_from
     msg["To"] = smtp_to
 
