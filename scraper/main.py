@@ -1,3 +1,4 @@
+import argparse
 import logging
 import sys
 
@@ -13,19 +14,24 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def run_scraper() -> None:
-    """Run the full scraper: tier 1 (API-based) and tier 2 (Playwright-based) together."""
+def run_scraper(tier: str = "all") -> None:
+    """Run the requested API (tier 1) and/or Playwright (tier 2) sources."""
     logger.info("Starting job scraper")
 
     try:
-        logger.info("Fetching tier 1 companies (API-based)...")
-        tier1_postings, tier1_failed = fetch_all_tier1()
+        postings = []
+        failed = []
+        if tier in ("1", "all"):
+            logger.info("Fetching tier 1 companies (API-based)...")
+            tier1_postings, tier1_failed = fetch_all_tier1()
+            postings.extend(tier1_postings)
+            failed.extend(tier1_failed)
 
-        logger.info("Fetching tier 2 companies (Playwright-based)...")
-        tier2_postings, tier2_failed = fetch_all_tier2()
-
-        postings = tier1_postings + tier2_postings
-        failed = tier1_failed + tier2_failed
+        if tier in ("2", "all"):
+            logger.info("Fetching tier 2 companies (Playwright-based)...")
+            tier2_postings, tier2_failed = fetch_all_tier2()
+            postings.extend(tier2_postings)
+            failed.extend(tier2_failed)
 
         logger.debug(f"Fetched {len(postings)} postings")
         if failed:
@@ -39,7 +45,9 @@ def run_scraper() -> None:
         )
         for p in postings:
             loc = f" — {p.location}" if p.location else ""
-            logger.info(f"  [{p.company}] {p.title}{loc} (job_id={p.job_id}) {p.url or ''}")
+            logger.info(
+                f"  [{p.company}] {p.title}{loc} (job_id={p.job_id}) {p.url or ''}"
+            )
 
         # Process postings (diff against seen jobs)
         logger.info("Processing postings (diffing against seen jobs)...")
@@ -68,8 +76,18 @@ def run_scraper() -> None:
         sys.exit(1)
 
 
-def main():
-    run_scraper()
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Fetch and notify on new job postings."
+    )
+    parser.add_argument(
+        "--tier",
+        choices=("1", "2", "all"),
+        default="all",
+        help="source tier to run (default: all)",
+    )
+    args = parser.parse_args()
+    run_scraper(args.tier)
 
 
 if __name__ == "__main__":

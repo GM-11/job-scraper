@@ -80,14 +80,7 @@ def _fetch_pageup_board(
                     )
                     location = location_el.inner_text().strip() if location_el else None
 
-                    job_id = card.get_attribute("data-id")
-                    if not job_id:
-                        actions_el = card.query_selector("[data-id]")
-                        job_id = (
-                            actions_el.get_attribute("data-id") if actions_el else None
-                        )
-                    if not job_id:
-                        job_id = hash_job_id(title, location)
+                    job_id = hash_job_id(title, location)
 
                     postings.append(
                         JobPosting(
@@ -163,8 +156,6 @@ def fetch_goldman_sachs() -> list[JobPosting]:
                 href = link.get_attribute("href") or ""
                 if not href.startswith("/roles/"):
                     continue
-                job_id = href.split("/roles/")[-1].strip("/")
-
                 title_el = link.query_selector("span")
                 title = (
                     title_el.inner_text().strip()
@@ -179,11 +170,11 @@ def fetch_goldman_sachs() -> list[JobPosting]:
                     else None
                 )
 
-                if title and job_id:
+                if title:
                     postings.append(
                         JobPosting(
                             company="Goldman Sachs",
-                            job_id=job_id,
+                            job_id=hash_job_id(title, location),
                             title=title,
                             location=location,
                             url=urljoin(base_url, href),
@@ -242,34 +233,23 @@ def fetch_google() -> list[JobPosting]:
                 href = link.get_attribute("href") or ""
                 if "jobs/results/" not in href:
                     continue
-                slug = href.split("jobs/results/")[-1].strip("/")
-                job_id = slug.split("-")[0]
-                if not job_id.isdigit() or job_id in seen_ids:
-                    continue
-                seen_ids.add(job_id)
 
                 card = link.evaluate_handle(
                     "el => el.closest('div.sMn82b') || el.parentElement"
-                )
-                title_el = (
-                    card.as_element().query_selector("h3")
-                    if card.as_element()
-                    else None
-                )
+                ).as_element()
+                title_el = card.query_selector("h3") if card else None
                 title = (
                     title_el.inner_text().strip()
                     if title_el
                     else link.inner_text().strip()
                 )
 
-                location_el = (
-                    card.as_element().query_selector("[class*='r0wTof']")
-                    if card.as_element()
-                    else None
-                )
+                location_el = card.query_selector("[class*='r0wTof']") if card else None
                 location = location_el.inner_text().strip() if location_el else None
 
-                if title:
+                job_id = hash_job_id(title, location)
+                if title and job_id not in seen_ids:
+                    seen_ids.add(job_id)
                     postings.append(
                         JobPosting(
                             company="Google",
@@ -289,12 +269,90 @@ def fetch_google() -> list[JobPosting]:
     return postings
 
 
+def fetch_globallogic() -> list[JobPosting]:
+    """Fetch jobs from GlobalLogic's Cloudflare-protected Hitachi board."""
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        logger.warning("Playwright not installed, skipping GlobalLogic")
+        return []
+
+    postings = []
+    base_url = "https://careers.hitachi.com"
+    search_url = f"{base_url}/search/globallogic/jobs"
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                viewport={"width": 1440, "height": 900},
+                locale="en-US",
+            )
+            page.goto(
+                search_url,
+                wait_until="domcontentloaded",
+                timeout=GOTO_TIMEOUT_MS,
+            )
+
+            card_selector = "li[class*='job'], article[class*='job'], div[class*='job']"
+            try:
+                page.wait_for_selector(card_selector, timeout=SELECTOR_TIMEOUT_MS)
+            except Exception:
+                logger.warning(
+                    "GlobalLogic: no job cards appeared; the site may be showing a bot challenge"
+                )
+
+            seen_ids = set()
+            for card in page.query_selector_all(card_selector):
+                title_link = card.query_selector("a[href*='/job/'], a[href*='/jobs/']")
+                if not title_link:
+                    continue
+
+                title_el = title_link.query_selector("h1, h2, h3, h4")
+                title = (
+                    title_el.inner_text().strip()
+                    if title_el
+                    else title_link.inner_text().strip()
+                )
+                location_el = card.query_selector(
+                    "[class*='location'], [data-testid*='location']"
+                )
+                location = location_el.inner_text().strip() if location_el else None
+                if not title:
+                    continue
+
+                job_id = hash_job_id(title, location)
+                if job_id in seen_ids:
+                    continue
+                seen_ids.add(job_id)
+
+                href = title_link.get_attribute("href") or ""
+                postings.append(
+                    JobPosting(
+                        company="GlobalLogic",
+                        job_id=job_id,
+                        title=title,
+                        location=location,
+                        url=urljoin(base_url, href) if href else None,
+                        posted_date=None,
+                        tier="2",
+                    )
+                )
+
+            browser.close()
+    except Exception as e:
+        logger.error(f"Error fetching GlobalLogic jobs: {e}")
+
+    return postings
+
+
 # Registry of all tier 2 company fetchers
 TIER2_COMPANIES = {
     "Nutanix": fetch_nutanix,
     "ServiceNow": fetch_servicenow,
     "Goldman Sachs": fetch_goldman_sachs,
     "Google": fetch_google,
+    "GlobalLogic": fetch_globallogic,
 }
 
 
