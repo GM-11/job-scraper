@@ -37,11 +37,13 @@ def run_scraper(tier: str = "all") -> None:
         if failed:
             logger.warning(f"Failed to fetch: {', '.join(failed)}")
 
-        # Filter down to fresher/entry-level/SDE-1/India-based roles from the last week
+        # Filter down to early-career technical roles (SWE and adjacent
+        # disciplines, up to ~MAX_YEARS_EXPERIENCE yrs), India-based, from
+        # the last week
         postings = filter_entry_level(postings)
         logger.info(
             f"{len(postings)} postings match filters "
-            f"(entry-level, India, last {RECENCY_WINDOW_DAYS} days, grad year <= {MAX_GRAD_YEAR}):"
+            f"(early-career technical, India, last {RECENCY_WINDOW_DAYS} days, grad year <= {MAX_GRAD_YEAR}):"
         )
         for p in postings:
             loc = f" — {p.location}" if p.location else ""
