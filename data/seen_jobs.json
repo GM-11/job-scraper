@@ -6,5 +6,393 @@
   "Google:107018346561446598": {
     "first_seen": "2026-08-16T08:35:35.790760Z",
     "title": "Software Engineer, PhD, Early Career, 2026"
+  },
+  "S&P Global:328363": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "AI Data Engineer"
+  },
+  "S&P Global:324545": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Data Engineer"
+  },
+  "S&P Global:328180": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer - Python"
+  },
+  "S&P Global:325857": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "AI Data Scientist"
+  },
+  "S&P Global:324027": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "S&P Global:328626": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "AD - Engineering - Java {Backend}"
+  },
+  "Schneider Electric:124572": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Services Application Engineer"
+  },
+  "Schneider Electric:126876": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Cooling Systems Engineer I"
+  },
+  "Schneider Electric:112405": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "C++ Developer"
+  },
+  "Schneider Electric:129299": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "Schneider Electric:130382": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Application Engineer"
+  },
+  "Schneider Electric:129794": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Triconex SIS Application Engineer"
+  },
+  "Schneider Electric:108498": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "System Application Engineer I"
+  },
+  "Schneider Electric:122839": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Application Engineer"
+  },
+  "Schneider Electric:115325": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Solution Engineer(UPS|Tokyo)"
+  },
+  "Schneider Electric:129699": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Hub RPA and System Developer"
+  },
+  "Schneider Electric:126863": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "AI Solution Engineer"
+  },
+  "Schneider Electric:130965": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Product Application Engineer"
+  },
+  "DocuSign:30108": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29481": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:30076": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29916": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Machine Learning Engineer"
+  },
+  "DocuSign:29933": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Cloud Platform Engineer"
+  },
+  "DocuSign:29563": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "AI Engineer"
+  },
+  "DocuSign:29904": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer, Enterprise Platforms"
+  },
+  "DocuSign:29879": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Data Engineer"
+  },
+  "DocuSign:29559": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Cloud Platform Engineer"
+  },
+  "DocuSign:27897": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29695": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer - Fullstack (New Revenue)"
+  },
+  "DocuSign:29718": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Machine Learning Engineer"
+  },
+  "DocuSign:30010": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer \u2013 Salesforce & GTM Systems"
+  },
+  "DocuSign:29498": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:28784": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Machine Learning Engineer"
+  },
+  "DocuSign:29738": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29553": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:30034": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29825": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer - AI"
+  },
+  "DocuSign:28785": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Machine Learning Engineer"
+  },
+  "DocuSign:29505": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29372": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Growth Data Science AI Engineer"
+  },
+  "DocuSign:29751": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29506": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer(Fullstack)"
+  },
+  "DocuSign:29917": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29590": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29556": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29781": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29126": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer \u2013 Salesforce & GTM Systems"
+  },
+  "DocuSign:29554": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29591": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:29782": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "Microsoft:1970393556971410": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer - II"
+  },
+  "Microsoft:1970393556956961": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer- II"
+  },
+  "Microsoft:1970393556957799": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "Microsoft:1970393556957951": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "Qualcomm:446717740216": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "AI / ML Engineer"
+  },
+  "Qualcomm:446719601605": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Memory CAD Software Engineer"
+  },
+  "Salesforce:JR343815": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Qualified Solution Engineer"
+  },
+  "Salesforce:JR346223": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "GovCloud Distributed Systems Software Engineer"
+  },
+  "Salesforce:JR314531": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Account Solution Engineer - Enterprise Business (Korea)"
+  },
+  "Salesforce:JR356041": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Associate Account Solution Engineer"
+  },
+  "Salesforce:JR353828": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Security Platform Engineer - MTS"
+  },
+  "Salesforce:JR356073": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Data Engineer/Data Analyst | Trailhead Content Activation and Business Outcomes"
+  },
+  "Salesforce:JR338000": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Full Stack Software Engineer \u2013 AI-Native Engineering"
+  },
+  "Salesforce:JR341991": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Solution Engineer - Aerospace & Defense/Government System Integrators (All Levels)"
+  },
+  "Salesforce:JR353920": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Signature Success, Specialist Solution Engineer"
+  },
+  "Salesforce:JR350915": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Specialist Solution Engineer"
+  },
+  "Thomson Reuters:JREQ200025": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "Thomson Reuters:JREQ202485": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer I"
+  },
+  "Thomson Reuters:JREQ200166": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer - AI \u2013 CoCounsel Forward Deployed Engineering"
+  },
+  "Thomson Reuters:JREQ199904": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Live Streaming Software Engineer"
+  },
+  "Thomson Reuters:JREQ201792": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Data Scientist"
+  },
+  "Thomson Reuters:JREQ202807": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Data Scientist"
+  },
+  "Thomson Reuters:JREQ199784": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Associate Content Developer"
+  },
+  "Visa:REF087291W": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer"
+  },
+  "Atlassian:26345": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Fullstack Software Engineer, DX"
+  },
+  "Amazon:10502106": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Development Engineer, Everyday Essentials Experiences"
+  },
+  "Amazon:10502382": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Development Engineer, Traffic Quality"
+  },
+  "Amazon:10503778": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Development Engineer "
+  },
+  "Amazon:10503776": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Engineer, Selection Monitoring, Selection Monitoring"
+  },
+  "Amazon:10503681": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Development Engineer, ShipTech"
+  },
+  "Amazon:10501199": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Development Engineer, Fixed Asset Automation (FAA)"
+  },
+  "Amazon:10499857": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Development Engineer, Amazon Fulfilment Tech"
+  },
+  "Amazon:10499858": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "Software Development Engineer, Amazon Fulfilment Tech"
+  },
+  "GlobalLogic:0061f22df64eb658": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "DevOps IRC302483"
+  },
+  "GlobalLogic:573c24cbb796a6ca": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "FullStack Developer IRC302379"
+  },
+  "GlobalLogic:8451cdacca9fae5d": {
+    "first_seen": "2026-08-18T22:47:01.768377Z",
+    "title": "DevOps Engineer: Cloud Ops (AWS) IRC302409"
+  },
+  "NVIDIA:893397023931": {
+    "first_seen": "2026-08-18T23:31:21.778757Z",
+    "title": "Systems Software Engineer, CPU Manageability Stack"
+  },
+  "Qualcomm:446719366353": {
+    "first_seen": "2026-08-18T23:31:21.778757Z",
+    "title": "AI Engineer"
+  },
+  "DocuSign:30126": {
+    "first_seen": "2026-08-19T03:57:28.020955Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:30125": {
+    "first_seen": "2026-08-19T03:57:28.020955Z",
+    "title": "Software Engineer"
+  },
+  "Salesforce:JR281671": {
+    "first_seen": "2026-08-19T05:42:38.600022Z",
+    "title": "Devops Engineer - MTS/SMTS"
+  },
+  "Schneider Electric:110995": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Solution Engineer(Power System)"
+  },
+  "Schneider Electric:124366": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "NC Programmer"
+  },
+  "Schneider Electric:128089": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Power System Engineer"
+  },
+  "Schneider Electric:107576": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Fullstack \u00a0Developer"
+  },
+  "Schneider Electric:117470": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Application Engineer, Process Automation"
+  },
+  "Wells Fargo:6a50d1018d769001": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Software Engineer"
   }
 }
