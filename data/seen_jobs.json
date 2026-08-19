@@ -394,5 +394,89 @@
   "Wells Fargo:6a50d1018d769001": {
     "first_seen": "2026-08-19T06:56:35.307207Z",
     "title": "Software Engineer"
+  },
+  "PhonePe:7860356003": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Site Reliability Engineer (2+ Years)"
+  },
+  "PhonePe:7815192003": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Site Reliability Engineer (4+ YOE)"
+  },
+  "S&P Global:328456": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Software Development Engineer in Test (SDET) \u2013 Java"
+  },
+  "Ericsson:563121775610350": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Product Specialist Developer"
+  },
+  "Ericsson:563121777042773": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Security Platform Engineer"
+  },
+  "Ericsson:563121777001622": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Cloud Engineer"
+  },
+  "Ericsson:563121775505133": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Gen AI ML Engineer"
+  },
+  "Ericsson:563121777080585": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Data Scientist"
+  },
+  "Ericsson:563121777078974": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Grafana Developer"
+  },
+  "Ericsson:563121776076437": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Embedded Linux Platform Engineer"
+  },
+  "JPMorgan:210772432": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Applied AI/ML Engineer"
+  },
+  "JPMorgan:210780465": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Securities Services - Global Service Initiatives - Data Scientist Associate"
+  },
+  "JPMorgan:210780571": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Data Scientist Associate - Customer Analytics"
+  },
+  "Texas Instruments:25017277": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Application Developer"
+  },
+  "Texas Instruments:25017214": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Software Development Engineer"
+  },
+  "Oracle:338867": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Cloud Solution Engineer"
+  },
+  "Salesforce:JR338174": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Software Engineering LMTS - Backend Distributed Systems"
+  },
+  "Nike:R-90283": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Software Engineer I, ServiceNow"
+  },
+  "Nike:R-89081": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Software Engineer I, ITC"
+  },
+  "Standard Chartered:59520": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "ML Engineer"
+  },
+  "Standard Chartered:60605": {
+    "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "FullStack Developer"
   }
 }
