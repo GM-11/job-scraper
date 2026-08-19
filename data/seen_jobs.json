@@ -370,5 +370,29 @@
   "Salesforce:JR281671": {
     "first_seen": "2026-08-19T05:42:38.600022Z",
     "title": "Devops Engineer - MTS/SMTS"
+  },
+  "Schneider Electric:110995": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Solution Engineer(Power System)"
+  },
+  "Schneider Electric:124366": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "NC Programmer"
+  },
+  "Schneider Electric:128089": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Power System Engineer"
+  },
+  "Schneider Electric:107576": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Fullstack \u00a0Developer"
+  },
+  "Schneider Electric:117470": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Application Engineer, Process Automation"
+  },
+  "Wells Fargo:6a50d1018d769001": {
+    "first_seen": "2026-08-19T06:56:35.307207Z",
+    "title": "Software Engineer"
   }
 }
