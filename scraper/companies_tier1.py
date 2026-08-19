@@ -375,6 +375,12 @@ def fetch_ericsson() -> list[JobPosting]:
     return fetch_eightfold("jobs.ericsson.com", "ericsson.com", "Ericsson")
 
 
+def fetch_morgan_stanley() -> list[JobPosting]:
+    return fetch_eightfold(
+        "morganstanley.eightfold.ai", "morganstanley.com", "Morgan Stanley"
+    )
+
+
 # === ORACLE FUSION COMPANIES ===
 
 
@@ -557,6 +563,167 @@ def fetch_autodesk() -> list[JobPosting]:
 
 
 # === CUSTOM/ONE-OFF COMPANIES ===
+
+
+def fetch_rippling() -> list[JobPosting]:
+    """Fetch Rippling's public Algolia search index (stateless, no session
+    needed - the API key is a public search-only key)."""
+    url = (
+        "https://6fnax3tbef-dsn.algolia.net/1/indexes/*/queries"
+        "?x-algolia-api-key=416caa4690f002ff6fe4a2097623640b"
+        "&x-algolia-application-id=6FNAX3TBEF"
+    )
+    postings = []
+    seen: set[str] = set()
+    hits_per_page = 100
+    page = 0
+    total_pages = None
+    pages_fetched = 0
+
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
+        body = {
+            "requests": [
+                {
+                    "indexName": "careers_en-US_production",
+                    "params": f"hitsPerPage={hits_per_page}&query=&page={page}",
+                }
+            ]
+        }
+        data = fetch_with_retry(url, method="POST", json_data=body)
+        results = (data or {}).get("results") or []
+        if not results:
+            break
+
+        result = results[0]
+        hits = result.get("hits", [])
+        if not hits:
+            break
+        if total_pages is None:
+            total_pages = result.get("nbPages", 0)
+
+        for hit in hits:
+            # jobId repeats across a single posting's per-location hits;
+            # objectID (jobId + location slug) is the unique per-record key.
+            object_id = hit.get("objectID") or hash_job_id(hit.get("name", ""))
+            if object_id in seen:
+                continue
+            seen.add(object_id)
+
+            locations = hit.get("locationNames") or []
+            location = ", ".join(locations) if locations else None
+
+            postings.append(
+                JobPosting(
+                    company="Rippling",
+                    job_id=str(object_id),
+                    title=hit.get("name", ""),
+                    location=location,
+                    url=hit.get("url"),
+                    posted_date=None,
+                    tier="1",
+                )
+            )
+
+        page += 1
+        if total_pages is not None and page >= total_pages:
+            break
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
+def fetch_accenture(
+    keyword: str = "software engineer",
+    country: str = "India",
+    country_site: str = "in-en",
+) -> list[JobPosting]:
+    """Fetch Accenture's custom Elasticsearch board.
+
+    Must be sent as multipart/form-data, not JSON - that was the actual
+    blocker in earlier attempts, not incorrect field values. totalHits.total
+    is capped/inflated by Elasticsearch (always reports 10000 once past that
+    many matches) so it can't be used to know when to stop paginating; a
+    short page (fewer results than requested) is used as the end signal
+    instead, same as the rest of this module's non-count-bearing sources.
+
+    Accenture posts far more (non-technical) roles company-wide than the
+    MAX_PAGES safety cap could ever cover, so an empty keyword mostly burns
+    the page budget on irrelevant business/ops roles that filter_entry_level
+    would drop anyway - a keyword lets the vectorSearch itself rank
+    technical roles first within that budget, same idea as fetch_amazon's
+    base_query.
+    """
+    postings = []
+    start_index = 0
+    max_result_size = 100
+    pages_fetched = 0
+
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
+        form = {
+            "startIndex": str(start_index),
+            "maxResultSize": str(max_result_size),
+            "jobKeyword": keyword,
+            "jobCountry": country,
+            "jobLanguage": "en",
+            "countrySite": country_site,
+            "sortBy": "0",
+            "searchType": "vectorSearch",
+            "enableQueryBoost": "true",
+            "minScore": "0.6",
+            "getFeedbackJudgmentEnabled": "true",
+            "useCleanEmbedding": "true",
+            "score": "true",
+            "totalHits": "true",
+            "debugQuery": "false",
+            "jobFilters": "[]",
+        }
+        try:
+            response = requests.post(
+                "https://www.accenture.com/api/accenture/elastic/findjobs",
+                files={k: (None, v) for k, v in form.items()},
+                headers={"User-Agent": USER_AGENT},
+                timeout=TIMEOUT,
+            )
+            response.raise_for_status()
+            data = response.json()
+        except requests.Timeout as exc:
+            raise FetchTimeoutError("Accenture timed out") from exc
+        except requests.RequestException as exc:
+            logger.warning(f"Accenture: request failed: {exc}")
+            break
+
+        jobs = data.get("data") or []
+        if not jobs:
+            break
+
+        for job in jobs:
+            req_id = job.get("requisitionId") or hash_job_id(job.get("title", ""))
+            locations = job.get("location") or (
+                [job["feedCity"]] if job.get("feedCity") else []
+            )
+            location = ", ".join(locations) if locations else None
+            job_url = (job.get("jobDetailUrl") or "").replace("{0}", country_site)
+
+            postings.append(
+                JobPosting(
+                    company="Accenture",
+                    job_id=str(req_id),
+                    title=job.get("title", ""),
+                    location=location,
+                    url=job_url or None,
+                    posted_date=job.get("postedDateText"),
+                    tier="1",
+                )
+            )
+
+        start_index += max_result_size
+        if len(jobs) < max_result_size:
+            break
+        time.sleep(REQUEST_DELAY)
+
+    return postings
 
 
 def fetch_amazon() -> list[JobPosting]:
@@ -1309,6 +1476,22 @@ def fetch_mastercard() -> list[JobPosting]:
 
 # Adobe and Warner Bros Discovery require their live refNum/pageId capture.
 # Do not guess those session-bound values; configure them before enabling.
+# Boston Consulting Group (careers.bcg.com) is on the same Phenom /widgets
+# platform but its refNum/pageId were never captured either - same blocker,
+# needs a live requests.Session() inspection (see fetch_phenom docstring)
+# before it can be added.
+
+
+# Not yet implemented - platform identified but endpoint/payload unconfirmed
+# during research, so implementing blind would mean guessing values against
+# a live API:
+#   - Flipkart (TurboHire): backed by thapi.azurewebsites.net, exact REST
+#     path unconfirmed.
+#   - KKR: Greenhouse-backed but on a private/embedded board - the public
+#     Greenhouse API returns no data, so this needs Playwright against KKR's
+#     own site with selectors that were never captured.
+# Each needs a live browser network-inspection pass (mirroring how the rest
+# of this module's endpoints were confirmed) before a fetcher can be written.
 
 
 # Sources explicitly identified in instruction.md. Cohesity and Concentrix
@@ -1327,6 +1510,7 @@ TIER1_COMPANIES = {
     "NVIDIA": fetch_nvidia,
     "Qualcomm": fetch_qualcomm,
     "Ericsson": fetch_ericsson,
+    "Morgan Stanley": fetch_morgan_stanley,
     "JPMorgan": fetch_jpmorgan,
     "Texas Instruments": fetch_texas_instruments,
     "American Express": fetch_american_express,
@@ -1348,6 +1532,8 @@ TIER1_COMPANIES = {
     "D.E. Shaw": fetch_deshaw,
     "Atlassian": fetch_atlassian,
     "Amazon": fetch_amazon,
+    "Rippling": fetch_rippling,
+    "Accenture": fetch_accenture,
     "HPE": fetch_hpe,
     "Mastercard": fetch_mastercard,
 }

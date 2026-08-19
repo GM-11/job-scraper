@@ -14,13 +14,21 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: playwright install --with-deps chromium
+      - name: Force apt to use IPv4
+        # apt-get update (run internally by `playwright install --with-deps`)
+        # can hang for hours on the azure.archive.ubuntu.com mirror when the
+        # runner's IPv6 route to it stalls instead of failing fast.
+        run: echo 'Acquire::ForceIPv4 "true";' | sudo tee /etc/apt/apt.conf.d/99force-ipv4
+      - name: Install Playwright chromium
+        timeout-minutes: 10
+        run: playwright install --with-deps chromium
       - run: python -m scraper.main --tier all
         env:
           SMTP_FROM: ${{ secrets.SMTP_FROM }}
