@@ -329,14 +329,19 @@ def is_recently_posted(posted_date: Optional[str], window_days: int = RECENCY_WI
 def is_india_location(location: Optional[str]) -> bool:
     """Return True if location is an India-based posting.
 
-    Many sources don't expose location at all; when it's missing, the
-    posting is kept rather than dropped, consistent with how missing dates
-    are handled - we'd rather surface a possible match than silently lose
-    postings from sources with incomplete location data.
+    Unlike is_recently_posted/is_grad_year_acceptable, this fails closed: a
+    missing or unmatched location is rejected rather than kept. Fail-open
+    here previously let global companies whose scrapers didn't populate
+    location (e.g. a hardcoded None) leak non-India postings straight
+    through; better to under-report than to surface out-of-India roles.
     """
     if not location:
-        return True
-    return bool(_india_re.search(location))
+        logger.debug("Rejecting posting with no location (fail-closed India filter)")
+        return False
+    matched = bool(_india_re.search(location))
+    if not matched:
+        logger.debug(f"Rejecting non-India location: {location!r}")
+    return matched
 
 
 def filter_entry_level(postings: list) -> list:
