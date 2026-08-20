@@ -374,99 +374,10 @@ def fetch_google() -> list[JobPosting]:
     return postings
 
 
-def fetch_globallogic() -> list[JobPosting]:
-    """Fetch jobs from GlobalLogic's Cloudflare-protected Hitachi board."""
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        logger.warning("Playwright not installed, skipping GlobalLogic")
-        return []
-
-    postings = []
-    base_url = "https://careers.hitachi.com"
-    search_url = f"{base_url}/search/globallogic/jobs"
-    try:
-        with sync_playwright() as p:
-            logger.info("GlobalLogic: launching browser")
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-                viewport={"width": 1440, "height": 900},
-                locale="en-US",
-            )
-            logger.info(f"GlobalLogic: navigating to {search_url}")
-            page.goto(
-                search_url,
-                wait_until="domcontentloaded",
-                timeout=GOTO_TIMEOUT_MS,
-            )
-            logger.info(f"GlobalLogic: page loaded (url now {page.url}), waiting for job cards")
-
-            card_selector = "li[class*='job'], article[class*='job'], div[class*='job']"
-            try:
-                page.wait_for_selector(card_selector, timeout=SELECTOR_TIMEOUT_MS)
-            except Exception:
-                # page.url is a locally cached property (updated on navigation
-                # events), not a round trip to the renderer - safe to read even
-                # if the page's JS thread is pinned by a challenge script. Avoid
-                # calling anything that needs JS execution here (e.g. page.title())
-                # since that's exactly the kind of call that can hang forever.
-                logger.warning(
-                    f"GlobalLogic: no job cards appeared (url: {page.url}); "
-                    "the site may be showing a bot challenge"
-                )
-                logger.info("GlobalLogic: closing browser")
-                browser.close()
-                logger.info("GlobalLogic: browser closed")
-                return postings
-
-            all_cards = page.query_selector_all(card_selector)
-            logger.info(f"GlobalLogic: found {len(all_cards)} candidate job cards")
-            seen_ids = set()
-            for card in all_cards:
-                title_link = card.query_selector("a[href*='/job/'], a[href*='/jobs/']")
-                if not title_link:
-                    continue
-
-                title_el = title_link.query_selector("h1, h2, h3, h4")
-                title = (
-                    title_el.inner_text().strip()
-                    if title_el
-                    else title_link.inner_text().strip()
-                )
-                location_el = card.query_selector(
-                    "[class*='location'], [data-testid*='location']"
-                )
-                location = location_el.inner_text().strip() if location_el else None
-                if not title:
-                    continue
-
-                job_id = hash_job_id(title, location)
-                if job_id in seen_ids:
-                    continue
-                seen_ids.add(job_id)
-
-                href = title_link.get_attribute("href") or ""
-                postings.append(
-                    JobPosting(
-                        company="GlobalLogic",
-                        job_id=job_id,
-                        title=title,
-                        location=location,
-                        url=urljoin(base_url, href) if href else None,
-                        posted_date=None,
-                        tier="2",
-                    )
-                )
-
-            logger.info("GlobalLogic: closing browser")
-            browser.close()
-            logger.info("GlobalLogic: browser closed")
-    except Exception as e:
-        logger.error(f"Error fetching GlobalLogic jobs: {e}")
-
-    logger.info(f"GlobalLogic: {len(postings)} jobs fetched")
-    return postings
+# GlobalLogic (careers.hitachi.com) was removed: its board sits behind a
+# Cloudflare bot challenge that headless Playwright never clears, so every
+# run reliably burned ~15-20s for zero jobs. Re-add only with a real
+# anti-detection approach (e.g. playwright-stealth) if this is worth revisiting.
 
 
 # Registry of all tier 2 company fetchers
@@ -475,7 +386,6 @@ TIER2_COMPANIES = {
     "ServiceNow": fetch_servicenow,
     "Goldman Sachs": fetch_goldman_sachs,
     "Google": fetch_google,
-    "GlobalLogic": fetch_globallogic,
 }
 
 
