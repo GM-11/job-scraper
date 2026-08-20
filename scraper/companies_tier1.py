@@ -635,98 +635,15 @@ def fetch_rippling() -> list[JobPosting]:
     return postings
 
 
-def fetch_accenture(
-    keyword: str = "software engineer",
-    country: str = "India",
-    country_site: str = "in-en",
-) -> list[JobPosting]:
-    """Fetch Accenture's custom Elasticsearch board.
-
-    Must be sent as multipart/form-data, not JSON - that was the actual
-    blocker in earlier attempts, not incorrect field values. totalHits.total
-    is capped/inflated by Elasticsearch (always reports 10000 once past that
-    many matches) so it can't be used to know when to stop paginating; a
-    short page (fewer results than requested) is used as the end signal
-    instead, same as the rest of this module's non-count-bearing sources.
-
-    Accenture posts far more (non-technical) roles company-wide than the
-    MAX_PAGES safety cap could ever cover, so an empty keyword mostly burns
-    the page budget on irrelevant business/ops roles that filter_entry_level
-    would drop anyway - a keyword lets the vectorSearch itself rank
-    technical roles first within that budget, same idea as fetch_amazon's
-    base_query.
-    """
-    postings = []
-    start_index = 0
-    max_result_size = 100
-    pages_fetched = 0
-
-    while pages_fetched < MAX_PAGES:
-        pages_fetched += 1
-        form = {
-            "startIndex": str(start_index),
-            "maxResultSize": str(max_result_size),
-            "jobKeyword": keyword,
-            "jobCountry": country,
-            "jobLanguage": "en",
-            "countrySite": country_site,
-            "sortBy": "0",
-            "searchType": "vectorSearch",
-            "enableQueryBoost": "true",
-            "minScore": "0.6",
-            "getFeedbackJudgmentEnabled": "true",
-            "useCleanEmbedding": "true",
-            "score": "true",
-            "totalHits": "true",
-            "debugQuery": "false",
-            "jobFilters": "[]",
-        }
-        logger.info(f"Accenture: POST findjobs (startIndex={start_index})")
-        try:
-            response = requests.post(
-                "https://www.accenture.com/api/accenture/elastic/findjobs",
-                files={k: (None, v) for k, v in form.items()},
-                headers={"User-Agent": USER_AGENT},
-                timeout=TIMEOUT,
-            )
-            response.raise_for_status()
-            data = response.json()
-        except requests.Timeout as exc:
-            raise FetchTimeoutError("Accenture timed out") from exc
-        except requests.RequestException as exc:
-            logger.warning(f"Accenture: request failed: {exc}")
-            break
-
-        jobs = data.get("data") or []
-        if not jobs:
-            break
-
-        for job in jobs:
-            req_id = job.get("requisitionId") or hash_job_id(job.get("title", ""))
-            locations = job.get("location") or (
-                [job["feedCity"]] if job.get("feedCity") else []
-            )
-            location = ", ".join(locations) if locations else None
-            job_url = (job.get("jobDetailUrl") or "").replace("{0}", country_site)
-
-            postings.append(
-                JobPosting(
-                    company="Accenture",
-                    job_id=str(req_id),
-                    title=job.get("title", ""),
-                    location=location,
-                    url=job_url or None,
-                    posted_date=job.get("postedDateText"),
-                    tier="1",
-                )
-            )
-
-        start_index += max_result_size
-        if len(jobs) < max_result_size:
-            break
-        time.sleep(REQUEST_DELAY)
-
-    return postings
+# Accenture (Elasticsearch board via /api/accenture/elastic/findjobs) was
+# removed: it posts thousands of near-identical "Custom Software Engineer"
+# listings with no seniority/entry-level wording, so almost every one lands
+# in filter_entry_level's "ambiguous" bucket and triggers an individual JD
+# fetch - one run scanned 19705 postings dominated by Accenture postings
+# alone, turning the filter step into tens of minutes of sequential HTTP
+# requests. Re-add only alongside a fix that doesn't fan out a JD fetch per
+# templated posting (e.g. a tighter keyword, a per-company ambiguous-title
+# cap, or deduping by title+JD-template before filtering).
 
 
 def fetch_amazon() -> list[JobPosting]:
@@ -1546,7 +1463,6 @@ TIER1_COMPANIES = {
     "Atlassian": fetch_atlassian,
     "Amazon": fetch_amazon,
     "Rippling": fetch_rippling,
-    "Accenture": fetch_accenture,
     "HPE": fetch_hpe,
     "Mastercard": fetch_mastercard,
 }
