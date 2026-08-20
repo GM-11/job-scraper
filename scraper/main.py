@@ -33,13 +33,14 @@ def run_scraper(tier: str = "all") -> None:
             postings.extend(tier2_postings)
             failed.extend(tier2_failed)
 
-        logger.debug(f"Fetched {len(postings)} postings")
+        logger.info(f"Fetched {len(postings)} postings")
         if failed:
             logger.warning(f"Failed to fetch: {', '.join(failed)}")
 
         # Filter down to early-career technical roles (SWE and adjacent
         # disciplines, up to ~MAX_YEARS_EXPERIENCE yrs), India-based, from
         # the last week
+        logger.info(f"Filtering {len(postings)} postings...")
         postings = filter_entry_level(postings)
         logger.info(
             f"{len(postings)} postings match filters "

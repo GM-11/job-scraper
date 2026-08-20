@@ -217,6 +217,7 @@ def fetch_jd_text(url: Optional[str]) -> Optional[str]:
     failure (missing URL, network error, non-200)."""
     if not url:
         return None
+    logger.info(f"Fetching JD (ambiguous title) GET {url}")
     try:
         response = requests.get(
             url, headers={"User-Agent": JD_USER_AGENT}, timeout=JD_FETCH_TIMEOUT
@@ -356,7 +357,9 @@ def filter_entry_level(postings: list) -> list:
     - are India-based (when a location is available)
     """
     result = []
-    for p in postings:
+    for i, p in enumerate(postings):
+        if i and i % 25 == 0:
+            logger.info(f"Filtering: {i}/{len(postings)} postings checked so far")
         status = title_status(p.title)
         if status == "reject":
             continue
