@@ -530,5 +530,9 @@
   "Ericsson:563121777091225": {
     "first_seen": "2026-08-20T14:51:47.743682Z",
     "title": "Network Engineer"
+  },
+  "Amazon:10508284": {
+    "first_seen": "2026-08-20T17:45:39.504458Z",
+    "title": "Embedded SDE - Security, Silicon & Systems Group"
   }
 }
