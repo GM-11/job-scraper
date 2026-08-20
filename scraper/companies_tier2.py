@@ -1,5 +1,6 @@
 import hashlib
 import logging
+import signal
 from urllib.parse import urljoin
 
 from .models import JobPosting
@@ -16,6 +17,32 @@ SELECTOR_TIMEOUT_MS = 15000
 # Cap on pages fetched per PageUp-based board (Nutanix, ServiceNow) so a
 # large board can't turn one run into dozens of full page loads.
 MAX_PAGEUP_PAGES = 3
+
+# Hard wall-clock cap per company, enforced from outside the fetcher via
+# SIGALRM. GOTO_TIMEOUT_MS/SELECTOR_TIMEOUT_MS only bound individual
+# Playwright network calls - they don't help when a bot-challenge page (e.g.
+# GlobalLogic's Cloudflare check) pins the renderer's JS thread, which can
+# make later calls like query_selector_all() or browser.close() block
+# indefinitely since those have no timeout parameter in the sync API. This
+# is the safety net that keeps one stuck company from stalling the whole run.
+COMPANY_TIMEOUT_S = 90
+
+
+class _CompanyTimeout(Exception):
+    """Raised via SIGALRM when a single company fetch exceeds COMPANY_TIMEOUT_S."""
+
+
+def _run_with_timeout(fetcher, seconds: int = COMPANY_TIMEOUT_S) -> list[JobPosting]:
+    def _handler(signum, frame):
+        raise _CompanyTimeout()
+
+    previous_handler = signal.signal(signal.SIGALRM, _handler)
+    signal.alarm(seconds)
+    try:
+        return fetcher()
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, previous_handler)
 
 
 def hash_job_id(
@@ -150,6 +177,8 @@ def fetch_goldman_sachs() -> list[JobPosting]:
                 logger.warning(
                     "Goldman Sachs: no role links appeared, page structure may have changed"
                 )
+                browser.close()
+                return postings
 
             links = page.query_selector_all("a[href^='/roles/']")
             for link in links:
@@ -226,6 +255,8 @@ def fetch_google() -> list[JobPosting]:
                 logger.warning(
                     "Google: no job links appeared, page structure may have changed"
                 )
+                browser.close()
+                return postings
 
             job_links = page.query_selector_all("a[href*='jobs/results/']")
             seen_ids = set()
@@ -301,6 +332,8 @@ def fetch_globallogic() -> list[JobPosting]:
                 logger.warning(
                     "GlobalLogic: no job cards appeared; the site may be showing a bot challenge"
                 )
+                browser.close()
+                return postings
 
             seen_ids = set()
             for card in page.query_selector_all(card_selector):
@@ -363,8 +396,14 @@ def fetch_all_tier2() -> tuple[list[JobPosting], list[str]]:
 
     for company_name, fetcher in TIER2_COMPANIES.items():
         try:
-            postings = fetcher()
+            postings = _run_with_timeout(fetcher)
             all_postings.extend(postings)
+        except _CompanyTimeout:
+            logger.error(
+                f"{company_name}: exceeded {COMPANY_TIMEOUT_S}s, skipping "
+                "(likely a hung/CPU-pinned browser page)"
+            )
+            failed.append(company_name)
         except Exception as e:
             logger.error(f"Failed to fetch {company_name}: {e}")
             failed.append(company_name)
