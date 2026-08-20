@@ -14,7 +14,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,7 +27,7 @@ jobs:
         # runner's IPv6 route to it stalls instead of failing fast.
         run: echo 'Acquire::ForceIPv4 "true";' | sudo tee /etc/apt/apt.conf.d/99force-ipv4
       - name: Install Playwright chromium
-        timeout-minutes: 10
+        timeout-minutes: 20
         run: playwright install --with-deps chromium
       - run: python -m scraper.main --tier all
         env:
