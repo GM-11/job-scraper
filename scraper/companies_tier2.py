@@ -1,6 +1,9 @@
 import hashlib
 import logging
+import multiprocessing
+import os
 import signal
+from queue import Empty
 from urllib.parse import urljoin
 
 from .models import JobPosting
@@ -18,31 +21,76 @@ SELECTOR_TIMEOUT_MS = 15000
 # large board can't turn one run into dozens of full page loads.
 MAX_PAGEUP_PAGES = 3
 
-# Hard wall-clock cap per company, enforced from outside the fetcher via
-# SIGALRM. GOTO_TIMEOUT_MS/SELECTOR_TIMEOUT_MS only bound individual
-# Playwright network calls - they don't help when a bot-challenge page (e.g.
-# GlobalLogic's Cloudflare check) pins the renderer's JS thread, which can
-# make later calls like query_selector_all() or browser.close() block
-# indefinitely since those have no timeout parameter in the sync API. This
-# is the safety net that keeps one stuck company from stalling the whole run.
+# Hard wall-clock cap per company, enforced by running the fetch in a forked
+# child process the parent can forcibly kill. GOTO_TIMEOUT_MS/SELECTOR_TIMEOUT_MS
+# only bound individual Playwright network calls - they don't help when a
+# bot-challenge page (e.g. GlobalLogic's Cloudflare check) pins the renderer's
+# JS thread, which can make later calls like query_selector_all() or
+# browser.close() block indefinitely (they take no timeout in the sync API).
+#
+# A SIGALRM-based timeout in-process was tried first and did not reliably
+# unstick this: Playwright's sync API dispatches calls through a background
+# thread, and it's not guaranteed a signal gets delivered/handled promptly
+# while the main thread is blocked waiting on that dispatch. Running the
+# fetch in a separate OS process sidesteps that entirely - the parent
+# reclaims control via a real OS-level wait (Queue.get(timeout=...)) no
+# matter what the child is stuck on, and can then kill it outright.
 COMPANY_TIMEOUT_S = 90
+
+# Grace period for the child to exit on its own after we've already read its
+# result off the queue, before we give up waiting and kill it anyway.
+_JOIN_GRACE_S = 5
 
 
 class _CompanyTimeout(Exception):
-    """Raised via SIGALRM when a single company fetch exceeds COMPANY_TIMEOUT_S."""
+    """Raised when a single company fetch exceeds COMPANY_TIMEOUT_S."""
+
+
+def _company_worker(fetcher, result_queue: "multiprocessing.Queue") -> None:
+    # New session/process group, so the parent can kill this fetcher AND any
+    # chromium subprocess it spawned as one unit (os.killpg) if it hangs -
+    # terminate()/kill() on the Process object alone only signals this pid,
+    # leaving an orphaned chromium behind.
+    os.setsid()
+    try:
+        result_queue.put(fetcher())
+    except Exception as e:
+        result_queue.put(e)
+
+
+def _kill_process_group(pid: int) -> None:
+    try:
+        os.killpg(pid, signal.SIGKILL)
+    except ProcessLookupError:
+        pass
 
 
 def _run_with_timeout(fetcher, seconds: int = COMPANY_TIMEOUT_S) -> list[JobPosting]:
-    def _handler(signum, frame):
-        raise _CompanyTimeout()
+    ctx = multiprocessing.get_context("fork")
+    result_queue = ctx.Queue()
+    process = ctx.Process(target=_company_worker, args=(fetcher, result_queue))
+    process.start()
 
-    previous_handler = signal.signal(signal.SIGALRM, _handler)
-    signal.alarm(seconds)
     try:
-        return fetcher()
-    finally:
-        signal.alarm(0)
-        signal.signal(signal.SIGALRM, previous_handler)
+        result = result_queue.get(timeout=seconds)
+    except Empty:
+        still_running = process.is_alive()
+        _kill_process_group(process.pid)
+        process.join(_JOIN_GRACE_S)
+        if still_running:
+            raise _CompanyTimeout()
+        raise RuntimeError(
+            f"worker process exited (code {process.exitcode}) without a result"
+        )
+
+    process.join(_JOIN_GRACE_S)
+    if process.is_alive():
+        _kill_process_group(process.pid)
+        process.join(_JOIN_GRACE_S)
+
+    if isinstance(result, Exception):
+        raise result
+    return result
 
 
 def hash_job_id(
@@ -73,6 +121,7 @@ def _fetch_pageup_board(
     postings = []
     try:
         with sync_playwright() as p:
+            logger.info(f"{company}: launching browser")
             browser = p.chromium.launch(headless=True)
             page = browser.new_page(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -80,7 +129,9 @@ def _fetch_pageup_board(
 
             for page_num in range(1, max_pages + 1):
                 url = base_url if page_num == 1 else f"{base_url}?page={page_num}"
+                logger.info(f"{company}: navigating to {url}")
                 page.goto(url, wait_until="domcontentloaded", timeout=GOTO_TIMEOUT_MS)
+                logger.info(f"{company}: page {page_num} loaded, waiting for job cards")
 
                 try:
                     page.wait_for_selector("div.card-job", timeout=SELECTOR_TIMEOUT_MS)
@@ -91,6 +142,7 @@ def _fetch_pageup_board(
                     break
 
                 cards = page.query_selector_all("div.card-job")
+                logger.info(f"{company}: page {page_num} has {len(cards)} job cards")
                 if not cards:
                     break
 
@@ -124,10 +176,13 @@ def _fetch_pageup_board(
                 if len(cards) < 20:
                     break
 
+            logger.info(f"{company}: closing browser")
             browser.close()
+            logger.info(f"{company}: browser closed")
     except Exception as e:
         logger.error(f"Error fetching {company} jobs: {e}")
 
+    logger.info(f"{company}: {len(postings)} jobs fetched")
     return postings
 
 
@@ -159,15 +214,18 @@ def fetch_goldman_sachs() -> list[JobPosting]:
     base_url = "https://higher.gs.com"
     try:
         with sync_playwright() as p:
+            logger.info("Goldman Sachs: launching browser")
             browser = p.chromium.launch(headless=True)
             page = browser.new_page(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
             )
+            logger.info(f"Goldman Sachs: navigating to {base_url}/campus")
             page.goto(
                 f"{base_url}/campus",
                 wait_until="domcontentloaded",
                 timeout=GOTO_TIMEOUT_MS,
             )
+            logger.info("Goldman Sachs: page loaded, waiting for role links")
 
             try:
                 page.wait_for_selector(
@@ -177,10 +235,13 @@ def fetch_goldman_sachs() -> list[JobPosting]:
                 logger.warning(
                     "Goldman Sachs: no role links appeared, page structure may have changed"
                 )
+                logger.info("Goldman Sachs: closing browser")
                 browser.close()
+                logger.info("Goldman Sachs: browser closed")
                 return postings
 
             links = page.query_selector_all("a[href^='/roles/']")
+            logger.info(f"Goldman Sachs: found {len(links)} role links")
             for link in links:
                 href = link.get_attribute("href") or ""
                 if not href.startswith("/roles/"):
@@ -212,10 +273,13 @@ def fetch_goldman_sachs() -> list[JobPosting]:
                         )
                     )
 
+            logger.info("Goldman Sachs: closing browser")
             browser.close()
+            logger.info("Goldman Sachs: browser closed")
     except Exception as e:
         logger.error(f"Error fetching Goldman Sachs jobs: {e}")
 
+    logger.info(f"Goldman Sachs: {len(postings)} jobs fetched")
     return postings
 
 
@@ -235,17 +299,21 @@ def fetch_google() -> list[JobPosting]:
 
     postings = []
     base_url = "https://www.google.com/about/careers/applications/"
+    results_url = "https://www.google.com/about/careers/applications/jobs/results/"
     try:
         with sync_playwright() as p:
+            logger.info("Google: launching browser")
             browser = p.chromium.launch(headless=True)
             page = browser.new_page(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
             )
+            logger.info(f"Google: navigating to {results_url}")
             page.goto(
-                "https://www.google.com/about/careers/applications/jobs/results/",
+                results_url,
                 wait_until="domcontentloaded",
                 timeout=GOTO_TIMEOUT_MS,
             )
+            logger.info("Google: page loaded, waiting for job links")
 
             try:
                 page.wait_for_selector(
@@ -255,10 +323,13 @@ def fetch_google() -> list[JobPosting]:
                 logger.warning(
                     "Google: no job links appeared, page structure may have changed"
                 )
+                logger.info("Google: closing browser")
                 browser.close()
+                logger.info("Google: browser closed")
                 return postings
 
             job_links = page.query_selector_all("a[href*='jobs/results/']")
+            logger.info(f"Google: found {len(job_links)} candidate job links")
             seen_ids = set()
             for link in job_links:
                 href = link.get_attribute("href") or ""
@@ -293,10 +364,13 @@ def fetch_google() -> list[JobPosting]:
                         )
                     )
 
+            logger.info("Google: closing browser")
             browser.close()
+            logger.info("Google: browser closed")
     except Exception as e:
         logger.error(f"Error fetching Google jobs: {e}")
 
+    logger.info(f"Google: {len(postings)} jobs fetched")
     return postings
 
 
@@ -313,30 +387,43 @@ def fetch_globallogic() -> list[JobPosting]:
     search_url = f"{base_url}/search/globallogic/jobs"
     try:
         with sync_playwright() as p:
+            logger.info("GlobalLogic: launching browser")
             browser = p.chromium.launch(headless=True)
             page = browser.new_page(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
                 viewport={"width": 1440, "height": 900},
                 locale="en-US",
             )
+            logger.info(f"GlobalLogic: navigating to {search_url}")
             page.goto(
                 search_url,
                 wait_until="domcontentloaded",
                 timeout=GOTO_TIMEOUT_MS,
             )
+            logger.info(f"GlobalLogic: page loaded (url now {page.url}), waiting for job cards")
 
             card_selector = "li[class*='job'], article[class*='job'], div[class*='job']"
             try:
                 page.wait_for_selector(card_selector, timeout=SELECTOR_TIMEOUT_MS)
             except Exception:
+                # page.url is a locally cached property (updated on navigation
+                # events), not a round trip to the renderer - safe to read even
+                # if the page's JS thread is pinned by a challenge script. Avoid
+                # calling anything that needs JS execution here (e.g. page.title())
+                # since that's exactly the kind of call that can hang forever.
                 logger.warning(
-                    "GlobalLogic: no job cards appeared; the site may be showing a bot challenge"
+                    f"GlobalLogic: no job cards appeared (url: {page.url}); "
+                    "the site may be showing a bot challenge"
                 )
+                logger.info("GlobalLogic: closing browser")
                 browser.close()
+                logger.info("GlobalLogic: browser closed")
                 return postings
 
+            all_cards = page.query_selector_all(card_selector)
+            logger.info(f"GlobalLogic: found {len(all_cards)} candidate job cards")
             seen_ids = set()
-            for card in page.query_selector_all(card_selector):
+            for card in all_cards:
                 title_link = card.query_selector("a[href*='/job/'], a[href*='/jobs/']")
                 if not title_link:
                     continue
@@ -372,10 +459,13 @@ def fetch_globallogic() -> list[JobPosting]:
                     )
                 )
 
+            logger.info("GlobalLogic: closing browser")
             browser.close()
+            logger.info("GlobalLogic: browser closed")
     except Exception as e:
         logger.error(f"Error fetching GlobalLogic jobs: {e}")
 
+    logger.info(f"GlobalLogic: {len(postings)} jobs fetched")
     return postings
 
 
@@ -395,6 +485,9 @@ def fetch_all_tier2() -> tuple[list[JobPosting], list[str]]:
     failed = []
 
     for company_name, fetcher in TIER2_COMPANIES.items():
+        logger.info(
+            f"=== Starting {company_name} (hard timeout {COMPANY_TIMEOUT_S}s) ==="
+        )
         try:
             postings = _run_with_timeout(fetcher)
             all_postings.extend(postings)
