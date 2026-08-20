@@ -31,6 +31,7 @@ def fetch_with_retry(
 ) -> dict | None:
     """Fetch URL with error handling. Raises FetchTimeoutError on timeout so
     callers can requeue the whole company for a single retry pass."""
+    logger.info(f"{method} {url}")
     try:
         headers = {"User-Agent": USER_AGENT}
         if method == "POST":
@@ -67,6 +68,7 @@ def hash_job_id(
 
 def fetch_html(url: str, *, session: requests.Session | None = None) -> str | None:
     """Get an HTML page using the common headers and timeout."""
+    logger.info(f"GET {url}")
     client = session or requests
     try:
         response = client.get(url, headers=REQUEST_HEADERS, timeout=TIMEOUT)
@@ -679,6 +681,7 @@ def fetch_accenture(
             "debugQuery": "false",
             "jobFilters": "[]",
         }
+        logger.info(f"Accenture: POST findjobs (startIndex={start_index})")
         try:
             response = requests.post(
                 "https://www.accenture.com/api/accenture/elastic/findjobs",
@@ -801,6 +804,7 @@ def fetch_apple() -> list[JobPosting]:
     postings = []
     url = "https://jobs.apple.com/en-us/search?location=india-INDC"
 
+    logger.info(f"Apple: GET {url}")
     try:
         response = requests.get(
             url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT
@@ -954,6 +958,7 @@ def fetch_incepto() -> list[JobPosting]:
     url = "https://join.com/companies/incepto-medical"
     postings = []
 
+    logger.info(f"Incepto: GET {url}")
     try:
         response = requests.get(
             url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT
@@ -1004,6 +1009,7 @@ def fetch_deshaw() -> list[JobPosting]:
 
     try:
         # Step 1: Get buildId from main careers page
+        logger.info("D.E. Shaw: GET https://www.deshaw.com/careers")
         response = requests.get(
             "https://www.deshaw.com/careers",
             headers={"User-Agent": USER_AGENT},
@@ -1030,6 +1036,7 @@ def fetch_deshaw() -> list[JobPosting]:
 
         # Step 2: Fetch job data using buildId
         url = f"https://www.deshaw.com/_next/data/{build_id}/en/careers.json"
+        logger.info(f"D.E. Shaw: GET {url}")
         response = requests.get(
             url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT
         )
@@ -1273,6 +1280,7 @@ def _parse_jio_jobs(html: str) -> list[JobPosting]:
 
 def _fetch_jio_category(session: requests.Session, url: str) -> list[JobPosting]:
     postings = []
+    logger.info(f"Jio: GET {url}")
     try:
         response = session.get(url, headers=REQUEST_HEADERS, timeout=TIMEOUT)
         response.raise_for_status()
@@ -1297,6 +1305,7 @@ def _fetch_jio_category(session: requests.Session, url: str) -> list[JobPosting]
         fields["__EVENTTARGET"] = pager_field
         fields["__EVENTARGUMENT"] = ""
         fields[pager_field] = str(page_num)
+        logger.info(f"Jio: POST {url} (page {page_num}/{total_pages})")
         try:
             response = session.post(url, data=fields, headers=REQUEST_HEADERS, timeout=TIMEOUT)
             response.raise_for_status()
@@ -1326,6 +1335,7 @@ def fetch_jio() -> list[JobPosting]:
             f"{base}/frmJobCategories.aspx?func=/wASbQn4xyQ=&loc=/wASbQn4xyQ="
             f"&expreq=/wASbQn4xyQ=&flag=/wASbQn4xyQ="
         )
+        logger.info(f"Jio: GET {cat_url}")
         response = session.get(cat_url, headers=REQUEST_HEADERS, timeout=TIMEOUT)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
@@ -1339,6 +1349,7 @@ def fetch_jio() -> list[JobPosting]:
             if link and link.get("href"):
                 category_urls.append(urljoin(base + "/", link["href"]))
 
+        logger.info(f"Jio: {len(category_urls)} tech categories found")
         for cat_url in category_urls:
             postings.extend(_fetch_jio_category(session, cat_url))
             time.sleep(REQUEST_DELAY)
@@ -1375,6 +1386,7 @@ def fetch_phenom(
     """Fetch a Phenom board with its session cookies and CSRF token."""
     session = requests.Session()
     search_url = f"https://{domain}/us/en/search-results"
+    logger.info(f"{company}: GET {search_url}")
     try:
         response = session.get(search_url, headers=REQUEST_HEADERS, timeout=TIMEOUT)
         response.raise_for_status()
@@ -1417,6 +1429,7 @@ def fetch_phenom(
         offset = 0
         for _ in range(MAX_PAGES):
             payload["from"] = offset
+            logger.info(f"{company}: POST {domain}/widgets (from={offset})")
             widget_response = session.post(
                 f"https://{domain}/widgets",
                 json=payload,
@@ -1551,10 +1564,10 @@ def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
     retry_queue = []
 
     for company_name, fetcher in TIER1_COMPANIES.items():
-        logger.debug(f"Fetching {company_name}...")
+        logger.info(f"=== Starting {company_name} ===")
         try:
             postings = fetcher()
-            logger.debug(f"  {company_name}: {len(postings)} jobs")
+            logger.info(f"{company_name}: {len(postings)} jobs fetched")
             all_postings.extend(postings)
         except FetchTimeoutError:
             logger.warning(
@@ -1567,15 +1580,15 @@ def fetch_all_tier1() -> tuple[list[JobPosting], list[str]]:
         time.sleep(REQUEST_DELAY)
 
     if retry_queue:
-        logger.debug(
+        logger.info(
             f"Retrying {len(retry_queue)} timed-out compan{'y' if len(retry_queue) == 1 else 'ies'}..."
         )
         for company_name, fetcher in retry_queue:
-            logger.debug(f"Retrying {company_name}...")
+            logger.info(f"=== Retrying {company_name} ===")
             try:
                 postings = fetcher()
-                logger.debug(
-                    f"  {company_name}: {len(postings)} jobs (retry succeeded)"
+                logger.info(
+                    f"{company_name}: {len(postings)} jobs fetched (retry succeeded)"
                 )
                 all_postings.extend(postings)
             except FetchTimeoutError:
