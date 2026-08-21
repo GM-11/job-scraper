@@ -554,5 +554,249 @@
   "Amazon:10509821": {
     "first_seen": "2026-08-21T05:48:03.704401Z",
     "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "JPMorgan:210779996": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Data Scientist Associate"
+  },
+  "JPMorgan:210783063": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Associate Data Scientist - Data Intelligence Wealth Management Solutions"
+  },
+  "NatWest:18134832": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": ".NET Full Stack Engineer, AVP"
+  },
+  "NatWest:18129162": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WOW - Software Engineer"
+  },
+  "NatWest:18129161": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WOW - Software Engineer"
+  },
+  "NatWest:18129088": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP (Java, Kafka, AWS)"
+  },
+  "NatWest:18129087": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP (Java, Kafka, AWS)"
+  },
+  "NatWest:18129086": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP (Java, Kafka, AWS)"
+  },
+  "NatWest:18126042": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Data Engineer"
+  },
+  "NatWest:18126041": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Data Engineer"
+  },
+  "NatWest:18126040": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Data Engineer"
+  },
+  "NatWest:18126039": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Data Engineer"
+  },
+  "NatWest:18124430": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW - Software Engineer, AVP"
+  },
+  "NatWest:18124429": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW - Software Engineer, AVP"
+  },
+  "NatWest:18124164": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18123898": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18123897": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18114138": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW- Software Engineer"
+  },
+  "NatWest:18114137": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW- Software Engineer"
+  },
+  "NatWest:18108434": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18108433": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18108432": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18108425": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18108424": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18108423": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18102176": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Infrastructure Engineer, Associate"
+  },
+  "NatWest:18102160": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Infrastructure Engineer, AVP"
+  },
+  "NatWest:18102093": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Infrastructure Engineer(Public Cloud Engineer)"
+  },
+  "NatWest:18102092": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Infrastructure Engineer(Public Cloud Engineer)"
+  },
+  "NatWest:18099456": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW - Software Engineer - GCP Apigee, AVP"
+  },
+  "NatWest:18099455": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW - Software Engineer - GCP Apigee, AVP"
+  },
+  "NatWest:18099454": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW - Software Engineer - GCP Apigee, AVP"
+  },
+  "NatWest:18098214": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:18098213": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:18098212": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:18098211": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:18098210": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:18098209": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:18098135": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW- Software Engineer"
+  },
+  "NatWest:18098134": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW- Software Engineer"
+  },
+  "NatWest:18089101": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, Oracle"
+  },
+  "NatWest:18089100": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, Oracle"
+  },
+  "NatWest:18089099": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, Oracle"
+  },
+  "NatWest:18084108": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WOW - Software Engineer"
+  },
+  "NatWest:18083888": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, Playwright"
+  },
+  "NatWest:18078298": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:18073460": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW Software Engineer"
+  },
+  "NatWest:18073459": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW Software Engineer"
+  },
+  "NatWest:18073145": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW Software Engineer, AVP"
+  },
+  "NatWest:18073144": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW Software Engineer, AVP"
+  },
+  "NatWest:18073143": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW Software Engineer, AVP"
+  },
+  "NatWest:18073142": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "WoW Software Engineer, AVP"
+  },
+  "NatWest:18073131": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Wow Software Engineer"
+  },
+  "NatWest:18073130": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Wow Software Engineer"
+  },
+  "NatWest:18068275": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Wow-Software Engineer"
+  },
+  "NatWest:18026247": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, iOS"
+  },
+  "NatWest:18026246": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, iOS"
+  },
+  "NatWest:17843815": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:17843814": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer, AVP"
+  },
+  "NatWest:17743354": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:17743353": {
+    "first_seen": "2026-08-21T06:58:32.696301Z",
+    "title": "Software Engineer"
   }
 }
