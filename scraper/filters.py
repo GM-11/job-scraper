@@ -15,7 +15,7 @@ except ImportError:
 logger = logging.getLogger(__name__)
 
 # Posting must have been posted within this many days to be surfaced
-RECENCY_WINDOW_DAYS = 7
+RECENCY_WINDOW_DAYS = 3
 
 # Exclude postings that explicitly target a graduating class later than this
 # (e.g. "Class of 2027", "New Grad 2028", "Summer 2027 Intern")
@@ -66,7 +66,9 @@ SENIORITY_EXCLUDE_PATTERNS = [
     r"\bmanager\b",
     r"\bdirector\b",
     r"\bvp\b",
+    r"\bavp\b",
     r"\bvice\s*president\b",
+    r"\bassistant\s*vice\s*president\b",
     r"\bhead\s*of\b",
     r"\barchitect\b",
     r"\bsde\s*[-\s]?(2|3|4|ii|iii|iv)\b",
