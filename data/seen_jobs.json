@@ -814,5 +814,21 @@
   "NatWest:18083980": {
     "first_seen": "2026-08-21T08:01:23.209026Z",
     "title": "Public Cloud Engineer"
+  },
+  "Salesforce:JR352358": {
+    "first_seen": "2026-08-21T09:56:46.630941Z",
+    "title": "Software Engineering MTS/SMTS (Salesforce Developer)"
+  },
+  "Moody's:99525753136": {
+    "first_seen": "2026-08-21T09:56:46.630941Z",
+    "title": "Software Engineer .Net Developer"
+  },
+  "NatWest:18143181": {
+    "first_seen": "2026-08-21T09:56:46.630941Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18143180": {
+    "first_seen": "2026-08-21T09:56:46.630941Z",
+    "title": "Software Engineer"
   }
 }
