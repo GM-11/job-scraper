@@ -798,5 +798,21 @@
   "NatWest:17743353": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
     "title": "Software Engineer"
+  },
+  "JPMorgan:210762768": {
+    "first_seen": "2026-08-21T08:01:23.209026Z",
+    "title": "Payments Planning and Analysis Developer - Associate"
+  },
+  "Google:c79a482cc48f42e8": {
+    "first_seen": "2026-08-21T08:01:23.209026Z",
+    "title": "Software Engineer, PhD, Early Career, 2026"
+  },
+  "NatWest:18083981": {
+    "first_seen": "2026-08-21T08:01:23.209026Z",
+    "title": "Public Cloud Engineer"
+  },
+  "NatWest:18083980": {
+    "first_seen": "2026-08-21T08:01:23.209026Z",
+    "title": "Public Cloud Engineer"
   }
 }
