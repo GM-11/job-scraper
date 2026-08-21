@@ -474,6 +474,12 @@ def fetch_oracle() -> list[JobPosting]:
     return fetch_oracle_fusion("eeho.fa.us2.oraclecloud.com", "CX_1", "Oracle")
 
 
+def fetch_exl() -> list[JobPosting]:
+    return fetch_oracle_fusion(
+        "fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com", "CX_2", "EXL"
+    )
+
+
 # === WORKDAY COMPANIES ===
 
 
@@ -579,6 +585,23 @@ def fetch_autodesk() -> list[JobPosting]:
         "https://autodesk.wd1.myworkdayjobs.com",
         "Autodesk",
     )
+
+
+def fetch_kyndryl() -> list[JobPosting]:
+    """Fetch both Kyndryl Workday tenants: the general professional board
+    plus the separate early-career-specific board (distinct postings, not a
+    subset of the professional one)."""
+    postings = fetch_workday_cxs(
+        "https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylProfessionalCareers/jobs",
+        "https://kyndryl.wd5.myworkdayjobs.com",
+        "Kyndryl",
+    )
+    postings += fetch_workday_cxs(
+        "https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylEarlyCareers/jobs",
+        "https://kyndryl.wd5.myworkdayjobs.com",
+        "Kyndryl",
+    )
+    return postings
 
 
 # === CUSTOM/ONE-OFF COMPANIES ===
@@ -1083,6 +1106,103 @@ def fetch_nike() -> list[JobPosting]:
     return postings
 
 
+def fetch_ibm_search(company: str, keyword: str | None = None) -> list[JobPosting]:
+    """Fetch IBM's careers search (also used for HashiCorp, which has no
+    standalone board post-acquisition - its "View open positions" link on
+    hashicorp.com points straight at this same search with q=hashicorp).
+
+    The page itself is client-rendered with no data in its HTML/__NEXT_DATA__;
+    it's backed by a raw Elasticsearch-style query DSL POST to
+    www-api.ibm.com/search/api/v2 (appId "careers", scopes ["careers2"]),
+    found via live network inspection - no auth needed. `dcdate` (confirmed
+    via the UI's "Newest To Oldest" sort, which sends sort dcdate:desc) is the
+    posted-date field; keyword search uses the same simple_query_string
+    clause the site's own search box sends.
+    """
+    url = "https://www-api.ibm.com/search/api/v2"
+    postings = []
+    offset = 0
+    page_size = 100
+    total = None
+    pages_fetched = 0
+
+    must = (
+        [
+            {
+                "simple_query_string": {
+                    "query": keyword,
+                    "fields": [
+                        "keywords^1",
+                        "body^1",
+                        "url^2",
+                        "description^2",
+                        "h1s_content^2",
+                        "title^3",
+                        "field_text_01",
+                    ],
+                }
+            }
+        ]
+        if keyword
+        else []
+    )
+
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
+        payload = {
+            "appId": "careers",
+            "scopes": ["careers2"],
+            "query": {"bool": {"must": must}},
+            "size": page_size,
+            "from": offset,
+            "sort": [{"dcdate": "desc"}, {"_score": "desc"}],
+            "lang": "zz",
+            "localeSelector": {},
+            "sm": {"query": keyword or "", "lang": "zz"},
+            "_source": ["_id", "title", "url", "field_keyword_19", "dcdate"],
+        }
+        data = fetch_with_retry(url, method="POST", json_data=payload)
+        hits = (data or {}).get("hits", {})
+        if total is None:
+            total = hits.get("total", {}).get("value", 0)
+
+        results = hits.get("hits", [])
+        if not results:
+            break
+
+        for hit in results:
+            source = hit.get("_source", {})
+            job_url = source.get("url")
+            id_match = re.search(r"jobId=(\d+)", job_url or "")
+            job_id = id_match.group(1) if id_match else hit.get("_id", "")
+            postings.append(
+                JobPosting(
+                    company=company,
+                    job_id=str(job_id),
+                    title=source.get("title", ""),
+                    location=source.get("field_keyword_19"),
+                    url=job_url,
+                    posted_date=source.get("dcdate"),
+                    tier="1",
+                )
+            )
+
+        offset += len(results)
+        if offset >= (total or 0):
+            break
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
+def fetch_ibm() -> list[JobPosting]:
+    return fetch_ibm_search("IBM")
+
+
+def fetch_hashicorp() -> list[JobPosting]:
+    return fetch_ibm_search("HashiCorp", keyword="hashicorp")
+
+
 def fetch_moodys() -> list[JobPosting]:
     """Fetch Moody's TalentBrew SSR board, paginating via ?p=N.
 
@@ -1129,6 +1249,75 @@ def fetch_moodys() -> list[JobPosting]:
         time.sleep(REQUEST_DELAY)
 
     return postings
+
+
+def fetch_siemens_portal(keyword: str, company: str) -> list[JobPosting]:
+    """Fetch a Siemens Avature-portal board filtered by keyword (used for
+    Brightly, a Siemens subsidiary with no standalone careers board - its
+    listings live on Siemens' own global portal under a keyword filter).
+
+    folderRecordsPerPage is accepted by the server but doesn't change the
+    actual page size - it always returns 6 results per page and exposes real
+    pagination via folderOffset (confirmed live: requesting
+    folderRecordsPerPage=500 still returned only 6 articles, while the page's
+    own "next" links all carried folderRecordsPerPage=6&folderOffset=N).
+    """
+    postings = []
+    offset = 0
+    page_size = 6
+    pages_fetched = 0
+
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
+        url = (
+            f"https://jobs.siemens.com/en_US/externaljobs/SearchJobs/{quote(keyword)}/"
+            f"?listFilterMode=1&folderRecordsPerPage={page_size}&folderOffset={offset}"
+        )
+        html = fetch_html(url)
+        if not html:
+            break
+
+        soup = BeautifulSoup(html, "html.parser")
+        articles = soup.select("article.article--result")
+        if not articles:
+            break
+
+        for article in articles:
+            link = article.select_one("h3 a.link")
+            title = text_or_none(link)
+            href = link.get("href") if link else None
+            if not title or not href:
+                continue
+
+            job_id_el = article.select_one(".list-item-jobId")
+            job_id_text = text_or_none(job_id_el) or ""
+            job_id_match = re.search(r"(\d+)", job_id_text)
+            job_id = job_id_match.group(1) if job_id_match else hash_job_id(title, href)
+
+            location = text_or_none(article.select_one(".list-item-location"))
+
+            postings.append(
+                JobPosting(
+                    company=company,
+                    job_id=job_id,
+                    title=title,
+                    location=location,
+                    url=href,
+                    posted_date=None,
+                    tier="1",
+                )
+            )
+
+        if len(articles) < page_size:
+            break
+        offset += page_size
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
+def fetch_brightly() -> list[JobPosting]:
+    return fetch_siemens_portal("brightly", "Brightly")
 
 
 def fetch_standard_chartered() -> list[JobPosting]:
@@ -1533,6 +1722,11 @@ TIER1_COMPANIES = {
     "Moody's": fetch_moodys,
     "PayPal": fetch_paypal,
     "Coinbase": fetch_coinbase,
+    "IBM": fetch_ibm,
+    "HashiCorp": fetch_hashicorp,
+    "Kyndryl": fetch_kyndryl,
+    "Brightly": fetch_brightly,
+    "EXL": fetch_exl,
 }
 
 
