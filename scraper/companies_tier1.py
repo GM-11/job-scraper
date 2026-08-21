@@ -199,6 +199,19 @@ def fetch_tower_research() -> list[JobPosting]:
     return fetch_greenhouse("towerresearchcapital", "Tower Research Capital")
 
 
+def fetch_coinbase() -> list[JobPosting]:
+    """Fetch Coinbase jobs.
+
+    The careers page (coinbase.com/en-in/careers/positions) looks like a
+    custom SSR page but its own embedded state (suspenseBridgeData ->
+    "Positions" -> departments[].jobs[]) shows job IDs in Greenhouse's
+    numeric format and absolute_urls of the form
+    coinbase.com/careers/positions/{id}?gh_jid={id} - confirmed live against
+    the public Greenhouse API under board token "coinbase" (170 jobs).
+    """
+    return fetch_greenhouse("coinbase", "Coinbase")
+
+
 def fetch_phonepe() -> list[JobPosting]:
     return fetch_greenhouse("phonepe", "PhonePe")
 
@@ -381,6 +394,10 @@ def fetch_morgan_stanley() -> list[JobPosting]:
     return fetch_eightfold(
         "morganstanley.eightfold.ai", "morganstanley.com", "Morgan Stanley"
     )
+
+
+def fetch_paypal() -> list[JobPosting]:
+    return fetch_eightfold("paypal.eightfold.ai", "paypal.com", "PayPal")
 
 
 # === ORACLE FUSION COMPANIES ===
@@ -1066,6 +1083,54 @@ def fetch_nike() -> list[JobPosting]:
     return postings
 
 
+def fetch_moodys() -> list[JobPosting]:
+    """Fetch Moody's TalentBrew SSR board, paginating via ?p=N.
+
+    Each job link carries its numeric job ID directly as a data-job-id
+    attribute (data-job-id also appears on an unrelated "save job" button in
+    the same card, so the selector is scoped to the title link specifically).
+    An out-of-range page still returns 200 with a much smaller page and zero
+    matches for that selector, which is what actually stops pagination.
+    """
+    postings = []
+    page = 1
+    while page <= MAX_PAGES:
+        url = f"https://careers.moodys.com/en/search-jobs?p={page}"
+        html = fetch_html(url)
+        if not html:
+            break
+
+        soup = BeautifulSoup(html, "html.parser")
+        links = soup.select("a.search-results-list__job-link[data-job-id]")
+        if not links:
+            break
+
+        for link in links:
+            job_id = link.get("data-job-id")
+            title = text_or_none(link)
+            if not job_id or not title:
+                continue
+            card = link.find_parent("li", class_="search-results-list__item")
+            location = text_or_none(card.select_one(".job-location") if card else None)
+            href = link.get("href", "")
+            postings.append(
+                JobPosting(
+                    company="Moody's",
+                    job_id=str(job_id),
+                    title=title,
+                    location=location,
+                    url=urljoin(url, href) if href else None,
+                    posted_date=None,
+                    tier="1",
+                )
+            )
+
+        page += 1
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
 def fetch_standard_chartered() -> list[JobPosting]:
     """Fetch Standard Chartered's SAP SuccessFactors (Jobs2Web/CSB) board via
     its recruiting/v1/jobs search API, pre-filtered to India server-side."""
@@ -1465,6 +1530,9 @@ TIER1_COMPANIES = {
     "Rippling": fetch_rippling,
     "HPE": fetch_hpe,
     "Mastercard": fetch_mastercard,
+    "Moody's": fetch_moodys,
+    "PayPal": fetch_paypal,
+    "Coinbase": fetch_coinbase,
 }
 
 

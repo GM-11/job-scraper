@@ -1,4 +1,5 @@
 import hashlib
+import json
 import logging
 import multiprocessing
 import os
@@ -374,6 +375,114 @@ def fetch_google() -> list[JobPosting]:
     return postings
 
 
+def fetch_natwest() -> list[JobPosting]:
+    """Fetch NatWest's Talemetry jobs.json API via a Playwright warm-up.
+
+    The API (jobs.natwestgroup.com/search/jobs.json) sits behind Cloudflare
+    Turnstile - a bare requests.get() gets a 403 "Just a moment..." challenge
+    page even on the JSON endpoint. A real headless browser clears it after a
+    few seconds with no extra interaction needed, so this navigates straight
+    to the JSON URL itself (each page's whole response is a JSON document) and
+    parses whatever text the page renders, instead of scraping HTML markup.
+    Detail URLs aren't in the JSON; they're reconstructed from the confirmed
+    /jobs/{talemetry_job_id}-{permalink} pattern used by the site's own search
+    page.
+    """
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        logger.warning("Playwright not installed, skipping NatWest")
+        return []
+
+    postings = []
+    base_url = "https://jobs.natwestgroup.com"
+    try:
+        with sync_playwright() as p:
+            logger.info("NatWest: launching browser")
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            )
+
+            page_num = 1
+            total_entries = None
+            per_page = None
+            while page_num <= 30:
+                url = f"{base_url}/search/jobs.json?search_type=talemetry&page={page_num}"
+                logger.info(f"NatWest: navigating to {url}")
+                page.goto(url, wait_until="domcontentloaded", timeout=GOTO_TIMEOUT_MS)
+                # Turnstile resolves client-side within a few seconds of load;
+                # there's no DOM element to wait on since the response is bare JSON.
+                page.wait_for_timeout(6000)
+
+                try:
+                    body_text = page.inner_text("pre")
+                except Exception:
+                    body_text = page.inner_text("body")
+
+                try:
+                    data = json.loads(body_text)
+                except json.JSONDecodeError:
+                    logger.warning(
+                        f"NatWest: page {page_num} did not return JSON "
+                        "(Turnstile likely didn't clear), stopping"
+                    )
+                    break
+
+                if total_entries is None:
+                    total_entries = data.get("total_entries", 0)
+                    per_page = data.get("per_page", 25)
+
+                entries = data.get("entries", [])
+                logger.info(f"NatWest: page {page_num} has {len(entries)} entries")
+                if not entries:
+                    break
+
+                for entry in entries:
+                    location = entry.get("location") or {}
+                    loc_parts = [
+                        location.get("locality"),
+                        location.get("region_full") or location.get("region_abbr"),
+                        location.get("country"),
+                    ]
+                    loc_str = ", ".join(v for v in loc_parts if v) or None
+
+                    job_id = str(entry.get("talemetry_job_id") or entry.get("id") or "")
+                    permalink = entry.get("permalink", "")
+                    job_url = (
+                        f"{base_url}/jobs/{job_id}-{permalink}" if job_id else None
+                    )
+
+                    postings.append(
+                        JobPosting(
+                            company="NatWest",
+                            job_id=job_id,
+                            title=entry.get("title", ""),
+                            location=loc_str,
+                            url=job_url,
+                            posted_date=None,
+                            tier="2",
+                        )
+                    )
+
+                page_num += 1
+                if (
+                    per_page
+                    and total_entries is not None
+                    and (page_num - 1) * per_page >= total_entries
+                ):
+                    break
+
+            logger.info("NatWest: closing browser")
+            browser.close()
+            logger.info("NatWest: browser closed")
+    except Exception as e:
+        logger.error(f"Error fetching NatWest jobs: {e}")
+
+    logger.info(f"NatWest: {len(postings)} jobs fetched")
+    return postings
+
+
 # GlobalLogic (careers.hitachi.com) was removed: its board sits behind a
 # Cloudflare bot challenge that headless Playwright never clears, so every
 # run reliably burned ~15-20s for zero jobs. Re-add only with a real
@@ -386,6 +495,7 @@ TIER2_COMPANIES = {
     "ServiceNow": fetch_servicenow,
     "Goldman Sachs": fetch_goldman_sachs,
     "Google": fetch_google,
+    "NatWest": fetch_natwest,
 }
 
 
