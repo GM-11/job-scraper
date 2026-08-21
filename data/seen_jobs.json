@@ -494,5 +494,65 @@
   "ServiceNow:79a3f7e561f5db09": {
     "first_seen": "2026-08-19T19:18:13.699753Z",
     "title": "Software Engineer"
+  },
+  "Microsoft:1970393556963032": {
+    "first_seen": "2026-08-20T10:31:21.112776Z",
+    "title": "Software Engineer"
+  },
+  "Microsoft:1970393556978214": {
+    "first_seen": "2026-08-20T10:31:21.112776Z",
+    "title": "Software Engineer"
+  },
+  "NVIDIA:893397145238": {
+    "first_seen": "2026-08-20T10:31:21.112776Z",
+    "title": "Site Reliability Engineer"
+  },
+  "Ericsson:563121776997510": {
+    "first_seen": "2026-08-20T10:31:21.112776Z",
+    "title": "Data Scientist"
+  },
+  "American Express:26012390": {
+    "first_seen": "2026-08-20T10:31:21.112776Z",
+    "title": "Software Engineer I"
+  },
+  "Salesforce:JR318187": {
+    "first_seen": "2026-08-20T10:31:21.112776Z",
+    "title": "Salesforce Developer (Software Engineering, MTS/SMTS)"
+  },
+  "Amazon:10507385": {
+    "first_seen": "2026-08-20T10:31:21.112776Z",
+    "title": "Software Development Engineer, AWS Compliance & Security Assurance, Denied Party Screening"
+  },
+  "Rippling:37395123-794a-4bda-8671-e002a4c627ac__bangalore-india": {
+    "first_seen": "2026-08-20T10:31:21.112776Z",
+    "title": "Developer Support Specialist - Data Support"
+  },
+  "Ericsson:563121777091225": {
+    "first_seen": "2026-08-20T14:51:47.743682Z",
+    "title": "Network Engineer"
+  },
+  "Amazon:10508284": {
+    "first_seen": "2026-08-20T17:45:39.504458Z",
+    "title": "Embedded SDE - Security, Silicon & Systems Group"
+  },
+  "Ericsson:563121776103734": {
+    "first_seen": "2026-08-20T19:47:27.131507Z",
+    "title": "Software Developer - Python and GenAI"
+  },
+  "Standard Chartered:58401": {
+    "first_seen": "2026-08-21T04:53:26.774255Z",
+    "title": "Assoc, FrontEnd Eng - Android, WRB Tech"
+  },
+  "Standard Chartered:60877": {
+    "first_seen": "2026-08-21T05:48:03.704401Z",
+    "title": "AVP,BackEnd Eng, WRB Tech"
+  },
+  "Amazon:10509822": {
+    "first_seen": "2026-08-21T05:48:03.704401Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Amazon:10509821": {
+    "first_seen": "2026-08-21T05:48:03.704401Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
   }
 }
