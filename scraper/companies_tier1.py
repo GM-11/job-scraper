@@ -5,6 +5,7 @@ import re
 import time
 from datetime import datetime, timezone
 from urllib.parse import quote, urljoin
+from xml.etree import ElementTree
 
 import requests
 from bs4 import BeautifulSoup
@@ -584,6 +585,14 @@ def fetch_autodesk() -> list[JobPosting]:
         "https://autodesk.wd1.myworkdayjobs.com/wday/cxs/autodesk/Ext/jobs",
         "https://autodesk.wd1.myworkdayjobs.com",
         "Autodesk",
+    )
+
+
+def fetch_ciena() -> list[JobPosting]:
+    return fetch_workday_cxs(
+        "https://ciena.wd5.myworkdayjobs.com/wday/cxs/ciena/Careers/jobs",
+        "https://ciena.wd5.myworkdayjobs.com",
+        "Ciena",
     )
 
 
@@ -1382,6 +1391,214 @@ def fetch_standard_chartered() -> list[JobPosting]:
     return postings
 
 
+def fetch_mercedes_benz() -> list[JobPosting]:
+    """Fetch Mercedes-Benz Group's job board, which also covers MBRDI (its
+    Bangalore/Pune subsidiary - MatchedObjectDescriptor.ParentOrganizationName
+    "Mercedes-Benz Research and Development India Private Limited" - posts on
+    this same board, not a separate one).
+
+    jobs.api.mercedes-benz.com/search takes a JSON `data` query param with
+    FirstItem/CountItem for pagination (server caps CountItem at 100; larger
+    values 500 with an empty body). LanguageCode and SearchCriteria location
+    filters were tried live but are silently ignored - every request returns
+    the same German-locale results regardless, confirmed by requesting
+    PositionLocation.Country values and getting back the full unfiltered
+    count - so this pulls the full global board (~2900 jobs) and relies on
+    the shared India location filter downstream. CityName still comes
+    through as the English city (e.g. "Bengaluru"), just CountryName is
+    German ("Indien"), which is enough for that filter to match.
+    """
+    postings = []
+    first_item = 1
+    page_size = 100
+    total = None
+    pages_fetched = 0
+    headers = {**REQUEST_HEADERS, "Referer": "https://jobs.mercedes-benz.com/"}
+
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
+        query = {
+            "LanguageCode": "en_US",
+            "SearchParameters": {
+                "FirstItem": first_item,
+                "CountItem": page_size,
+                "Sort": "0",
+            },
+        }
+        url = f"https://jobs.api.mercedes-benz.com/search?data={quote(json.dumps(query))}"
+        logger.info(f"Mercedes-Benz: GET {url}")
+        try:
+            response = requests.get(url, headers=headers, timeout=TIMEOUT)
+            response.raise_for_status()
+            data = response.json()
+        except requests.Timeout as exc:
+            raise FetchTimeoutError("Mercedes-Benz timed out") from exc
+        except requests.RequestException as exc:
+            logger.warning(f"Mercedes-Benz: could not fetch: {exc}")
+            break
+
+        result = data.get("SearchResult", {})
+        if total is None:
+            total = result.get("SearchResultCountAll", 0)
+        items = result.get("SearchResultItems", [])
+        if not items:
+            break
+
+        for item in items:
+            descriptor = item.get("MatchedObjectDescriptor", {})
+            locations = descriptor.get("PositionLocation") or []
+            loc = locations[0] if locations else {}
+            location = (
+                ", ".join(v for v in (loc.get("CityName"), loc.get("CountryName")) if v)
+                or None
+            )
+            postings.append(
+                JobPosting(
+                    company="Mercedes-Benz",
+                    job_id=str(item.get("MatchedObjectId", "")),
+                    title=descriptor.get("PositionTitle", ""),
+                    location=location,
+                    url=descriptor.get("PositionURI"),
+                    posted_date=descriptor.get("PublicationStartDate"),
+                    tier="1",
+                )
+            )
+
+        first_item += page_size
+        if first_item > (total or 0):
+            break
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
+def fetch_infor() -> list[JobPosting]:
+    """Fetch Infor's Pinpoint-hosted board via its public jobs.rss feed.
+
+    The careers page itself has no jobs in its HTML (client-rendered), but
+    it links a full jobs.rss - a plain unpaginated feed listing every open
+    role (confirmed live: 161 items, 33 in Hyderabad/Bengaluru). No location
+    field is exposed directly; it's embedded as "<strong>Location: </strong>
+    City" inside each item's content:encoded HTML body.
+    """
+    url = "https://careers.infor.com/jobs.rss"
+    xml_text = fetch_html(url)
+    if not xml_text:
+        return []
+
+    try:
+        root = ElementTree.fromstring(xml_text)
+    except ElementTree.ParseError as exc:
+        logger.warning(f"Infor: could not parse RSS feed: {exc}")
+        return []
+
+    def child_text(item, tag: str) -> str | None:
+        child = item.find(tag)
+        text = child.text.strip() if child is not None and child.text else None
+        return text or None
+
+    postings = []
+    ns = {"content": "http://purl.org/rss/1.0/modules/content/"}
+    for item in root.findall(".//item"):
+        title = child_text(item, "title")
+        link = child_text(item, "link")
+        if not title or not link:
+            continue
+        job_id_match = re.search(r"/jobs/(\d+)", link)
+        job_id = job_id_match.group(1) if job_id_match else hash_job_id(title, link)
+
+        encoded = item.find("content:encoded", ns)
+        location = None
+        if encoded is not None and encoded.text:
+            loc_match = re.search(
+                r"Location:\s*</strong>\s*([^<]+)", encoded.text
+            )
+            if loc_match:
+                location = loc_match.group(1).strip() or None
+
+        postings.append(
+            JobPosting(
+                company="Infor",
+                job_id=job_id,
+                title=title,
+                location=location,
+                url=link,
+                posted_date=child_text(item, "pubDate"),
+                tier="1",
+            )
+        )
+
+    return postings
+
+
+# === SMARTRECRUITERS COMPANIES ===
+
+
+def fetch_smartrecruiters(company_id: str, company: str) -> list[JobPosting]:
+    """Fetch jobs from a SmartRecruiters public postings API.
+
+    The public detail endpoint returns a slugged postingUrl, but
+    jobs.smartrecruiters.com/{company_id}/{id} (no slug needed) resolves the
+    same page directly - confirmed live - so no per-job detail fetch is
+    needed just to build a URL.
+    """
+    postings = []
+    offset = 0
+    page_size = 100
+    total = None
+    pages_fetched = 0
+
+    while pages_fetched < MAX_PAGES:
+        pages_fetched += 1
+        url = (
+            f"https://api.smartrecruiters.com/v1/companies/{company_id}/postings"
+            f"?limit={page_size}&offset={offset}"
+        )
+        data = fetch_with_retry(url)
+        if not data:
+            break
+
+        if total is None:
+            total = data.get("totalFound", 0)
+
+        items = data.get("content", [])
+        if not items:
+            break
+
+        for job in items:
+            job_id = str(job.get("id", ""))
+            location_data = job.get("location") or {}
+            location = location_data.get("fullLocation") or ", ".join(
+                v
+                for v in (location_data.get("city"), location_data.get("region"))
+                if v
+            )
+            postings.append(
+                JobPosting(
+                    company=company,
+                    job_id=job_id,
+                    title=job.get("name", ""),
+                    location=location or None,
+                    url=f"https://jobs.smartrecruiters.com/{company_id}/{job_id}"
+                    if job_id
+                    else None,
+                    posted_date=job.get("releasedDate"),
+                    tier="1",
+                )
+            )
+
+        offset += page_size
+        if offset >= (total or 0):
+            break
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
+def fetch_sandisk() -> list[JobPosting]:
+    return fetch_smartrecruiters("Sandisk", "SanDisk")
+
+
 # === JIO (ASP.NET WEBFORMS) ===
 
 # Jio's careers site is legacy ASP.NET WebForms: pagination is a postback
@@ -1664,6 +1881,23 @@ def fetch_mastercard() -> list[JobPosting]:
 # platform but its refNum/pageId were never captured either - same blocker,
 # needs a live requests.Session() inspection (see fetch_phenom docstring)
 # before it can be added.
+#
+# Update: WBD's refNum ("WAMEGLOBAL") and pageId ("page1") *were* captured
+# live from careers.wbd.com's page config, but the /widgets POST still comes
+# back as {"refineSearch":{"tokenAvailable":false}} with no job data - same
+# response HPE/Mastercard now get from their already-"working" refNum/pageId,
+# so this Phenom /widgets payload shape appears to no longer return jobs at
+# all (platform-side change), not just a WBD-specific gap. Needs a fresh
+# live network-inspection pass against a working Phenom board before
+# re-attempting either WBD or fixing HPE/Mastercard.
+
+# BMW Group (www.bmwgroup.jobs, AEM-rendered) is not implemented: the site's
+# Akamai bot protection resets/hangs every request from this environment
+# (HTTP/2 stream reset, then a plain HTTP/1.1 GET timing out completely)
+# even with full browser headers - never got a live response to confirm the
+# jobfinder30 endpoint shape. Likely to hit the same block from GitHub
+# Actions IPs; needs a real browser (Playwright, tier 2) or a residential-ish
+# egress to verify.
 
 
 # Not yet implemented - platform identified but endpoint/payload unconfirmed
@@ -1727,6 +1961,10 @@ TIER1_COMPANIES = {
     "Kyndryl": fetch_kyndryl,
     "Brightly": fetch_brightly,
     "EXL": fetch_exl,
+    "Mercedes-Benz": fetch_mercedes_benz,
+    "Ciena": fetch_ciena,
+    "Infor": fetch_infor,
+    "SanDisk": fetch_sandisk,
 }
 
 
