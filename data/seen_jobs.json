@@ -846,5 +846,45 @@
   "Salesforce:JR350272": {
     "first_seen": "2026-08-21T14:04:35.422614Z",
     "title": "Software Engineering- MTS (Backend + Infra)"
+  },
+  "IBM:128880": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Software Engineer"
+  },
+  "IBM:129402": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:112859": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "Kyndryl:R-66622": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Linux DevOps Engineer"
+  },
+  "Brightly:519136": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "AI Agentic Software Engineer"
+  },
+  "EXL:19110": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Dot Net Developer"
+  },
+  "Mercedes-Benz:223700": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Full stack Developer - Java/Vue"
+  },
+  "Mercedes-Benz:223698": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Full stack Developer - Java/Vue"
+  },
+  "Mercedes-Benz:223695": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Full stack Developer - Java/Vue"
+  },
+  "Ciena:R030115": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "AI Developer"
   }
 }
