@@ -982,5 +982,13 @@
   "Kyndryl:R-66933": {
     "first_seen": "2026-08-24T08:29:47.790185Z",
     "title": "Platform Engineer - Data"
+  },
+  "IBM:126957": {
+    "first_seen": "2026-08-24T09:18:36.775692Z",
+    "title": "Software Engineer - Confluent"
+  },
+  "IBM:120396": {
+    "first_seen": "2026-08-24T09:18:36.775692Z",
+    "title": "Data Engineer-Data Platforms-AWS"
   }
 }
