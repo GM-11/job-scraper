@@ -962,5 +962,25 @@
   "EXL:15592": {
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Full stack"
+  },
+  "Ericsson:563121774744227": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Infrastructure Engineer"
+  },
+  "Thomson Reuters:JREQ202479": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Site Reliability Engineer (SRE) I"
+  },
+  "Autodesk:26WD99323": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Software Engineer"
+  },
+  "Kyndryl:R-66934": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Platform Engineer - Data"
+  },
+  "Kyndryl:R-66933": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Platform Engineer - Data"
   }
 }
