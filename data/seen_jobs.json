@@ -990,5 +990,17 @@
   "IBM:120396": {
     "first_seen": "2026-08-24T09:18:36.775692Z",
     "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "Ericsson:563121776758898": {
+    "first_seen": "2026-08-24T10:16:08.290121Z",
+    "title": "Data Scientist"
+  },
+  "EXL:13552": {
+    "first_seen": "2026-08-24T10:16:08.290121Z",
+    "title": "(Developer)"
+  },
+  "NatWest:18154707": {
+    "first_seen": "2026-08-24T10:16:08.290121Z",
+    "title": "Site Reliability Engineer"
   }
 }
