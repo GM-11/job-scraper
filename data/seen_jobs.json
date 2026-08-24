@@ -934,5 +934,17 @@
   "Visa:REF087496W": {
     "first_seen": "2026-08-24T04:22:48.728972Z",
     "title": "Data Engineer"
+  },
+  "Salesforce:JR356680": {
+    "first_seen": "2026-08-24T06:09:29.998215Z",
+    "title": "Specialist Solution Engineer"
+  },
+  "Amazon:10511704": {
+    "first_seen": "2026-08-24T06:09:29.998215Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Amazon:10511703": {
+    "first_seen": "2026-08-24T06:09:29.998215Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
   }
 }
