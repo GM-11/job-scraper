@@ -1242,5 +1242,65 @@
   "Qualcomm:446720545038": {
     "first_seen": "2026-08-25T19:08:39.060230Z",
     "title": "Engineer, -AI and Machine Learning with embedded/C++"
+  },
+  "Dell:298150": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Systems Engineer"
+  },
+  "BlackRock:97556635296": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Artificial Intelligence Engineer, Portfolio Management Group, Associate"
+  },
+  "BlackRock:99342598896": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Site Reliability Engineer, Associate"
+  },
+  "BlackRock:96775126624": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate - Power Bi Developer, Data Analytics"
+  },
+  "BlackRock:96643254912": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Java Application Engineer, Aladdin Wealth Technology, Associate"
+  },
+  "Bain & Company:105837": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate - AI Engineer (CTE)"
+  },
+  "Bain & Company:104909": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate - AI ML Engineer (Consumer Products AI)"
+  },
+  "Bain & Company:107186": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate - PEG (Full Stack Developer)"
+  },
+  "Bain & Company:107698": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate \u2013 Data Engineer (Data Business CoE)"
+  },
+  "Bain & Company:105127": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate \u2013 Data Engineer (Data Business CoE)"
+  },
+  "Bain & Company:103685": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate \u2013 Data Engineer (Data Business CoE)"
+  },
+  "Bain & Company:103686": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate \u2013 Data Engineer (Data Business CoE)"
+  },
+  "Bain & Company:100086": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate \u2013 Gen AI Full stack Engineer"
+  },
+  "Bain & Company:107309": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate- AI/ML Engineer(Sustainability)"
+  },
+  "Bain & Company:107185": {
+    "first_seen": "2026-08-25T20:10:11.152986Z",
+    "title": "Associate- PEG (AI Solutions Engineer)"
   }
 }
