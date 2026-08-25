@@ -209,7 +209,7 @@
   },
   "Microsoft:1970393556971410": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
-    "title": "Software Engineer - II"
+    "title": "Software Engineer - II - Windows Systems"
   },
   "Microsoft:1970393556956961": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -1054,5 +1054,9 @@
   "Amazon:10512648": {
     "first_seen": "2026-08-24T19:10:06.466239Z",
     "title": "Software Engineer, Under the Roof Labor Planning, UTR"
+  },
+  "EXL:13374": {
+    "first_seen": "2026-08-25T06:03:29.074429Z",
+    "title": "Data Scientist"
   }
 }
