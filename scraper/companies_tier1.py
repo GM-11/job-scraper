@@ -481,6 +481,17 @@ def fetch_exl() -> list[JobPosting]:
     )
 
 
+def fetch_bny() -> list[JobPosting]:
+    return fetch_oracle_fusion("eofe.fa.us2.oraclecloud.com", "BNY-Careers", "BNY")
+
+
+def fetch_dell() -> list[JobPosting]:
+    # Dell moved off Workday: the dell.wd1.myworkdayjobs.com/External tenant
+    # still resolves but was deliberately emptied and returns 0 jobs. Oracle
+    # Fusion is the live board.
+    return fetch_oracle_fusion("enterpriseplatform.dell.com", "careers", "Dell")
+
+
 # === WORKDAY COMPANIES ===
 
 
@@ -1531,6 +1542,200 @@ def fetch_infor() -> list[JobPosting]:
     return postings
 
 
+# === TALENTBREW COMPANIES ===
+
+
+def fetch_blackrock() -> list[JobPosting]:
+    """Fetch BlackRock's TalentBrew board via its server-rendered listing.
+
+    careers.blackrock.com/search-jobs is plain SSR HTML - no API needed and no
+    JS required (confirmed live: 315 roles across 32 pages of 10). Pagination
+    is ?p=N; note the on-page "next" links render as "/search-jobs&p=2" with a
+    literal ampersand, which the server does NOT honour, so the query string is
+    built here rather than followed. Each result carries a real board job ID in
+    data-job-id, so no synthetic hashing is needed. The listing exposes no
+    posting date, hence posted_date is None.
+    """
+    postings: list[JobPosting] = []
+    seen: set[str] = set()
+    base = "https://careers.blackrock.com"
+
+    for page in range(1, MAX_PAGES + 1):
+        html = fetch_html(f"{base}/search-jobs?p={page}")
+        if not html:
+            break
+
+        soup = BeautifulSoup(html, "html.parser")
+        cards = soup.select("#search-results-list a[data-job-id]")
+        if not cards:
+            break
+
+        new_on_page = 0
+        for card in cards:
+            job_id = card.get("data-job-id")
+            title = text_or_none(card.select_one(".section3__job-title"))
+            if not job_id or not title or job_id in seen:
+                continue
+            seen.add(job_id)
+            new_on_page += 1
+            postings.append(
+                JobPosting(
+                    company="BlackRock",
+                    job_id=str(job_id),
+                    title=title,
+                    location=text_or_none(
+                        card.select_one(".job-location .section3__job-info")
+                    ),
+                    url=urljoin(base, card.get("href", "")),
+                    posted_date=None,
+                    tier="1",
+                )
+            )
+
+        # Past the last page TalentBrew re-serves the final page instead of an
+        # empty one, so stop once a page adds nothing new.
+        if not new_on_page:
+            break
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
+# === AVATURE COMPANIES ===
+
+
+def fetch_bloomberg() -> list[JobPosting]:
+    """Fetch Bloomberg L.P. from its Avature board.
+
+    Bloomberg L.P. is NOT on Workday: bloomberg.wd1.myworkdayjobs.com hosts
+    only Bloombergindustrygroup_External_Career_Site, which is Bloomberg
+    Industry Group (Bloomberg Law/Tax/BNA) - a distinct affiliate with its own
+    ~61 roles. The main company's board is bloomberg.avature.net/careers
+    (confirmed live: 362 roles). careers.bloomberg.com redirects to
+    bloomberg.com and answers 403 to non-browser clients, so it is not used.
+
+    Avature paginates with jobOffset and silently caps jobRecordsPerPage at 12
+    regardless of the value asked for, so the offset must step by 12. The
+    board's RSS feed is deliberately avoided: it ignores jobOffset entirely and
+    only ever returns the newest 20 roles.
+    """
+    postings: list[JobPosting] = []
+    seen: set[str] = set()
+    page_size = 12
+    base = "https://bloomberg.avature.net"
+
+    for page in range(MAX_PAGES):
+        url = (
+            f"{base}/careers/SearchJobs/"
+            f"?jobRecordsPerPage={page_size}&jobOffset={page * page_size}"
+        )
+        html = fetch_html(url)
+        if not html:
+            break
+
+        soup = BeautifulSoup(html, "html.parser")
+        links = soup.select('h3 a[href*="/JobDetail/"]')
+        if not links:
+            break
+
+        for link in links:
+            href = link.get("href", "")
+            title = text_or_none(link)
+            if not title:
+                continue
+            id_match = re.search(r"/JobDetail/[^/]+/(\d+)", href)
+            job_id = id_match.group(1) if id_match else hash_job_id(title, href)
+            if job_id in seen:
+                continue
+            seen.add(job_id)
+            card = link.find_parent("div", class_="article__header__text")
+            postings.append(
+                JobPosting(
+                    company="Bloomberg",
+                    job_id=str(job_id),
+                    title=title,
+                    location=text_or_none(
+                        card.select_one(".list-item-location") if card else None
+                    ),
+                    url=urljoin(base, href),
+                    posted_date=None,
+                    tier="1",
+                )
+            )
+
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
+def fetch_bain() -> list[JobPosting]:
+    """Fetch Bain & Company from its Avature board.
+
+    Same Avature platform as Bloomberg but a different portal flavour: results
+    link to /jobs/FolderDetail/<slug>/<id> rather than /JobDetail/, and paging
+    uses folderOffset rather than jobOffset (confirmed live: 239 roles across
+    24 pages).
+
+    The board's documented entry point is a form POST to /jobs/SearchJobs with
+    search/timeZone/listFilterMode - that works and needs no CSRF token, but it
+    only returns the unpaginated first page, so it is not what is used here.
+    A plain GET on the same path with listFilterMode=1&folderOffset=N is what
+    the portal's own pager links to and returns identical results, so the whole
+    board is walked with GET and no POST body is needed. As with Bloomberg,
+    folderRecordsPerPage is silently capped (at 10 here) whatever value is
+    requested, so the offset must step by 10.
+    """
+    postings: list[JobPosting] = []
+    seen: set[str] = set()
+    page_size = 10
+    base = "https://careers.bain.com"
+
+    for page in range(MAX_PAGES):
+        url = (
+            f"{base}/jobs/SearchJobs/?listFilterMode=1"
+            f"&folderRecordsPerPage={page_size}&folderOffset={page * page_size}"
+        )
+        html = fetch_html(url)
+        if not html:
+            break
+
+        soup = BeautifulSoup(html, "html.parser")
+        links = soup.select('h3 a[href*="/FolderDetail/"]')
+        if not links:
+            break
+
+        for link in links:
+            href = link.get("href", "")
+            title = text_or_none(link)
+            if not title:
+                continue
+            id_match = re.search(r"/FolderDetail/[^/]+/(\d+)", href)
+            job_id = id_match.group(1) if id_match else hash_job_id(title, href)
+            if job_id in seen:
+                continue
+            seen.add(job_id)
+            card = link.find_parent("div", class_="article__header__text")
+            postings.append(
+                JobPosting(
+                    company="Bain & Company",
+                    job_id=str(job_id),
+                    title=title,
+                    location=text_or_none(
+                        card.select_one(".article__header__text__subtitle")
+                        if card
+                        else None
+                    ),
+                    url=urljoin(base, href),
+                    posted_date=None,
+                    tier="1",
+                )
+            )
+
+        time.sleep(REQUEST_DELAY)
+
+    return postings
+
+
 # === SMARTRECRUITERS COMPANIES ===
 
 
@@ -1961,6 +2166,11 @@ TIER1_COMPANIES = {
     "Kyndryl": fetch_kyndryl,
     "Brightly": fetch_brightly,
     "EXL": fetch_exl,
+    "BNY": fetch_bny,
+    "Dell": fetch_dell,
+    "BlackRock": fetch_blackrock,
+    "Bloomberg": fetch_bloomberg,
+    "Bain & Company": fetch_bain,
     "Mercedes-Benz": fetch_mercedes_benz,
     "Ciena": fetch_ciena,
     "Infor": fetch_infor,
