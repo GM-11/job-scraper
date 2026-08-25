@@ -1142,5 +1142,29 @@
   "EXL:19203": {
     "first_seen": "2026-08-25T11:01:05.201961Z",
     "title": "Data Scientist"
+  },
+  "IBM:130303": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:130236": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms"
+  },
+  "IBM:130253": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:130271": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:130237": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms"
+  },
+  "Infor:567560": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Software Engineer, Associate"
   }
 }
