@@ -1058,5 +1058,17 @@
   "EXL:13374": {
     "first_seen": "2026-08-25T06:03:29.074429Z",
     "title": "Data Scientist"
+  },
+  "Salesforce:JR338172": {
+    "first_seen": "2026-08-25T07:10:22.651010Z",
+    "title": "Software Engineering, MTS/ SMTS (Full-Stack)"
+  },
+  "Amazon:10511781": {
+    "first_seen": "2026-08-25T07:10:22.651010Z",
+    "title": "Software Development Engineer, Amazon International Seller Services"
+  },
+  "Ciena:R031454": {
+    "first_seen": "2026-08-25T07:10:22.651010Z",
+    "title": "C++ Developer"
   }
 }
