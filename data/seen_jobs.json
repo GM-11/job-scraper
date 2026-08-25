@@ -1190,5 +1190,33 @@
   "NatWest:18134913": {
     "first_seen": "2026-08-25T13:29:52.312483Z",
     "title": "Infrastructure engineer, SRE"
+  },
+  "Amazon:10513736": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Software Development Engineer, Last Mile, Last Mile - Execution Planning,  Last Mile - Execution Planning"
+  },
+  "IBM:130277": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:130634": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Application Developer-Microsoft Dynamics 365 Customer Engagement"
+  },
+  "IBM:130500": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Application Developer-Microsoft Dynamics 365 Finance & Operations"
+  },
+  "IBM:130543": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Data Engineer-Master Data Management"
+  },
+  "IBM:130261": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130473": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Data Engineer-Data Integration"
   }
 }
