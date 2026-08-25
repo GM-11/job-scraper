@@ -1070,5 +1070,13 @@
   "Ciena:R031454": {
     "first_seen": "2026-08-25T07:10:22.651010Z",
     "title": "C++ Developer"
+  },
+  "Kyndryl:R-60925": {
+    "first_seen": "2026-08-25T08:14:53.909184Z",
+    "title": "Full Stack Developer"
+  },
+  "EXL:19194": {
+    "first_seen": "2026-08-25T08:14:53.909184Z",
+    "title": "Data Scientist"
   }
 }
