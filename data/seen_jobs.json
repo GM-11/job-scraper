@@ -1078,5 +1078,53 @@
   "EXL:19194": {
     "first_seen": "2026-08-25T08:14:53.909184Z",
     "title": "Data Scientist"
+  },
+  "Apple:200628323": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "devops-engineer"
+  },
+  "IBM:130255": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130251": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130246": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application developer-Cloud fullstack"
+  },
+  "IBM:130262": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:130229": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130249": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130228": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130248": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "EXL:19200": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Programmer Analyst"
+  },
+  "NatWest:18142597": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18142596": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Software Engineer"
   }
 }
