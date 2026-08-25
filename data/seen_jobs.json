@@ -209,7 +209,7 @@
   },
   "Microsoft:1970393556971410": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
-    "title": "Software Engineer - II"
+    "title": "Software Engineer - II - Windows Systems"
   },
   "Microsoft:1970393556956961": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -405,7 +405,7 @@
   },
   "S&P Global:328456": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
-    "title": "Software Development Engineer in Test (SDET) \u2013 Java"
+    "title": "Software Engineer (Java)"
   },
   "Ericsson:563121775610350": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
@@ -846,5 +846,397 @@
   "Salesforce:JR350272": {
     "first_seen": "2026-08-21T14:04:35.422614Z",
     "title": "Software Engineering- MTS (Backend + Infra)"
+  },
+  "IBM:128880": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Software Engineer"
+  },
+  "IBM:129402": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:112859": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "Kyndryl:R-66622": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Linux DevOps Engineer"
+  },
+  "Brightly:519136": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "AI Agentic Software Engineer"
+  },
+  "EXL:19110": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Dot Net Developer"
+  },
+  "Mercedes-Benz:223700": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Full stack Developer - Java/Vue"
+  },
+  "Mercedes-Benz:223698": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Full stack Developer - Java/Vue"
+  },
+  "Mercedes-Benz:223695": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "Full stack Developer - Java/Vue"
+  },
+  "Ciena:R030115": {
+    "first_seen": "2026-08-22T11:51:33.242369Z",
+    "title": "AI Developer"
+  },
+  "Visa:REF081660W": {
+    "first_seen": "2026-08-23T17:52:23.678204Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18154432": {
+    "first_seen": "2026-08-23T17:52:23.678204Z",
+    "title": "Software Developer Trainee - Java & AI/ML | 6-Month Fixed-Term Contract | 2026 Graduates"
+  },
+  "NatWest:18154431": {
+    "first_seen": "2026-08-23T17:52:23.678204Z",
+    "title": "Software Developer Trainee - Java & AI/ML | 6-Month Fixed-Term Contract | 2026 Graduates"
+  },
+  "IBM:130196": {
+    "first_seen": "2026-08-23T20:51:44.495049Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
+  "IBM:130190": {
+    "first_seen": "2026-08-23T20:51:44.495049Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
+  "IBM:130203": {
+    "first_seen": "2026-08-23T20:51:44.495049Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
+  "IBM:130197": {
+    "first_seen": "2026-08-23T20:51:44.495049Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
+  "IBM:130200": {
+    "first_seen": "2026-08-23T20:51:44.495049Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
+  "IBM:130192": {
+    "first_seen": "2026-08-23T20:51:44.495049Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
+  "IBM:130186": {
+    "first_seen": "2026-08-23T20:51:44.495049Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
+  "NVIDIA:893397145177": {
+    "first_seen": "2026-08-24T01:33:24.570479Z",
+    "title": "Software QA Test and Tools Developer \u2013 Automotive Platform"
+  },
+  "Visa:REF087496W": {
+    "first_seen": "2026-08-24T04:22:48.728972Z",
+    "title": "Data Engineer"
+  },
+  "Salesforce:JR356680": {
+    "first_seen": "2026-08-24T06:09:29.998215Z",
+    "title": "Specialist Solution Engineer"
+  },
+  "Amazon:10511704": {
+    "first_seen": "2026-08-24T06:09:29.998215Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Amazon:10511703": {
+    "first_seen": "2026-08-24T06:09:29.998215Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Salesforce:JR312327": {
+    "first_seen": "2026-08-24T07:22:56.651619Z",
+    "title": "MTS/SMTS/LMTS - Software Engineer"
+  },
+  "Visa:REF087690W": {
+    "first_seen": "2026-08-24T07:22:56.651619Z",
+    "title": "Software Engineer (1 year Exp)"
+  },
+  "Kyndryl:R-66887": {
+    "first_seen": "2026-08-24T07:22:56.651619Z",
+    "title": "Platform Engineer"
+  },
+  "EXL:15592": {
+    "first_seen": "2026-08-24T07:22:56.651619Z",
+    "title": "Full stack"
+  },
+  "Ericsson:563121774744227": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Infrastructure Engineer"
+  },
+  "Thomson Reuters:JREQ202479": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Site Reliability Engineer (SRE) I"
+  },
+  "Autodesk:26WD99323": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Software Engineer"
+  },
+  "Kyndryl:R-66934": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Platform Engineer - Data"
+  },
+  "Kyndryl:R-66933": {
+    "first_seen": "2026-08-24T08:29:47.790185Z",
+    "title": "Platform Engineer - Data"
+  },
+  "IBM:126957": {
+    "first_seen": "2026-08-24T09:18:36.775692Z",
+    "title": "Software Engineer - Confluent"
+  },
+  "IBM:120396": {
+    "first_seen": "2026-08-24T09:18:36.775692Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "Ericsson:563121776758898": {
+    "first_seen": "2026-08-24T10:16:08.290121Z",
+    "title": "Data Scientist"
+  },
+  "EXL:13552": {
+    "first_seen": "2026-08-24T10:16:08.290121Z",
+    "title": "(Developer)"
+  },
+  "NatWest:18154707": {
+    "first_seen": "2026-08-24T10:16:08.290121Z",
+    "title": "Site Reliability Engineer"
+  },
+  "JPMorgan:210757291": {
+    "first_seen": "2026-08-24T11:55:48.251163Z",
+    "title": "Data Scientist Associate"
+  },
+  "IBM:112857": {
+    "first_seen": "2026-08-24T11:55:48.251163Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:129399": {
+    "first_seen": "2026-08-24T11:55:48.251163Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:129396": {
+    "first_seen": "2026-08-24T11:55:48.251163Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:129393": {
+    "first_seen": "2026-08-24T11:55:48.251163Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "JPMorgan:210778654": {
+    "first_seen": "2026-08-24T13:15:53.631940Z",
+    "title": "CIB Business Support Management - Analytics Solutions Developer"
+  },
+  "Kyndryl:R-66091": {
+    "first_seen": "2026-08-24T13:15:53.631940Z",
+    "title": "Full stack SW Engineer"
+  },
+  "EXL:17434": {
+    "first_seen": "2026-08-24T13:15:53.631940Z",
+    "title": "Data Engineer"
+  },
+  "Mercedes-Benz:221620": {
+    "first_seen": "2026-08-24T14:21:13.684354Z",
+    "title": "Full stack Developer - JAVA"
+  },
+  "Nike:R-85379": {
+    "first_seen": "2026-08-24T15:14:56.799573Z",
+    "title": "Software Engineer I, ITC"
+  },
+  "EXL:19184": {
+    "first_seen": "2026-08-24T15:14:56.799573Z",
+    "title": "BI Developer"
+  },
+  "Amazon:10512590": {
+    "first_seen": "2026-08-24T18:03:08.906918Z",
+    "title": "Software Development Engineer, Vendor Experience"
+  },
+  "Amazon:10512648": {
+    "first_seen": "2026-08-24T19:10:06.466239Z",
+    "title": "Software Engineer, Under the Roof Labor Planning, UTR"
+  },
+  "EXL:13374": {
+    "first_seen": "2026-08-25T06:03:29.074429Z",
+    "title": "Data Scientist"
+  },
+  "Salesforce:JR338172": {
+    "first_seen": "2026-08-25T07:10:22.651010Z",
+    "title": "Software Engineering, MTS/ SMTS (Full-Stack)"
+  },
+  "Amazon:10511781": {
+    "first_seen": "2026-08-25T07:10:22.651010Z",
+    "title": "Software Development Engineer, Amazon International Seller Services"
+  },
+  "Ciena:R031454": {
+    "first_seen": "2026-08-25T07:10:22.651010Z",
+    "title": "C++ Developer"
+  },
+  "Kyndryl:R-60925": {
+    "first_seen": "2026-08-25T08:14:53.909184Z",
+    "title": "Full Stack Developer"
+  },
+  "EXL:19194": {
+    "first_seen": "2026-08-25T08:14:53.909184Z",
+    "title": "Data Scientist"
+  },
+  "Apple:200628323": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "devops-engineer"
+  },
+  "IBM:130255": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130251": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130246": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application developer-Cloud fullstack"
+  },
+  "IBM:130262": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:130229": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130249": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130228": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130248": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "EXL:19200": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Programmer Analyst"
+  },
+  "NatWest:18142597": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18142596": {
+    "first_seen": "2026-08-25T09:09:56.283563Z",
+    "title": "Software Engineer"
+  },
+  "EXL:19155": {
+    "first_seen": "2026-08-25T10:06:22.324231Z",
+    "title": "Azure DevOps"
+  },
+  "EXL:18661": {
+    "first_seen": "2026-08-25T11:01:05.201961Z",
+    "title": "Power BI Developer"
+  },
+  "EXL:19122": {
+    "first_seen": "2026-08-25T11:01:05.201961Z",
+    "title": "Cloud Engineer"
+  },
+  "EXL:19203": {
+    "first_seen": "2026-08-25T11:01:05.201961Z",
+    "title": "Data Scientist"
+  },
+  "IBM:130303": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:130236": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms"
+  },
+  "IBM:130253": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:130271": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:130237": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Data Engineer-Data Platforms"
+  },
+  "Infor:567560": {
+    "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Software Engineer, Associate"
+  },
+  "EXL:19231": {
+    "first_seen": "2026-08-25T13:29:52.312483Z",
+    "title": "Azure Data Engineer"
+  },
+  "NatWest:18154925": {
+    "first_seen": "2026-08-25T13:29:52.312483Z",
+    "title": "Wow Software Engineer"
+  },
+  "NatWest:18154924": {
+    "first_seen": "2026-08-25T13:29:52.312483Z",
+    "title": "Wow Software Engineer"
+  },
+  "NatWest:18154923": {
+    "first_seen": "2026-08-25T13:29:52.312483Z",
+    "title": "Wow Software Engineer"
+  },
+  "NatWest:18134914": {
+    "first_seen": "2026-08-25T13:29:52.312483Z",
+    "title": "Infrastructure engineer, SRE"
+  },
+  "NatWest:18134913": {
+    "first_seen": "2026-08-25T13:29:52.312483Z",
+    "title": "Infrastructure engineer, SRE"
+  },
+  "Amazon:10513736": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Software Development Engineer, Last Mile, Last Mile - Execution Planning,  Last Mile - Execution Planning"
+  },
+  "IBM:130277": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:130634": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Application Developer-Microsoft Dynamics 365 Customer Engagement"
+  },
+  "IBM:130500": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Application Developer-Microsoft Dynamics 365 Finance & Operations"
+  },
+  "IBM:130543": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Data Engineer-Master Data Management"
+  },
+  "IBM:130261": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130473": {
+    "first_seen": "2026-08-25T15:13:53.231410Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "Amazon:10513792": {
+    "first_seen": "2026-08-25T16:16:53.400203Z",
+    "title": "Software Development Engineer - II, ShipTech Analytics"
+  },
+  "Qualcomm:446719368316": {
+    "first_seen": "2026-08-25T18:04:44.859228Z",
+    "title": "Engineer -XR,Machine Learning"
+  },
+  "Qualcomm:446720545012": {
+    "first_seen": "2026-08-25T18:04:44.859228Z",
+    "title": "Engineer, -AI and Machine Learning with embedded/C++"
+  },
+  "IBM:130266": {
+    "first_seen": "2026-08-25T18:04:44.859228Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "EXL:19283": {
+    "first_seen": "2026-08-25T18:04:44.859228Z",
+    "title": "Full Stack Engineer"
   }
 }
