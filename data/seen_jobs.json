@@ -1222,5 +1222,21 @@
   "Amazon:10513792": {
     "first_seen": "2026-08-25T16:16:53.400203Z",
     "title": "Software Development Engineer - II, ShipTech Analytics"
+  },
+  "Qualcomm:446719368316": {
+    "first_seen": "2026-08-25T18:04:44.859228Z",
+    "title": "Engineer -XR,Machine Learning"
+  },
+  "Qualcomm:446720545012": {
+    "first_seen": "2026-08-25T18:04:44.859228Z",
+    "title": "Engineer, -AI and Machine Learning with embedded/C++"
+  },
+  "IBM:130266": {
+    "first_seen": "2026-08-25T18:04:44.859228Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "EXL:19283": {
+    "first_seen": "2026-08-25T18:04:44.859228Z",
+    "title": "Full Stack Engineer"
   }
 }
