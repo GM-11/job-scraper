@@ -1130,5 +1130,17 @@
   "EXL:19155": {
     "first_seen": "2026-08-25T10:06:22.324231Z",
     "title": "Azure DevOps"
+  },
+  "EXL:18661": {
+    "first_seen": "2026-08-25T11:01:05.201961Z",
+    "title": "Power BI Developer"
+  },
+  "EXL:19122": {
+    "first_seen": "2026-08-25T11:01:05.201961Z",
+    "title": "Cloud Engineer"
+  },
+  "EXL:19203": {
+    "first_seen": "2026-08-25T11:01:05.201961Z",
+    "title": "Data Scientist"
   }
 }
