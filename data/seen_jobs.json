@@ -1502,5 +1502,29 @@
   "IBM:130330": {
     "first_seen": "2026-08-26T09:17:03.648575Z",
     "title": "Data Engineer-Data Platforms-Google"
+  },
+  "Ericsson:563121774658580": {
+    "first_seen": "2026-08-26T12:04:38.637530Z",
+    "title": "Data Scientist"
+  },
+  "Ericsson:563121777134099": {
+    "first_seen": "2026-08-26T12:04:38.637530Z",
+    "title": "5G Baseband Developer"
+  },
+  "Rippling:16b161f2-b631-408e-9177-c5723c62d690__bangalore-india": {
+    "first_seen": "2026-08-26T12:04:38.637530Z",
+    "title": "Credit Data Scientist & AI Agents"
+  },
+  "IBM:130231": {
+    "first_seen": "2026-08-26T12:04:38.637530Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130636": {
+    "first_seen": "2026-08-26T12:04:38.637530Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130595": {
+    "first_seen": "2026-08-26T12:04:38.637530Z",
+    "title": "Application Developer-AWS Cloud FullStack"
   }
 }
