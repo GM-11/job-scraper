@@ -1402,5 +1402,105 @@
   "EXL:19221": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
     "title": "Programmer Analyst"
+  },
+  "IBM:130270": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130276": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130265": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:130275": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130621": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130257": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130291": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130274": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130323": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:130493": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:130284": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Scientist-Advanced Analytics"
+  },
+  "IBM:130250": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-Google Cloud FullStack"
+  },
+  "IBM:130263": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130328": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:130314": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:130470": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:130487": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-Azure Cloud FullStack"
+  },
+  "IBM:130287": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:130615": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-Google Cloud FullStack"
+  },
+  "IBM:130687": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130608": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130739": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:130289": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130598": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130330": {
+    "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Google"
   }
 }
