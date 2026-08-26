@@ -1526,5 +1526,21 @@
   "IBM:130595": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
     "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130333": {
+    "first_seen": "2026-08-26T13:19:22.840883Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:130259": {
+    "first_seen": "2026-08-26T13:19:22.840883Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130294": {
+    "first_seen": "2026-08-26T13:19:22.840883Z",
+    "title": "ML Engineer-Advanced Analytics"
+  },
+  "EXL:17033": {
+    "first_seen": "2026-08-26T13:19:22.840883Z",
+    "title": "Data Scientist - GenAi-AgenticAi"
   }
 }
