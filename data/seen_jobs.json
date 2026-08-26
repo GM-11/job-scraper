@@ -1378,5 +1378,21 @@
   "Ciena:R031564": {
     "first_seen": "2026-08-26T06:09:27.083646Z",
     "title": "Java Developer- Telecom Domain"
+  },
+  "Ericsson:563121777133879": {
+    "first_seen": "2026-08-26T07:15:33.892097Z",
+    "title": "Ericsson Order Care Developer"
+  },
+  "Morgan Stanley:549799455672": {
+    "first_seen": "2026-08-26T07:15:33.892097Z",
+    "title": "Machine Learning, Associate, WM Admin, Wealth Management"
+  },
+  "Ciena:R031566": {
+    "first_seen": "2026-08-26T07:15:33.892097Z",
+    "title": "Java Developer- Networking Domain"
+  },
+  "NatWest:18169944": {
+    "first_seen": "2026-08-26T07:15:33.892097Z",
+    "title": "Java Microservices Developer"
   }
 }
