@@ -1610,5 +1610,21 @@
   "IBM:130264": {
     "first_seen": "2026-08-27T09:58:47.530455Z",
     "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "Amazon:10516674": {
+    "first_seen": "2026-08-27T14:21:07.454600Z",
+    "title": "Software Development Engineer, PXT Case Management System"
+  },
+  "Amazon:10516728": {
+    "first_seen": "2026-08-27T14:21:07.454600Z",
+    "title": "Software Development Engineer, Alexa Connections"
+  },
+  "EXL:19390": {
+    "first_seen": "2026-08-27T14:21:07.454600Z",
+    "title": "Data Scientist"
+  },
+  "BlackRock:95937643344": {
+    "first_seen": "2026-08-27T14:21:07.454600Z",
+    "title": "Associate, Application Engineer"
   }
 }
