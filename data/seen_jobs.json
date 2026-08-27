@@ -1574,5 +1574,41 @@
   "Apple:200679829": {
     "first_seen": "2026-08-27T03:30:37.346319Z",
     "title": "devops-engineer"
+  },
+  "Microsoft:1970393556957890": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "Software Engineer"
+  },
+  "NVIDIA:893397378585": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "Front-End Integration Engineer"
+  },
+  "NVIDIA:893397381932": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "Software QA Test Developer -  Embedded"
+  },
+  "JPMorgan:210783088": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "Analyst Python Developer"
+  },
+  "Salesforce:JR357369": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "Specialist Solution Engineer"
+  },
+  "Visa:REF083082W": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "SW Engineer (1 - 2 years of exp in .Net / Python, Full-stack development, Angular / React, GenAI)"
+  },
+  "IBM:130282": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130268": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130264": {
+    "first_seen": "2026-08-27T09:58:47.530455Z",
+    "title": "Application Developer-AWS Cloud FullStack"
   }
 }
