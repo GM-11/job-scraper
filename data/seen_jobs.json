@@ -1686,5 +1686,33 @@
   "Infor:570095": {
     "first_seen": "2026-08-28T09:01:21.235794Z",
     "title": "Software Engineer, Associate - (Java Developer)"
+  },
+  "Qualcomm:446720816242": {
+    "first_seen": "2026-08-28T21:16:17.648186Z",
+    "title": "Modem/GNSS Systems Engineer"
+  },
+  "Ericsson:563121777128415": {
+    "first_seen": "2026-08-28T21:16:17.648186Z",
+    "title": "Ericsson Catalogue Management Developer"
+  },
+  "Ericsson:563121777143602": {
+    "first_seen": "2026-08-28T21:16:17.648186Z",
+    "title": "Software Engineer"
+  },
+  "IBM:127098": {
+    "first_seen": "2026-08-28T21:16:17.648186Z",
+    "title": "Application Developer-Microsoft .NET Stack"
+  },
+  "IBM:130272": {
+    "first_seen": "2026-08-28T21:16:17.648186Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "Kyndryl:R-66165": {
+    "first_seen": "2026-08-28T21:16:17.648186Z",
+    "title": "Full Stack Engineer"
+  },
+  "NatWest:17365916": {
+    "first_seen": "2026-08-28T21:16:17.648186Z",
+    "title": "WoW - Software Engineer"
   }
 }
