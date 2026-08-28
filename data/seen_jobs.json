@@ -1658,5 +1658,33 @@
   "Bain & Company:109191": {
     "first_seen": "2026-08-28T00:07:29.024046Z",
     "title": "Data Engineer - CORO Products"
+  },
+  "Thomson Reuters:JREQ202649": {
+    "first_seen": "2026-08-28T09:01:21.235794Z",
+    "title": "Software Engineer I"
+  },
+  "IBM:130468": {
+    "first_seen": "2026-08-28T09:01:21.235794Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:130475": {
+    "first_seen": "2026-08-28T09:01:21.235794Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "EXL:19096": {
+    "first_seen": "2026-08-28T09:01:21.235794Z",
+    "title": "Platform Engineer"
+  },
+  "Infor:570075": {
+    "first_seen": "2026-08-28T09:01:21.235794Z",
+    "title": "Software Engineer, Associate(Java)"
+  },
+  "Infor:570077": {
+    "first_seen": "2026-08-28T09:01:21.235794Z",
+    "title": "Software Engineer, Associate (Java)"
+  },
+  "Infor:570095": {
+    "first_seen": "2026-08-28T09:01:21.235794Z",
+    "title": "Software Engineer, Associate - (Java Developer)"
   }
 }
