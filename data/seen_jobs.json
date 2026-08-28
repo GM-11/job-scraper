@@ -1626,5 +1626,37 @@
   "BlackRock:95937643344": {
     "first_seen": "2026-08-27T14:21:07.454600Z",
     "title": "Associate, Application Engineer"
+  },
+  "S&P Global:328025": {
+    "first_seen": "2026-08-28T00:07:29.024046Z",
+    "title": "Machine Learning Engineer"
+  },
+  "IBM:130471": {
+    "first_seen": "2026-08-28T00:07:29.024046Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:130267": {
+    "first_seen": "2026-08-28T00:07:29.024046Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:112910": {
+    "first_seen": "2026-08-28T00:07:29.024046Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:119336": {
+    "first_seen": "2026-08-28T00:07:29.024046Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:130247": {
+    "first_seen": "2026-08-28T00:07:29.024046Z",
+    "title": "Application developer-Cloud fullstack"
+  },
+  "IBM:130279": {
+    "first_seen": "2026-08-28T00:07:29.024046Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "Bain & Company:109191": {
+    "first_seen": "2026-08-28T00:07:29.024046Z",
+    "title": "Data Engineer - CORO Products"
   }
 }
