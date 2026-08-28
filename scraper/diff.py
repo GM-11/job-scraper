@@ -31,7 +31,10 @@ def save_seen_jobs(seen_jobs: dict) -> None:
     """Save seen jobs to seen_jobs.json."""
     SEEN_JOBS_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(SEEN_JOBS_PATH, "w") as f:
-        json.dump(seen_jobs, f, indent=2)
+        # Sorted keys keep the committed file stable across runs, so diffs stay
+        # readable and concurrent runs are less likely to touch the same lines.
+        json.dump(seen_jobs, f, indent=2, sort_keys=True)
+        f.write("\n")
 
 
 def process_postings(current_postings: list[JobPosting]) -> tuple[list[JobPosting], dict]:

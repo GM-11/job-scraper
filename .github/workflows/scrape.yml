@@ -1,7 +1,10 @@
 name: scrape
 on:
   schedule:
-    - cron: "0 * * * *"
+    # Deliberately not on the hour. GitHub runs scheduled workflows on a
+    # best-effort basis and drops them under load; ":00" is the most contended
+    # minute, so an off-peak minute gets dropped less often.
+    - cron: "23 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -35,6 +38,8 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           SMTP_TO: ${{ secrets.SMTP_TO }}
       - name: Commit updated seen_jobs.json
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "job-scraper-bot"
           git config user.email "bot@users.noreply.github.com"
@@ -44,9 +49,25 @@ jobs:
           git commit -m "chore: update seen jobs"
 
           for attempt in 1 2 3 4 5; do
-            git pull --rebase && git push && exit 0
-            echo "Push attempt $attempt failed, retrying..."
+            git push && exit 0
+            echo "Push attempt $attempt failed, merging remote changes..."
             sleep $((attempt * 5))
+
+            # Another run pushed first. seen_jobs.json is a dict keyed by job,
+            # so the correct resolution is the union of both sides -- merge it
+            # explicitly rather than letting git attempt a line-based merge,
+            # which conflicts whenever both sides appended entries.
+            git fetch origin "$BRANCH"
+            git show "origin/$BRANCH:data/seen_jobs.json" > /tmp/remote_seen.json \
+              || echo '{}' > /tmp/remote_seen.json
+            python scripts/merge_seen_jobs.py \
+              data/seen_jobs.json /tmp/remote_seen.json /tmp/merged_seen.json
+
+            git reset --hard "origin/$BRANCH"
+            cp /tmp/merged_seen.json data/seen_jobs.json
+            git add data/seen_jobs.json
+            git diff --staged --quiet && exit 0
+            git commit -m "chore: update seen jobs"
           done
 
           echo "Failed to push after 5 attempts"
