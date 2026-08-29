@@ -1,0 +1,2 @@
+# Deliberately not on the hour, mirroring the old GitHub Actions schedule.
+23 * * * * root /app/docker/run_scraper.sh >> /proc/1/fd/1 2>> /proc/1/fd/2

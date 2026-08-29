@@ -1,0 +1,11 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+.env
+.claude
+data/seen_jobs.json
+README.md
+AGENT.MD
+instruction.md

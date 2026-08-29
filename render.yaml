@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: job-scraper
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    healthCheckPath: /
+    envVars:
+      - key: SMTP_FROM
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: SMTP_TO
+        sync: false
