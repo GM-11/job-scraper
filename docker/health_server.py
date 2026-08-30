@@ -10,6 +10,7 @@ No dependencies beyond the stdlib so it starts instantly.
 import json
 import os
 import subprocess
+import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 RUN_SCRIPT = "/app/docker/run_scraper.sh"
@@ -36,15 +37,22 @@ class HealthHandler(BaseHTTPRequestHandler):
             self._json(404, {"error": "not found"})
             return
 
+        # supervisord captures this program's own stdout/stderr and forwards
+        # them to the container's log stream (see stdout_logfile=/dev/stdout
+        # in supervisord.conf), so writing to our own fds -- and having the
+        # subprocess inherit them -- is enough to show up in `docker logs`.
+        print("[health_server] manual /run trigger received", flush=True)
+
         # run_scraper.sh flocks /tmp/job-scraper.lock, so a run already in
         # progress (from cron or a previous manual trigger) just gets
         # skipped rather than overlapping. Launch detached and return
         # immediately -- a full scrape can take a while.
-        with open("/proc/1/fd/1", "ab", buffering=0) as out, open(
-            "/proc/1/fd/2", "ab", buffering=0
-        ) as err:
-            out.write(b"[health_server] manual /run trigger received\n")
-            subprocess.Popen([RUN_SCRIPT], stdout=out, stderr=err, start_new_session=True)
+        subprocess.Popen(
+            [RUN_SCRIPT],
+            stdout=sys.stdout,
+            stderr=sys.stderr,
+            start_new_session=True,
+        )
 
         self._json(202, {"status": "started"})
 
