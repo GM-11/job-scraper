@@ -9,4 +9,16 @@ if [ -f /app/docker/env.sh ]; then
 fi
 
 cd /app
+
+echo "[run_scraper] triggered at $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+
+# Flock so the hourly cron run and a manually-triggered run (via the health
+# server's /run endpoint) never execute concurrently.
+exec 9>/tmp/job-scraper.lock
+if ! flock -n 9; then
+  echo "[run_scraper] a scrape is already running, skipping this trigger"
+  exit 0
+fi
+
+echo "[run_scraper] starting scraper"
 exec python -m scraper.main --tier all
