@@ -5,7 +5,10 @@
 set -euo pipefail
 
 : > /app/docker/env.sh
-for var in SMTP_FROM SMTP_PASSWORD SMTP_TO; do
+# PATH matters as much as the secrets: cron's default PATH is just
+# /usr/bin:/bin, which omits /usr/local/bin where the python:3.12-slim image
+# puts python -- without this the cron job dies with "python: not found".
+for var in PATH SMTP_FROM SMTP_PASSWORD SMTP_TO; do
   if [ -n "${!var:-}" ]; then
     printf 'export %s=%q\n' "$var" "${!var}" >> /app/docker/env.sh
   fi

@@ -1,2 +1,3 @@
-# Runs every hour, on the hour, 24x/day.
-0 * * * * root /app/docker/run_scraper.sh >> /proc/1/fd/1 2>> /proc/1/fd/2
+# Runs every hour, on the hour, 24x/day. Output goes to PID 1 (supervisord)
+# stdout/stderr, which is the container log stream Render displays.
+0 * * * * root /app/docker/run_scraper.sh cron >> /proc/1/fd/1 2>> /proc/1/fd/2

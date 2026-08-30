@@ -18,6 +18,9 @@ RUN chmod +x /app/docker/entrypoint.sh /app/docker/run_scraper.sh
 # Render's web-service health check hits this port; the cron schedule does
 # the actual scraping work independently of any incoming HTTP traffic.
 ENV PORT=10000
+# Without this, Python block-buffers stdout when it isn't a tty and log lines
+# sit unflushed -- they show up late or not at all in Render's log viewer.
+ENV PYTHONUNBUFFERED=1
 EXPOSE 10000
 
 CMD ["/app/docker/entrypoint.sh"]

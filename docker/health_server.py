@@ -1,9 +1,13 @@
-"""Minimal HTTP server for Render's web-service health check, plus a manual
-trigger endpoint so the scraper can be run on demand instead of waiting for
-the hourly cron.
+"""HTTP server for Render's web-service health check plus a manual trigger.
 
-The actual work normally happens on cron; this process only proves the
-container is alive and, on request, kicks off the same script cron uses.
+The scraper normally runs on cron; this process proves the container is alive
+and, on request, kicks off the same script cron uses.
+
+Logging note: supervisord forwards this program's stdout to the container's
+log stream (stdout_logfile=/dev/stdout in supervisord.conf), which is what
+Render's log viewer reads. Every write is flushed immediately -- an idle
+process can otherwise sit on a buffered line indefinitely.
+
 No dependencies beyond the stdlib so it starts instantly.
 """
 
@@ -11,14 +15,21 @@ import json
 import os
 import subprocess
 import sys
+import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 RUN_SCRIPT = "/app/docker/run_scraper.sh"
-LOCK_FILE = "/tmp/job-scraper.lock"
+HEALTH_PATHS = ("/", "/healthz")
 
 
-class HealthHandler(BaseHTTPRequestHandler):
-    def _json(self, status: int, payload: dict) -> None:
+def log(msg: str) -> None:
+    ts = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    sys.stdout.write(f"{ts} [health_server] {msg}\n")
+    sys.stdout.flush()
+
+
+class Handler(BaseHTTPRequestHandler):
+    def _respond(self, status: int, payload: dict) -> None:
         body = json.dumps(payload).encode()
         self.send_response(status)
         self.send_header("Content-Type", "application/json")
@@ -26,44 +37,51 @@ class HealthHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
-    def do_GET(self) -> None:
-        self.send_response(200)
-        self.send_header("Content-Type", "text/plain")
-        self.end_headers()
-        self.wfile.write(b"ok\n")
+    def _trigger(self) -> None:
+        log(f"/run triggered ({self.command} from {self.client_address[0]})")
 
-    def do_POST(self) -> None:
-        if self.path != "/run":
-            self._json(404, {"error": "not found"})
-            return
-
-        # supervisord captures this program's own stdout/stderr and forwards
-        # them to the container's log stream (see stdout_logfile=/dev/stdout
-        # in supervisord.conf), so writing to our own fds -- and having the
-        # subprocess inherit them -- is enough to show up in `docker logs`.
-        print("[health_server] manual /run trigger received", flush=True)
-
-        # run_scraper.sh flocks /tmp/job-scraper.lock, so a run already in
-        # progress (from cron or a previous manual trigger) just gets
-        # skipped rather than overlapping. Launch detached and return
-        # immediately -- a full scrape can take a while.
+        # run_scraper.sh takes an flock, so a run already in progress (from
+        # cron or an earlier manual trigger) is skipped rather than
+        # overlapping. The child inherits our stdout/stderr, so its output
+        # lands in the same log stream. Return immediately -- a full scrape
+        # takes minutes.
         subprocess.Popen(
-            [RUN_SCRIPT],
+            [RUN_SCRIPT, "manual"],
             stdout=sys.stdout,
             stderr=sys.stderr,
             start_new_session=True,
         )
+        self._respond(202, {"status": "started"})
 
-        self._json(202, {"status": "started"})
+    def _handle(self) -> None:
+        path = self.path.split("?", 1)[0]
+        path = path.rstrip("/") or "/"
+
+        if path == "/run":
+            # Accept GET too: hitting the URL in a browser is the obvious way
+            # to trigger this by hand, and a GET-only 200 "ok" would silently
+            # look like success while running nothing.
+            self._trigger()
+        elif path in HEALTH_PATHS:
+            self._respond(200, {"status": "ok"})
+        else:
+            log(f"404 {self.command} {self.path}")
+            self._respond(404, {"error": "not found", "hint": "GET or POST /run"})
+
+    do_GET = _handle
+    do_POST = _handle
 
     def log_message(self, format: str, *args) -> None:  # noqa: A002
+        # Suppress the default per-request access log; Render's health check
+        # polls constantly and would drown out everything else. Interesting
+        # requests are logged explicitly above.
         pass
 
 
 def main() -> None:
     port = int(os.environ.get("PORT", "10000"))
-    server = ThreadingHTTPServer(("0.0.0.0", port), HealthHandler)
-    server.serve_forever()
+    log(f"listening on port {port} (GET or POST /run to trigger a scrape)")
+    ThreadingHTTPServer(("0.0.0.0", port), Handler).serve_forever()
 
 
 if __name__ == "__main__":
