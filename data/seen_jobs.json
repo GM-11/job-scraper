@@ -1071,6 +1071,10 @@
     "first_seen": "2026-08-28T21:16:17.648186Z",
     "title": "Full Stack Engineer"
   },
+  "Kyndryl:R-66256": {
+    "first_seen": "2026-08-31T22:32:53.092855Z",
+    "title": "Network Engineer"
+  },
   "Kyndryl:R-66622": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "Linux DevOps Engineer"
@@ -1079,6 +1083,14 @@
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Platform Engineer"
   },
+  "Kyndryl:R-66915": {
+    "first_seen": "2026-08-31T22:32:53.092855Z",
+    "title": "Sailpoint Developer"
+  },
+  "Kyndryl:R-66927": {
+    "first_seen": "2026-08-31T22:32:53.092855Z",
+    "title": "Sailpoint Developer"
+  },
   "Kyndryl:R-66933": {
     "first_seen": "2026-08-24T08:29:47.790185Z",
     "title": "Platform Engineer - Data"
@@ -1086,6 +1098,10 @@
   "Kyndryl:R-66934": {
     "first_seen": "2026-08-24T08:29:47.790185Z",
     "title": "Platform Engineer - Data"
+  },
+  "Kyndryl:R-67171": {
+    "first_seen": "2026-08-31T22:32:53.092855Z",
+    "title": "Mainframe DB2 System Programmer"
   },
   "Mercedes-Benz:221620": {
     "first_seen": "2026-08-24T14:21:13.684354Z",
@@ -1174,6 +1190,10 @@
   "NVIDIA:893397381932": {
     "first_seen": "2026-08-27T09:58:47.530455Z",
     "title": "Software QA Test Developer -  Embedded"
+  },
+  "NVIDIA:893397486353": {
+    "first_seen": "2026-08-31T22:32:53.092855Z",
+    "title": "System Software Engineer - Local AI"
   },
   "NatWest:17365916": {
     "first_seen": "2026-08-28T21:16:17.648186Z",
