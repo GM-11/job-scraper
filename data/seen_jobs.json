@@ -839,6 +839,10 @@
     "first_seen": "2026-08-26T09:17:03.648575Z",
     "title": "Application Developer-AWS Cloud FullStack"
   },
+  "IBM:130292": {
+    "first_seen": "2026-09-01T07:00:41.007568Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:130294": {
     "first_seen": "2026-08-26T13:19:22.840883Z",
     "title": "ML Engineer-Advanced Analytics"
@@ -882,6 +886,18 @@
   "IBM:130333": {
     "first_seen": "2026-08-26T13:19:22.840883Z",
     "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:130465": {
+    "first_seen": "2026-09-01T07:00:41.007568Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:130466": {
+    "first_seen": "2026-09-01T07:00:41.007568Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:130467": {
+    "first_seen": "2026-09-01T07:00:41.007568Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:130468": {
     "first_seen": "2026-08-28T09:01:21.235794Z",
@@ -989,6 +1005,10 @@
   },
   "IBM:130687": {
     "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130689": {
+    "first_seen": "2026-09-01T07:00:41.007568Z",
     "title": "Application Developer-AWS Cloud FullStack"
   },
   "IBM:130691": {
@@ -1170,6 +1190,10 @@
   "Morgan Stanley:549799455672": {
     "first_seen": "2026-08-26T07:15:33.892097Z",
     "title": "Machine Learning, Associate, WM Admin, Wealth Management"
+  },
+  "Morgan Stanley:549800086205": {
+    "first_seen": "2026-09-01T07:00:41.007568Z",
+    "title": "Java Backend -Associate-Software Engineer"
   },
   "NVIDIA:893397023931": {
     "first_seen": "2026-08-18T23:31:21.778757Z",
@@ -1519,6 +1543,10 @@
     "first_seen": "2026-08-31T09:21:44.121715Z",
     "title": "WoW - Software Engineer"
   },
+  "NatWest:18187025": {
+    "first_seen": "2026-09-01T07:00:41.007568Z",
+    "title": "Software Engineer"
+  },
   "Nike:R-85379": {
     "first_seen": "2026-08-24T15:14:56.799573Z",
     "title": "Software Engineer I, ITC"
@@ -1818,6 +1846,10 @@
   "Standard Chartered:61528": {
     "first_seen": "2026-08-31T09:21:44.121715Z",
     "title": "Assoc, BackEnd Eng, WRB Tech"
+  },
+  "Texas Instruments:25016758": {
+    "first_seen": "2026-09-01T07:00:41.007568Z",
+    "title": "Analog EDA Backend Engineer"
   },
   "Texas Instruments:25017214": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
