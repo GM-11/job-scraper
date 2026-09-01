@@ -459,6 +459,10 @@
     "first_seen": "2026-08-31T09:21:44.121715Z",
     "title": "AWS Data Engineer"
   },
+  "EXL:19486": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Data Scientist"
+  },
   "EXL:19489": {
     "first_seen": "2026-08-31T17:47:11.015518Z",
     "title": "Genesys Developer"
@@ -594,6 +598,10 @@
   "IBM:128880": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "Software Engineer"
+  },
+  "IBM:129342": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Application Developer-AWS Cloud FullStack"
   },
   "IBM:129393": {
     "first_seen": "2026-08-24T11:55:48.251163Z",
@@ -811,6 +819,10 @@
     "first_seen": "2026-08-27T09:58:47.530455Z",
     "title": "Application Developer-AWS Cloud FullStack"
   },
+  "IBM:130283": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:130284": {
     "first_seen": "2026-08-26T09:17:03.648575Z",
     "title": "Data Scientist-Advanced Analytics"
@@ -873,6 +885,10 @@
   },
   "IBM:130323": {
     "first_seen": "2026-08-26T09:17:03.648575Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:130327": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:130328": {
@@ -971,6 +987,10 @@
     "first_seen": "2026-08-26T09:17:03.648575Z",
     "title": "Application Developer-AWS Cloud FullStack"
   },
+  "IBM:130613": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
   "IBM:130615": {
     "first_seen": "2026-08-26T09:17:03.648575Z",
     "title": "Application Developer-Google Cloud FullStack"
@@ -986,6 +1006,10 @@
   "IBM:130621": {
     "first_seen": "2026-08-26T09:17:03.648575Z",
     "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:130626": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:130628": {
     "first_seen": "2026-08-26T06:09:27.083646Z",
@@ -1015,9 +1039,17 @@
     "first_seen": "2026-08-31T17:47:11.015518Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:130692": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:130739": {
     "first_seen": "2026-08-26T09:17:03.648575Z",
     "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:86123": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Data Scientist-Artificial Intelligence"
   },
   "Infor:567560": {
     "first_seen": "2026-08-25T11:55:53.461886Z",
@@ -1547,6 +1579,10 @@
     "first_seen": "2026-09-01T07:00:41.007568Z",
     "title": "Software Engineer"
   },
+  "NatWest:18192245": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Software Engineer"
+  },
   "Nike:R-85379": {
     "first_seen": "2026-08-24T15:14:56.799573Z",
     "title": "Software Engineer I, ITC"
@@ -1666,6 +1702,10 @@
   "Salesforce:JR318187": {
     "first_seen": "2026-08-20T10:31:21.112776Z",
     "title": "Salesforce Developer (Software Engineering, MTS/SMTS)"
+  },
+  "Salesforce:JR335225": {
+    "first_seen": "2026-09-01T12:29:01.053869Z",
+    "title": "Zuora Revenue Systems Engineer"
   },
   "Salesforce:JR338000": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
