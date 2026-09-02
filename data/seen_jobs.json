@@ -539,6 +539,14 @@
     "first_seen": "2026-08-31T17:47:11.015518Z",
     "title": "Data Scientist"
   },
+  "EXL:19499": {
+    "first_seen": "2026-09-02T17:18:50.709813Z",
+    "title": "Python and Gen AI developer"
+  },
+  "EXL:19606": {
+    "first_seen": "2026-09-02T17:18:50.709813Z",
+    "title": "Google CX Developer"
+  },
   "EXL:19611": {
     "first_seen": "2026-09-02T12:15:31.906978Z",
     "title": "Data Engineer Snowflake"
@@ -573,6 +581,10 @@
   },
   "Ericsson:563121776758898": {
     "first_seen": "2026-08-24T10:16:08.290121Z",
+    "title": "Data Scientist"
+  },
+  "Ericsson:563121776827902": {
+    "first_seen": "2026-09-02T17:18:50.709813Z",
     "title": "Data Scientist"
   },
   "Ericsson:563121776997510": {
@@ -1149,6 +1161,10 @@
   },
   "IBM:131266": {
     "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Software Developer"
+  },
+  "IBM:131620": {
+    "first_seen": "2026-09-02T17:18:50.709813Z",
     "title": "Software Developer"
   },
   "IBM:86123": {
@@ -2102,6 +2118,10 @@
   "Thomson Reuters:JREQ202807": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Data Scientist"
+  },
+  "Thomson Reuters:JREQ203130": {
+    "first_seen": "2026-09-02T17:18:50.709813Z",
+    "title": "Software Engineer I"
   },
   "Visa:REF081660W": {
     "first_seen": "2026-08-23T17:52:23.678204Z",
