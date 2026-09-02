@@ -111,6 +111,30 @@
     "first_seen": "2026-09-02T06:32:25.734148Z",
     "title": "Software Engineer, Cross Border Science and Analytics"
   },
+  "Amazon:10525614": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Software Development Engineer, Digital Acceleration"
+  },
+  "Amazon:10525615": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Software Development Engineer, Digital Acceleration"
+  },
+  "Amazon:10525641": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "SDE-1 (FTC)"
+  },
+  "Amazon:10525642": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "SDE-1 (FTC)"
+  },
+  "Amazon:10525643": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "SDE-1 (FTC)"
+  },
+  "Amazon:10525665": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Software Development Engineer - II"
+  },
   "American Express:26012390": {
     "first_seen": "2026-08-20T10:31:21.112776Z",
     "title": "Software Engineer I"
@@ -137,11 +161,15 @@
   },
   "Atlassian:26996": {
     "first_seen": "2026-09-02T06:32:25.734148Z",
-    "title": "P40 Platform Engineer"
+    "title": "Software Engineer, Dev Infra"
   },
   "Autodesk:26WD100669": {
     "first_seen": "2026-08-26T05:15:44.768359Z",
-    "title": "Software Engineer (Java, AWS)"
+    "title": "Software Development Engineer [PSET - Product Data - Data Foundation]"
+  },
+  "Autodesk:26WD96707": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Software Engineer"
   },
   "Autodesk:26WD99323": {
     "first_seen": "2026-08-24T08:29:47.790185Z",
@@ -415,6 +443,10 @@
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Full stack"
   },
+  "EXL:16578": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Azure/ Fabric Data Engineer"
+  },
   "EXL:17033": {
     "first_seen": "2026-08-26T13:19:22.840883Z",
     "title": "Data Scientist - GenAi-AgenticAi"
@@ -507,6 +539,10 @@
     "first_seen": "2026-08-31T17:47:11.015518Z",
     "title": "Data Scientist"
   },
+  "EXL:19611": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Data Engineer Snowflake"
+  },
   "Ericsson:563121774658580": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
     "title": "Data Scientist"
@@ -546,6 +582,10 @@
   "Ericsson:563121777001622": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Cloud Engineer"
+  },
+  "Ericsson:563121777042619": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Software Developer I"
   },
   "Ericsson:563121777042773": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
@@ -643,9 +683,17 @@
     "first_seen": "2026-09-01T12:29:01.053869Z",
     "title": "Application Developer-AWS Cloud FullStack"
   },
+  "IBM:129384": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Data Engineer-Data Modeling"
+  },
   "IBM:129393": {
     "first_seen": "2026-08-24T11:55:48.251163Z",
     "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:129394": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Data Engineer-Data Platforms-Azure"
   },
   "IBM:129396": {
     "first_seen": "2026-08-24T11:55:48.251163Z",
@@ -658,6 +706,10 @@
   "IBM:129402": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:129527": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "ML Engineer-Advanced Analytics"
   },
   "IBM:130186": {
     "first_seen": "2026-08-23T20:51:44.495049Z",
@@ -1167,6 +1219,10 @@
     "first_seen": "2026-08-25T08:14:53.909184Z",
     "title": "Full Stack Developer"
   },
+  "Kyndryl:R-64808": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Data Engineer"
+  },
   "Kyndryl:R-66091": {
     "first_seen": "2026-08-24T13:15:53.631940Z",
     "title": "Full stack SW Engineer"
@@ -1346,6 +1402,10 @@
   "NatWest:17743354": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
     "title": "Software Engineer"
+  },
+  "NatWest:17794567": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "AWS Infrastructure Engineer"
   },
   "NatWest:17843814": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
@@ -1643,6 +1703,10 @@
     "first_seen": "2026-08-26T07:15:33.892097Z",
     "title": "Java Microservices Developer"
   },
+  "NatWest:18176641": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Software Engineer - B8"
+  },
   "NatWest:18181389": {
     "first_seen": "2026-09-02T06:32:25.734148Z",
     "title": "GenAI & Agentic AI Engineer"
@@ -1659,6 +1723,10 @@
     "first_seen": "2026-08-31T09:21:44.121715Z",
     "title": "WoW - Software Engineer"
   },
+  "NatWest:18186679": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Murex Software Engineer"
+  },
   "NatWest:18187025": {
     "first_seen": "2026-09-01T07:00:41.007568Z",
     "title": "Software Engineer"
@@ -1666,6 +1734,10 @@
   "NatWest:18192245": {
     "first_seen": "2026-09-01T12:29:01.053869Z",
     "title": "Software Engineer"
+  },
+  "NatWest:18198395": {
+    "first_seen": "2026-09-02T12:15:31.906978Z",
+    "title": "Data Warehouse & SQL Developer"
   },
   "Nike:R-85379": {
     "first_seen": "2026-08-24T15:14:56.799573Z",
