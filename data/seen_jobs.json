@@ -107,6 +107,10 @@
     "first_seen": "2026-09-01T20:38:22.686896Z",
     "title": "Software Development Engineer, Device Software Services"
   },
+  "Amazon:10525236": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Software Engineer, Cross Border Science and Analytics"
+  },
   "American Express:26012390": {
     "first_seen": "2026-08-20T10:31:21.112776Z",
     "title": "Software Engineer I"
@@ -130,6 +134,10 @@
   "Atlassian:26345": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Fullstack Software Engineer, DX"
+  },
+  "Atlassian:26996": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "P40 Platform Engineer"
   },
   "Autodesk:26WD100669": {
     "first_seen": "2026-08-26T05:15:44.768359Z",
@@ -187,6 +195,18 @@
     "first_seen": "2026-08-28T00:07:29.024046Z",
     "title": "Data Engineer - CORO Products"
   },
+  "Bain & Company:109385": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Associate- Front-end Engineer(Retail)"
+  },
+  "Bain & Company:109386": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Associate- Full-Stack Engineer(Retail)"
+  },
+  "Bain & Company:109388": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Associate- AI Data Engineer(Retail)"
+  },
   "BlackRock:95937643344": {
     "first_seen": "2026-08-27T14:21:07.454600Z",
     "title": "Associate, Application Engineer"
@@ -222,6 +242,10 @@
   "Ciena:R031454": {
     "first_seen": "2026-08-25T07:10:22.651010Z",
     "title": "C++ Developer"
+  },
+  "Ciena:R031533": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "GCN Automation & AI Engineer"
   },
   "Ciena:R031564": {
     "first_seen": "2026-08-26T06:09:27.083646Z",
@@ -498,6 +522,10 @@
   "Ericsson:563121775610350": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Product Specialist Developer"
+  },
+  "Ericsson:563121776004109": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Master 5G baseband Developer"
   },
   "Ericsson:563121776076437": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
@@ -1067,6 +1095,10 @@
     "first_seen": "2026-08-26T09:17:03.648575Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:131266": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Software Developer"
+  },
   "IBM:86123": {
     "first_seen": "2026-09-01T12:29:01.053869Z",
     "title": "Data Scientist-Artificial Intelligence"
@@ -1206,6 +1238,18 @@
   "Mercedes-Benz:226116": {
     "first_seen": "2026-08-29T03:38:21.106266Z",
     "title": "MBOS 2.0: Cloud Developer - T9"
+  },
+  "Mercedes-Benz:236766": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Data Scientist"
+  },
+  "Mercedes-Benz:236767": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Data Scientist"
+  },
+  "Mercedes-Benz:236769": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "Data Scientist"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
@@ -1598,6 +1642,10 @@
   "NatWest:18169944": {
     "first_seen": "2026-08-26T07:15:33.892097Z",
     "title": "Java Microservices Developer"
+  },
+  "NatWest:18181389": {
+    "first_seen": "2026-09-02T06:32:25.734148Z",
+    "title": "GenAI & Agentic AI Engineer"
   },
   "NatWest:18186646": {
     "first_seen": "2026-08-31T09:21:44.121715Z",
