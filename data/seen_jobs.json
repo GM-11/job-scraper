@@ -563,6 +563,10 @@
     "first_seen": "2026-09-02T12:15:31.906978Z",
     "title": "Data Engineer Snowflake"
   },
+  "EXL:19621": {
+    "first_seen": "2026-09-04T06:41:48.682470Z",
+    "title": "AWS DevOps Engineer"
+  },
   "Ericsson:563121774658580": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
     "title": "Data Scientist"
@@ -1299,6 +1303,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:131750": {
+    "first_seen": "2026-09-04T06:41:48.682470Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:131751": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Google"
@@ -1343,6 +1351,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:131768": {
+    "first_seen": "2026-09-04T06:41:48.682470Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:131774": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -1353,6 +1365,10 @@
   },
   "IBM:131777": {
     "first_seen": "2026-09-03T17:09:38.674219Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:131780": {
+    "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:86123": {
@@ -1602,6 +1618,10 @@
   "Morgan Stanley:549800086205": {
     "first_seen": "2026-09-01T07:00:41.007568Z",
     "title": "Java Backend -Associate-Software Engineer"
+  },
+  "NVIDIA:893395186955": {
+    "first_seen": "2026-09-04T06:41:48.682470Z",
+    "title": "Software Solutions Engineer"
   },
   "NVIDIA:893397023931": {
     "first_seen": "2026-08-18T23:31:21.778757Z",
@@ -2274,6 +2294,10 @@
   "ServiceNow:79a3f7e561f5db09": {
     "first_seen": "2026-08-19T19:18:13.699753Z",
     "title": "Software Engineer"
+  },
+  "ServiceNow:d3186cb035f104ea": {
+    "first_seen": "2026-09-04T06:41:48.682470Z",
+    "title": "Forward Deployed Solution Engineer \u2013 Applied\u202fAI FDE"
   },
   "Standard Chartered:57382": {
     "first_seen": "2026-08-19T14:00:16.609841Z",
