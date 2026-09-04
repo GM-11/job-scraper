@@ -567,6 +567,18 @@
     "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "AWS DevOps Engineer"
   },
+  "EXL:19660": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Data Scientist"
+  },
+  "EXL:19661": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Azure DevOps"
+  },
+  "EXL:19744": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Azure Data Engineer"
+  },
   "Ericsson:563121774658580": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
     "title": "Data Scientist"
@@ -1207,6 +1219,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:131673": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:131679": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Azure"
@@ -1222,6 +1238,10 @@
   "IBM:131693": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:131694": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:131696": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -1242,6 +1262,10 @@
   "IBM:131704": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:131706": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:131707": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -1367,6 +1391,10 @@
     "first_seen": "2026-09-03T17:09:38.674219Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:131778": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:131780": {
     "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -1377,6 +1405,10 @@
   },
   "Infor:567560": {
     "first_seen": "2026-08-25T11:55:53.461886Z",
+    "title": "Software Engineer, Associate"
+  },
+  "Infor:567561": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Software Engineer, Associate"
   },
   "Infor:570075": {
@@ -1499,6 +1531,14 @@
     "first_seen": "2026-08-31T22:32:53.092855Z",
     "title": "Mainframe DB2 System Programmer"
   },
+  "Kyndryl:R-67500": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "ServiceNow-ITOM Developer"
+  },
+  "Kyndryl:R-67692": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Operations Engineer (DevOps & Observability)"
+  },
   "Mercedes-Benz:211138": {
     "first_seen": "2026-09-03T06:31:08.983965Z",
     "title": "JAVA Fullstack Developer - ITO Transition"
@@ -1567,6 +1607,10 @@
     "first_seen": "2026-08-26T08:22:42.742129Z",
     "title": "Consultant - Dotnet Full Stack + AI"
   },
+  "Microsoft:1970393556937574": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Software Engineer"
+  },
   "Microsoft:1970393556956961": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Software Engineer- II"
@@ -1601,6 +1645,10 @@
   },
   "Microsoft:1970393556985595": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
+    "title": "Software Engineer"
+  },
+  "Microsoft:1970393556988740": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Software Engineer"
   },
   "Moody's:100120026208": {
@@ -1686,6 +1734,10 @@
   "NatWest:17843815": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
     "title": "Software Engineer, AVP"
+  },
+  "NatWest:17855889": {
+    "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Software Engineer"
   },
   "NatWest:18026246": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
