@@ -747,6 +747,10 @@
     "first_seen": "2026-08-28T21:16:17.648186Z",
     "title": "Application Developer-Microsoft .NET Stack"
   },
+  "IBM:127099": {
+    "first_seen": "2026-09-07T21:17:16.044418Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:128880": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "Software Engineer"
@@ -779,9 +783,21 @@
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "Application Developer-AWS Cloud FullStack"
   },
+  "IBM:129466": {
+    "first_seen": "2026-09-07T21:17:16.044418Z",
+    "title": "Application Developer-Microsoft Dynamics 365 Finance & Operations"
+  },
   "IBM:129527": {
     "first_seen": "2026-09-02T12:15:31.906978Z",
     "title": "ML Engineer-Advanced Analytics"
+  },
+  "IBM:129545": {
+    "first_seen": "2026-09-07T21:17:16.044418Z",
+    "title": "Application Developer-Microsoft Dynamics 365 Customer Engagement"
+  },
+  "IBM:129548": {
+    "first_seen": "2026-09-07T21:17:16.044418Z",
+    "title": "Application Developer-Microsoft Dynamics 365 Finance & Operations"
   },
   "IBM:130186": {
     "first_seen": "2026-08-23T20:51:44.495049Z",
@@ -1714,6 +1730,10 @@
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
     "title": "Consultant - Dotnet Full Stack + AI"
+  },
+  "Microsoft:1970393556913319": {
+    "first_seen": "2026-09-07T21:17:16.044418Z",
+    "title": "Software Engineer"
   },
   "Microsoft:1970393556937574": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
