@@ -147,6 +147,10 @@
     "first_seen": "2026-09-06T14:20:34.585477Z",
     "title": "Software Development Engineer"
   },
+  "Amazon:10530940": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Software Development Engineer I, Amazon Payments"
+  },
   "American Express:26012390": {
     "first_seen": "2026-08-20T10:31:21.112776Z",
     "title": "Software Engineer I"
@@ -455,6 +459,10 @@
     "first_seen": "2026-08-26T14:33:16.419653Z",
     "title": "Power BI Developer - SoFi"
   },
+  "EXL:14849": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Developer (IC)"
+  },
   "EXL:15592": {
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Full stack"
@@ -587,9 +595,17 @@
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Azure DevOps"
   },
+  "EXL:19735": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Data Engineer"
+  },
   "EXL:19744": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Azure Data Engineer"
+  },
+  "EXL:19821": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Palantir Data Engineer"
   },
   "Ericsson:563121774658580": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
@@ -1271,6 +1287,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:131687": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:131689": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Azure"
@@ -1319,6 +1339,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:131708": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
   "IBM:131709": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Google"
@@ -1357,6 +1381,10 @@
   },
   "IBM:131736": {
     "first_seen": "2026-09-03T17:09:38.674219Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:131737": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:131738": {
@@ -1462,6 +1490,10 @@
   "IBM:131780": {
     "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:79363": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Application Developer-Cloud FullStack"
   },
   "IBM:86123": {
     "first_seen": "2026-09-01T12:29:01.053869Z",
@@ -1602,6 +1634,10 @@
   "Kyndryl:R-67171": {
     "first_seen": "2026-08-31T22:32:53.092855Z",
     "title": "Mainframe DB2 System Programmer"
+  },
+  "Kyndryl:R-67288": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Azure Cloud Engineer BST"
   },
   "Kyndryl:R-67500": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
@@ -1774,6 +1810,10 @@
   "NatWest:17365916": {
     "first_seen": "2026-08-28T21:16:17.648186Z",
     "title": "WoW - Software Engineer"
+  },
+  "NatWest:17687221": {
+    "first_seen": "2026-09-07T17:07:29.007061Z",
+    "title": "Software Engineer"
   },
   "NatWest:17694728": {
     "first_seen": "2026-09-07T11:05:15.694740Z",
