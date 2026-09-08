@@ -275,6 +275,10 @@
     "first_seen": "2026-08-25T20:10:11.152986Z",
     "title": "Artificial Intelligence Engineer, Portfolio Management Group, Associate"
   },
+  "BlackRock:98094343936": {
+    "first_seen": "2026-09-08T15:20:57.054694Z",
+    "title": "Software Engineer, Portfolio Management Group, Analyst"
+  },
   "BlackRock:99342598896": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
     "title": "Site Reliability Engineer, Associate"
@@ -463,6 +467,10 @@
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Developer (IC)"
   },
+  "EXL:15259": {
+    "first_seen": "2026-09-08T15:20:57.054694Z",
+    "title": "Cloud Data Engineer"
+  },
   "EXL:15592": {
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Full stack"
@@ -587,6 +595,10 @@
     "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "AWS DevOps Engineer"
   },
+  "EXL:19625": {
+    "first_seen": "2026-09-08T15:20:57.054694Z",
+    "title": "Alteryx Developer"
+  },
   "EXL:19660": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Data Scientist"
@@ -702,6 +714,10 @@
   "Ericsson:563121777173828": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "BMC Remedy Developer"
+  },
+  "Ericsson:563121777180140": {
+    "first_seen": "2026-09-08T15:20:57.054694Z",
+    "title": "Master 5G System Developer"
   },
   "GlobalLogic:0061f22df64eb658": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -1317,6 +1333,10 @@
   },
   "IBM:131679": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:131683": {
+    "first_seen": "2026-09-08T15:20:57.054694Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
   "IBM:131687": {
