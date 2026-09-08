@@ -595,6 +595,10 @@
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Azure DevOps"
   },
+  "EXL:19733": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "AWS Data Engineer"
+  },
   "EXL:19735": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Data Engineer"
@@ -619,6 +623,10 @@
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Gen AI ML Engineer"
   },
+  "Ericsson:563121775551107": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "ASIC Top Level Verification-SW/C Testcase Developer"
+  },
   "Ericsson:563121775610350": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Product Specialist Developer"
@@ -638,6 +646,10 @@
   "Ericsson:563121776758898": {
     "first_seen": "2026-08-24T10:16:08.290121Z",
     "title": "Data Scientist"
+  },
+  "Ericsson:563121776772937": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Network Engineer - IP"
   },
   "Ericsson:563121776827902": {
     "first_seen": "2026-09-02T17:18:50.709813Z",
@@ -1295,6 +1307,10 @@
     "first_seen": "2026-09-04T17:09:09.225420Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:131677": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:131678": {
     "first_seen": "2026-09-04T17:09:09.225420Z",
     "title": "Data Engineer-Data Platforms-Azure"
@@ -1391,6 +1407,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:131733": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
   "IBM:131734": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -1474,6 +1494,10 @@
   "IBM:131763": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:131764": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:131766": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -1777,6 +1801,10 @@
   },
   "Microsoft:1970393556988740": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
+    "title": "Software Engineer"
+  },
+  "Microsoft:1970393556990299": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
     "title": "Software Engineer"
   },
   "Moody's:100120026208": {
@@ -2219,6 +2247,14 @@
     "first_seen": "2026-09-07T11:05:15.694740Z",
     "title": "WoW Software Engineer - Host"
   },
+  "NatWest:18213773": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18213774": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Software Engineer"
+  },
   "Nike:R-85379": {
     "first_seen": "2026-08-24T15:14:56.799573Z",
     "title": "Software Engineer I, ITC"
@@ -2634,6 +2670,10 @@
   "Visa:REF087690W": {
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Software Engineer (1 year Exp)"
+  },
+  "Visa:REF087958W": {
+    "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Data Engineer (1 - 2 years of experience in Java / Python / Go, Kafka, Flink, Hadoop)"
   },
   "Visa:REF088105W": {
     "first_seen": "2026-09-07T11:05:15.694740Z",
