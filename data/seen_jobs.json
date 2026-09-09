@@ -147,9 +147,21 @@
     "first_seen": "2026-09-06T14:20:34.585477Z",
     "title": "Software Development Engineer"
   },
+  "Amazon:10530909": {
+    "first_seen": "2026-09-09T05:37:16.155156Z",
+    "title": "Software Development Engineer I"
+  },
   "Amazon:10530940": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Software Development Engineer I, Amazon Payments"
+  },
+  "Amazon:10533665": {
+    "first_seen": "2026-09-09T05:37:16.155156Z",
+    "title": "Software Development Engineer, Amazon"
+  },
+  "Amazon:10533696": {
+    "first_seen": "2026-09-09T05:37:16.155156Z",
+    "title": "Software Development Engineer"
   },
   "American Express:26012390": {
     "first_seen": "2026-08-20T10:31:21.112776Z",
@@ -1583,6 +1595,10 @@
     "first_seen": "2026-08-28T09:01:21.235794Z",
     "title": "Software Engineer, Associate(Java)"
   },
+  "Infor:570076": {
+    "first_seen": "2026-09-09T05:37:16.155156Z",
+    "title": "Software Engineer, Associate"
+  },
   "Infor:570077": {
     "first_seen": "2026-08-28T09:01:21.235794Z",
     "title": "Software Engineer, Associate (Java)"
@@ -1898,6 +1914,10 @@
   "NVIDIA:893397561063": {
     "first_seen": "2026-09-03T20:36:14.612469Z",
     "title": "Software Test Developer - Robotics"
+  },
+  "NVIDIA:893397618413": {
+    "first_seen": "2026-09-09T05:37:16.155156Z",
+    "title": "System Software Engineer - Performance Verification Infrastructure"
   },
   "NatWest:17365916": {
     "first_seen": "2026-08-28T21:16:17.648186Z",
