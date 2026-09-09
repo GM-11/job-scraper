@@ -163,6 +163,18 @@
     "first_seen": "2026-09-09T05:37:16.155156Z",
     "title": "Software Development Engineer"
   },
+  "Amazon:10534417": {
+    "first_seen": "2026-09-09T19:21:13.378842Z",
+    "title": "Software Development Engineer, Everyday Essentials Experiences"
+  },
+  "Amazon:10534447": {
+    "first_seen": "2026-09-09T19:21:13.378842Z",
+    "title": "Software Development Engineer, Alexa Audio, Alexa Audio"
+  },
+  "Amazon:10534666": {
+    "first_seen": "2026-09-09T19:21:13.378842Z",
+    "title": "Software Development Engineer"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -667,6 +679,14 @@
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Palantir Data Engineer"
   },
+  "EXL:19918": {
+    "first_seen": "2026-09-09T19:21:13.378842Z",
+    "title": "Gen AI Engineer"
+  },
+  "EXL:19931": {
+    "first_seen": "2026-09-09T19:21:13.378842Z",
+    "title": "Data Engineer"
+  },
   "Ericsson:563121774658580": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
     "title": "Data Scientist"
@@ -737,7 +757,7 @@
   },
   "Ericsson:563121777091225": {
     "first_seen": "2026-08-20T14:51:47.743682Z",
-    "title": "Network Engineer-Palo Alto Security"
+    "title": "Network Engineer-Juniper Palo Alto"
   },
   "Ericsson:563121777128415": {
     "first_seen": "2026-08-28T21:16:17.648186Z",
