@@ -687,6 +687,10 @@
     "first_seen": "2026-09-10T10:33:54.579843Z",
     "title": "Data Engineer"
   },
+  "EXL:19855": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
+    "title": "Full Stack Engineer"
+  },
   "EXL:19918": {
     "first_seen": "2026-09-09T19:21:13.378842Z",
     "title": "Gen AI Engineer"
@@ -694,6 +698,18 @@
   "EXL:19931": {
     "first_seen": "2026-09-09T19:21:13.378842Z",
     "title": "Data Engineer"
+  },
+  "EXL:19975": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
+    "title": "Azure Data Engineer"
+  },
+  "EXL:19976": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
+    "title": "Azure Data Engineer"
+  },
+  "EXL:19986": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
+    "title": "BI Developer"
   },
   "Ericsson:563121774658580": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
@@ -1419,8 +1435,20 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:131681": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:131683": {
     "first_seen": "2026-09-08T15:20:57.054694Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:131684": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:131685": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
   "IBM:131687": {
@@ -1774,6 +1802,10 @@
   "JPMorgan:210788576": {
     "first_seen": "2026-09-10T10:33:54.579843Z",
     "title": "Data Scientist Associate - Payments Data & Analytics"
+  },
+  "JPMorgan:210788748": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
+    "title": "Data Scientist Associate"
   },
   "Kyndryl:R-55456": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -2453,6 +2485,10 @@
   },
   "NatWest:18213774": {
     "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18221253": {
+    "first_seen": "2026-09-10T15:09:51.940612Z",
     "title": "Software Engineer"
   },
   "Nike:R-85379": {
