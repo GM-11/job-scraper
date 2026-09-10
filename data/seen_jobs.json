@@ -539,6 +539,10 @@
     "first_seen": "2026-08-24T13:15:53.631940Z",
     "title": "Data Engineer"
   },
+  "EXL:18094": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "GCP Data Engineer"
+  },
   "EXL:18661": {
     "first_seen": "2026-08-25T11:01:05.201961Z",
     "title": "Power BI Developer"
@@ -678,6 +682,10 @@
   "EXL:19821": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Palantir Data Engineer"
+  },
+  "EXL:19838": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Engineer"
   },
   "EXL:19918": {
     "first_seen": "2026-09-09T19:21:13.378842Z",
@@ -878,6 +886,10 @@
   "IBM:129466": {
     "first_seen": "2026-09-07T21:17:16.044418Z",
     "title": "Application Developer-Microsoft Dynamics 365 Finance & Operations"
+  },
+  "IBM:129477": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Application Developer-AWS Cloud FullStack"
   },
   "IBM:129527": {
     "first_seen": "2026-09-02T12:15:31.906978Z",
@@ -1335,6 +1347,10 @@
     "first_seen": "2026-09-05T11:23:56.726035Z",
     "title": "Applied AI Specialist-Cloud FullStack"
   },
+  "IBM:131412": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
   "IBM:131413": {
     "first_seen": "2026-09-05T11:23:56.726035Z",
     "title": "Applied AI Specialist-Cloud FullStack"
@@ -1487,6 +1503,10 @@
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:131719": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:131720": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -1495,6 +1515,10 @@
     "first_seen": "2026-09-08T19:29:05.354537Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:131724": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
   "IBM:131725": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -1502,6 +1526,10 @@
   "IBM:131726": {
     "first_seen": "2026-09-07T11:05:15.694740Z",
     "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:131728": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Engineer-Data Platforms-Azure"
   },
   "IBM:131729": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
@@ -1647,6 +1675,22 @@
     "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:132296": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:132298": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:132301": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:132306": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -1726,6 +1770,10 @@
   "JPMorgan:210784897": {
     "first_seen": "2026-08-30T23:27:17.535472Z",
     "title": "Analyst - Python Developer"
+  },
+  "JPMorgan:210788576": {
+    "first_seen": "2026-09-10T10:33:54.579843Z",
+    "title": "Data Scientist Associate - Payments Data & Analytics"
   },
   "Kyndryl:R-55456": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
