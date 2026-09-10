@@ -711,6 +711,14 @@
     "first_seen": "2026-09-10T15:09:51.940612Z",
     "title": "BI Developer"
   },
+  "EXL:20038": {
+    "first_seen": "2026-09-10T19:13:45.926970Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:20039": {
+    "first_seen": "2026-09-10T19:13:45.926970Z",
+    "title": "AWS Data Engineer"
+  },
   "Ericsson:563121774658580": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
     "title": "Data Scientist"
@@ -1247,6 +1255,10 @@
     "first_seen": "2026-08-25T15:13:53.231410Z",
     "title": "Data Engineer-Data Integration"
   },
+  "IBM:130474": {
+    "first_seen": "2026-09-10T19:13:45.926970Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:130475": {
     "first_seen": "2026-08-28T09:01:21.235794Z",
     "title": "Data Engineer-Data Platforms-Azure"
@@ -1538,6 +1550,10 @@
   "IBM:131720": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:131721": {
+    "first_seen": "2026-09-10T19:13:45.926970Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:131723": {
     "first_seen": "2026-09-08T19:29:05.354537Z",
