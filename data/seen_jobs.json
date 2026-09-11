@@ -187,6 +187,10 @@
     "first_seen": "2026-08-20T10:31:21.112776Z",
     "title": "Software Engineer I"
   },
+  "American Express:26013594": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Software Engineer I"
+  },
   "Apple:200628323": {
     "first_seen": "2026-08-25T09:09:56.283563Z",
     "title": "devops-engineer"
@@ -527,6 +531,10 @@
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Full stack"
   },
+  "EXL:16557": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Data Engineer"
+  },
   "EXL:16578": {
     "first_seen": "2026-09-02T12:15:31.906978Z",
     "title": "Azure/ Fabric Data Engineer"
@@ -542,6 +550,10 @@
   "EXL:18094": {
     "first_seen": "2026-09-10T10:33:54.579843Z",
     "title": "GCP Data Engineer"
+  },
+  "EXL:18364": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Campaign Developer"
   },
   "EXL:18661": {
     "first_seen": "2026-08-25T11:01:05.201961Z",
@@ -710,6 +722,10 @@
   "EXL:19986": {
     "first_seen": "2026-09-10T15:09:51.940612Z",
     "title": "BI Developer"
+  },
+  "EXL:20019": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Data Scientist"
   },
   "EXL:20038": {
     "first_seen": "2026-09-10T19:13:45.926970Z",
@@ -1539,6 +1555,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:131715": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
   "IBM:131717": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -1626,6 +1646,10 @@
   "IBM:131744": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:131745": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:131747": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -1719,6 +1743,14 @@
     "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:132193": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:132195": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
   "IBM:132296": {
     "first_seen": "2026-09-10T10:33:54.579843Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -1734,6 +1766,10 @@
   "IBM:132306": {
     "first_seen": "2026-09-10T10:33:54.579843Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:132310": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -1983,12 +2019,28 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Full Stack Developer"
   },
+  "Mercedes-Benz:237842": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Eclipse RCP based Rich Client Developer"
+  },
+  "Mercedes-Benz:237843": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Eclipse RCP based Rich Client Developer"
+  },
+  "Mercedes-Benz:237847": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Eclipse RCP based Rich Client Developer"
+  },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
     "title": "Consultant - Dotnet Full Stack + AI"
   },
   "Microsoft:1970393556913319": {
     "first_seen": "2026-09-07T21:17:16.044418Z",
+    "title": "Software Engineer"
+  },
+  "Microsoft:1970393556929001": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "Software Engineer"
   },
   "Microsoft:1970393556937574": {
@@ -2038,6 +2090,10 @@
   "Microsoft:1970393556990299": {
     "first_seen": "2026-09-08T10:28:39.326329Z",
     "title": "Software Engineer"
+  },
+  "Microsoft:1970393556992461": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Research Infrastructure Engineer."
   },
   "Moody's:100120026208": {
     "first_seen": "2026-09-03T17:09:38.674219Z",
@@ -2578,6 +2634,18 @@
   "Qualcomm:446720858601": {
     "first_seen": "2026-09-07T11:05:15.694740Z",
     "title": "RTL Front-End Flow Optimization (CAD)"
+  },
+  "Qualcomm:446721034676": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "XR Software Engineer"
+  },
+  "Qualcomm:446721050797": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "Graphics Software Infrastructure Engineer"
+  },
+  "Qualcomm:446721052756": {
+    "first_seen": "2026-09-11T10:27:37.595516Z",
+    "title": "XR Software Engineer (All Levels - Multiple Positions)"
   },
   "Razorpay:4699107005": {
     "first_seen": "2026-09-01T17:22:20.400601Z",
