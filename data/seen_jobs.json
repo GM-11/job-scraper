@@ -841,7 +841,7 @@
   },
   "Ericsson:563121777091225": {
     "first_seen": "2026-08-20T14:51:47.743682Z",
-    "title": "Network Engineer-Juniper Palo Alto"
+    "title": "Network Engineer-Juniper"
   },
   "Ericsson:563121777123817": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
@@ -2225,6 +2225,10 @@
   },
   "Microsoft:1970393556990299": {
     "first_seen": "2026-09-08T10:28:39.326329Z",
+    "title": "Software Engineer"
+  },
+  "Microsoft:1970393556991791": {
+    "first_seen": "2026-09-14T20:08:50.797493Z",
     "title": "Software Engineer"
   },
   "Microsoft:1970393556992461": {
