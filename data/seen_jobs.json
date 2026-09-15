@@ -175,6 +175,18 @@
     "first_seen": "2026-09-09T19:21:13.378842Z",
     "title": "Software Development Engineer"
   },
+  "Amazon:10543018": {
+    "first_seen": "2026-09-15T18:54:08.050616Z",
+    "title": "Software Development Engineer, Amazon OpenSearch Service - Control Plane"
+  },
+  "Amazon:10543108": {
+    "first_seen": "2026-09-15T18:54:08.050616Z",
+    "title": "Software Development Engineer, Amazon OpenSearch Service - Plugins and Security"
+  },
+  "Amazon:10543432": {
+    "first_seen": "2026-09-15T18:54:08.050616Z",
+    "title": "Software Development Engineer, Sidewalk Cloud"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -755,6 +767,10 @@
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "Data Scientist"
   },
+  "EXL:20029": {
+    "first_seen": "2026-09-15T18:54:08.050616Z",
+    "title": "Developer (IC)"
+  },
   "EXL:20038": {
     "first_seen": "2026-09-10T19:13:45.926970Z",
     "title": "AWS Data Engineer"
@@ -978,6 +994,14 @@
   "IBM:128880": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "Software Engineer"
+  },
+  "IBM:128886": {
+    "first_seen": "2026-09-15T18:54:08.050616Z",
+    "title": "Data Scientist , Engineering - Confluent"
+  },
+  "IBM:129188": {
+    "first_seen": "2026-09-15T18:54:08.050616Z",
+    "title": "Application Developer-Java & Web Technologies"
   },
   "IBM:129342": {
     "first_seen": "2026-09-01T12:29:01.053869Z",
@@ -1266,6 +1290,10 @@
   "IBM:130292": {
     "first_seen": "2026-09-01T07:00:41.007568Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:130293": {
+    "first_seen": "2026-09-15T18:54:08.050616Z",
+    "title": "Application Developer-AWS Cloud FullStack"
   },
   "IBM:130294": {
     "first_seen": "2026-08-26T13:19:22.840883Z",
