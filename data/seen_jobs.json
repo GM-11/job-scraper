@@ -223,6 +223,10 @@
     "first_seen": "2026-09-15T08:33:37.559589Z",
     "title": "devops-engineer-retail-engineering"
   },
+  "Apple:200682338": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "devops-engineer-retail-engineering"
+  },
   "Arcesium:5207754007": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Forward Deployed Software Engineer "
@@ -255,6 +259,10 @@
     "first_seen": "2026-08-26T05:15:44.768359Z",
     "title": "Software Development Engineer [PSET - Product Data - Data Foundation]"
   },
+  "Autodesk:26WD101080": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer (Backend Focused)"
+  },
   "Autodesk:26WD96707": {
     "first_seen": "2026-09-02T12:15:31.906978Z",
     "title": "Software Engineer"
@@ -266,6 +274,10 @@
   "BNY:77036": {
     "first_seen": "2026-08-31T09:21:44.121715Z",
     "title": "Associate, Full-Stack Engineer"
+  },
+  "BNY:79791": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Specialist, Full-Stack Engineer"
   },
   "Bain & Company:100086": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
@@ -290,6 +302,10 @@
   "Bain & Company:105837": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
     "title": "Associate - AI Engineer (CTE)"
+  },
+  "Bain & Company:107132": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer, Tech Solutions"
   },
   "Bain & Company:107185": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
@@ -810,6 +826,10 @@
   "EXL:20230": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "AWS Data Engineer"
+  },
+  "EXL:9118": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Data Engineer"
   },
   "Ericsson:563121774658580": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
@@ -1675,6 +1695,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:131705": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
   "IBM:131706": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Data Engineer-Data Platforms-Google"
@@ -1694,6 +1718,10 @@
   "IBM:131710": {
     "first_seen": "2026-09-07T11:05:15.694740Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:131712": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Data Engineer-Data Platforms-AWS"
   },
   "IBM:131713": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -2043,6 +2071,10 @@
     "first_seen": "2026-08-28T09:01:21.235794Z",
     "title": "Software Engineer, Associate - (Java Developer)"
   },
+  "Infor:571470": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer, Associate"
+  },
   "Infor:571475": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "Software Engineer, Associate"
@@ -2086,6 +2118,10 @@
   "JPMorgan:210783088": {
     "first_seen": "2026-08-27T09:58:47.530455Z",
     "title": "Analyst Python Developer"
+  },
+  "JPMorgan:210783484": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Data Scientist Associate"
   },
   "JPMorgan:210784896": {
     "first_seen": "2026-08-30T23:27:17.535472Z",
@@ -2198,6 +2234,10 @@
   "Kyndryl:R-68486": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "DevOps Engineer"
+  },
+  "Kyndryl:R-68573": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "IMS DB2 - COBOL Developer"
   },
   "Mercedes-Benz:206354": {
     "first_seen": "2026-09-09T01:01:54.808281Z",
@@ -2371,6 +2411,10 @@
     "first_seen": "2026-08-26T07:15:33.892097Z",
     "title": "Machine Learning, Associate, WM Admin, Wealth Management"
   },
+  "Morgan Stanley:549799698131": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Data Engineer Snowflake _Director _Software Engineering"
+  },
   "Morgan Stanley:549800086205": {
     "first_seen": "2026-09-01T07:00:41.007568Z",
     "title": "Java Backend -Associate-Software Engineer"
@@ -2443,6 +2487,10 @@
     "first_seen": "2026-08-21T12:59:56.039580Z",
     "title": "Software Engineer"
   },
+  "NatWest:17732072": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Database Developer, PL/SQL & GCP"
+  },
   "NatWest:17743353": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
     "title": "Software Engineer"
@@ -2486,6 +2534,14 @@
   "NatWest:18026247": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
     "title": "Software Engineer, iOS"
+  },
+  "NatWest:18026248": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer, Android"
+  },
+  "NatWest:18026249": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer, Android"
   },
   "NatWest:18068275": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
@@ -2823,6 +2879,18 @@
     "first_seen": "2026-09-08T10:28:39.326329Z",
     "title": "Software Engineer"
   },
+  "NatWest:18214341": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer, Workday"
+  },
+  "NatWest:18214342": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer, Workday"
+  },
+  "NatWest:18214343": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer, Workday"
+  },
   "NatWest:18214366": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
     "title": "Data Engineer, Snowflake"
@@ -2854,6 +2922,10 @@
   "NatWest:18231380": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
     "title": "Software Engineer, Oracle Cloud And AI"
+  },
+  "NatWest:18242237": {
+    "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer"
   },
   "Nike:R-85379": {
     "first_seen": "2026-08-24T15:14:56.799573Z",
