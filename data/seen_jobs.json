@@ -187,6 +187,10 @@
     "first_seen": "2026-09-15T18:54:08.050616Z",
     "title": "Software Development Engineer, Sidewalk Cloud"
   },
+  "Amazon:10544124": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
+    "title": "Software Engineer , Selection Monitoring"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -797,6 +801,14 @@
   },
   "EXL:20204": {
     "first_seen": "2026-09-15T14:21:21.614751Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:20212": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
+    "title": "Full Stack Engineer"
+  },
+  "EXL:20230": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "AWS Data Engineer"
   },
   "Ericsson:563121774658580": {
@@ -2115,6 +2127,10 @@
     "first_seen": "2026-09-03T06:31:08.983965Z",
     "title": "Network Engineer"
   },
+  "Kyndryl:R-64748": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
+    "title": "Mainframe Zos System Programmer SME"
+  },
   "Kyndryl:R-64808": {
     "first_seen": "2026-09-02T12:15:31.906978Z",
     "title": "Data Engineer"
@@ -2134,6 +2150,10 @@
   "Kyndryl:R-66622": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "Linux DevOps Engineer"
+  },
+  "Kyndryl:R-66761": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
+    "title": "DevOps Engineer"
   },
   "Kyndryl:R-66887": {
     "first_seen": "2026-08-24T07:22:56.651619Z",
@@ -2174,6 +2194,10 @@
   "Kyndryl:R-67692": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Operations Engineer (DevOps & Observability)"
+  },
+  "Kyndryl:R-68486": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
+    "title": "DevOps Engineer"
   },
   "Mercedes-Benz:206354": {
     "first_seen": "2026-09-09T01:01:54.808281Z",
@@ -2858,6 +2882,18 @@
   "Oracle:344317": {
     "first_seen": "2026-09-03T20:36:14.612469Z",
     "title": "Application Software Engineer 1"
+  },
+  "PayPal:274922421738": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
+    "title": "Software Engineer"
+  },
+  "PayPal:274922421881": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
+    "title": "Software Engineer"
+  },
+  "PayPal:274922421885": {
+    "first_seen": "2026-09-16T06:46:55.281161Z",
+    "title": "Software Engineer"
   },
   "PhonePe:7815192003": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
