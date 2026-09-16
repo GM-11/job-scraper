@@ -191,6 +191,22 @@
     "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "Software Engineer , Selection Monitoring"
   },
+  "Amazon:10545155": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "Software Development Engineer - II"
+  },
+  "Amazon:10545175": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "Software Development Engineer - II"
+  },
+  "Amazon:10545214": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "Software Development Engineer - II"
+  },
+  "Amazon:10546640": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "Software Development Engineer, Amazon"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -227,6 +243,10 @@
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "devops-engineer-retail-engineering"
   },
+  "Apple:200683195": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "tableau-developer-analyst-retail-customer-care"
+  },
   "Arcesium:5207754007": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Forward Deployed Software Engineer "
@@ -262,6 +282,10 @@
   "Autodesk:26WD101080": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Software Engineer (Backend Focused)"
+  },
+  "Autodesk:26WD101081": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "Software Engineer (Back-end)"
   },
   "Autodesk:26WD96707": {
     "first_seen": "2026-09-02T12:15:31.906978Z",
@@ -366,6 +390,10 @@
   "BlackRock:99342598896": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
     "title": "Site Reliability Engineer, Associate"
+  },
+  "BlackRock:99437087392": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "Data Engineer, Associate"
   },
   "Brightly:519136": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
@@ -598,6 +626,10 @@
   "EXL:17434": {
     "first_seen": "2026-08-24T13:15:53.631940Z",
     "title": "Data Engineer"
+  },
+  "EXL:17873": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "Data Scientist"
   },
   "EXL:18094": {
     "first_seen": "2026-09-10T10:33:54.579843Z",
@@ -2039,6 +2071,10 @@
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:132670": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
+    "title": "Associate Software Engineer"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -2925,6 +2961,10 @@
   },
   "NatWest:18242237": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18246582": {
+    "first_seen": "2026-09-16T17:49:04.485730Z",
     "title": "Software Engineer"
   },
   "Nike:R-85379": {
