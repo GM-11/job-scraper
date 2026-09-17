@@ -207,6 +207,10 @@
     "first_seen": "2026-09-16T17:49:04.485730Z",
     "title": "Software Development Engineer, Amazon"
   },
+  "Amazon:10551624": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Software Development Engineer, Rembrandt"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -278,6 +282,10 @@
   "Atlassian:27156": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "Software Engineer"
+  },
+  "Atlassian:27266": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Software Engineer, Search Platform"
   },
   "Autodesk:26WD100669": {
     "first_seen": "2026-08-26T05:15:44.768359Z",
@@ -631,6 +639,10 @@
     "first_seen": "2026-09-15T14:21:21.614751Z",
     "title": "BI Developer"
   },
+  "EXL:16224": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Data Scientist"
+  },
   "EXL:16557": {
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "Data Engineer"
@@ -886,6 +898,10 @@
   "EXL:20230": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "AWS Data Engineer"
+  },
+  "EXL:20264": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Data Scientist"
   },
   "EXL:20281": {
     "first_seen": "2026-09-17T08:29:52.757465Z",
@@ -1735,6 +1751,10 @@
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:131697": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
   "IBM:131698": {
     "first_seen": "2026-09-03T17:09:38.674219Z",
     "title": "Data Engineer-Data Platforms-Azure"
@@ -2107,6 +2127,10 @@
     "first_seen": "2026-09-16T17:49:04.485730Z",
     "title": "Associate Software Engineer"
   },
+  "IBM:133016": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Software Engineer"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -2230,6 +2254,14 @@
   "Kyndryl:R-64373": {
     "first_seen": "2026-09-03T06:31:08.983965Z",
     "title": "Network Engineer"
+  },
+  "Kyndryl:R-64490": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Software Engineer"
+  },
+  "Kyndryl:R-64501": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Software Engineer"
   },
   "Kyndryl:R-64748": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
@@ -2599,6 +2631,14 @@
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Software Engineer"
   },
+  "NatWest:17932537": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:17932538": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Software Engineer"
+  },
   "NatWest:17935423": {
     "first_seen": "2026-09-10T05:34:20.083831Z",
     "title": "Data Engineer"
@@ -2610,6 +2650,10 @@
   "NatWest:17935425": {
     "first_seen": "2026-09-10T05:34:20.083831Z",
     "title": "Data Engineer"
+  },
+  "NatWest:17948143": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "WoW - Software Engineer"
   },
   "NatWest:18026246": {
     "first_seen": "2026-08-21T06:58:32.696301Z",
@@ -3486,6 +3530,14 @@
   "Visa:REF088105W": {
     "first_seen": "2026-09-07T11:05:15.694740Z",
     "title": "Systems Engineer"
+  },
+  "Visa:REF088312W": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Data Engineer (1 - 2 years of experience in Java / Python / Go, Kafka, Flink, Hadoop)"
+  },
+  "Visa:REF088406W": {
+    "first_seen": "2026-09-17T14:16:21.671223Z",
+    "title": "Software Engineer (1-2 years' experience, Python / Go, ML Engineering)"
   },
   "Wells Fargo:6a50d1018d769001": {
     "first_seen": "2026-08-19T06:56:35.307207Z",
