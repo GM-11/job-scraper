@@ -247,6 +247,10 @@
     "first_seen": "2026-09-16T17:49:04.485730Z",
     "title": "tableau-developer-analyst-retail-customer-care"
   },
+  "Apple:200684055": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "devops-engineer-marcom"
+  },
   "Arcesium:5207754007": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Forward Deployed Software Engineer "
@@ -337,7 +341,7 @@
   },
   "Bain & Company:107186": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
-    "title": "Associate - PEG (Full Stack Developer)"
+    "title": "Associate - Full Stack Developer(PEG)"
   },
   "Bain & Company:107309": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
@@ -362,6 +366,18 @@
   "Bain & Company:109388": {
     "first_seen": "2026-09-02T06:32:25.734148Z",
     "title": "Associate- AI Data Engineer(Retail)"
+  },
+  "Bain & Company:109945": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Associate- AI Data Engineer(PEG)"
+  },
+  "Bain & Company:109946": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Associate- Back end Engineer(PEG)"
+  },
+  "Bain & Company:109992": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Project Leader - Full Stack (BCN Labs)"
   },
   "BlackRock:95937643344": {
     "first_seen": "2026-08-27T14:21:07.454600Z",
@@ -571,6 +587,10 @@
     "first_seen": "2026-08-19T03:57:28.020955Z",
     "title": "Software Engineer"
   },
+  "DocuSign:30324": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Software Engineer - Android"
+  },
   "EA:215939": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "AI Full Stack Intern"
@@ -626,6 +646,10 @@
   "EXL:17434": {
     "first_seen": "2026-08-24T13:15:53.631940Z",
     "title": "Data Engineer"
+  },
+  "EXL:17719": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Developer (IC)"
   },
   "EXL:17873": {
     "first_seen": "2026-09-16T17:49:04.485730Z",
@@ -843,6 +867,10 @@
     "first_seen": "2026-09-11T15:12:38.804031Z",
     "title": "Azure Data Engineer"
   },
+  "EXL:20097": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Executive - Backend"
+  },
   "EXL:20102": {
     "first_seen": "2026-09-14T07:01:24.943329Z",
     "title": "Full Stack Engineer"
@@ -858,6 +886,10 @@
   "EXL:20230": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "AWS Data Engineer"
+  },
+  "EXL:20281": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Azure Data Engineer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -2267,6 +2299,10 @@
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Operations Engineer (DevOps & Observability)"
   },
+  "Kyndryl:R-68405": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Java Developer"
+  },
   "Kyndryl:R-68486": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "DevOps Engineer"
@@ -2314,6 +2350,18 @@
   "Mercedes-Benz:223700": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "Full stack Developer - Java/Vue"
+  },
+  "Mercedes-Benz:223714": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Full Stack Developer"
+  },
+  "Mercedes-Benz:223716": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Full Stack Developer"
+  },
+  "Mercedes-Benz:223718": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Full Stack Developer"
   },
   "Mercedes-Benz:226111": {
     "first_seen": "2026-08-29T03:38:21.106266Z",
@@ -3078,6 +3126,10 @@
   "Rippling:37395123-794a-4bda-8671-e002a4c627ac__bangalore-india": {
     "first_seen": "2026-08-20T10:31:21.112776Z",
     "title": "Developer Support Specialist - Data Support"
+  },
+  "Rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529__bangalore-india": {
+    "first_seen": "2026-09-17T08:29:52.757465Z",
+    "title": "Software Engineer I - Backend Leaning FullStack"
   },
   "S&P Global:324027": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
