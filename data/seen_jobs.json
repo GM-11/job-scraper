@@ -451,6 +451,10 @@
     "first_seen": "2026-08-26T07:15:33.892097Z",
     "title": "Java Developer- Networking Domain"
   },
+  "Ciena:R031651": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Network Engineer"
+  },
   "Coinbase:7558051": {
     "first_seen": "2026-09-14T23:51:28.729789Z",
     "title": "Software Engineer, EAA Integrations"
@@ -915,6 +919,10 @@
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Azure Data Engineer"
   },
+  "EXL:20367": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "AWS Data Engineer"
+  },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Data Engineer"
@@ -954,6 +962,10 @@
   "Ericsson:563121776103734": {
     "first_seen": "2026-08-20T19:47:27.131507Z",
     "title": "Software Developer - Python and GenAI"
+  },
+  "Ericsson:563121776650085": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Data Scientist"
   },
   "Ericsson:563121776709242": {
     "first_seen": "2026-09-17T18:55:22.722913Z",
@@ -2091,6 +2103,10 @@
     "first_seen": "2026-09-15T14:21:21.614751Z",
     "title": "Application Developer-Google Cloud FullStack"
   },
+  "IBM:132214": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Application Developer-Google Cloud FullStack"
+  },
   "IBM:132216": {
     "first_seen": "2026-09-18T06:43:54.082368Z",
     "title": "Application Developer-Cloud FullStack"
@@ -2150,6 +2166,26 @@
   "IBM:133016": {
     "first_seen": "2026-09-17T14:16:21.671223Z",
     "title": "Software Engineer"
+  },
+  "IBM:133208": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Data Engineer-Data Modeling"
+  },
+  "IBM:133214": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:133219": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:133221": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:133226": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -2251,9 +2287,17 @@
     "first_seen": "2026-09-10T15:09:51.940612Z",
     "title": "Data Scientist Associate"
   },
+  "JPMorgan:210790242": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Data Scientist Associate"
+  },
   "Kyndryl:R-55456": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Full Stack Developer"
+  },
+  "Kyndryl:R-55465": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Software Engineer - Full Stack Development"
   },
   "Kyndryl:R-59966": {
     "first_seen": "2026-09-03T17:09:38.674219Z",
@@ -3091,6 +3135,18 @@
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Software Engineer"
   },
+  "NatWest:18246523": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18246524": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Software Engineer"
+  },
+  "NatWest:18246525": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Software Engineer"
+  },
   "NatWest:18246582": {
     "first_seen": "2026-09-16T17:49:04.485730Z",
     "title": "Software Engineer"
@@ -3311,6 +3367,10 @@
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "GovCloud Distributed Systems Software Engineer"
   },
+  "Salesforce:JR347341": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Software Engineering SMTS (Backend - Distributed Systems)"
+  },
   "Salesforce:JR350272": {
     "first_seen": "2026-08-21T14:04:35.422614Z",
     "title": "Software Engineering- MTS (Backend + Infra)"
@@ -3489,6 +3549,10 @@
   },
   "Texas Instruments:25017277": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
+    "title": "Application Developer"
+  },
+  "Texas Instruments:25018046": {
+    "first_seen": "2026-09-18T12:08:01.315838Z",
     "title": "Application Developer"
   },
   "Thomson Reuters:JREQ199784": {
