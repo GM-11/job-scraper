@@ -219,6 +219,10 @@
     "first_seen": "2026-09-18T06:43:54.082368Z",
     "title": "Software Development Engineer, Buyer Fraud Prevention"
   },
+  "Amazon:10553343": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "SDE-1, Expansions Tech and Product"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -310,6 +314,10 @@
   "Autodesk:26WD96707": {
     "first_seen": "2026-09-02T12:15:31.906978Z",
     "title": "Software Engineer"
+  },
+  "Autodesk:26WD98218": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "Site Reliability Engineer"
   },
   "Autodesk:26WD99323": {
     "first_seen": "2026-08-24T08:29:47.790185Z",
@@ -919,6 +927,10 @@
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Azure Data Engineer"
   },
+  "EXL:20311": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "Full Stack Engineer"
+  },
   "EXL:20367": {
     "first_seen": "2026-09-18T12:08:01.315838Z",
     "title": "AWS Data Engineer"
@@ -934,6 +946,10 @@
   "Ericsson:563121774744227": {
     "first_seen": "2026-08-24T08:29:47.790185Z",
     "title": "Infrastructure Engineer"
+  },
+  "Ericsson:563121775140665": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "Platform & Infrastructure Engineer"
   },
   "Ericsson:563121775505133": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
@@ -2115,6 +2131,10 @@
     "first_seen": "2026-09-18T06:43:54.082368Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:132219": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:132257": {
     "first_seen": "2026-09-15T08:33:37.559589Z",
     "title": "Application Developer-Real Estate & Facilities"
@@ -2162,6 +2182,18 @@
   "IBM:132670": {
     "first_seen": "2026-09-16T17:49:04.485730Z",
     "title": "Associate Software Engineer"
+  },
+  "IBM:132681": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "Associate Software Engineer"
+  },
+  "IBM:132747": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "Associate Site Reliability Engineer"
+  },
+  "IBM:132748": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "Associate Platform Engineer"
   },
   "IBM:133016": {
     "first_seen": "2026-09-17T14:16:21.671223Z",
@@ -2342,6 +2374,10 @@
   "Kyndryl:R-66165": {
     "first_seen": "2026-08-28T21:16:17.648186Z",
     "title": "Full Stack Engineer"
+  },
+  "Kyndryl:R-66167": {
+    "first_seen": "2026-09-18T17:13:01.710346Z",
+    "title": "8 Full stack SW Engineer"
   },
   "Kyndryl:R-66256": {
     "first_seen": "2026-08-31T22:32:53.092855Z",
