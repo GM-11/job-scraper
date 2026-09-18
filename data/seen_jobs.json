@@ -191,6 +191,10 @@
     "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "Software Engineer , Selection Monitoring"
   },
+  "Amazon:10544314": {
+    "first_seen": "2026-09-18T06:43:54.082368Z",
+    "title": "Software Development Engineer I, IESP Merchant Tech"
+  },
   "Amazon:10545155": {
     "first_seen": "2026-09-16T17:49:04.485730Z",
     "title": "Software Development Engineer - II"
@@ -210,6 +214,10 @@
   "Amazon:10551624": {
     "first_seen": "2026-09-17T14:16:21.671223Z",
     "title": "Software Development Engineer, Rembrandt"
+  },
+  "Amazon:10553122": {
+    "first_seen": "2026-09-18T06:43:54.082368Z",
+    "title": "Software Development Engineer, Buyer Fraud Prevention"
   },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
@@ -2083,6 +2091,14 @@
     "first_seen": "2026-09-15T14:21:21.614751Z",
     "title": "Application Developer-Google Cloud FullStack"
   },
+  "IBM:132216": {
+    "first_seen": "2026-09-18T06:43:54.082368Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:132217": {
+    "first_seen": "2026-09-18T06:43:54.082368Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:132257": {
     "first_seen": "2026-09-15T08:33:37.559589Z",
     "title": "Application Developer-Real Estate & Facilities"
@@ -2474,6 +2490,10 @@
   "Microsoft:1970393556937574": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
     "title": "Software Engineer"
+  },
+  "Microsoft:1970393556947930": {
+    "first_seen": "2026-09-18T06:43:54.082368Z",
+    "title": "Consultant - .Net Full Stack & AI"
   },
   "Microsoft:1970393556956961": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
