@@ -223,6 +223,10 @@
     "first_seen": "2026-09-18T17:13:01.710346Z",
     "title": "SDE-1, Expansions Tech and Product"
   },
+  "Amazon:10554323": {
+    "first_seen": "2026-09-21T07:12:22.925011Z",
+    "title": "Software Development Engineer, Amazon"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -289,7 +293,7 @@
   },
   "Atlassian:27058": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
-    "title": "P50 Fullstack Software Engineer"
+    "title": "P40 Fullstack Software Engineer"
   },
   "Atlassian:27156": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
@@ -298,6 +302,10 @@
   "Atlassian:27266": {
     "first_seen": "2026-09-17T14:16:21.671223Z",
     "title": "Software Engineer, Search Platform"
+  },
+  "Autodesk:26WD100667": {
+    "first_seen": "2026-09-21T07:12:22.925011Z",
+    "title": "Software Engineer (Java & AWS)"
   },
   "Autodesk:26WD100669": {
     "first_seen": "2026-08-26T05:15:44.768359Z",
@@ -3413,7 +3421,7 @@
   },
   "Salesforce:JR350272": {
     "first_seen": "2026-08-21T14:04:35.422614Z",
-    "title": "Software Engineering- MTS (Backend + Infra)"
+    "title": "Software Engineering, MTS (Backend)"
   },
   "Salesforce:JR350915": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
