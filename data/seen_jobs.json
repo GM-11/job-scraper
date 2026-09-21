@@ -227,6 +227,14 @@
     "first_seen": "2026-09-21T07:12:22.925011Z",
     "title": "Software Development Engineer, Amazon"
   },
+  "Amazon:10554342": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Software Development Engineer, RBS Tech"
+  },
+  "Amazon:10554458": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Software Development Engineer, Seller and AM GenAI Tools"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -610,6 +618,10 @@
   "DocuSign:30076": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Software Engineer"
+  },
+  "DocuSign:30104": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Software Engineer, Commerce Services"
   },
   "DocuSign:30108": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -2203,12 +2215,32 @@
     "first_seen": "2026-09-18T17:13:01.710346Z",
     "title": "Associate Platform Engineer"
   },
+  "IBM:133009": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Software Engineer"
+  },
+  "IBM:133010": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Software Engineer"
+  },
+  "IBM:133012": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Software Engineer"
+  },
+  "IBM:133014": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Information System Engineer"
+  },
   "IBM:133016": {
     "first_seen": "2026-09-17T14:16:21.671223Z",
     "title": "Software Engineer"
   },
   "IBM:133208": {
     "first_seen": "2026-09-18T12:08:01.315838Z",
+    "title": "Data Engineer-Data Modeling"
+  },
+  "IBM:133210": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
     "title": "Data Engineer-Data Modeling"
   },
   "IBM:133214": {
@@ -2454,6 +2486,10 @@
   "Kyndryl:R-68573": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "IMS DB2 - COBOL Developer"
+  },
+  "Kyndryl:R-69110": {
+    "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Software Engineer"
   },
   "Mercedes-Benz:206354": {
     "first_seen": "2026-09-09T01:01:54.808281Z",
