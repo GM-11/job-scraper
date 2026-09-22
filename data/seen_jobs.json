@@ -1003,6 +1003,10 @@
     "first_seen": "2026-09-22T15:39:22.773175Z",
     "title": "Data Scientist"
   },
+  "EXL:20436": {
+    "first_seen": "2026-09-22T19:42:15.691939Z",
+    "title": "Application Engineer"
+  },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Data Engineer"
@@ -2486,6 +2490,14 @@
   "Kyndryl:R-66256": {
     "first_seen": "2026-08-31T22:32:53.092855Z",
     "title": "Network Engineer"
+  },
+  "Kyndryl:R-66580": {
+    "first_seen": "2026-09-22T19:42:15.691939Z",
+    "title": "Software Engineer - AMS Support"
+  },
+  "Kyndryl:R-66581": {
+    "first_seen": "2026-09-22T19:42:15.691939Z",
+    "title": "Software Engineer - AMS Support"
   },
   "Kyndryl:R-66622": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
