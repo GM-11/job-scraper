@@ -255,6 +255,10 @@
     "first_seen": "2026-09-21T20:15:15.521210Z",
     "title": "Software Development Engineer"
   },
+  "Amazon:10555688": {
+    "first_seen": "2026-09-22T05:45:00.815581Z",
+    "title": "Software Development Engineer, AI Runtime"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -2283,6 +2287,14 @@
     "first_seen": "2026-09-20T20:10:10.480325Z",
     "title": "Software Developer"
   },
+  "IBM:133736": {
+    "first_seen": "2026-09-22T05:45:00.815581Z",
+    "title": "Associate BI Developer - Confluent"
+  },
+  "IBM:133751": {
+    "first_seen": "2026-09-22T05:45:00.815581Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -2622,6 +2634,18 @@
   "Mercedes-Benz:237847": {
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "Eclipse RCP based Rich Client Developer"
+  },
+  "Mercedes-Benz:239269": {
+    "first_seen": "2026-09-22T05:45:00.815581Z",
+    "title": "ADAS Appl SW Algo developer - VAL Driving"
+  },
+  "Mercedes-Benz:239270": {
+    "first_seen": "2026-09-22T05:45:00.815581Z",
+    "title": "ADAS Appl SW Algo developer - VAL Driving"
+  },
+  "Mercedes-Benz:239271": {
+    "first_seen": "2026-09-22T05:45:00.815581Z",
+    "title": "ADAS Appl SW Algo developer - VAL Driving"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
