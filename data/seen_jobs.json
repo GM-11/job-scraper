@@ -267,6 +267,14 @@
     "first_seen": "2026-09-23T06:41:18.727591Z",
     "title": "Software Development Engineer, AI Trust & Innovation"
   },
+  "Amazon:10557423": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Amazon:10557470": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Software Development Engineer, WW Services Tech"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -511,6 +519,10 @@
     "first_seen": "2026-08-26T07:15:33.892097Z",
     "title": "Java Developer- Networking Domain"
   },
+  "Ciena:R031607": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Network Engineer"
+  },
   "Ciena:R031651": {
     "first_seen": "2026-09-18T12:08:01.315838Z",
     "title": "Network Engineer"
@@ -678,6 +690,10 @@
   "DocuSign:30324": {
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Software Engineer - Android"
+  },
+  "DocuSign:30364": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Software Engineer - Core Finance"
   },
   "EA:215939": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
@@ -1010,6 +1026,14 @@
   "EXL:20436": {
     "first_seen": "2026-09-22T19:42:15.691939Z",
     "title": "Application Engineer"
+  },
+  "EXL:20524": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Gen AI Engineer"
+  },
+  "EXL:20528": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Associate - Frontend Developer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -2479,6 +2503,10 @@
     "first_seen": "2026-09-02T12:15:31.906978Z",
     "title": "Data Engineer"
   },
+  "Kyndryl:R-64945": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Network Engineer"
+  },
   "Kyndryl:R-66091": {
     "first_seen": "2026-08-24T13:15:53.631940Z",
     "title": "Full stack SW Engineer"
@@ -2554,6 +2582,10 @@
   "Kyndryl:R-68405": {
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Java Developer"
+  },
+  "Kyndryl:R-68445": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "DevOps / Platform Engineer"
   },
   "Kyndryl:R-68486": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
@@ -3447,6 +3479,10 @@
     "first_seen": "2026-09-01T17:22:20.400601Z",
     "title": "Full Stack Builder"
   },
+  "Razorpay:4731054005": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Frontend Engineer "
+  },
   "Rippling:16b161f2-b631-408e-9177-c5723c62d690__bangalore-india": {
     "first_seen": "2026-08-26T12:04:38.637530Z",
     "title": "Credit Data Scientist & AI Agents"
@@ -3683,6 +3719,10 @@
     "first_seen": "2026-08-31T17:47:11.015518Z",
     "title": "Assoc, FrontEnd Eng, WRB Tech"
   },
+  "Standard Chartered:58861": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Software Developer (China / India)"
+  },
   "Standard Chartered:59520": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "ML Engineer"
@@ -3742,6 +3782,10 @@
   "Texas Instruments:25017277": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Application Developer"
+  },
+  "Texas Instruments:25017848": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Software Engineer"
   },
   "Texas Instruments:25017908": {
     "first_seen": "2026-09-22T15:39:22.773175Z",
@@ -3846,6 +3890,10 @@
   "Visa:REF088406W": {
     "first_seen": "2026-09-17T14:16:21.671223Z",
     "title": "Software Engineer (1-2 years' experience, Python / Go, ML Engineering)"
+  },
+  "Visa:REF088484W": {
+    "first_seen": "2026-09-23T12:27:58.133255Z",
+    "title": "Software Engineer"
   },
   "Wells Fargo:6a50d1018d769001": {
     "first_seen": "2026-08-19T06:56:35.307207Z",
