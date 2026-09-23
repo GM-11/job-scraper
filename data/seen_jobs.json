@@ -275,6 +275,10 @@
     "first_seen": "2026-09-23T12:27:58.133255Z",
     "title": "Software Development Engineer, WW Services Tech"
   },
+  "Amazon:10557759": {
+    "first_seen": "2026-09-23T17:54:56.628769Z",
+    "title": "Software Development Engineer, Tax Engine Services "
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -730,6 +734,10 @@
   "EXL:15592": {
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Full stack"
+  },
+  "EXL:16139": {
+    "first_seen": "2026-09-23T17:54:56.628769Z",
+    "title": "Data Engineer"
   },
   "EXL:16148": {
     "first_seen": "2026-09-15T14:21:21.614751Z",
@@ -2459,6 +2467,10 @@
     "first_seen": "2026-09-18T12:08:01.315838Z",
     "title": "Data Scientist Associate"
   },
+  "JPMorgan:210791112": {
+    "first_seen": "2026-09-23T17:54:56.628769Z",
+    "title": "Data Scientist Associate"
+  },
   "Kyndryl:R-55456": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
     "title": "Full Stack Developer"
@@ -3343,6 +3355,18 @@
     "first_seen": "2026-09-15T14:21:21.614751Z",
     "title": "Software Engineer"
   },
+  "NatWest:18231176": {
+    "first_seen": "2026-09-23T17:54:56.628769Z",
+    "title": "Business Risk Data Engineer"
+  },
+  "NatWest:18231177": {
+    "first_seen": "2026-09-23T17:54:56.628769Z",
+    "title": "Business Risk Data Engineer"
+  },
+  "NatWest:18231178": {
+    "first_seen": "2026-09-23T17:54:56.628769Z",
+    "title": "Business Risk Data Engineer"
+  },
   "NatWest:18231380": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
     "title": "Software Engineer, Oracle Cloud And AI"
@@ -3502,6 +3526,10 @@
   "S&P Global:324545": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Data Engineer"
+  },
+  "S&P Global:325825": {
+    "first_seen": "2026-09-23T17:54:56.628769Z",
+    "title": "Software developer (Full-stack and ETL)"
   },
   "S&P Global:325857": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
