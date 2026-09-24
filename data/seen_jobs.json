@@ -291,6 +291,10 @@
     "first_seen": "2026-09-24T00:25:12.867484Z",
     "title": "WiFi Software Development Engineer, eero"
   },
+  "Amazon:10558895": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Software Development Engineer, Alexa for Shopping"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1062,6 +1066,18 @@
   "EXL:20528": {
     "first_seen": "2026-09-23T12:27:58.133255Z",
     "title": "Associate - Frontend Developer"
+  },
+  "EXL:20536": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Data Scientist"
+  },
+  "EXL:20547": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Associate - Application Engineer"
+  },
+  "EXL:20598": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "AWS Data Engineer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -2627,6 +2643,10 @@
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "IMS DB2 - COBOL Developer"
   },
+  "Kyndryl:R-68735": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Platform Integration \u2013 CI/CD Platform Engineer"
+  },
   "Kyndryl:R-68923": {
     "first_seen": "2026-09-22T10:45:00.857417Z",
     "title": "Mainframe Application Developer"
@@ -2703,6 +2723,18 @@
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Full Stack Developer"
   },
+  "Mercedes-Benz:223721": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "JAVA Full Stack Developer"
+  },
+  "Mercedes-Benz:223722": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "JAVA Full Stack Developer"
+  },
+  "Mercedes-Benz:223723": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "JAVA Full Stack Developer"
+  },
   "Mercedes-Benz:226111": {
     "first_seen": "2026-08-29T03:38:21.106266Z",
     "title": "MBOS 2.0: Cloud Developer - T9"
@@ -2762,6 +2794,30 @@
   "Mercedes-Benz:239271": {
     "first_seen": "2026-09-22T05:45:00.815581Z",
     "title": "ADAS Appl SW Algo developer - VAL Driving"
+  },
+  "Mercedes-Benz:239647": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Junior Software Developer (Python and Node.js)"
+  },
+  "Mercedes-Benz:239649": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Junior Software Developer (Python and Node.js)"
+  },
+  "Mercedes-Benz:239651": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Junior Software Developer (Python and Node.js)"
+  },
+  "Mercedes-Benz:239652": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Junior Software Developer (Python and Node.js)"
+  },
+  "Mercedes-Benz:239653": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Junior Software Developer (Python and Node.js)"
+  },
+  "Mercedes-Benz:239655": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Junior Software Developer (Python and Node.js)"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
@@ -3427,6 +3483,10 @@
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Software Engineer I, ServiceNow"
   },
+  "Nike:R-92757": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Software Engineer I, ITC"
+  },
   "Nutanix:df51dff39dcc6be7": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Solutions Automation Developer/Software Developer [ Python, Github, Api's]"
@@ -3837,7 +3897,7 @@
   },
   "Texas Instruments:25017848": {
     "first_seen": "2026-09-23T12:27:58.133255Z",
-    "title": "Software Engineer"
+    "title": "Embedded Software Engineer - Security"
   },
   "Texas Instruments:25017908": {
     "first_seen": "2026-09-22T15:39:22.773175Z",
@@ -3862,6 +3922,10 @@
   "Thomson Reuters:JREQ200166": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Software Engineer - AI \u2013 CoCounsel Forward Deployed Engineering"
+  },
+  "Thomson Reuters:JREQ201047": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Data Engineer - Identity Resolution & Consent Data"
   },
   "Thomson Reuters:JREQ201792": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -3946,6 +4010,10 @@
   "Visa:REF088484W": {
     "first_seen": "2026-09-23T12:27:58.133255Z",
     "title": "Software Engineer"
+  },
+  "Visa:REF088653W": {
+    "first_seen": "2026-09-24T10:50:40.717654Z",
+    "title": "Software Engineer (1 - 2 years of experience in Python, GenAI, ML, Deep Learning)"
   },
   "Wells Fargo:6a50d1018d769001": {
     "first_seen": "2026-08-19T06:56:35.307207Z",
