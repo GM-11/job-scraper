@@ -1015,6 +1015,10 @@
     "first_seen": "2026-09-15T14:21:21.614751Z",
     "title": "AWS Data Engineer"
   },
+  "EXL:20205": {
+    "first_seen": "2026-09-24T05:38:35.344091Z",
+    "title": "Data Engineer"
+  },
   "EXL:20212": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
     "title": "Full Stack Engineer"
@@ -1046,6 +1050,10 @@
   "EXL:20436": {
     "first_seen": "2026-09-22T19:42:15.691939Z",
     "title": "Application Engineer"
+  },
+  "EXL:20440": {
+    "first_seen": "2026-09-24T05:38:35.344091Z",
+    "title": "Data Engineer"
   },
   "EXL:20524": {
     "first_seen": "2026-09-23T12:27:58.133255Z",
@@ -2625,6 +2633,10 @@
   },
   "Kyndryl:R-69110": {
     "first_seen": "2026-09-21T14:59:50.115080Z",
+    "title": "Software Engineer"
+  },
+  "Kyndryl:R-69162": {
+    "first_seen": "2026-09-24T05:38:35.344091Z",
     "title": "Software Engineer"
   },
   "Mercedes-Benz:206354": {
