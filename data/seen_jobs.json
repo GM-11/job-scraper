@@ -491,6 +491,10 @@
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Project Leader - Full Stack (BCN Labs)"
   },
+  "BlackRock:94068680624": {
+    "first_seen": "2026-09-25T14:37:03.552340Z",
+    "title": "AI Enabled Full stack Engineer, Aladdin Engineering, Associate"
+  },
   "BlackRock:95937643344": {
     "first_seen": "2026-08-27T14:21:07.454600Z",
     "title": "Associate, Application Engineer"
@@ -2415,6 +2419,22 @@
     "first_seen": "2026-09-22T05:45:00.815581Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:134188": {
+    "first_seen": "2026-09-25T14:37:03.552340Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134380": {
+    "first_seen": "2026-09-25T14:37:03.552340Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:134435": {
+    "first_seen": "2026-09-25T14:37:03.552340Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:134437": {
+    "first_seen": "2026-09-25T14:37:03.552340Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -2521,6 +2541,10 @@
   },
   "JPMorgan:210791112": {
     "first_seen": "2026-09-23T17:54:56.628769Z",
+    "title": "Data Scientist Associate"
+  },
+  "JPMorgan:210794862": {
+    "first_seen": "2026-09-25T14:37:03.552340Z",
     "title": "Data Scientist Associate"
   },
   "Kyndryl:R-55456": {
