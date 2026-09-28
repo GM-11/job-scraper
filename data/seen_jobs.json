@@ -327,6 +327,10 @@
     "first_seen": "2026-09-26T23:34:29.706242Z",
     "title": "Software Development Engineer, Time & Pay Innovation"
   },
+  "Amazon:10561925": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Software Engineer, Selection Monitoring, Selection Monitoring"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -378,6 +382,14 @@
   "Atlassian:25540": {
     "first_seen": "2026-08-26T15:16:04.821465Z",
     "title": "Backend Software Engineer, II"
+  },
+  "Atlassian:25697": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Frontend Software Engineer, II"
+  },
+  "Atlassian:25699": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Fullstack Software Engineer, II"
   },
   "Atlassian:25807": {
     "first_seen": "2026-09-14T07:01:24.943329Z",
@@ -751,6 +763,14 @@
     "first_seen": "2026-09-23T12:27:58.133255Z",
     "title": "Software Engineer - Core Finance"
   },
+  "DocuSign:30373": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Software Engineer"
+  },
+  "DocuSign:30384": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Software Engineer"
+  },
   "DocuSign:30400": {
     "first_seen": "2026-09-24T19:55:01.613000Z",
     "title": "Software Engineer"
@@ -766,6 +786,10 @@
   "EA:216034": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "Software Engineer Intern"
+  },
+  "EXL:10598": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Developer (IC)"
   },
   "EXL:13374": {
     "first_seen": "2026-08-25T06:03:29.074429Z",
@@ -1119,6 +1143,22 @@
     "first_seen": "2026-09-24T10:50:40.717654Z",
     "title": "AWS Data Engineer"
   },
+  "EXL:20690": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Palantir Data Engineer"
+  },
+  "EXL:20693": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer"
+  },
+  "EXL:20730": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:20732": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "AWS Data Engineer"
+  },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Data Engineer"
@@ -1222,6 +1262,10 @@
   "Ericsson:563121777091225": {
     "first_seen": "2026-08-20T14:51:47.743682Z",
     "title": "Network Engineer-Juniper"
+  },
+  "Ericsson:563121777099602": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Agentic AI Developer"
   },
   "Ericsson:563121777123817": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
@@ -2343,6 +2387,14 @@
     "first_seen": "2026-09-15T08:33:37.559589Z",
     "title": "Application Developer-Real Estate & Facilities"
   },
+  "IBM:132276": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:132278": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
   "IBM:132296": {
     "first_seen": "2026-09-10T10:33:54.579843Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -2447,8 +2499,92 @@
     "first_seen": "2026-09-25T14:37:03.552340Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:134198": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134216": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134228": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134232": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134249": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134253": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134258": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134261": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134266": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134272": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134278": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134288": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134295": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134319": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134375": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:134377": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:134378": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
   "IBM:134380": {
     "first_seen": "2026-09-25T14:37:03.552340Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:134383": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:134387": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:134391": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:134393": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
     "title": "Data Engineer-Data Platforms-AWS"
   },
   "IBM:134396": {
@@ -3015,6 +3151,10 @@
     "first_seen": "2026-09-01T07:00:41.007568Z",
     "title": "Java Backend -Associate-Software Engineer"
   },
+  "Morgan Stanley:549800442526": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Fullstack Developer_Director_Software Engineer"
+  },
   "NVIDIA:893395186955": {
     "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "Software Solutions Engineer"
@@ -3050,6 +3190,10 @@
   "NVIDIA:893397618413": {
     "first_seen": "2026-09-09T05:37:16.155156Z",
     "title": "System Software Engineer - Performance Verification Infrastructure"
+  },
+  "NVIDIA:893397883642": {
+    "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "System Security Software Engineer"
   },
   "NatWest:17365916": {
     "first_seen": "2026-08-28T21:16:17.648186Z",
