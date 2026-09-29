@@ -1187,6 +1187,14 @@
     "first_seen": "2026-09-29T09:22:57.848175Z",
     "title": "Application Engineer"
   },
+  "EXL:20805": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Data Scientist"
+  },
+  "EXL:20808": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Gen AI Engineer"
+  },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Data Engineer"
@@ -2411,8 +2419,28 @@
     "first_seen": "2026-09-15T08:33:37.559589Z",
     "title": "Application Developer-Real Estate & Facilities"
   },
+  "IBM:132262": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:132264": {
     "first_seen": "2026-09-15T08:33:37.559589Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:132265": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:132273": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:132274": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:132275": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:132276": {
@@ -2527,8 +2555,20 @@
     "first_seen": "2026-09-25T14:37:03.552340Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:134192": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
   "IBM:134198": {
     "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134205": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134211": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:134216": {
@@ -2541,6 +2581,14 @@
   },
   "IBM:134232": {
     "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134237": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134246": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:134249": {
@@ -2581,6 +2629,14 @@
   },
   "IBM:134319": {
     "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134325": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134328": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:134375": {
@@ -2631,6 +2687,10 @@
     "first_seen": "2026-09-25T19:19:00.346445Z",
     "title": "Data Engineer-Data Platforms-AWS"
   },
+  "IBM:134433": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Data Engineer-Master Data Management"
+  },
   "IBM:134435": {
     "first_seen": "2026-09-25T14:37:03.552340Z",
     "title": "Data Engineer-Data Platforms-Azure"
@@ -2639,8 +2699,24 @@
     "first_seen": "2026-09-25T14:37:03.552340Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:134443": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Application Consultant-Site Reliability"
+  },
   "IBM:134448": {
     "first_seen": "2026-09-29T09:22:57.848175Z",
+    "title": "Application Consultant-Site Reliability"
+  },
+  "IBM:134453": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Application Consultant-Site Reliability"
+  },
+  "IBM:134456": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Application Consultant-Site Reliability"
+  },
+  "IBM:134458": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Application Consultant-Site Reliability"
   },
   "IBM:134826": {
@@ -2649,6 +2725,14 @@
   },
   "IBM:134829": {
     "first_seen": "2026-09-29T09:22:57.848175Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:134908": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:134911": {
+    "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Integration"
   },
   "IBM:79363": {
