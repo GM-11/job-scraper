@@ -343,6 +343,10 @@
     "first_seen": "2026-09-30T07:30:17.510121Z",
     "title": "Software Development Engineer, AI Trust & Innovation"
   },
+  "Amazon:10565511": {
+    "first_seen": "2026-09-30T20:06:32.873171Z",
+    "title": "Software Development Engineer, Prime Video Live Events - Sports Data Platform"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1214,6 +1218,14 @@
   "EXL:20866": {
     "first_seen": "2026-09-30T14:33:37.550945Z",
     "title": "Palantir Data Engineer"
+  },
+  "EXL:20877": {
+    "first_seen": "2026-09-30T20:06:32.873171Z",
+    "title": "Data Scientist"
+  },
+  "EXL:20896": {
+    "first_seen": "2026-09-30T20:06:32.873171Z",
+    "title": "Application Engineer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -2758,6 +2770,10 @@
   "IBM:134458": {
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Application Consultant-Site Reliability"
+  },
+  "IBM:134500": {
+    "first_seen": "2026-09-30T20:06:32.873171Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:134826": {
     "first_seen": "2026-09-29T09:22:57.848175Z",
