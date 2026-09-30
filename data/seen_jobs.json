@@ -339,6 +339,10 @@
     "first_seen": "2026-09-29T09:22:57.848175Z",
     "title": "Software Development Engineer, CAM"
   },
+  "Amazon:10564584": {
+    "first_seen": "2026-09-30T07:30:17.510121Z",
+    "title": "Software Development Engineer, AI Trust & Innovation"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -2423,6 +2427,10 @@
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:132263": {
+    "first_seen": "2026-09-30T07:30:17.510121Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:132264": {
     "first_seen": "2026-09-15T08:33:37.559589Z",
     "title": "Application Developer-Real Estate & Facilities"
@@ -2743,6 +2751,10 @@
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Integration"
   },
+  "IBM:135131": {
+    "first_seen": "2026-09-30T07:30:17.510121Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -2887,6 +2899,10 @@
     "first_seen": "2026-09-07T11:05:15.694740Z",
     "title": "Mainframe IMS System Programmer"
   },
+  "Kyndryl:R-64253": {
+    "first_seen": "2026-09-30T07:30:17.510121Z",
+    "title": "Mainframe z/OS System Programmer"
+  },
   "Kyndryl:R-64373": {
     "first_seen": "2026-09-03T06:31:08.983965Z",
     "title": "Network Engineer"
@@ -3002,6 +3018,10 @@
   "Kyndryl:R-68591": {
     "first_seen": "2026-09-25T08:32:42.068835Z",
     "title": "DevOps Engineer - WAS+Automation"
+  },
+  "Kyndryl:R-68612": {
+    "first_seen": "2026-09-30T07:30:17.510121Z",
+    "title": "Azure Platform Engineer"
   },
   "Kyndryl:R-68735": {
     "first_seen": "2026-09-24T10:50:40.717654Z",
