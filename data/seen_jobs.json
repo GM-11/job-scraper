@@ -891,6 +891,10 @@
     "first_seen": "2026-09-11T15:12:38.804031Z",
     "title": "BI Developer"
   },
+  "EXL:19011": {
+    "first_seen": "2026-09-30T14:33:37.550945Z",
+    "title": "Developer (IC)"
+  },
   "EXL:19096": {
     "first_seen": "2026-08-28T09:01:21.235794Z",
     "title": "Platform Engineer"
@@ -1198,6 +1202,18 @@
   "EXL:20808": {
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Gen AI Engineer"
+  },
+  "EXL:20814": {
+    "first_seen": "2026-09-30T14:33:37.550945Z",
+    "title": "Data Scientist"
+  },
+  "EXL:20859": {
+    "first_seen": "2026-09-30T14:33:37.550945Z",
+    "title": "Application Engineer"
+  },
+  "EXL:20866": {
+    "first_seen": "2026-09-30T14:33:37.550945Z",
+    "title": "Palantir Data Engineer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -2711,12 +2727,20 @@
     "first_seen": "2026-09-25T14:37:03.552340Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:134441": {
+    "first_seen": "2026-09-30T14:33:37.550945Z",
+    "title": "Application Consultant-Site Reliability"
+  },
   "IBM:134443": {
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Application Consultant-Site Reliability"
   },
   "IBM:134448": {
     "first_seen": "2026-09-29T09:22:57.848175Z",
+    "title": "Application Consultant-Site Reliability"
+  },
+  "IBM:134452": {
+    "first_seen": "2026-09-30T14:33:37.550945Z",
     "title": "Application Consultant-Site Reliability"
   },
   "IBM:134453": {
@@ -2750,6 +2774,10 @@
   "IBM:134911": {
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Integration"
+  },
+  "IBM:135121": {
+    "first_seen": "2026-09-30T14:33:37.550945Z",
+    "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:135131": {
     "first_seen": "2026-09-30T07:30:17.510121Z",
