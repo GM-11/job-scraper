@@ -591,6 +591,10 @@
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "AI Developer"
   },
+  "Ciena:R030250": {
+    "first_seen": "2026-10-01T20:15:46.028254Z",
+    "title": "DevOps Engineer"
+  },
   "Ciena:R031454": {
     "first_seen": "2026-08-25T07:10:22.651010Z",
     "title": "C++ Developer"
@@ -2814,6 +2818,10 @@
   "IBM:135131": {
     "first_seen": "2026-09-30T07:30:17.510121Z",
     "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:135462": {
+    "first_seen": "2026-10-01T20:15:46.028254Z",
+    "title": "Associate System Engineer"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
