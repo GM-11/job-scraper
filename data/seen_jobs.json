@@ -1231,6 +1231,10 @@
     "first_seen": "2026-09-30T20:06:32.873171Z",
     "title": "Application Engineer"
   },
+  "EXL:20934": {
+    "first_seen": "2026-10-01T14:12:58.326185Z",
+    "title": "BI Developer"
+  },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Data Engineer"
@@ -1390,6 +1394,10 @@
   "Google:c79a482cc48f42e8": {
     "first_seen": "2026-08-21T08:01:23.209026Z",
     "title": "Software Engineer, PhD, Early Career, 2026"
+  },
+  "Harness:5245652007": {
+    "first_seen": "2026-10-01T14:12:58.326185Z",
+    "title": "Software Engineer"
   },
   "IBM:112857": {
     "first_seen": "2026-08-24T11:55:48.251163Z",
@@ -2989,7 +2997,7 @@
   },
   "Kyndryl:R-66167": {
     "first_seen": "2026-09-18T17:13:01.710346Z",
-    "title": "8 Full stack SW Engineer"
+    "title": "Fullstack Software Engineer"
   },
   "Kyndryl:R-66256": {
     "first_seen": "2026-08-31T22:32:53.092855Z",
@@ -3042,6 +3050,10 @@
   "Kyndryl:R-67288": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Azure Cloud Engineer BST"
+  },
+  "Kyndryl:R-67418": {
+    "first_seen": "2026-10-01T14:12:58.326185Z",
+    "title": "Linux DevOps Engineer"
   },
   "Kyndryl:R-67500": {
     "first_seen": "2026-09-04T12:06:15.992310Z",
