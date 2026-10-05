@@ -1267,6 +1267,10 @@
     "first_seen": "2026-10-01T14:12:58.326185Z",
     "title": "BI Developer"
   },
+  "EXL:21029": {
+    "first_seen": "2026-10-05T16:49:41.077151Z",
+    "title": "AWS Data Engineer"
+  },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Data Engineer"
@@ -1365,7 +1369,7 @@
   },
   "Ericsson:563121777091223": {
     "first_seen": "2026-09-14T07:01:24.943329Z",
-    "title": "Network Engineer-Palo Alto Security"
+    "title": "Network Engineer-Juniper"
   },
   "Ericsson:563121777091225": {
     "first_seen": "2026-08-20T14:51:47.743682Z",
@@ -2483,6 +2487,14 @@
     "first_seen": "2026-09-18T17:13:01.710346Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:132221": {
+    "first_seen": "2026-10-05T16:49:41.077151Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:132222": {
+    "first_seen": "2026-10-05T16:49:41.077151Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:132257": {
     "first_seen": "2026-09-15T08:33:37.559589Z",
     "title": "Application Developer-Real Estate & Facilities"
@@ -2513,6 +2525,10 @@
   },
   "IBM:132271": {
     "first_seen": "2026-10-03T18:35:12.567467Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:132272": {
+    "first_seen": "2026-10-05T16:49:41.077151Z",
     "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:132273": {
@@ -2566,6 +2582,10 @@
   "IBM:132310": {
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:132330": {
+    "first_seen": "2026-10-05T16:49:41.077151Z",
+    "title": "ML Engineer-Advanced Analytics"
   },
   "IBM:132670": {
     "first_seen": "2026-09-16T17:49:04.485730Z",
@@ -2665,6 +2685,10 @@
   },
   "IBM:134216": {
     "first_seen": "2026-09-28T16:19:06.856661Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:134223": {
+    "first_seen": "2026-10-05T16:49:41.077151Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:134228": {
@@ -2846,6 +2870,14 @@
   "IBM:134911": {
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Integration"
+  },
+  "IBM:135100": {
+    "first_seen": "2026-10-05T16:49:41.077151Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:135115": {
+    "first_seen": "2026-10-05T16:49:41.077151Z",
+    "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:135121": {
     "first_seen": "2026-09-30T14:33:37.550945Z",
@@ -4073,7 +4105,7 @@
   },
   "PayPal:274922421738": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
-    "title": "Software Engineer"
+    "title": "Cloud Platform Software Engineer"
   },
   "PayPal:274922421881": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
@@ -4161,7 +4193,7 @@
   },
   "Rippling:28e76743-13cf-4e30-94f2-bbaa021a2d9b__bangalore-india": {
     "first_seen": "2026-10-05T07:47:09.209027Z",
-    "title": "Copy of Software Engineer I - Integration Platform"
+    "title": "Software Engineer I -Data Infrastructure "
   },
   "Rippling:37395123-794a-4bda-8671-e002a4c627ac__bangalore-india": {
     "first_seen": "2026-08-20T10:31:21.112776Z",
