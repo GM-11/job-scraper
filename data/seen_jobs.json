@@ -399,6 +399,10 @@
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "devops-engineer-marcom"
   },
+  "Apple:200686703": {
+    "first_seen": "2026-10-05T23:22:39.997457Z",
+    "title": "database-engineer-postgresql-sre"
+  },
   "Arcesium:5207754007": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Forward Deployed Software Engineer "
@@ -2887,6 +2891,10 @@
     "first_seen": "2026-09-30T07:30:17.510121Z",
     "title": "Application Developer-Real Estate & Facilities"
   },
+  "IBM:135134": {
+    "first_seen": "2026-10-05T23:22:39.997457Z",
+    "title": "Application Developer-Hybrid Cloud Manage"
+  },
   "IBM:135462": {
     "first_seen": "2026-10-01T20:15:46.028254Z",
     "title": "Associate System Engineer"
@@ -3162,6 +3170,10 @@
   "Kyndryl:R-68612": {
     "first_seen": "2026-09-30T07:30:17.510121Z",
     "title": "Azure Platform Engineer"
+  },
+  "Kyndryl:R-68622": {
+    "first_seen": "2026-10-05T23:22:39.997457Z",
+    "title": "Azure DevOps Engineer"
   },
   "Kyndryl:R-68735": {
     "first_seen": "2026-09-24T10:50:40.717654Z",
