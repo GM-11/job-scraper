@@ -359,6 +359,26 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Software Development Engineer - II"
   },
+  "Amazon:10570197": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Software Development Engineer, Amazon Fulfillment Technology (AFT), Platform Engineering and Services"
+  },
+  "Amazon:10570198": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Software Development Engineer, Amazon Fulfillment Technology (AFT), Platform Engineering and Services"
+  },
+  "Amazon:10570248": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Software Development Engineer, Amazon Fulfillment Technology (AFT), Platform Engineering and Services"
+  },
+  "Amazon:10570250": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Software Engineer, Flex Offer Journey "
+  },
+  "Amazon:10570254": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Software Engineer, Flex Offer Journey "
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -891,6 +911,10 @@
     "first_seen": "2026-08-24T07:22:56.651619Z",
     "title": "Full stack"
   },
+  "EXL:15621": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Python/Snowflake Developer"
+  },
   "EXL:16139": {
     "first_seen": "2026-09-23T17:54:56.628769Z",
     "title": "Data Engineer"
@@ -1295,6 +1319,10 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Data Scientist"
   },
+  "EXL:21089": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Data Engineer"
+  },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Data Engineer"
@@ -1530,6 +1558,10 @@
   "IBM:129188": {
     "first_seen": "2026-09-15T18:54:08.050616Z",
     "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:129338": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Application Developer-AWS Cloud FullStack"
   },
   "IBM:129342": {
     "first_seen": "2026-09-01T12:29:01.053869Z",
@@ -2975,6 +3007,10 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:135109": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Application Developer-Salesforce"
+  },
   "IBM:135110": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
@@ -2998,6 +3034,10 @@
   "IBM:135121": {
     "first_seen": "2026-09-30T14:33:37.550945Z",
     "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:135123": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Application Developer-Salesforce"
   },
   "IBM:135131": {
     "first_seen": "2026-09-30T07:30:17.510121Z",
@@ -3026,6 +3066,10 @@
   "IBM:135462": {
     "first_seen": "2026-10-01T20:15:46.028254Z",
     "title": "Associate System Engineer"
+  },
+  "IBM:135885": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Cloud & AI Engineer"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -4691,6 +4735,10 @@
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Data Scientist"
   },
+  "Thomson Reuters:JREQ201906": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Data Scientist"
+  },
   "Thomson Reuters:JREQ201915": {
     "first_seen": "2026-08-31T17:47:11.015518Z",
     "title": "Automation and AI Developer"
@@ -4722,6 +4770,10 @@
   "Thomson Reuters:JREQ203130": {
     "first_seen": "2026-09-02T17:18:50.709813Z",
     "title": "Software Engineer I"
+  },
+  "Thomson Reuters:JREQ203676": {
+    "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Software Engineer"
   },
   "Visa:REF081660W": {
     "first_seen": "2026-08-23T17:52:23.678204Z",
