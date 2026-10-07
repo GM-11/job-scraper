@@ -403,6 +403,10 @@
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Software Development Engineer, Amazon"
   },
+  "Amazon:10572202": {
+    "first_seen": "2026-10-07T22:39:14.579524Z",
+    "title": "Software Development Engineer, Last Mile Platform Services, SDE"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1003,6 +1007,10 @@
     "first_seen": "2026-09-11T15:12:38.804031Z",
     "title": "BI Developer"
   },
+  "EXL:18742": {
+    "first_seen": "2026-10-07T22:39:14.579524Z",
+    "title": "Google CX Developer"
+  },
   "EXL:19011": {
     "first_seen": "2026-09-30T14:33:37.550945Z",
     "title": "Developer (IC)"
@@ -1379,9 +1387,21 @@
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "AWS Platform Engineer"
   },
+  "EXL:21147": {
+    "first_seen": "2026-10-07T22:39:14.579524Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:21148": {
+    "first_seen": "2026-10-07T22:39:14.579524Z",
+    "title": "AWS Data Engineer"
+  },
   "EXL:21150": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Data Scientist"
+  },
+  "EXL:21172": {
+    "first_seen": "2026-10-07T22:39:14.579524Z",
+    "title": "GCP Data Engineer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -3189,6 +3209,10 @@
   },
   "IBM:135139": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:135141": {
+    "first_seen": "2026-10-07T22:39:14.579524Z",
     "title": "Application Developer-Java & Web Technologies"
   },
   "IBM:135143": {
