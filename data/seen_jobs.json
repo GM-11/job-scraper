@@ -379,6 +379,30 @@
     "first_seen": "2026-10-06T17:55:46.009017Z",
     "title": "Software Engineer, Flex Offer Journey "
   },
+  "Amazon:10571633": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Software Development Engineer, CAM"
+  },
+  "Amazon:10571784": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Software Development Engineer"
+  },
+  "Amazon:10571786": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Software Development Engineer"
+  },
+  "Amazon:10571791": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Software Development Engineer"
+  },
+  "Amazon:10571793": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Software Development Engineer"
+  },
+  "Amazon:10572015": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Software Development Engineer, Amazon"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -598,6 +622,10 @@
   "Bain & Company:110097": {
     "first_seen": "2026-10-05T07:47:09.209027Z",
     "title": "Associate- AI Data Engineer(Retail)"
+  },
+  "BlackRock:91936971120": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Associate, Full Stack Developer"
   },
   "BlackRock:94068680624": {
     "first_seen": "2026-09-25T14:37:03.552340Z",
@@ -1079,6 +1107,10 @@
     "first_seen": "2026-09-02T17:18:50.709813Z",
     "title": "Python and Gen AI developer"
   },
+  "EXL:19543": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": ".NET Data Engineer"
+  },
   "EXL:19606": {
     "first_seen": "2026-09-02T17:18:50.709813Z",
     "title": "Google CX Developer"
@@ -1235,6 +1267,10 @@
     "first_seen": "2026-09-24T05:38:35.344091Z",
     "title": "Data Engineer"
   },
+  "EXL:20487": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Developer (IC)"
+  },
   "EXL:20524": {
     "first_seen": "2026-09-23T12:27:58.133255Z",
     "title": "Gen AI Engineer"
@@ -1299,6 +1335,10 @@
     "first_seen": "2026-09-30T14:33:37.550945Z",
     "title": "Data Scientist"
   },
+  "EXL:20857": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Application Engineer-Application Development-Applications Development Engineering"
+  },
   "EXL:20859": {
     "first_seen": "2026-09-30T14:33:37.550945Z",
     "title": "Application Engineer"
@@ -1334,6 +1374,14 @@
   "EXL:21089": {
     "first_seen": "2026-10-06T17:55:46.009017Z",
     "title": "Data Engineer"
+  },
+  "EXL:21142": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "AWS Platform Engineer"
+  },
+  "EXL:21150": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Data Scientist"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -2607,6 +2655,18 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:132240": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:132242": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:132247": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:132248": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Application Developer-Real Estate & Facilities"
@@ -2614,6 +2674,10 @@
   "IBM:132250": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:132251": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:132252": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
@@ -3135,6 +3199,14 @@
     "first_seen": "2026-10-01T20:15:46.028254Z",
     "title": "Associate System Engineer"
   },
+  "IBM:135780": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Data Engineer-Machine Learning"
+  },
+  "IBM:135781": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Data Engineer-Machine Learning"
+  },
   "IBM:135792": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Cloud & AI Engineer"
@@ -3197,6 +3269,42 @@
   },
   "IBM:135885": {
     "first_seen": "2026-10-06T17:55:46.009017Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135920": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135921": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135923": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135924": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135932": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135933": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135948": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135949": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135951": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Cloud & AI Engineer"
   },
   "IBM:79363": {
@@ -3350,6 +3458,10 @@
   "Kyndryl:R-64373": {
     "first_seen": "2026-09-03T06:31:08.983965Z",
     "title": "Network Engineer"
+  },
+  "Kyndryl:R-64443": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "SAP ABAP Developer"
   },
   "Kyndryl:R-64490": {
     "first_seen": "2026-09-17T14:16:21.671223Z",
@@ -3694,6 +3806,18 @@
   "Mercedes-Benz:240590": {
     "first_seen": "2026-10-01T06:46:45.952608Z",
     "title": "Data & AI Engineer"
+  },
+  "Mercedes-Benz:241369": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "MB.OS Full Stack Developer"
+  },
+  "Mercedes-Benz:241371": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "MB.OS Full Stack Developer"
+  },
+  "Mercedes-Benz:241372": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "MB.OS Full Stack Developer"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
@@ -4574,6 +4698,10 @@
   "S&P Global:331428": {
     "first_seen": "2026-08-26T04:27:06.785767Z",
     "title": "Software Engineer, Backend Development (Python)"
+  },
+  "S&P Global:331958": {
+    "first_seen": "2026-10-07T17:17:54.399011Z",
+    "title": "Open-Source Software Engineer"
   },
   "Salesforce:JR281671": {
     "first_seen": "2026-08-19T05:42:38.600022Z",
