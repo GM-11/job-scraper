@@ -883,6 +883,10 @@
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "Software Engineer Intern"
   },
+  "EA:216200": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Software Engineer I"
+  },
   "EXL:10598": {
     "first_seen": "2026-09-28T16:19:06.856661Z",
     "title": "Developer (IC)"
@@ -1179,6 +1183,10 @@
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Executive - Backend"
   },
+  "EXL:20100": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "AWS Platform Engineer"
+  },
   "EXL:20102": {
     "first_seen": "2026-09-14T07:01:24.943329Z",
     "title": "Full Stack Engineer"
@@ -1318,6 +1326,10 @@
   "EXL:21049": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Data Scientist"
+  },
+  "EXL:21063": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Engineer"
   },
   "EXL:21089": {
     "first_seen": "2026-10-06T17:55:46.009017Z",
@@ -1465,6 +1477,10 @@
   },
   "Ericsson:563121777204562": {
     "first_seen": "2026-09-15T14:21:21.614751Z",
+    "title": "DevOps Engineer"
+  },
+  "Ericsson:563121777354941": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "DevOps Engineer"
   },
   "GlobalLogic:0061f22df64eb658": {
@@ -2591,6 +2607,10 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:132248": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
   "IBM:132250": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Cloud FullStack"
@@ -2598,6 +2618,10 @@
   "IBM:132252": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:132254": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:132255": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
@@ -2638,6 +2662,14 @@
   "IBM:132265": {
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:132267": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:132268": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:132271": {
     "first_seen": "2026-10-03T18:35:12.567467Z",
@@ -2951,6 +2983,14 @@
     "first_seen": "2026-09-29T09:22:57.848175Z",
     "title": "Application Consultant-Site Reliability"
   },
+  "IBM:134450": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Consultant-Site Reliability"
+  },
+  "IBM:134451": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Consultant-Site Reliability"
+  },
   "IBM:134452": {
     "first_seen": "2026-09-30T14:33:37.550945Z",
     "title": "Application Consultant-Site Reliability"
@@ -2995,6 +3035,14 @@
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Integration"
   },
+  "IBM:135094": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:135097": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
   "IBM:135098": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
@@ -3003,9 +3051,17 @@
     "first_seen": "2026-10-05T16:49:41.077151Z",
     "title": "Application Developer-Real Estate & Facilities"
   },
+  "IBM:135102": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
   "IBM:135105": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:135108": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:135109": {
     "first_seen": "2026-10-06T17:55:46.009017Z",
@@ -3014,6 +3070,10 @@
   "IBM:135110": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:135113": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:135114": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
@@ -3038,6 +3098,14 @@
   "IBM:135123": {
     "first_seen": "2026-10-06T17:55:46.009017Z",
     "title": "Application Developer-Salesforce"
+  },
+  "IBM:135125": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
+  },
+  "IBM:135129": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Application Developer-Real Estate & Facilities"
   },
   "IBM:135131": {
     "first_seen": "2026-09-30T07:30:17.510121Z",
@@ -3066,6 +3134,66 @@
   "IBM:135462": {
     "first_seen": "2026-10-01T20:15:46.028254Z",
     "title": "Associate System Engineer"
+  },
+  "IBM:135792": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135794": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135796": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135801": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135802": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135807": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135871": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135873": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135876": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135877": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135879": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135880": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135882": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135883": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135884": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Cloud & AI Engineer"
   },
   "IBM:135885": {
     "first_seen": "2026-10-06T17:55:46.009017Z",
@@ -4370,6 +4498,10 @@
   "Qualcomm:446721052756": {
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "XR Software Engineer (All Levels - Multiple Positions)"
+  },
+  "Qualcomm:446721435576": {
+    "first_seen": "2026-10-07T09:30:46.348926Z",
+    "title": "Memory CAD Software Engineer"
   },
   "Razorpay:4699107005": {
     "first_seen": "2026-09-01T17:22:20.400601Z",
