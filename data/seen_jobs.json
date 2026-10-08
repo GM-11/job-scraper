@@ -407,6 +407,10 @@
     "first_seen": "2026-10-07T22:39:14.579524Z",
     "title": "Software Development Engineer, Last Mile Platform Services, SDE"
   },
+  "Amazon:10573003": {
+    "first_seen": "2026-10-08T17:19:01.386830Z",
+    "title": "Software Development Engineer, Amazon"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1303,6 +1307,10 @@
     "first_seen": "2026-09-24T10:50:40.717654Z",
     "title": "AWS Data Engineer"
   },
+  "EXL:20650": {
+    "first_seen": "2026-10-08T17:19:01.386830Z",
+    "title": "Cloud Engineer"
+  },
   "EXL:20690": {
     "first_seen": "2026-09-28T16:19:06.856661Z",
     "title": "Palantir Data Engineer"
@@ -1379,6 +1387,10 @@
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Application Engineer"
   },
+  "EXL:21085": {
+    "first_seen": "2026-10-08T17:19:01.386830Z",
+    "title": "AWS Data Engineer"
+  },
   "EXL:21089": {
     "first_seen": "2026-10-06T17:55:46.009017Z",
     "title": "Data Engineer"
@@ -1399,6 +1411,10 @@
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Data Scientist"
   },
+  "EXL:21168": {
+    "first_seen": "2026-10-08T17:19:01.386830Z",
+    "title": "Application Engineer"
+  },
   "EXL:21172": {
     "first_seen": "2026-10-07T22:39:14.579524Z",
     "title": "GCP Data Engineer"
@@ -1406,6 +1422,14 @@
   "EXL:21190": {
     "first_seen": "2026-10-08T09:47:32.755553Z",
     "title": "Data Engineer"
+  },
+  "EXL:21202": {
+    "first_seen": "2026-10-08T17:19:01.386830Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:21228": {
+    "first_seen": "2026-10-08T17:19:01.386830Z",
+    "title": "Gen AI Engineer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -4682,6 +4706,10 @@
   "Qualcomm:446720858601": {
     "first_seen": "2026-09-07T11:05:15.694740Z",
     "title": "RTL Front-End Flow Optimization (CAD)"
+  },
+  "Qualcomm:446720943595": {
+    "first_seen": "2026-10-08T17:19:01.386830Z",
+    "title": "Modem/GNSS Systems Engineer"
   },
   "Qualcomm:446721034676": {
     "first_seen": "2026-09-11T10:27:37.595516Z",
