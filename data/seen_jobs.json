@@ -1403,6 +1403,10 @@
     "first_seen": "2026-10-07T22:39:14.579524Z",
     "title": "GCP Data Engineer"
   },
+  "EXL:21190": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Data Engineer"
+  },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Data Engineer"
@@ -1550,6 +1554,10 @@
   "Ericsson:563121777354941": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "DevOps Engineer"
+  },
+  "Ericsson:563121777397905": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Application Engineer"
   },
   "GlobalLogic:0061f22df64eb658": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -3187,6 +3195,10 @@
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Application Developer-Real Estate & Facilities"
   },
+  "IBM:135127": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Application Developer-Salesforce"
+  },
   "IBM:135129": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Application Developer-Real Estate & Facilities"
@@ -3295,6 +3307,26 @@
     "first_seen": "2026-10-06T17:55:46.009017Z",
     "title": "Cloud & AI Engineer"
   },
+  "IBM:135893": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135913": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135914": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135915": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135916": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Cloud & AI Engineer"
+  },
   "IBM:135920": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Cloud & AI Engineer"
@@ -3330,6 +3362,14 @@
   "IBM:135951": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Cloud & AI Engineer"
+  },
+  "IBM:136298": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:136301": {
+    "first_seen": "2026-10-08T09:47:32.755553Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
