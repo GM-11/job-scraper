@@ -435,6 +435,10 @@
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "Software Engineer I"
   },
+  "American Express:26014882": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Site Reliability Engineer I"
+  },
   "Apple:200628323": {
     "first_seen": "2026-08-25T09:09:56.283563Z",
     "title": "devops-engineer"
@@ -1439,6 +1443,10 @@
     "first_seen": "2026-10-08T09:47:32.755553Z",
     "title": "Data Engineer"
   },
+  "EXL:21199": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Application Engineer"
+  },
   "EXL:21202": {
     "first_seen": "2026-10-08T17:19:01.386830Z",
     "title": "AWS Data Engineer"
@@ -1446,6 +1454,10 @@
   "EXL:21228": {
     "first_seen": "2026-10-08T17:19:01.386830Z",
     "title": "Gen AI Engineer"
+  },
+  "EXL:21287": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "AWS Data Engineer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -3491,12 +3503,36 @@
     "first_seen": "2026-10-08T22:51:14.977261Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:136307": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:136311": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:136332": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:136336": {
     "first_seen": "2026-10-09T09:58:55.162534Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:136351": {
     "first_seen": "2026-10-08T22:51:14.977261Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:136356": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:136358": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:136366": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:79363": {
@@ -4803,6 +4839,10 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Linux Software Engineer"
   },
+  "Qualcomm:446720182831": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "AI ML Engineer"
+  },
   "Qualcomm:446720545012": {
     "first_seen": "2026-08-25T18:04:44.859228Z",
     "title": "Engineer, -AI and Machine Learning with embedded/C++"
@@ -5018,6 +5058,14 @@
   "Salesforce:JR357369": {
     "first_seen": "2026-08-27T09:58:47.530455Z",
     "title": "Specialist Solution Engineer"
+  },
+  "Salesforce:JR362707": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Software Engineering MTS (DevOps Engineer)"
+  },
+  "Salesforce:JR363217": {
+    "first_seen": "2026-10-09T17:03:20.538316Z",
+    "title": "Developer Advocate"
   },
   "SanDisk:744000149008929": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
