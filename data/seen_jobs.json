@@ -415,6 +415,10 @@
     "first_seen": "2026-10-08T22:51:14.977261Z",
     "title": "Software Development Engineer- II, Amazon Autos"
   },
+  "Amazon:10574424": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Software Developer - Platform BSP Engineer, SSG"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1418,6 +1422,10 @@
   "EXL:21150": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Data Scientist"
+  },
+  "EXL:21156": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Data Engineer"
   },
   "EXL:21168": {
     "first_seen": "2026-10-08T17:19:01.386830Z",
@@ -3355,6 +3363,14 @@
     "first_seen": "2026-10-06T17:55:46.009017Z",
     "title": "Cloud & AI Engineer"
   },
+  "IBM:135886": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135889": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
   "IBM:135893": {
     "first_seen": "2026-10-08T09:47:32.755553Z",
     "title": "Cloud & AI Engineer"
@@ -3399,6 +3415,18 @@
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Cloud & AI Engineer"
   },
+  "IBM:135934": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135935": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135939": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
   "IBM:135948": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Cloud & AI Engineer"
@@ -3423,6 +3451,30 @@
     "first_seen": "2026-10-08T22:51:14.977261Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:136074": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:136183": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:136189": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:136193": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:136211": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:136217": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Cloud & AI Engineer"
+  },
   "IBM:136288": {
     "first_seen": "2026-10-08T22:51:14.977261Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -3437,6 +3489,10 @@
   },
   "IBM:136303": {
     "first_seen": "2026-10-08T22:51:14.977261Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:136336": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:136351": {
@@ -3966,6 +4022,18 @@
   "Mercedes-Benz:241372": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "MB.OS Full Stack Developer"
+  },
+  "Mercedes-Benz:241655": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Data Scientist"
+  },
+  "Mercedes-Benz:241657": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Data Scientist"
+  },
+  "Mercedes-Benz:241659": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Data Scientist"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
@@ -5246,6 +5314,10 @@
   "Visa:REF088653W": {
     "first_seen": "2026-09-24T10:50:40.717654Z",
     "title": "Software Engineer (1 - 2 years of experience in Python, GenAI, ML, Deep Learning)"
+  },
+  "Visa:REF089136W": {
+    "first_seen": "2026-10-09T09:58:55.162534Z",
+    "title": "Data Engineer"
   },
   "Visa:REF089139W": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
