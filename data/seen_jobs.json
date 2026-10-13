@@ -1495,6 +1495,10 @@
     "first_seen": "2026-10-10T20:48:10.810144Z",
     "title": "Associate - Application Engineer"
   },
+  "EXL:21256": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Data Engineer"
+  },
   "EXL:21287": {
     "first_seen": "2026-10-09T17:03:20.538316Z",
     "title": "AWS Data Engineer"
@@ -1506,6 +1510,14 @@
   "EXL:21355": {
     "first_seen": "2026-10-12T20:34:26.330434Z",
     "title": "Application Engineer"
+  },
+  "EXL:21396": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Data Engineer"
+  },
+  "EXL:21444": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Data Scientist"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
@@ -1617,7 +1629,7 @@
   },
   "Ericsson:563121777104683": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
-    "title": "Network Engineer"
+    "title": "Network Engineer-Data Center & WAN"
   },
   "Ericsson:563121777109090": {
     "first_seen": "2026-10-13T10:09:15.397424Z",
@@ -3895,6 +3907,22 @@
     "first_seen": "2026-10-13T10:09:15.397424Z",
     "title": "AI back-end Engineer"
   },
+  "IBM:136905": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Hardware Developer - Pre & Post Silicon Validation"
+  },
+  "IBM:137011": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Application Developer-Cloud Fullstack"
+  },
+  "IBM:137013": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Application Developer-Cloud Fullstack"
+  },
+  "IBM:137018": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Application Developer-Cloud Fullstack"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -4030,6 +4058,10 @@
   "JPMorgan:210799985": {
     "first_seen": "2026-10-13T10:09:15.397424Z",
     "title": "Data Scientist - Associate"
+  },
+  "Jio:87303651": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Software Engineer"
   },
   "Kyndryl:R-55456": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -5419,6 +5451,10 @@
     "first_seen": "2026-08-16T08:35:35.790760Z",
     "title": "Associate Software Development Engineer - Information Security"
   },
+  "S&P Global:330717": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Machine Learning Engineer"
+  },
   "S&P Global:331428": {
     "first_seen": "2026-08-26T04:27:06.785767Z",
     "title": "Software Engineer, Backend Development (Python)"
@@ -5426,6 +5462,10 @@
   "S&P Global:331958": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Open-Source Software Engineer"
+  },
+  "S&P Global:332151": {
+    "first_seen": "2026-10-13T18:19:05.761508Z",
+    "title": "Software Engineer - Enterprise Data Management"
   },
   "Salesforce:JR281671": {
     "first_seen": "2026-08-19T05:42:38.600022Z",
