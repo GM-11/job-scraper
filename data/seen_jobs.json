@@ -431,6 +431,18 @@
     "first_seen": "2026-10-12T20:34:26.330434Z",
     "title": "Software Development Engineer - Connectivity, Emerging Device Software"
   },
+  "Amazon:10576634": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Data Engineer, IN Data Engineering & Analytics"
+  },
+  "Amazon:10576699": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Software Development Engineer - II"
+  },
+  "Amazon:10576700": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Software Development Engineer - II"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1487,6 +1499,10 @@
     "first_seen": "2026-10-09T17:03:20.538316Z",
     "title": "AWS Data Engineer"
   },
+  "EXL:21343": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Developer (IC)"
+  },
   "EXL:21355": {
     "first_seen": "2026-10-12T20:34:26.330434Z",
     "title": "Application Engineer"
@@ -1602,6 +1618,10 @@
   "Ericsson:563121777104683": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Network Engineer"
+  },
+  "Ericsson:563121777109090": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "WAN & Data Center Network Engineer"
   },
   "Ericsson:563121777123817": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
@@ -3303,6 +3323,10 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:135112": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Application Developer-Hybrid Cloud Manage"
+  },
   "IBM:135113": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Application Developer-Real Estate & Facilities"
@@ -3315,6 +3339,10 @@
     "first_seen": "2026-10-05T16:49:41.077151Z",
     "title": "Application Developer-Real Estate & Facilities"
   },
+  "IBM:135116": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Application Developer-Hybrid Cloud Manage"
+  },
   "IBM:135117": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
@@ -3322,6 +3350,10 @@
   "IBM:135118": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:135119": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Application Developer-Hybrid Cloud Manage"
   },
   "IBM:135121": {
     "first_seen": "2026-09-30T14:33:37.550945Z",
@@ -3611,6 +3643,10 @@
     "first_seen": "2026-10-11T13:42:44.765465Z",
     "title": "Cloud & AI Engineer"
   },
+  "IBM:136014": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "AI Libraries Developer"
+  },
   "IBM:136035": {
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -3855,6 +3891,10 @@
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "AI Back-End Engineer"
   },
+  "IBM:136671": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "AI back-end Engineer"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -3894,6 +3934,10 @@
   "Infor:570077": {
     "first_seen": "2026-08-28T09:01:21.235794Z",
     "title": "Software Engineer, Associate (Java)"
+  },
+  "Infor:570090": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Software Engineer, Associate"
   },
   "Infor:570095": {
     "first_seen": "2026-08-28T09:01:21.235794Z",
@@ -3982,6 +4026,10 @@
   "JPMorgan:210795285": {
     "first_seen": "2026-09-28T07:38:09.512437Z",
     "title": "Analyst - Software Engineer I - AI/ML, Java/Python, REACT"
+  },
+  "JPMorgan:210799985": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Data Scientist - Associate"
   },
   "Kyndryl:R-55456": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -5211,6 +5259,10 @@
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Site Reliability Engineer"
   },
+  "PayPal:274922786629": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Software Engineer"
+  },
   "PayPal:274922819333": {
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Software Engineer"
@@ -5294,6 +5346,10 @@
   "Qualcomm:446721435576": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Memory CAD Software Engineer"
+  },
+  "Qualcomm:446721534258": {
+    "first_seen": "2026-10-13T10:09:15.397424Z",
+    "title": "Engineer- python/Devops/CI/CD"
   },
   "Razorpay:4699107005": {
     "first_seen": "2026-09-01T17:22:20.400601Z",
@@ -5397,7 +5453,7 @@
   },
   "Salesforce:JR338172": {
     "first_seen": "2026-08-25T07:10:22.651010Z",
-    "title": "Software Engineering, SMTS (Full-Stack) - Java & React - Immediate Joiners"
+    "title": "Software Engineering, SMTS/MTS (Backend + Kubernetes/Docker/Helm)"
   },
   "Salesforce:JR338173": {
     "first_seen": "2026-08-19T14:52:19.477144Z",
