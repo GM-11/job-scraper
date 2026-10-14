@@ -447,6 +447,14 @@
     "first_seen": "2026-10-14T02:32:54.863067Z",
     "title": "Software Development Engineer, SW-Device OS"
   },
+  "Amazon:10578602": {
+    "first_seen": "2026-10-14T19:23:20.460300Z",
+    "title": "Software Development Engineer, AI Trust & Innovation"
+  },
+  "Amazon:10578772": {
+    "first_seen": "2026-10-14T19:23:20.460300Z",
+    "title": "Software Development Engineer, Fire Tablet"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -3059,6 +3067,10 @@
     "first_seen": "2026-09-22T05:45:00.815581Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:134098": {
+    "first_seen": "2026-10-14T19:23:20.460300Z",
+    "title": "Software Developer Intern"
+  },
   "IBM:134188": {
     "first_seen": "2026-09-25T14:37:03.552340Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -3943,9 +3955,17 @@
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Hardware Developer - Pre & Post Silicon Validation"
   },
+  "IBM:137008": {
+    "first_seen": "2026-10-14T19:23:20.460300Z",
+    "title": "Application Developer-ReactJS"
+  },
   "IBM:137009": {
     "first_seen": "2026-10-14T14:30:11.096676Z",
     "title": "Application Developer-DevOps"
+  },
+  "IBM:137010": {
+    "first_seen": "2026-10-14T19:23:20.460300Z",
+    "title": "Application Developer-ReactJS"
   },
   "IBM:137011": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
@@ -3958,6 +3978,10 @@
   "IBM:137018": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Application Developer-Cloud Fullstack"
+  },
+  "IBM:137044": {
+    "first_seen": "2026-10-14T19:23:20.460300Z",
+    "title": "Application Developer-Hybrid cloud Manage"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
