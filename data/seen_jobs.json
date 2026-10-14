@@ -3911,6 +3911,14 @@
     "first_seen": "2026-10-13T10:09:15.397424Z",
     "title": "AI back-end Engineer"
   },
+  "IBM:136812": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Software Developer"
+  },
+  "IBM:136814": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Software Developer"
+  },
   "IBM:136905": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Hardware Developer - Pre & Post Silicon Validation"
@@ -4255,6 +4263,10 @@
     "first_seen": "2026-09-24T05:38:35.344091Z",
     "title": "Software Engineer"
   },
+  "Kyndryl:R-69440": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Infrastructure Automation Developer"
+  },
   "Kyndryl:R-69459": {
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "System Engineer"
@@ -4266,6 +4278,14 @@
   "Kyndryl:R-69674": {
     "first_seen": "2026-10-13T23:32:57.350582Z",
     "title": "Mainframe z/OS System Programmer"
+  },
+  "Kyndryl:R-69889": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Mainframe DB2 System Programmer SME"
+  },
+  "Kyndryl:R-69896": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Mainframe DB2 System Programmer SME"
   },
   "Mercedes-Benz:203298": {
     "first_seen": "2026-10-10T02:27:00.831511Z",
@@ -4510,6 +4530,18 @@
   "Mercedes-Benz:241659": {
     "first_seen": "2026-10-09T09:58:55.162534Z",
     "title": "Data Scientist"
+  },
+  "Mercedes-Benz:242311": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Full Stack Developer"
+  },
+  "Mercedes-Benz:242312": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Full Stack Developer"
+  },
+  "Mercedes-Benz:242314": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Full Stack Developer"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
@@ -5239,8 +5271,16 @@
     "first_seen": "2026-10-12T20:34:26.330434Z",
     "title": "Software Engineer"
   },
+  "NatWest:18350512": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Data Engineer"
+  },
   "Nike:R-85379": {
     "first_seen": "2026-08-24T15:14:56.799573Z",
+    "title": "Software Engineer I, ITC"
+  },
+  "Nike:R-86257": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
     "title": "Software Engineer I, ITC"
   },
   "Nike:R-89081": {
@@ -5726,6 +5766,10 @@
   "Standard Chartered:62833": {
     "first_seen": "2026-09-22T10:45:00.857417Z",
     "title": "Jr, ML Engineer"
+  },
+  "Standard Chartered:64167": {
+    "first_seen": "2026-10-14T08:27:09.993430Z",
+    "title": "Full Stack Developer"
   },
   "Standard Chartered:64180": {
     "first_seen": "2026-10-12T20:34:26.330434Z",
