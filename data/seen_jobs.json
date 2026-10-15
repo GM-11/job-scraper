@@ -475,6 +475,10 @@
     "first_seen": "2026-10-09T17:03:20.538316Z",
     "title": "Site Reliability Engineer I"
   },
+  "American Express:26015101": {
+    "first_seen": "2026-10-15T08:13:53.997646Z",
+    "title": "Software Engineer I"
+  },
   "Apple:200628323": {
     "first_seen": "2026-08-25T09:09:56.283563Z",
     "title": "devops-engineer"
@@ -4295,6 +4299,10 @@
     "first_seen": "2026-10-05T23:22:39.997457Z",
     "title": "Azure DevOps Engineer"
   },
+  "Kyndryl:R-68723": {
+    "first_seen": "2026-10-15T08:13:53.997646Z",
+    "title": "Dynamics 365 Customer Relationship Management (CRM) Developer"
+  },
   "Kyndryl:R-68735": {
     "first_seen": "2026-09-24T10:50:40.717654Z",
     "title": "Platform Integration \u2013 CI/CD Platform Engineer"
@@ -4342,6 +4350,10 @@
   "Kyndryl:R-69896": {
     "first_seen": "2026-10-14T08:27:09.993430Z",
     "title": "Mainframe DB2 System Programmer SME"
+  },
+  "Kyndryl:R-70142": {
+    "first_seen": "2026-10-15T08:13:53.997646Z",
+    "title": "Mainframe CICS Systems Programmer"
   },
   "Mercedes-Benz:203298": {
     "first_seen": "2026-10-10T02:27:00.831511Z",
@@ -4685,6 +4697,10 @@
   },
   "Microsoft:1970393557026657": {
     "first_seen": "2026-10-12T20:34:26.330434Z",
+    "title": "Software Engineer"
+  },
+  "Microsoft:1970393557037550": {
+    "first_seen": "2026-10-15T08:13:53.997646Z",
     "title": "Software Engineer"
   },
   "Moody's:100062934016": {
@@ -5451,6 +5467,10 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Linux Software Engineer"
   },
+  "Qualcomm:446720156834": {
+    "first_seen": "2026-10-15T08:13:53.997646Z",
+    "title": "Telematics Platform Engineer"
+  },
   "Qualcomm:446720182831": {
     "first_seen": "2026-10-09T17:03:20.538316Z",
     "title": "AI ML Engineer"
@@ -5638,6 +5658,10 @@
   "Salesforce:JR343815": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Qualified Solution Engineer"
+  },
+  "Salesforce:JR345413": {
+    "first_seen": "2026-10-15T08:13:53.997646Z",
+    "title": "MTS/SMTS/LMTS/ Software Engineer"
   },
   "Salesforce:JR346223": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
