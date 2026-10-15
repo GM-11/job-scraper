@@ -519,6 +519,10 @@
     "first_seen": "2026-10-09T22:26:20.774337Z",
     "title": "frontend-engineer"
   },
+  "Apple:200688733": {
+    "first_seen": "2026-10-15T14:14:08.595918Z",
+    "title": "full-stack-engineer-python"
+  },
   "Arcesium:5207754007": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Forward Deployed Software Engineer "
@@ -1557,6 +1561,10 @@
   },
   "EXL:21486": {
     "first_seen": "2026-10-14T14:30:11.096676Z",
+    "title": "Data Scientist"
+  },
+  "EXL:21562": {
+    "first_seen": "2026-10-15T14:14:08.595918Z",
     "title": "Data Scientist"
   },
   "EXL:9118": {
@@ -3851,6 +3859,10 @@
     "first_seen": "2026-10-09T22:26:20.774337Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:136319": {
+    "first_seen": "2026-10-15T14:14:08.595918Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:136323": {
     "first_seen": "2026-10-12T20:34:26.330434Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -4354,6 +4366,14 @@
   "Kyndryl:R-70142": {
     "first_seen": "2026-10-15T08:13:53.997646Z",
     "title": "Mainframe CICS Systems Programmer"
+  },
+  "Kyndryl:R-70200": {
+    "first_seen": "2026-10-15T14:14:08.595918Z",
+    "title": "Linux DevOps Engineer"
+  },
+  "Kyndryl:R-70264": {
+    "first_seen": "2026-10-15T14:14:08.595918Z",
+    "title": "Java Developer"
   },
   "Mercedes-Benz:203298": {
     "first_seen": "2026-10-10T02:27:00.831511Z",
@@ -5722,6 +5742,10 @@
   "Salesforce:JR363887": {
     "first_seen": "2026-10-12T20:34:26.330434Z",
     "title": "Systems Engineer - Workday - Finance ERP"
+  },
+  "Salesforce:JR364388": {
+    "first_seen": "2026-10-15T14:14:08.595918Z",
+    "title": "Systems Engineer - Workday HCM"
   },
   "SanDisk:744000149008929": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
