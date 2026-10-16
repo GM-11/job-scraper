@@ -727,6 +727,10 @@
     "first_seen": "2026-09-02T06:32:25.734148Z",
     "title": "Associate- AI Data Engineer(Retail)"
   },
+  "Bain & Company:109389": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Associate- Full Stack Engineer(Retail)"
+  },
   "Bain & Company:109945": {
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Associate- AI Data Engineer(PEG)"
@@ -1806,6 +1810,10 @@
   "IBM:112910": {
     "first_seen": "2026-08-28T00:07:29.024046Z",
     "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:114572": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Application developer-Cloud fullstack"
   },
   "IBM:114573": {
     "first_seen": "2026-09-11T19:17:11.282137Z",
@@ -3351,6 +3359,10 @@
     "first_seen": "2026-09-29T16:37:28.767071Z",
     "title": "Data Engineer-Data Integration"
   },
+  "IBM:135087": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Application Developer-Hybrid Cloud Manage"
+  },
   "IBM:135088": {
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Application Developer-Hybrid Cloud Manage"
@@ -3471,6 +3483,10 @@
     "first_seen": "2026-10-06T17:55:46.009017Z",
     "title": "Application Developer-Salesforce"
   },
+  "IBM:135124": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Application Developer-Hybrid Cloud Manage"
+  },
   "IBM:135125": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Application Developer-Real Estate & Facilities"
@@ -3482,6 +3498,10 @@
   "IBM:135127": {
     "first_seen": "2026-10-08T09:47:32.755553Z",
     "title": "Application Developer-Salesforce"
+  },
+  "IBM:135128": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Application Developer-Hybrid Cloud Manage"
   },
   "IBM:135129": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
@@ -3523,6 +3543,10 @@
     "first_seen": "2026-10-06T11:09:33.753036Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:135140": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
   "IBM:135141": {
     "first_seen": "2026-10-07T22:39:14.579524Z",
     "title": "Application Developer-Java & Web Technologies"
@@ -3537,6 +3561,14 @@
   },
   "IBM:135409": {
     "first_seen": "2026-10-08T22:51:14.977261Z",
+    "title": "Software Developer - Confluent"
+  },
+  "IBM:135410": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Software Developer - Confluent"
+  },
+  "IBM:135411": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Software Developer - Confluent"
   },
   "IBM:135462": {
@@ -4003,6 +4035,14 @@
     "first_seen": "2026-10-13T10:09:15.397424Z",
     "title": "AI back-end Engineer"
   },
+  "IBM:136683": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Software Engineer - Data Management"
+  },
+  "IBM:136737": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Software Engineer - Data & AI Products"
+  },
   "IBM:136812": {
     "first_seen": "2026-10-14T08:27:09.993430Z",
     "title": "Software Developer"
@@ -4043,9 +4083,25 @@
     "first_seen": "2026-10-14T19:23:20.460300Z",
     "title": "Application Developer-Hybrid cloud Manage"
   },
+  "IBM:137048": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Software Engineer - Data & AI Products"
+  },
+  "IBM:137049": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Software Engineer - Data & AI Products"
+  },
+  "IBM:137163": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:137289": {
     "first_seen": "2026-10-15T19:05:01.345620Z",
     "title": "Application Developer-IBM Integration"
+  },
+  "IBM:137449": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Application Developer-AWS Cloud FullStack"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -4683,6 +4739,10 @@
     "first_seen": "2026-09-07T21:17:16.044418Z",
     "title": "Software Engineer"
   },
+  "Microsoft:1970393556925493": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Software Engineer"
+  },
   "Microsoft:1970393556929001": {
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "Software Engineer"
@@ -4846,6 +4906,10 @@
   "NVIDIA:893398162584": {
     "first_seen": "2026-10-14T14:30:11.096676Z",
     "title": "System Software Engineer - Infrastructure"
+  },
+  "NVIDIA:893398184081": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Site Reliability Engineer - New College Graduate  2026"
   },
   "NatWest:17365916": {
     "first_seen": "2026-08-28T21:16:17.648186Z",
@@ -5499,6 +5563,10 @@
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Software Engineer"
   },
+  "PayPal:274922911697": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Software Engineer, Back End"
+  },
   "PhonePe:7815192003": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Site Reliability Engineer (4+ YOE)"
@@ -5798,6 +5866,18 @@
   "Salesforce:JR364388": {
     "first_seen": "2026-10-15T14:14:08.595918Z",
     "title": "Systems Engineer - Workday HCM"
+  },
+  "Salesforce:JR364391": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Systems Engineer -  Workday Platform"
+  },
+  "Salesforce:JR364392": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Systems Engineer-Force.com"
+  },
+  "Salesforce:JR364395": {
+    "first_seen": "2026-10-16T13:16:13.340957Z",
+    "title": "Systems Engineer - SaaS Applications"
   },
   "SanDisk:744000149008929": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
