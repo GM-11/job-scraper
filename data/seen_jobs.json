@@ -503,9 +503,21 @@
     "first_seen": "2026-10-09T17:03:20.538316Z",
     "title": "Site Reliability Engineer I"
   },
+  "American Express:26014930": {
+    "first_seen": "2026-10-16T07:57:57.146879Z",
+    "title": "Software Engineer I"
+  },
   "American Express:26015101": {
     "first_seen": "2026-10-15T08:13:53.997646Z",
     "title": "Software Engineer I"
+  },
+  "American Express:26015103": {
+    "first_seen": "2026-10-16T07:57:57.146879Z",
+    "title": "Infrastructure Engineer I"
+  },
+  "American Express:26015104": {
+    "first_seen": "2026-10-16T07:57:57.146879Z",
+    "title": "Infrastructure Engineer I"
   },
   "Apple:200628323": {
     "first_seen": "2026-08-25T09:09:56.283563Z",
@@ -4377,11 +4389,11 @@
   },
   "Kyndryl:R-69459": {
     "first_seen": "2026-10-12T10:05:20.992942Z",
-    "title": "System Engineer"
+    "title": "Mainframe DB2 System Programmer"
   },
   "Kyndryl:R-69461": {
     "first_seen": "2026-10-12T20:34:26.330434Z",
-    "title": "System Engineer"
+    "title": "Mainframe CICS Systems Programmer"
   },
   "Kyndryl:R-69674": {
     "first_seen": "2026-10-13T23:32:57.350582Z",
