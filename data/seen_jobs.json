@@ -1607,6 +1607,10 @@
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Data Engineer"
   },
+  "EXL:21426": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Data Engineer"
+  },
   "EXL:21444": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Data Scientist"
@@ -1626,6 +1630,10 @@
   "EXL:21562": {
     "first_seen": "2026-10-15T14:14:08.595918Z",
     "title": "Data Scientist"
+  },
+  "EXL:21565": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "AWS Data Engineer"
   },
   "EXL:21650": {
     "first_seen": "2026-10-16T18:12:40.681071Z",
@@ -3619,6 +3627,14 @@
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Data Engineer-Machine Learning"
   },
+  "IBM:135789": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135790": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Cloud & AI Engineer"
+  },
   "IBM:135792": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
     "title": "Cloud & AI Engineer"
@@ -4007,6 +4023,14 @@
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:136375": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:136378": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:136380": {
     "first_seen": "2026-10-12T20:34:26.330434Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -4115,9 +4139,21 @@
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:137229": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Advisory Software Developer (GUI)"
+  },
+  "IBM:137239": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Advisory Software Developer (DevOps)"
+  },
   "IBM:137289": {
     "first_seen": "2026-10-15T19:05:01.345620Z",
     "title": "Application Developer-IBM Integration"
+  },
+  "IBM:137334": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Associate System Engineer"
   },
   "IBM:137449": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
@@ -4483,6 +4519,10 @@
     "first_seen": "2026-10-14T08:27:09.993430Z",
     "title": "Mainframe DB2 System Programmer SME"
   },
+  "Kyndryl:R-70054": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Platform Engineer"
+  },
   "Kyndryl:R-70142": {
     "first_seen": "2026-10-15T08:13:53.997646Z",
     "title": "Mainframe CICS Systems Programmer"
@@ -4490,6 +4530,22 @@
   "Kyndryl:R-70200": {
     "first_seen": "2026-10-15T14:14:08.595918Z",
     "title": "Linux DevOps Engineer"
+  },
+  "Kyndryl:R-70243": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Mainframe z/OS System Programmer"
+  },
+  "Kyndryl:R-70246": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Mainframe z/OS System Programmer"
+  },
+  "Kyndryl:R-70251": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Mainframe CICS Systems Programmer"
+  },
+  "Kyndryl:R-70253": {
+    "first_seen": "2026-10-19T11:34:24.609989Z",
+    "title": "Mainframe DB2 Systems Programmer"
   },
   "Kyndryl:R-70264": {
     "first_seen": "2026-10-15T14:14:08.595918Z",
