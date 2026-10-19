@@ -495,6 +495,14 @@
     "first_seen": "2026-10-18T01:50:24.124588Z",
     "title": "Software Development Engineer, Customer Experience and Business Trends"
   },
+  "Amazon:10582579": {
+    "first_seen": "2026-10-19T18:12:00.800535Z",
+    "title": "Software Development Engineer, CAM"
+  },
+  "Amazon:10582690": {
+    "first_seen": "2026-10-19T18:12:00.800535Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -842,6 +850,10 @@
   "Ciena:R031681": {
     "first_seen": "2026-09-29T09:22:57.848175Z",
     "title": "Software Engineer Applications _Intern"
+  },
+  "Ciena:R031817": {
+    "first_seen": "2026-10-19T18:12:00.800535Z",
+    "title": "AI Engineer-Cyber Security Transformation"
   },
   "Coinbase:7558051": {
     "first_seen": "2026-09-14T23:51:28.729789Z",
@@ -1637,6 +1649,14 @@
   },
   "EXL:21650": {
     "first_seen": "2026-10-16T18:12:40.681071Z",
+    "title": "Application Engineer"
+  },
+  "EXL:21667": {
+    "first_seen": "2026-10-19T18:12:00.800535Z",
+    "title": "Application Engineer"
+  },
+  "EXL:21701": {
+    "first_seen": "2026-10-19T18:12:00.800535Z",
     "title": "Application Engineer"
   },
   "EXL:9118": {
@@ -4083,6 +4103,10 @@
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Software Engineer - Data Management"
   },
+  "IBM:136692": {
+    "first_seen": "2026-10-19T18:12:00.800535Z",
+    "title": "Advisory Software Developer"
+  },
   "IBM:136737": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Software Engineer - Data & AI Products"
@@ -4154,6 +4178,10 @@
   "IBM:137334": {
     "first_seen": "2026-10-19T11:34:24.609989Z",
     "title": "Associate System Engineer"
+  },
+  "IBM:137342": {
+    "first_seen": "2026-10-19T18:12:00.800535Z",
+    "title": "Data Scientist-Artificial Intelligence"
   },
   "IBM:137449": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
