@@ -871,6 +871,10 @@
     "first_seen": "2026-08-29T03:38:21.106266Z",
     "title": "Software Engineer, Security Platform"
   },
+  "Dell:294891": {
+    "first_seen": "2026-10-20T14:22:15.611860Z",
+    "title": "Advisory Systems Engineer"
+  },
   "Dell:298150": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
     "title": "Systems Engineer"
@@ -1674,6 +1678,10 @@
   "EXL:21745": {
     "first_seen": "2026-10-20T08:24:47.269007Z",
     "title": "Data Scientist"
+  },
+  "EXL:21746": {
+    "first_seen": "2026-10-20T14:22:15.611860Z",
+    "title": "Data Engineer"
   },
   "EXL:9118": {
     "first_seen": "2026-09-16T12:29:51.876228Z",
