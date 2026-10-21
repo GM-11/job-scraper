@@ -1715,6 +1715,10 @@
     "first_seen": "2026-10-20T14:22:15.611860Z",
     "title": "Data Engineer"
   },
+  "EXL:21795": {
+    "first_seen": "2026-10-21T19:21:06.663224Z",
+    "title": "Data Scientist"
+  },
   "EXL:8293": {
     "first_seen": "2026-10-21T08:26:28.739516Z",
     "title": "Associate - Business Analyst-Application Development-Backend Development"
@@ -4226,6 +4230,18 @@
   "IBM:137094": {
     "first_seen": "2026-10-21T14:33:00.788470Z",
     "title": "Software Developer"
+  },
+  "IBM:137100": {
+    "first_seen": "2026-10-21T19:21:06.663224Z",
+    "title": "Software Developer (Test)"
+  },
+  "IBM:137101": {
+    "first_seen": "2026-10-21T19:21:06.663224Z",
+    "title": "Software Developer (Test)"
+  },
+  "IBM:137102": {
+    "first_seen": "2026-10-21T19:21:06.663224Z",
+    "title": "Software Developer (Test)"
   },
   "IBM:137163": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
