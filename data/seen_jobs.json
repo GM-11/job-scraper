@@ -715,6 +715,10 @@
     "first_seen": "2026-09-16T12:29:51.876228Z",
     "title": "Specialist, Full-Stack Engineer"
   },
+  "BNY:82708": {
+    "first_seen": "2026-10-21T14:33:00.788470Z",
+    "title": "Specialist, Infrastructure Engineer"
+  },
   "Bain & Company:100086": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
     "title": "Associate \u2013 Gen AI Full stack Engineer"
@@ -1081,7 +1085,7 @@
   },
   "EA:215938": {
     "first_seen": "2026-10-21T08:26:28.739516Z",
-    "title": "Software Engineer Intern"
+    "title": "JAVA Software Engineer Intern"
   },
   "EA:215939": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
@@ -4215,6 +4219,14 @@
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Software Engineer - Data & AI Products"
   },
+  "IBM:137090": {
+    "first_seen": "2026-10-21T14:33:00.788470Z",
+    "title": "Software Developer (GUI)"
+  },
+  "IBM:137094": {
+    "first_seen": "2026-10-21T14:33:00.788470Z",
+    "title": "Software Developer"
+  },
   "IBM:137163": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Application Developer-Cloud FullStack"
@@ -4670,6 +4682,10 @@
   "Mercedes-Benz:208133": {
     "first_seen": "2026-09-18T01:08:56.314899Z",
     "title": "Java Backend Development + E2E Testing (TT)"
+  },
+  "Mercedes-Benz:209224": {
+    "first_seen": "2026-10-21T14:33:00.788470Z",
+    "title": "JAVA Fullstack Developer- ITO Transition"
   },
   "Mercedes-Benz:211138": {
     "first_seen": "2026-09-03T06:31:08.983965Z",
@@ -5743,6 +5759,10 @@
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Software Engineer, Back End"
   },
+  "PayPal:274922961580": {
+    "first_seen": "2026-10-21T14:33:00.788470Z",
+    "title": "Data Engineer"
+  },
   "PhonePe:7815192003": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Site Reliability Engineer (4+ YOE)"
@@ -6226,6 +6246,10 @@
   "Texas Instruments:25017277": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Application Developer"
+  },
+  "Texas Instruments:25017514": {
+    "first_seen": "2026-10-21T14:33:00.788470Z",
+    "title": "Embedded Software Engineer"
   },
   "Texas Instruments:25017848": {
     "first_seen": "2026-09-23T12:27:58.133255Z",
