@@ -523,6 +523,10 @@
     "first_seen": "2026-10-20T23:05:47.658992Z",
     "title": "Software Development Engineer, WWRR Tech"
   },
+  "Amazon:10586124": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Software Development Engineer, Ship With Amazon"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -907,6 +911,10 @@
     "first_seen": "2026-08-25T20:10:11.152986Z",
     "title": "Systems Engineer"
   },
+  "Dell:299942": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": ".NET Software Engineer (SRE / DevOps)"
+  },
   "DocuSign:27897": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Software Engineer"
@@ -1091,9 +1099,21 @@
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "AI Full Stack Intern"
   },
+  "EA:215941": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Software Engineer Intern"
+  },
   "EA:215942": {
     "first_seen": "2026-09-09T10:32:34.742853Z",
     "title": "Full Stack Software Engineer Intern"
+  },
+  "EA:215948": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Software Engineer Intern"
+  },
+  "EA:215949": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Software Engineer Intern"
   },
   "EA:215950": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
@@ -1722,6 +1742,10 @@
   "EXL:21795": {
     "first_seen": "2026-10-21T19:21:06.663224Z",
     "title": "Data Scientist"
+  },
+  "EXL:21806": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Application Engineer"
   },
   "EXL:21838": {
     "first_seen": "2026-10-22T08:21:06.688706Z",
@@ -4203,6 +4227,10 @@
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Hardware Developer - Pre & Post Silicon Validation"
   },
+  "IBM:136995": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Back-end developer"
+  },
   "IBM:137008": {
     "first_seen": "2026-10-14T19:23:20.460300Z",
     "title": "Application Developer-ReactJS"
@@ -4263,6 +4291,10 @@
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:137169": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:137229": {
     "first_seen": "2026-10-19T11:34:24.609989Z",
     "title": "Advisory Software Developer (GUI)"
@@ -4293,6 +4325,10 @@
   },
   "IBM:137847": {
     "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:137848": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
     "title": "Application Developer-Cloud FullStack"
   },
   "IBM:79363": {
@@ -4434,6 +4470,10 @@
   "Jio:87303651": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Software Engineer"
+  },
+  "Jio:87363381": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Software Development Engineer I"
   },
   "Kyndryl:R-55456": {
     "first_seen": "2026-09-03T12:01:43.101858Z",
@@ -5074,6 +5114,10 @@
   "Moody's:100120026208": {
     "first_seen": "2026-09-03T17:09:38.674219Z",
     "title": "(Application Security Testing) DevOps Engineer"
+  },
+  "Moody's:96590315056": {
+    "first_seen": "2026-10-22T14:30:07.107634Z",
+    "title": "Software Engineer"
   },
   "Moody's:99525753136": {
     "first_seen": "2026-08-21T09:56:46.630941Z",
