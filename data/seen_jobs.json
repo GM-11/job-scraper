@@ -1115,6 +1115,10 @@
     "first_seen": "2026-08-25T06:03:29.074429Z",
     "title": "Data Scientist"
   },
+  "EXL:13375": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Data Scientist"
+  },
   "EXL:13552": {
     "first_seen": "2026-08-24T10:16:08.290121Z",
     "title": "(Developer)"
@@ -1718,6 +1722,18 @@
   "EXL:21795": {
     "first_seen": "2026-10-21T19:21:06.663224Z",
     "title": "Data Scientist"
+  },
+  "EXL:21838": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:21839": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:21840": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "AWS Data Engineer"
   },
   "EXL:8293": {
     "first_seen": "2026-10-21T08:26:28.739516Z",
@@ -4271,6 +4287,14 @@
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Application Developer-AWS Cloud FullStack"
   },
+  "IBM:137846": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Application Developer- Cloud FullStack"
+  },
+  "IBM:137847": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
     "title": "Application Developer-Cloud FullStack"
@@ -4623,6 +4647,10 @@
     "first_seen": "2026-10-13T23:32:57.350582Z",
     "title": "Mainframe z/OS System Programmer"
   },
+  "Kyndryl:R-69770": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Software Engineer"
+  },
   "Kyndryl:R-69889": {
     "first_seen": "2026-10-14T08:27:09.993430Z",
     "title": "Mainframe DB2 System Programmer SME"
@@ -4662,6 +4690,14 @@
   "Kyndryl:R-70264": {
     "first_seen": "2026-10-15T14:14:08.595918Z",
     "title": "Java Developer"
+  },
+  "Kyndryl:R-70306": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Azure Platform Engineer"
+  },
+  "Kyndryl:R-70636": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Mainframe z/OS System Programmer"
   },
   "Mercedes-Benz:203298": {
     "first_seen": "2026-10-10T02:27:00.831511Z",
@@ -4922,6 +4958,18 @@
   "Mercedes-Benz:242314": {
     "first_seen": "2026-10-14T08:27:09.993430Z",
     "title": "Full Stack Developer"
+  },
+  "Mercedes-Benz:243386": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Data and AI Engineer"
+  },
+  "Mercedes-Benz:243387": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Data and AI Engineer"
+  },
+  "Mercedes-Benz:243389": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Data and AI Engineer"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
@@ -5891,6 +5939,10 @@
     "first_seen": "2026-08-20T10:31:21.112776Z",
     "title": "Developer Support Specialist - Data Support"
   },
+  "Rippling:472ecc5e-9610-477b-bbb9-8b075c8f5a67__bangalore-india": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Software Engineer I "
+  },
   "Rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529__bangalore-india": {
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Software Engineer I - Backend Leaning FullStack"
@@ -6114,6 +6166,10 @@
   "Schneider Electric:112405": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "C++ Developer"
+  },
+  "Schneider Electric:113531": {
+    "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Expert, AI Engineer"
   },
   "Schneider Electric:115325": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
