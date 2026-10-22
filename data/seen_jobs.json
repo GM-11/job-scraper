@@ -1203,6 +1203,10 @@
     "first_seen": "2026-09-17T08:29:52.757465Z",
     "title": "Developer (IC)"
   },
+  "EXL:17858": {
+    "first_seen": "2026-10-22T19:14:37.668844Z",
+    "title": "Python Developer - B2"
+  },
   "EXL:17873": {
     "first_seen": "2026-09-16T17:49:04.485730Z",
     "title": "Data Scientist"
@@ -3875,6 +3879,14 @@
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Cloud & AI Engineer"
   },
+  "IBM:135925": {
+    "first_seen": "2026-10-22T19:14:37.668844Z",
+    "title": "Cloud & AI Engineer"
+  },
+  "IBM:135931": {
+    "first_seen": "2026-10-22T19:14:37.668844Z",
+    "title": "Cloud & AI Engineer"
+  },
   "IBM:135932": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Cloud & AI Engineer"
@@ -4290,6 +4302,10 @@
   "IBM:137163": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:137166": {
+    "first_seen": "2026-10-22T19:14:37.668844Z",
+    "title": "Application Developer-Google Cloud FullStack"
   },
   "IBM:137169": {
     "first_seen": "2026-10-22T14:30:07.107634Z",
@@ -5115,6 +5131,10 @@
     "first_seen": "2026-09-03T17:09:38.674219Z",
     "title": "(Application Security Testing) DevOps Engineer"
   },
+  "Moody's:102294595584": {
+    "first_seen": "2026-10-22T19:14:37.668844Z",
+    "title": "Associate Software Engineer .Net Developer"
+  },
   "Moody's:96590315056": {
     "first_seen": "2026-10-22T14:30:07.107634Z",
     "title": "Software Engineer"
@@ -5886,6 +5906,10 @@
   "Qualcomm:446717740216": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "AI / ML Engineer"
+  },
+  "Qualcomm:446718623077": {
+    "first_seen": "2026-10-22T19:14:37.668844Z",
+    "title": "Automotive Audio Systems Engineer"
   },
   "Qualcomm:446719366353": {
     "first_seen": "2026-08-18T23:31:21.778757Z",
