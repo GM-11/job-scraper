@@ -1771,6 +1771,18 @@
     "first_seen": "2026-10-22T08:21:06.688706Z",
     "title": "AWS Data Engineer"
   },
+  "EXL:21845": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Scientist"
+  },
+  "EXL:21859": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Scientist"
+  },
+  "EXL:21862": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Scientist"
+  },
   "EXL:8293": {
     "first_seen": "2026-10-21T08:26:28.739516Z",
     "title": "Associate - Business Analyst-Application Development-Backend Development"
@@ -4355,9 +4367,37 @@
     "first_seen": "2026-10-22T14:30:07.107634Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:138017": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:138028": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:138045": {
     "first_seen": "2026-10-22T23:06:08.838400Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:138047": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:138050": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:138053": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:138088": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138103": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -4726,6 +4766,14 @@
   "Kyndryl:R-69896": {
     "first_seen": "2026-10-14T08:27:09.993430Z",
     "title": "Mainframe DB2 System Programmer SME"
+  },
+  "Kyndryl:R-69950": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Mainframe MQ System Programmer"
+  },
+  "Kyndryl:R-69955": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Mainframe CICS System Programmer"
   },
   "Kyndryl:R-70054": {
     "first_seen": "2026-10-19T11:34:24.609989Z",
@@ -5847,6 +5895,10 @@
     "first_seen": "2026-09-29T09:22:57.848175Z",
     "title": "Software Engineer I, ITC"
   },
+  "Nike:R-94808": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Software Engineer I, ITC"
+  },
   "Nutanix:df51dff39dcc6be7": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Solutions Automation Developer/Software Developer [ Python, Github, Api's]"
@@ -5986,6 +6038,10 @@
   "Qualcomm:446721052756": {
     "first_seen": "2026-09-11T10:27:37.595516Z",
     "title": "XR Software Engineer (All Levels - Multiple Positions)"
+  },
+  "Qualcomm:446721164775": {
+    "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Automotive Display Software Engineer"
   },
   "Qualcomm:446721435576": {
     "first_seen": "2026-10-07T09:30:46.348926Z",
