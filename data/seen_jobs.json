@@ -539,6 +539,10 @@
     "first_seen": "2026-10-22T14:30:07.107634Z",
     "title": "Software Development Engineer, Ship With Amazon"
   },
+  "Amazon:10587759": {
+    "first_seen": "2026-10-23T19:08:24.975689Z",
+    "title": "Software Development Engineer, Amazon Photos"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -4431,6 +4435,10 @@
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:138064": {
+    "first_seen": "2026-10-23T19:08:24.975689Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
   "IBM:138076": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -4489,6 +4497,10 @@
   },
   "IBM:138143": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:138145": {
+    "first_seen": "2026-10-23T19:08:24.975689Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:138148": {
@@ -4962,6 +4974,10 @@
   "Kyndryl:R-70558": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Mainframe DB2 System Programmer"
+  },
+  "Kyndryl:R-70560": {
+    "first_seen": "2026-10-23T19:08:24.975689Z",
+    "title": "Mainframe CICS System Programmer"
   },
   "Kyndryl:R-70563": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
