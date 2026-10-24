@@ -4443,6 +4443,10 @@
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:138078": {
+    "first_seen": "2026-10-24T13:25:54.691372Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
   "IBM:138079": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-Google"
@@ -4450,6 +4454,10 @@
   "IBM:138081": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:138082": {
+    "first_seen": "2026-10-24T13:25:54.691372Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:138088": {
     "first_seen": "2026-10-23T08:19:48.915786Z",
@@ -4469,6 +4477,22 @@
   },
   "IBM:138103": {
     "first_seen": "2026-10-23T08:19:48.915786Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138115": {
+    "first_seen": "2026-10-24T13:25:54.691372Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138117": {
+    "first_seen": "2026-10-24T13:25:54.691372Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138119": {
+    "first_seen": "2026-10-24T13:25:54.691372Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138121": {
+    "first_seen": "2026-10-24T13:25:54.691372Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:138129": {
