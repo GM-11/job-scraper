@@ -4395,6 +4395,10 @@
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:138014": {
+    "first_seen": "2026-10-24T20:11:13.857162Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:138017": {
     "first_seen": "2026-10-23T08:19:48.915786Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -4439,6 +4443,10 @@
     "first_seen": "2026-10-23T19:08:24.975689Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:138067": {
+    "first_seen": "2026-10-24T20:11:13.857162Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:138076": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -4459,6 +4467,10 @@
     "first_seen": "2026-10-24T13:25:54.691372Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:138086": {
+    "first_seen": "2026-10-24T20:11:13.857162Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
   "IBM:138088": {
     "first_seen": "2026-10-23T08:19:48.915786Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -4470,6 +4482,10 @@
   "IBM:138094": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138096": {
+    "first_seen": "2026-10-24T20:11:13.857162Z",
+    "title": "Data Engineer-Data Platforms-AWS"
   },
   "IBM:138100": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
@@ -4575,9 +4591,25 @@
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:138160": {
+    "first_seen": "2026-10-24T20:11:13.857162Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:138162": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138167": {
+    "first_seen": "2026-10-24T20:11:13.857162Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:138169": {
+    "first_seen": "2026-10-24T20:11:13.857162Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:138171": {
+    "first_seen": "2026-10-24T20:11:13.857162Z",
+    "title": "Data Engineer-Data Platforms-Azure"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
