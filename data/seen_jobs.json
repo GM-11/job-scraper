@@ -543,6 +543,30 @@
     "first_seen": "2026-10-23T19:08:24.975689Z",
     "title": "Software Development Engineer, Amazon Photos"
   },
+  "Amazon:10588652": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Software Development Engineer - 3, Tax and Account Compliance"
+  },
+  "Amazon:10589197": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Amazon:10589203": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Amazon:10589205": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Amazon:10589212": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
+  "Amazon:10589217": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Software Development Engineer, AFT External Fulfillment"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -4495,6 +4519,10 @@
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:138061": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
   "IBM:138064": {
     "first_seen": "2026-10-23T19:08:24.975689Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -4651,6 +4679,10 @@
     "first_seen": "2026-10-23T19:08:24.975689Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:138147": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:138148": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -4719,6 +4751,62 @@
     "first_seen": "2026-10-24T20:11:13.857162Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:138303": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138306": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138308": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138312": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138314": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138316": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138328": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138330": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138345": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138347": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138348": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138350": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138352": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:138363": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
   "IBM:138386": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Application Developer-Azure Cloud FullStack"
@@ -4734,6 +4822,10 @@
   "IBM:138425": {
     "first_seen": "2026-10-26T07:17:15.360996Z",
     "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:138463": {
+    "first_seen": "2026-10-26T21:16:33.377028Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:138575": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
