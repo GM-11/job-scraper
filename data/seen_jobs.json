@@ -4455,6 +4455,14 @@
     "first_seen": "2026-10-24T20:11:13.857162Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:138070": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138074": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
   "IBM:138076": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -4475,6 +4483,10 @@
     "first_seen": "2026-10-24T13:25:54.691372Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:138085": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
+    "title": "Software Developer"
+  },
   "IBM:138086": {
     "first_seen": "2026-10-24T20:11:13.857162Z",
     "title": "Data Engineer-Data Platforms-Google"
@@ -4482,6 +4494,10 @@
   "IBM:138088": {
     "first_seen": "2026-10-23T08:19:48.915786Z",
     "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138089": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:138091": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
@@ -4497,6 +4513,10 @@
   },
   "IBM:138100": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138101": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:138103": {
@@ -4618,6 +4638,10 @@
   "IBM:138171": {
     "first_seen": "2026-10-24T20:11:13.857162Z",
     "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:138425": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -5419,6 +5443,10 @@
     "first_seen": "2026-10-15T08:13:53.997646Z",
     "title": "Software Engineer"
   },
+  "Microsoft:1970393557044890": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
+    "title": "Software Engineer"
+  },
   "Moody's:100062934016": {
     "first_seen": "2026-09-22T22:55:48.422309Z",
     "title": "Software Engineer (OneStream)"
@@ -6139,6 +6167,10 @@
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Solutions Automation Developer/Software Developer [ Python, Github, Api's]"
   },
+  "Oracle:334517": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
+    "title": "Software Developer 5"
+  },
   "Oracle:338867": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Cloud Solution Engineer"
@@ -6190,6 +6222,10 @@
   "PayPal:274922819333": {
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Software Engineer"
+  },
+  "PayPal:274922873916": {
+    "first_seen": "2026-10-26T07:17:15.360996Z",
+    "title": "Site Reliability Engineer"
   },
   "PayPal:274922911697": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
