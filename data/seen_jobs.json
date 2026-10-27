@@ -567,6 +567,10 @@
     "first_seen": "2026-10-26T21:16:33.377028Z",
     "title": "Software Development Engineer, AFT External Fulfillment"
   },
+  "Amazon:10589519": {
+    "first_seen": "2026-10-27T07:08:30.644189Z",
+    "title": "Software Development Engineer - Connectivity, Emerging Device Software"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1882,6 +1886,10 @@
   "Ericsson:563121776103734": {
     "first_seen": "2026-08-20T19:47:27.131507Z",
     "title": "Software Developer - Python and GenAI"
+  },
+  "Ericsson:563121776288219": {
+    "first_seen": "2026-10-27T07:08:30.644189Z",
+    "title": "AI Data Scientist"
   },
   "Ericsson:563121776306331": {
     "first_seen": "2026-09-25T08:32:42.068835Z",
@@ -4419,6 +4427,10 @@
     "first_seen": "2026-10-19T11:34:24.609989Z",
     "title": "Advisory Software Developer (GUI)"
   },
+  "IBM:137238": {
+    "first_seen": "2026-10-27T07:08:30.644189Z",
+    "title": "Python Cloud Developer"
+  },
   "IBM:137239": {
     "first_seen": "2026-10-19T11:34:24.609989Z",
     "title": "Advisory Software Developer (DevOps)"
@@ -5221,6 +5233,10 @@
   },
   "Kyndryl:R-69392": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
+    "title": "Data Engineer"
+  },
+  "Kyndryl:R-69393": {
+    "first_seen": "2026-10-27T07:08:30.644189Z",
     "title": "Data Engineer"
   },
   "Kyndryl:R-69395": {
@@ -6910,6 +6926,10 @@
   "Standard Chartered:57382": {
     "first_seen": "2026-08-19T14:00:16.609841Z",
     "title": "Assoc, FrontEnd Eng - Andriod, WRB Tech"
+  },
+  "Standard Chartered:58204": {
+    "first_seen": "2026-10-27T07:08:30.644189Z",
+    "title": "Devops Engineer (Singapore/India)"
   },
   "Standard Chartered:58401": {
     "first_seen": "2026-08-21T04:53:26.774255Z",
