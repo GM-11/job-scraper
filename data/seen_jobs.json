@@ -683,6 +683,10 @@
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Fullstack Software Engineer, DX"
   },
+  "Atlassian:26676": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "Backend Software Engineer"
+  },
   "Atlassian:26996": {
     "first_seen": "2026-09-02T06:32:25.734148Z",
     "title": "Software Engineer, Dev Infra"
@@ -1846,6 +1850,22 @@
   "EXL:21927": {
     "first_seen": "2026-10-25T17:11:27.468391Z",
     "title": "Data Scientist"
+  },
+  "EXL:22017": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:22018": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:22019": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:22021": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "AWS Data Engineer"
   },
   "EXL:7078": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
@@ -4895,6 +4915,10 @@
     "first_seen": "2026-10-27T14:05:11.017514Z",
     "title": "Application Developer-Azure Cloud FullStack"
   },
+  "IBM:138379": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "Application Developer-Azure Cloud FullStack"
+  },
   "IBM:138382": {
     "first_seen": "2026-10-27T14:05:11.017514Z",
     "title": "Application Developer-Azure Cloud FullStack"
@@ -4958,6 +4982,14 @@
   "IBM:138591": {
     "first_seen": "2026-10-27T14:05:11.017514Z",
     "title": "Application Developer-IBM Cloud Migration"
+  },
+  "IBM:138629": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:138631": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:138661": {
     "first_seen": "2026-10-27T14:05:11.017514Z",
@@ -6773,7 +6805,7 @@
   },
   "Rippling:acf82f7d-5595-47c4-8e08-45c9d9a93529__bangalore-india": {
     "first_seen": "2026-09-17T08:29:52.757465Z",
-    "title": "Software Engineer I - Backend Leaning FullStack"
+    "title": "Software Engineer I - FullStack"
   },
   "S&P Global:324027": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -7062,6 +7094,10 @@
   "ServiceNow:d3186cb035f104ea": {
     "first_seen": "2026-09-04T06:41:48.682470Z",
     "title": "Forward Deployed Solution Engineer \u2013 Applied\u202fAI FDE"
+  },
+  "ServiceNow:e2ff8444a673563b": {
+    "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "Software Engineer"
   },
   "Standard Chartered:57382": {
     "first_seen": "2026-08-19T14:00:16.609841Z",
