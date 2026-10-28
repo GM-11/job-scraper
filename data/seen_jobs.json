@@ -4999,6 +4999,10 @@
     "first_seen": "2026-10-26T07:17:15.360996Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
+  "IBM:138455": {
+    "first_seen": "2026-10-28T23:58:29.188531Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:138461": {
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Application Developer-SAP ABAP HANA"
@@ -5014,6 +5018,10 @@
   "IBM:138467": {
     "first_seen": "2026-10-27T14:05:11.017514Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:138468": {
+    "first_seen": "2026-10-28T23:58:29.188531Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:138470": {
     "first_seen": "2026-10-28T13:54:41.645619Z",
@@ -5035,6 +5043,10 @@
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
+  "IBM:138510": {
+    "first_seen": "2026-10-28T23:58:29.188531Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:138514": {
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Application Developer-SAP ABAP HANA"
@@ -5043,8 +5055,20 @@
     "first_seen": "2026-10-28T13:54:41.645619Z",
     "title": "Application Developer-Cloud Fullstack"
   },
+  "IBM:138544": {
+    "first_seen": "2026-10-28T23:58:29.188531Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:138547": {
+    "first_seen": "2026-10-28T23:58:29.188531Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:138552": {
     "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:138560": {
+    "first_seen": "2026-10-28T23:58:29.188531Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:138562": {
