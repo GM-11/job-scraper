@@ -571,6 +571,10 @@
     "first_seen": "2026-10-27T07:08:30.644189Z",
     "title": "Software Development Engineer - Connectivity, Emerging Device Software"
   },
+  "Amazon:10590891": {
+    "first_seen": "2026-10-28T06:33:50.474059Z",
+    "title": "Software Development Engineer, Amazon Regulatory and Trade Services (ARTS Tech)"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -4935,6 +4939,22 @@
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Application Developer-Azure Cloud FullStack"
   },
+  "IBM:138402": {
+    "first_seen": "2026-10-28T06:33:50.474059Z",
+    "title": "Application Developer-IBM Cloud Migration"
+  },
+  "IBM:138403": {
+    "first_seen": "2026-10-28T06:33:50.474059Z",
+    "title": "Application Developer-IBM Cloud Migration"
+  },
+  "IBM:138404": {
+    "first_seen": "2026-10-28T06:33:50.474059Z",
+    "title": "Application Developer-IBM Cloud Migration"
+  },
+  "IBM:138405": {
+    "first_seen": "2026-10-28T06:33:50.474059Z",
+    "title": "Application Developer-IBM Cloud Migration"
+  },
   "IBM:138425": {
     "first_seen": "2026-10-26T07:17:15.360996Z",
     "title": "Application Developer-SAP ABAP HANA"
@@ -7013,7 +7033,7 @@
   },
   "Salesforce:JR364392": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
-    "title": "Systems Engineer-Force.com"
+    "title": "System Engineer- Salesforce"
   },
   "Salesforce:JR364395": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
