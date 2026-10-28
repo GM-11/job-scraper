@@ -575,6 +575,10 @@
     "first_seen": "2026-10-28T06:33:50.474059Z",
     "title": "Software Development Engineer, Amazon Regulatory and Trade Services (ARTS Tech)"
   },
+  "Amazon:10591316": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Software Development Engineer, Alexa Excellence"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1869,6 +1873,10 @@
   },
   "EXL:22021": {
     "first_seen": "2026-10-27T20:06:34.856663Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:22080": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "AWS Data Engineer"
   },
   "EXL:7078": {
@@ -4991,6 +4999,10 @@
     "first_seen": "2026-10-26T07:17:15.360996Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
+  "IBM:138461": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:138463": {
     "first_seen": "2026-10-26T21:16:33.377028Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -5007,13 +5019,33 @@
     "first_seen": "2026-10-28T13:54:41.645619Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
+  "IBM:138472": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:138474": {
     "first_seen": "2026-10-28T13:54:41.645619Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
+  "IBM:138475": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:138486": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:138514": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:138524": {
     "first_seen": "2026-10-28T13:54:41.645619Z",
     "title": "Application Developer-Cloud Fullstack"
+  },
+  "IBM:138552": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:138562": {
     "first_seen": "2026-10-27T14:05:11.017514Z",
@@ -5483,6 +5515,10 @@
     "first_seen": "2026-10-27T07:08:30.644189Z",
     "title": "Data Engineer"
   },
+  "Kyndryl:R-69394": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Data Engineer"
+  },
   "Kyndryl:R-69395": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Data Engineer"
@@ -5589,6 +5625,10 @@
   },
   "Kyndryl:R-70636": {
     "first_seen": "2026-10-22T08:21:06.688706Z",
+    "title": "Mainframe z/OS System Programmer"
+  },
+  "Kyndryl:R-70908": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Mainframe z/OS System Programmer"
   },
   "Mercedes-Benz:203298": {
@@ -6703,6 +6743,10 @@
     "first_seen": "2026-08-19T11:35:08.251580Z",
     "title": "Cloud Solution Engineer"
   },
+  "Oracle:340730": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Core Java Developer"
+  },
   "Oracle:344313": {
     "first_seen": "2026-09-03T20:36:14.612469Z",
     "title": "Application Software Engineer 1"
@@ -6730,6 +6774,10 @@
   "Oracle:346331": {
     "first_seen": "2026-10-27T14:05:11.017514Z",
     "title": "UiPath Developer"
+  },
+  "Oracle:348861": {
+    "first_seen": "2026-10-28T19:34:53.524496Z",
+    "title": "Core Infrastructure Engineer"
   },
   "PayPal:274922421738": {
     "first_seen": "2026-09-16T06:46:55.281161Z",
