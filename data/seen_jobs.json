@@ -579,6 +579,10 @@
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Software Development Engineer, Alexa Excellence"
   },
+  "Amazon:10592055": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Software Development Engineer, Alexa Connections"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -950,6 +954,10 @@
   "Ciena:R031817": {
     "first_seen": "2026-10-19T18:12:00.800535Z",
     "title": "AI Engineer-Cyber Security Transformation"
+  },
+  "Ciena:R032028": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Software Engineer- C Netconf/Yang"
   },
   "Coinbase:7558051": {
     "first_seen": "2026-09-14T23:51:28.729789Z",
@@ -4515,6 +4523,10 @@
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Application Developer-AWS Cloud FullStack"
   },
+  "IBM:137566": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Software Developer - Confluent"
+  },
   "IBM:137846": {
     "first_seen": "2026-10-22T08:21:06.688706Z",
     "title": "Application Developer- Cloud FullStack"
@@ -5067,6 +5079,14 @@
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
+  "IBM:138555": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:138557": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:138560": {
     "first_seen": "2026-10-28T23:58:29.188531Z",
     "title": "Application Developer-SAP ABAP HANA"
@@ -5170,6 +5190,14 @@
   "IBM:138698": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:138750": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Software Developer (GUI)"
+  },
+  "IBM:138751": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Software Developer"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -5651,6 +5679,14 @@
     "first_seen": "2026-10-22T08:21:06.688706Z",
     "title": "Mainframe z/OS System Programmer"
   },
+  "Kyndryl:R-70662": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Mainframe z/OS System Programmer"
+  },
+  "Kyndryl:R-70907": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Mainframe z/OS System Programmer"
+  },
   "Kyndryl:R-70908": {
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Mainframe z/OS System Programmer"
@@ -5926,6 +5962,18 @@
   "Mercedes-Benz:243389": {
     "first_seen": "2026-10-22T08:21:06.688706Z",
     "title": "Data and AI Engineer"
+  },
+  "Mercedes-Benz:244452": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "JAVA Full Stack Developer"
+  },
+  "Mercedes-Benz:244453": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "JAVA Full Stack Developer"
+  },
+  "Mercedes-Benz:244456": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "JAVA Full Stack Developer"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
@@ -7174,6 +7222,10 @@
   "Salesforce:JR364395": {
     "first_seen": "2026-10-16T13:16:13.340957Z",
     "title": "Systems Engineer - SaaS Applications"
+  },
+  "Salesforce:JR366273": {
+    "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Software Engineering MTS- Salesforce Developer"
   },
   "SanDisk:744000149008929": {
     "first_seen": "2026-09-11T15:12:38.804031Z",
