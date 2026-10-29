@@ -5219,6 +5219,74 @@
     "first_seen": "2026-10-29T10:49:45.030847Z",
     "title": "Software Developer"
   },
+  "IBM:139059": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139062": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139065": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139079": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139080": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139081": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139083": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139085": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139088": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139173": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:139175": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:139186": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139187": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139191": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139196": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139198": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139200": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:139351": {
     "first_seen": "2026-10-29T17:34:27.842686Z",
     "title": "Application Developer-Process Management (BPM)"
@@ -5806,6 +5874,10 @@
   "Mercedes-Benz:223053": {
     "first_seen": "2026-10-05T07:47:09.209027Z",
     "title": "Full Stack Developer"
+  },
+  "Mercedes-Benz:223061": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Full stack with java microservices with AI skills"
   },
   "Mercedes-Benz:223695": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
@@ -7234,6 +7306,10 @@
   "Salesforce:JR357893": {
     "first_seen": "2026-10-14T14:30:11.096676Z",
     "title": "Software Engineering PMTS - Backend Distributed Systems - Cloud Infrastructure"
+  },
+  "Salesforce:JR362247": {
+    "first_seen": "2026-10-29T22:31:47.202911Z",
+    "title": "Software Engineering MTS (Full-Stack)"
   },
   "Salesforce:JR362707": {
     "first_seen": "2026-10-09T17:03:20.538316Z",
