@@ -583,6 +583,10 @@
     "first_seen": "2026-10-29T10:49:45.030847Z",
     "title": "Software Development Engineer, Alexa Connections"
   },
+  "Amazon:10592247": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Software Development Engineer, Alexa Connections"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -734,6 +738,10 @@
   "Atlassian:27580": {
     "first_seen": "2026-10-02T23:38:44.205810Z",
     "title": "Software Engineer"
+  },
+  "Atlassian:27589": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Data Platform Engineer"
   },
   "Autodesk:26WD100369": {
     "first_seen": "2026-09-22T10:45:00.857417Z",
@@ -1474,6 +1482,10 @@
   "EXL:19864": {
     "first_seen": "2026-09-11T19:17:11.282137Z",
     "title": "Data Scientist"
+  },
+  "EXL:19873": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Developer (IC)"
   },
   "EXL:19876": {
     "first_seen": "2026-10-14T14:30:11.096676Z",
@@ -5055,6 +5067,10 @@
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
+  "IBM:138507": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:138510": {
     "first_seen": "2026-10-28T23:58:29.188531Z",
     "title": "Application Developer-SAP ABAP HANA"
@@ -5085,6 +5101,10 @@
   },
   "IBM:138557": {
     "first_seen": "2026-10-29T10:49:45.030847Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:138559": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:138560": {
@@ -5198,6 +5218,10 @@
   "IBM:138751": {
     "first_seen": "2026-10-29T10:49:45.030847Z",
     "title": "Software Developer"
+  },
+  "IBM:139351": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Application Developer-Process Management (BPM)"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -5551,8 +5575,20 @@
     "first_seen": "2026-10-14T14:30:11.096676Z",
     "title": "Software Engineer - Python"
   },
+  "Kyndryl:R-69369": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Data Engineer"
+  },
+  "Kyndryl:R-69383": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Data Engineer"
+  },
   "Kyndryl:R-69385": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
+    "title": "Data Engineer"
+  },
+  "Kyndryl:R-69390": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
     "title": "Data Engineer"
   },
   "Kyndryl:R-69391": {
@@ -6846,6 +6882,10 @@
   "Oracle:346331": {
     "first_seen": "2026-10-27T14:05:11.017514Z",
     "title": "UiPath Developer"
+  },
+  "Oracle:347789": {
+    "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Java Full Stack Software Engineer-NetSuite"
   },
   "Oracle:348861": {
     "first_seen": "2026-10-28T19:34:53.524496Z",
