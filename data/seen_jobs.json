@@ -587,6 +587,10 @@
     "first_seen": "2026-10-29T17:34:27.842686Z",
     "title": "Software Development Engineer, Alexa Connections"
   },
+  "Amazon:10593656": {
+    "first_seen": "2026-10-30T21:29:46.133998Z",
+    "title": "Software Development Engineer "
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -670,6 +674,10 @@
   "Apple:200688733": {
     "first_seen": "2026-10-15T14:14:08.595918Z",
     "title": "full-stack-engineer-python"
+  },
+  "Apple:200692393": {
+    "first_seen": "2026-10-30T21:29:46.133998Z",
+    "title": "backend-engineer-python"
   },
   "Arcesium:5207754007": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
@@ -5211,6 +5219,10 @@
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
+  "IBM:138504": {
+    "first_seen": "2026-10-30T21:29:46.133998Z",
+    "title": "Application Developer-Cloud Fullstack"
+  },
   "IBM:138507": {
     "first_seen": "2026-10-29T17:34:27.842686Z",
     "title": "Application Developer-SAP ABAP HANA"
@@ -6523,6 +6535,10 @@
     "first_seen": "2026-09-18T06:43:54.082368Z",
     "title": "Consultant - .Net Full Stack & AI"
   },
+  "Microsoft:1970393556955128": {
+    "first_seen": "2026-10-30T21:29:46.133998Z",
+    "title": "Software Engineer"
+  },
   "Microsoft:1970393556956961": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
     "title": "Software Engineer- II"
@@ -7407,6 +7423,10 @@
     "first_seen": "2026-10-13T10:09:15.397424Z",
     "title": "Software Engineer"
   },
+  "PayPal:274922789363": {
+    "first_seen": "2026-10-30T21:29:46.133998Z",
+    "title": "Software Engineer - Backend (Java)"
+  },
   "PayPal:274922819333": {
     "first_seen": "2026-10-12T10:05:20.992942Z",
     "title": "Software Engineer"
@@ -7426,6 +7446,10 @@
   "PayPal:274922961580": {
     "first_seen": "2026-10-21T14:33:00.788470Z",
     "title": "Data Engineer"
+  },
+  "PayPal:274923120550": {
+    "first_seen": "2026-10-30T21:29:46.133998Z",
+    "title": "Software Engineer - iOS"
   },
   "PhonePe:7815192003": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
