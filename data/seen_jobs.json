@@ -5035,6 +5035,10 @@
     "first_seen": "2026-11-02T19:15:47.438718Z",
     "title": "Applied AI Specialist-Cloud FullStack"
   },
+  "IBM:138243": {
+    "first_seen": "2026-11-04T07:23:10.593704Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
   "IBM:138244": {
     "first_seen": "2026-11-02T08:25:20.184483Z",
     "title": "Applied AI Specialist-Cloud FullStack"
@@ -5045,6 +5049,10 @@
   },
   "IBM:138246": {
     "first_seen": "2026-10-30T09:22:41.115392Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
+  "IBM:138252": {
+    "first_seen": "2026-11-04T07:23:10.593704Z",
     "title": "Applied AI Specialist-Cloud FullStack"
   },
   "IBM:138257": {
@@ -6831,6 +6839,10 @@
     "first_seen": "2026-10-28T19:34:53.524496Z",
     "title": "Mainframe z/OS System Programmer"
   },
+  "Kyndryl:R-71136": {
+    "first_seen": "2026-11-04T07:23:10.593704Z",
+    "title": "Linux DevOps Engineer"
+  },
   "Kyndryl:R-71147": {
     "first_seen": "2026-11-02T08:25:20.184483Z",
     "title": "Cloud Engineer"
@@ -6886,6 +6898,18 @@
   "Mercedes-Benz:209224": {
     "first_seen": "2026-10-21T14:33:00.788470Z",
     "title": "JAVA Fullstack Developer- ITO Transition"
+  },
+  "Mercedes-Benz:210735": {
+    "first_seen": "2026-11-04T07:23:10.593704Z",
+    "title": "Full stack Developer - Java/Vue"
+  },
+  "Mercedes-Benz:210736": {
+    "first_seen": "2026-11-04T07:23:10.593704Z",
+    "title": "Full stack Developer - Java/Vue"
+  },
+  "Mercedes-Benz:210739": {
+    "first_seen": "2026-11-04T07:23:10.593704Z",
+    "title": "Full stack Developer - Java/Vue"
   },
   "Mercedes-Benz:211138": {
     "first_seen": "2026-09-03T06:31:08.983965Z",
@@ -8642,6 +8666,10 @@
   "Texas Instruments:25018046": {
     "first_seen": "2026-09-18T12:08:01.315838Z",
     "title": "Application Developer"
+  },
+  "Texas Instruments:25019732": {
+    "first_seen": "2026-11-04T07:23:10.593704Z",
+    "title": "Software Engineer"
   },
   "Thomson Reuters:JREQ199784": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
