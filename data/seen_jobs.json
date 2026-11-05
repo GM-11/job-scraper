@@ -1987,6 +1987,14 @@
     "first_seen": "2026-11-04T16:15:33.946929Z",
     "title": "Fullstack Engineer"
   },
+  "EXL:22403": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "AI Engineer"
+  },
+  "EXL:22404": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Data Engineer"
+  },
   "EXL:7078": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Alteryx Developer"
@@ -5307,6 +5315,18 @@
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Application Developer-Azure Cloud FullStack"
   },
+  "IBM:138394": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Azure Cloud FullStack"
+  },
+  "IBM:138396": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Azure Cloud FullStack"
+  },
+  "IBM:138398": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Azure Cloud FullStack"
+  },
   "IBM:138400": {
     "first_seen": "2026-11-04T16:15:33.946929Z",
     "title": "Application Developer-Azure Cloud FullStack"
@@ -5563,6 +5583,18 @@
     "first_seen": "2026-11-04T16:15:33.946929Z",
     "title": "Application Developer-Azure Cloud FullStack"
   },
+  "IBM:138567": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Azure Cloud FullStack"
+  },
+  "IBM:138568": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Azure Cloud FullStack"
+  },
+  "IBM:138569": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Azure Cloud FullStack"
+  },
   "IBM:138575": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Application Developer-Azure Cloud FullStack"
@@ -5811,6 +5843,10 @@
     "first_seen": "2026-11-03T18:35:48.483231Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:139094": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:139096": {
     "first_seen": "2026-11-03T10:19:42.960094Z",
     "title": "Data Engineer-Data Platforms-Google"
@@ -5995,8 +6031,16 @@
     "first_seen": "2026-11-02T19:15:47.438718Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:139159": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
   "IBM:139160": {
     "first_seen": "2026-11-03T18:35:48.483231Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:139162": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:139163": {
@@ -6379,9 +6423,21 @@
     "first_seen": "2026-11-04T16:15:33.946929Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
+  "IBM:139385": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139386": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
   "IBM:139388": {
     "first_seen": "2026-11-04T16:15:33.946929Z",
     "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139389": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:139393": {
     "first_seen": "2026-11-04T16:15:33.946929Z",
@@ -6389,6 +6445,18 @@
   },
   "IBM:139396": {
     "first_seen": "2026-11-04T16:15:33.946929Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:139398": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:139401": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
+  "IBM:139403": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
     "title": "Data Engineer-Data Platforms-Databricks"
   },
   "IBM:139404": {
@@ -6414,6 +6482,14 @@
   "IBM:139420": {
     "first_seen": "2026-11-02T19:15:47.438718Z",
     "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:139422": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:139428": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Cloud FullStack"
   },
   "IBM:139430": {
     "first_seen": "2026-11-03T10:19:42.960094Z",
@@ -6442,6 +6518,10 @@
   "IBM:139441": {
     "first_seen": "2026-11-03T10:19:42.960094Z",
     "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:139442": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Cloud FullStack"
   },
   "IBM:139444": {
     "first_seen": "2026-10-30T09:22:41.115392Z",
@@ -6538,6 +6618,10 @@
   "IBM:139928": {
     "first_seen": "2026-11-04T16:15:33.946929Z",
     "title": "Linux Kernel Developer"
+  },
+  "IBM:140746": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Application Developer-Salesforce"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -6901,6 +6985,10 @@
   },
   "Kyndryl:R-69369": {
     "first_seen": "2026-10-29T17:34:27.842686Z",
+    "title": "Data Engineer"
+  },
+  "Kyndryl:R-69379": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
     "title": "Data Engineer"
   },
   "Kyndryl:R-69383": {
@@ -8227,6 +8315,10 @@
     "first_seen": "2026-10-23T08:19:48.915786Z",
     "title": "Software Engineer I, ITC"
   },
+  "Nike:R-96899": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Information Security Platform Engineer, ITC"
+  },
   "Nutanix:df51dff39dcc6be7": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Solutions Automation Developer/Software Developer [ Python, Github, Api's]"
@@ -8638,6 +8730,10 @@
   "Salesforce:JR357893": {
     "first_seen": "2026-10-14T14:30:11.096676Z",
     "title": "Software Engineering PMTS - Backend Distributed Systems - Cloud Infrastructure"
+  },
+  "Salesforce:JR359537": {
+    "first_seen": "2026-11-05T11:53:00.800702Z",
+    "title": "Full-Stack Developer \u2014 AI-Native Engineering"
   },
   "Salesforce:JR362247": {
     "first_seen": "2026-10-29T22:31:47.202911Z",
