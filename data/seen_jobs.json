@@ -6943,6 +6943,10 @@
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Application Consultant-DevOps"
   },
+  "IBM:140207": {
+    "first_seen": "2026-11-09T23:15:26.780323Z",
+    "title": "Application Consultant-DevOps"
+  },
   "IBM:140228": {
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Application Consultant-DevOps"
@@ -7183,12 +7187,32 @@
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:140990": {
+    "first_seen": "2026-11-09T23:15:26.780323Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:140993": {
+    "first_seen": "2026-11-09T23:15:26.780323Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:140997": {
+    "first_seen": "2026-11-09T23:15:26.780323Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:141008": {
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
+  "IBM:141009": {
+    "first_seen": "2026-11-09T23:15:26.780323Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
   "IBM:141067": {
     "first_seen": "2026-11-09T12:29:10.299382Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:141069": {
+    "first_seen": "2026-11-09T23:15:26.780323Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
   "IBM:141081": {
@@ -8330,6 +8354,10 @@
   "NVIDIA:893398234753": {
     "first_seen": "2026-10-19T23:06:19.691646Z",
     "title": "SWQA Test Developer Engineer"
+  },
+  "NVIDIA:893398628360": {
+    "first_seen": "2026-11-09T23:15:26.780323Z",
+    "title": "SAP Developer"
   },
   "NatWest:17365916": {
     "first_seen": "2026-08-28T21:16:17.648186Z",
