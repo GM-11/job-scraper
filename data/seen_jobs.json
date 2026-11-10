@@ -6511,6 +6511,10 @@
     "first_seen": "2026-10-30T16:41:06.786474Z",
     "title": "Application Developer-Process Management (BPM)"
   },
+  "IBM:139358": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Process Management (BPM)"
+  },
   "IBM:139361": {
     "first_seen": "2026-11-06T08:38:48.048328Z",
     "title": "Applied AI Specialist-Cloud FullStack"
@@ -7031,6 +7035,22 @@
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:140518": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:140536": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:140539": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
+  "IBM:140542": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:140545": {
     "first_seen": "2026-11-06T08:38:48.048328Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -7153,6 +7173,10 @@
   },
   "IBM:140871": {
     "first_seen": "2026-11-09T12:29:10.299382Z",
+    "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:140872": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
     "title": "Data Engineer-Data Platforms-Azure"
   },
   "IBM:140873": {
@@ -7315,6 +7339,22 @@
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
+  "IBM:141386": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:141389": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:141397": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:141398": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer-Data Integration"
+  },
   "IBM:141549": {
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Data Engineer-Data Platforms-Databricks"
@@ -7381,6 +7421,46 @@
   },
   "IBM:141911": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141954": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141958": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141961": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141964": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141966": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141969": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141979": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141982": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141985": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141990": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
     "title": "Application Developer-Java & Web Technologies"
   },
   "IBM:79363": {
@@ -9095,6 +9175,14 @@
     "first_seen": "2026-11-05T19:33:39.183924Z",
     "title": "WOW - Software Engineer"
   },
+  "NatWest:18465400": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Software Engineer - DevOps"
+  },
+  "NatWest:18465401": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Software Engineer - DevOps"
+  },
   "Nike:R-85379": {
     "first_seen": "2026-08-24T15:14:56.799573Z",
     "title": "Software Engineer I, ITC"
@@ -9418,6 +9506,10 @@
   "S&P Global:330717": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Machine Learning Engineer"
+  },
+  "S&P Global:330903": {
+    "first_seen": "2026-11-10T21:37:47.287202Z",
+    "title": "Data Engineer, Data Platforms"
   },
   "S&P Global:331428": {
     "first_seen": "2026-08-26T04:27:06.785767Z",
