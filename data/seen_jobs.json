@@ -6995,6 +6995,10 @@
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Application Consultant-DevOps"
   },
+  "IBM:140295": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Application Developer-AWS Cloud FullStack"
+  },
   "IBM:140462": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
@@ -7423,6 +7427,58 @@
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:141912": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141914": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141918": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141920": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141923": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141926": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141927": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141932": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141935": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141941": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141943": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141944": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141946": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Data Engineer-Machine Learning"
+  },
   "IBM:141954": {
     "first_seen": "2026-11-10T21:37:47.287202Z",
     "title": "Application Developer-Java & Web Technologies"
@@ -7463,9 +7519,29 @@
     "first_seen": "2026-11-10T21:37:47.287202Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:141987": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141989": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
   "IBM:141990": {
     "first_seen": "2026-11-10T21:37:47.287202Z",
     "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141992": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141995": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:142206": {
+    "first_seen": "2026-11-11T08:30:01.187380Z",
+    "title": "Application Developer-AWS Cloud FullStack"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
