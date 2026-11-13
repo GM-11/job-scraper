@@ -635,6 +635,10 @@
     "first_seen": "2026-11-11T23:34:52.927864Z",
     "title": "Software Development Engineer, Customer Experience and Business Trends"
   },
+  "Amazon:10603992": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Software Development Engineer, IN Amazon Business"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -2055,6 +2059,14 @@
     "first_seen": "2026-11-05T11:53:00.800702Z",
     "title": "Data Engineer"
   },
+  "EXL:22552": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Cloud Engineer"
+  },
+  "EXL:22580": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Engineer"
+  },
   "EXL:7078": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Alteryx Developer"
@@ -2278,6 +2290,10 @@
   "Ericsson:563121777546629": {
     "first_seen": "2026-11-02T19:15:47.438718Z",
     "title": "Webmethods Developer"
+  },
+  "Ericsson:563121777555312": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Technical Solution Engineer"
   },
   "Ericsson:563121777574044": {
     "first_seen": "2026-11-11T23:34:52.927864Z",
@@ -8007,6 +8023,10 @@
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Data Engineer-Business Intelligence"
   },
+  "IBM:141886": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:141887": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Data Engineer-Business Intelligence"
@@ -8014,6 +8034,10 @@
   "IBM:141888": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Data Engineer-Business Intelligence"
+  },
+  "IBM:141889": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:141890": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
@@ -8023,6 +8047,14 @@
     "first_seen": "2026-11-12T21:42:37.948421Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:141892": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:141894": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:141895": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Application Developer-Java & Web Technologies"
@@ -8030,6 +8062,14 @@
   "IBM:141897": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141898": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:141899": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:141900": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
@@ -8039,13 +8079,33 @@
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:141902": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:141903": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:141905": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:141906": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:141907": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141909": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:141910": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:141911": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
@@ -8054,6 +8114,10 @@
   "IBM:141912": {
     "first_seen": "2026-11-11T08:30:01.187380Z",
     "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:141913": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:141914": {
     "first_seen": "2026-11-11T08:30:01.187380Z",
@@ -8223,6 +8287,14 @@
     "first_seen": "2026-11-12T21:42:37.948421Z",
     "title": "Application Developer-IT Automation"
   },
+  "IBM:142138": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142142": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:142143": {
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Application Developer-SAP ABAP HANA"
@@ -8239,6 +8311,14 @@
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Application Developer-Asset Management"
   },
+  "IBM:142197": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Commerce Transformation"
+  },
+  "IBM:142199": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Commerce Transformation"
+  },
   "IBM:142200": {
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Application Developer-Commerce Transformation"
@@ -8251,12 +8331,84 @@
     "first_seen": "2026-11-11T23:34:52.927864Z",
     "title": "AIX Developer (L3 -Support )"
   },
+  "IBM:142224": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142225": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Asset Management"
+  },
   "IBM:142226": {
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Application Developer-Asset Management"
   },
+  "IBM:142227": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Asset Management"
+  },
+  "IBM:142229": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Asset Management"
+  },
+  "IBM:142233": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Asset Management"
+  },
+  "IBM:142234": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142236": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Asset Management"
+  },
+  "IBM:142242": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142244": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142249": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142254": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142256": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142258": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142260": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142262": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:142263": {
     "first_seen": "2026-11-11T23:34:52.927864Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142264": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142280": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142281": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:142598": {
@@ -8278,6 +8430,54 @@
   "IBM:142648": {
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Application Developer-IT Service Management"
+  },
+  "IBM:142675": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Commerce Transformation"
+  },
+  "IBM:142679": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Commerce Transformation"
+  },
+  "IBM:142684": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Commerce Transformation"
+  },
+  "IBM:142688": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Commerce Transformation"
+  },
+  "IBM:142690": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Commerce Transformation"
+  },
+  "IBM:142700": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Contact Center"
+  },
+  "IBM:142704": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Contact Center"
+  },
+  "IBM:142707": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Contact Center"
+  },
+  "IBM:142712": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Contact Center"
+  },
+  "IBM:142714": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Contact Center"
+  },
+  "IBM:142744": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Asset Management"
+  },
+  "IBM:142748": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-Asset Management"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -8838,6 +9038,10 @@
   "Kyndryl:R-71445": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "SAP BTP DevOps Engineer - CI/CD"
+  },
+  "Kyndryl:R-71870": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Mainframe MQ System Programmer"
   },
   "Mercedes-Benz:203298": {
     "first_seen": "2026-10-10T02:27:00.831511Z",
@@ -10838,6 +11042,10 @@
   "Thomson Reuters:JREQ204720": {
     "first_seen": "2026-11-02T19:15:47.438718Z",
     "title": "Associate Software Engineer"
+  },
+  "Thomson Reuters:JREQ204994": {
+    "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Software Engineer"
   },
   "Tower Research Capital:6629676": {
     "first_seen": "2026-10-30T16:41:06.786474Z",
