@@ -639,6 +639,10 @@
     "first_seen": "2026-11-13T10:25:36.302315Z",
     "title": "Software Development Engineer, IN Amazon Business"
   },
+  "Amazon:10604005": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Software Development Engineer, CS ARIA"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -8235,9 +8239,17 @@
     "first_seen": "2026-11-10T21:37:47.287202Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:141986": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:141987": {
     "first_seen": "2026-11-11T08:30:01.187380Z",
     "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141988": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:141989": {
     "first_seen": "2026-11-11T08:30:01.187380Z",
@@ -8251,6 +8263,10 @@
     "first_seen": "2026-11-11T08:30:01.187380Z",
     "title": "Application Developer-Java & Web Technologies"
   },
+  "IBM:141994": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:141995": {
     "first_seen": "2026-11-11T08:30:01.187380Z",
     "title": "Application Developer-Java & Web Technologies"
@@ -8262,6 +8278,18 @@
   "IBM:141997": {
     "first_seen": "2026-11-12T21:42:37.948421Z",
     "title": "Application Developer-Java & Web Technologies"
+  },
+  "IBM:141998": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142071": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142072": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:142074": {
     "first_seen": "2026-11-12T21:42:37.948421Z",
@@ -8299,6 +8327,18 @@
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
+  "IBM:142145": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142146": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142147": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:142155": {
     "first_seen": "2026-11-12T21:42:37.948421Z",
     "title": "Application Developer-SAP ABAP HANA"
@@ -8306,6 +8346,10 @@
   "IBM:142158": {
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Application Developer-SAP Enterprise Integration"
+  },
+  "IBM:142160": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:142182": {
     "first_seen": "2026-11-12T13:38:30.964635Z",
@@ -8326,6 +8370,10 @@
   "IBM:142206": {
     "first_seen": "2026-11-11T08:30:01.187380Z",
     "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:142217": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:142220": {
     "first_seen": "2026-11-11T23:34:52.927864Z",
@@ -8362,6 +8410,18 @@
   "IBM:142236": {
     "first_seen": "2026-11-13T10:25:36.302315Z",
     "title": "Application Developer-Asset Management"
+  },
+  "IBM:142237": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142239": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142241": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:142242": {
     "first_seen": "2026-11-13T10:25:36.302315Z",
@@ -8401,6 +8461,10 @@
   },
   "IBM:142264": {
     "first_seen": "2026-11-13T10:25:36.302315Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142272": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:142280": {
@@ -8642,6 +8706,10 @@
   "JPMorgan:210805766": {
     "first_seen": "2026-11-06T16:40:33.766685Z",
     "title": "Research Modernization - Business Intelligence Developer"
+  },
+  "JPMorgan:210806312": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Commercial & Investment Bank - Payments Data Scientist Associate"
   },
   "Jio:87303651": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
@@ -9038,6 +9106,62 @@
   "Kyndryl:R-71445": {
     "first_seen": "2026-11-10T14:15:59.238300Z",
     "title": "SAP BTP DevOps Engineer - CI/CD"
+  },
+  "Kyndryl:R-71697": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71703": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71704": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71705": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71706": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71707": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71718": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71720": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71807": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71808": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71809": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71810": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71811": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
+  },
+  "Kyndryl:R-71812": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Agentic AI Engineer \u2013 Mainframe Modernization"
   },
   "Kyndryl:R-71870": {
     "first_seen": "2026-11-13T10:25:36.302315Z",
@@ -10374,6 +10498,10 @@
   "PayPal:274923210258": {
     "first_seen": "2026-11-09T12:29:10.299382Z",
     "title": "Software Engineer Intern"
+  },
+  "PayPal:274923287904": {
+    "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Software Engineer"
   },
   "PhonePe:7815192003": {
     "first_seen": "2026-08-19T11:35:08.251580Z",
