@@ -8159,6 +8159,10 @@
     "first_seen": "2026-11-11T08:30:01.187380Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:141937": {
+    "first_seen": "2026-11-14T07:23:45.919250Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:141941": {
     "first_seen": "2026-11-11T08:30:01.187380Z",
     "title": "Data Engineer-Data Platforms-Google"
@@ -8469,6 +8473,10 @@
   },
   "IBM:142272": {
     "first_seen": "2026-11-13T18:43:38.876838Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:142274": {
+    "first_seen": "2026-11-14T07:23:45.919250Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:142280": {
@@ -10354,6 +10362,18 @@
   "NatWest:18426372": {
     "first_seen": "2026-11-05T19:33:39.183924Z",
     "title": "WOW - Software Engineer"
+  },
+  "NatWest:18460682": {
+    "first_seen": "2026-11-14T07:23:45.919250Z",
+    "title": "Data Engineer"
+  },
+  "NatWest:18460683": {
+    "first_seen": "2026-11-14T07:23:45.919250Z",
+    "title": "Data Engineer"
+  },
+  "NatWest:18460684": {
+    "first_seen": "2026-11-14T07:23:45.919250Z",
+    "title": "Data Engineer"
   },
   "NatWest:18465400": {
     "first_seen": "2026-11-10T21:37:47.287202Z",
