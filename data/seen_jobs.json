@@ -983,6 +983,10 @@
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Data Engineer, Aladdin Data, Associate"
   },
+  "BlackRock:103377271056": {
+    "first_seen": "2026-11-16T22:58:46.780420Z",
+    "title": "Associate, AI Engineer"
+  },
   "BlackRock:91936971120": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Associate, Full Stack Developer"
@@ -2078,6 +2082,14 @@
   "EXL:22580": {
     "first_seen": "2026-11-13T10:25:36.302315Z",
     "title": "Application Engineer"
+  },
+  "EXL:22702": {
+    "first_seen": "2026-11-16T22:58:46.780420Z",
+    "title": "AWS Data Engineer"
+  },
+  "EXL:22703": {
+    "first_seen": "2026-11-16T22:58:46.780420Z",
+    "title": "AWS Data Engineer"
   },
   "EXL:7078": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
@@ -10482,6 +10494,10 @@
   "Oracle:347789": {
     "first_seen": "2026-10-29T17:34:27.842686Z",
     "title": "Java Full Stack Software Engineer-NetSuite"
+  },
+  "Oracle:348044": {
+    "first_seen": "2026-11-16T22:58:46.780420Z",
+    "title": "Oracle Autonomous Database Site Reliability Engineer"
   },
   "Oracle:348861": {
     "first_seen": "2026-10-28T19:34:53.524496Z",
