@@ -647,6 +647,10 @@
     "first_seen": "2026-11-14T00:22:55.966327Z",
     "title": "Software Development Engineer, SW-Device OS"
   },
+  "Amazon:10605712": {
+    "first_seen": "2026-11-16T12:14:31.889730Z",
+    "title": "Software Development Engineer, Amazon Business India"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -2302,6 +2306,10 @@
   "Ericsson:563121777555312": {
     "first_seen": "2026-11-13T10:25:36.302315Z",
     "title": "Technical Solution Engineer"
+  },
+  "Ericsson:563121777560297": {
+    "first_seen": "2026-11-16T12:14:31.889730Z",
+    "title": "Software Developer"
   },
   "Ericsson:563121777574044": {
     "first_seen": "2026-11-11T23:34:52.927864Z",
@@ -8715,6 +8723,10 @@
     "first_seen": "2026-10-13T10:09:15.397424Z",
     "title": "Data Scientist - Associate"
   },
+  "JPMorgan:210805745": {
+    "first_seen": "2026-11-16T12:14:31.889730Z",
+    "title": "SRE III- Network"
+  },
   "JPMorgan:210805766": {
     "first_seen": "2026-11-06T16:40:33.766685Z",
     "title": "Research Modernization - Business Intelligence Developer"
@@ -9615,6 +9627,10 @@
     "first_seen": "2026-11-03T10:19:42.960094Z",
     "title": "Software Engineer - II"
   },
+  "Microsoft:1970393557070761": {
+    "first_seen": "2026-11-16T12:14:31.889730Z",
+    "title": "Platform Engineer"
+  },
   "Moody's:100062934016": {
     "first_seen": "2026-09-22T22:55:48.422309Z",
     "title": "Software Engineer (OneStream)"
@@ -9642,6 +9658,10 @@
   "Moody's:103205248784": {
     "first_seen": "2026-11-12T21:42:37.948421Z",
     "title": "Associate Software Engineer"
+  },
+  "Moody's:103371576560": {
+    "first_seen": "2026-11-16T12:14:31.889730Z",
+    "title": "Asst Dir-DevOps Engineer"
   },
   "Moody's:96590315056": {
     "first_seen": "2026-10-22T14:30:07.107634Z",
@@ -11113,6 +11133,10 @@
   },
   "Texas Instruments:25019732": {
     "first_seen": "2026-11-04T07:23:10.593704Z",
+    "title": "Software Engineer"
+  },
+  "Texas Instruments:25020282": {
+    "first_seen": "2026-11-16T12:14:31.889730Z",
     "title": "Software Engineer"
   },
   "Thomson Reuters:JREQ199695": {
