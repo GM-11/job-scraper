@@ -995,6 +995,10 @@
     "first_seen": "2026-11-16T22:58:46.780420Z",
     "title": "Associate, AI Engineer"
   },
+  "BlackRock:103420773344": {
+    "first_seen": "2026-11-17T15:22:29.455160Z",
+    "title": "AI/ML Engineer, Aladdin Data, Associate"
+  },
   "BlackRock:91936971120": {
     "first_seen": "2026-10-07T17:17:54.399011Z",
     "title": "Associate, Full Stack Developer"
@@ -1258,6 +1262,10 @@
   "DocuSign:30364": {
     "first_seen": "2026-09-23T12:27:58.133255Z",
     "title": "Software Engineer - Core Finance"
+  },
+  "DocuSign:30372": {
+    "first_seen": "2026-11-17T15:22:29.455160Z",
+    "title": "Software Engineer"
   },
   "DocuSign:30373": {
     "first_seen": "2026-09-28T16:19:06.856661Z",
@@ -8742,6 +8750,10 @@
   "JPMorgan:210799985": {
     "first_seen": "2026-10-13T10:09:15.397424Z",
     "title": "Data Scientist - Associate"
+  },
+  "JPMorgan:210803102": {
+    "first_seen": "2026-11-17T15:22:29.455160Z",
+    "title": "Solutions Analyst - Python Full stack Developer with JavaScript"
   },
   "JPMorgan:210805745": {
     "first_seen": "2026-11-16T12:14:31.889730Z",
