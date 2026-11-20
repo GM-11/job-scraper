@@ -1057,7 +1057,7 @@
   },
   "BlackRock:98094343936": {
     "first_seen": "2026-09-08T15:20:57.054694Z",
-    "title": "Software Engineer, Portfolio Management Group, Analyst"
+    "title": "Software Engineer (Python,SQL,React) , Portfolio Management Group, Analyst"
   },
   "BlackRock:99342598896": {
     "first_seen": "2026-08-25T20:10:11.152986Z",
@@ -1070,6 +1070,10 @@
   "Brightly:519136": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
     "title": "AI Agentic Software Engineer"
+  },
+  "Brightly:530239": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "Software Engineer Intern"
   },
   "Ciena:R030115": {
     "first_seen": "2026-08-22T11:51:33.242369Z",
@@ -2143,6 +2147,14 @@
     "first_seen": "2026-11-18T14:58:37.907120Z",
     "title": "Data Scientist"
   },
+  "EXL:22913": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "Data Scientist"
+  },
+  "EXL:22951": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "Data Scientist"
+  },
   "EXL:7078": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Alteryx Developer"
@@ -2382,6 +2394,10 @@
   "Ericsson:563121777574044": {
     "first_seen": "2026-11-11T23:34:52.927864Z",
     "title": "Product Specialist Developer - IAM"
+  },
+  "Ericsson:563121777640335": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "Platform & Infrastructure Engineer"
   },
   "GlobalLogic:0061f22df64eb658": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -9331,6 +9347,10 @@
     "first_seen": "2026-09-03T06:31:08.983965Z",
     "title": "JAVA Fullstack Developer - ITO Transition"
   },
+  "Mercedes-Benz:213285": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "DEVOPS Operations Specialist"
+  },
   "Mercedes-Benz:221620": {
     "first_seen": "2026-08-24T14:21:13.684354Z",
     "title": "Full stack Developer - JAVA"
@@ -9590,6 +9610,18 @@
   "Mercedes-Benz:246244": {
     "first_seen": "2026-11-11T23:34:52.927864Z",
     "title": "AI Engineer- AI Native Engineering"
+  },
+  "Mercedes-Benz:247842": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "AI/ML Engineer"
+  },
+  "Mercedes-Benz:247843": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "AI/ML Engineer"
+  },
+  "Mercedes-Benz:247844": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "AI/ML Engineer"
   },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
@@ -11234,6 +11266,10 @@
   "Texas Instruments:25020282": {
     "first_seen": "2026-11-16T12:14:31.889730Z",
     "title": "Software Engineer"
+  },
+  "Texas Instruments:25020389": {
+    "first_seen": "2026-11-20T13:56:25.797560Z",
+    "title": "System Engineer"
   },
   "Thomson Reuters:JREQ199695": {
     "first_seen": "2026-11-06T16:40:33.766685Z",
