@@ -8687,6 +8687,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-SAP Enterprise Integration"
   },
+  "IBM:142157": {
+    "first_seen": "2026-11-21T03:30:42.832459Z",
+    "title": "Application Developer-SAP Enterprise Integration"
+  },
   "IBM:142158": {
     "first_seen": "2026-11-12T13:38:30.964635Z",
     "title": "Application Developer-SAP Enterprise Integration"
@@ -9135,6 +9139,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Microsoft Dynamics 365 Finance & Operations"
   },
+  "IBM:142929": {
+    "first_seen": "2026-11-21T03:30:42.832459Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:142931": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Microsoft Dynamics 365 Finance & Operations"
@@ -9243,6 +9251,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Applied AI Specialist-Cloud FullStack"
   },
+  "IBM:143283": {
+    "first_seen": "2026-11-21T03:30:42.832459Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
   "IBM:143286": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Applied AI Specialist-Cloud FullStack"
@@ -9334,6 +9346,10 @@
   "IBM:143492": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Azure Cloud FullStack"
+  },
+  "IBM:143525": {
+    "first_seen": "2026-11-21T03:30:42.832459Z",
+    "title": "Application Developer-Google Cloud FullStack"
   },
   "IBM:143529": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
@@ -9946,6 +9962,10 @@
   "IBM:144770": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-AWS Cloud FullStack"
+  },
+  "IBM:144789": {
+    "first_seen": "2026-11-21T03:30:42.832459Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
   },
   "IBM:144790": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
