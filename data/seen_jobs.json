@@ -659,6 +659,10 @@
     "first_seen": "2026-11-18T22:49:10.033827Z",
     "title": "Software Development Engineer, ASA"
   },
+  "Amazon:10606861": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Engineer I, Data Engineer I"
+  },
   "Amazon:10607252": {
     "first_seen": "2026-11-17T23:40:10.327395Z",
     "title": "Software Development Engineer, Last Mile Platform Services, SDE"
@@ -671,9 +675,17 @@
     "first_seen": "2026-11-19T14:16:18.358448Z",
     "title": "Data Engineer, IN Data Engineering & Analytics"
   },
+  "Amazon:10610382": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Software Development Engineer , PaySec, StoreSec"
+  },
   "Amazon:10610616": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Software Development Engineer"
+  },
+  "Amazon:10611161": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Software Development Engineer , Shiptech - Transportation Technology & Services"
   },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
@@ -9043,6 +9055,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Experience Front End"
   },
+  "IBM:142804": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-ServiceNow Implementation"
+  },
   "IBM:142809": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Microsoft .NET Stack"
@@ -9086,6 +9102,18 @@
   "IBM:142867": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-IBM Integration"
+  },
+  "IBM:142870": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Industry Packages"
+  },
+  "IBM:142889": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Mainframe Modernization"
+  },
+  "IBM:142891": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Mainframe Modernization"
   },
   "IBM:142913": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
@@ -9175,6 +9203,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
+  "IBM:143020": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist-Advanced Analytics"
+  },
   "IBM:143039": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Scientist-Artificial Intelligence"
@@ -9203,6 +9235,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-SAP Enterprise Integration"
   },
+  "IBM:143154": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Engineer-Machine Learning"
+  },
   "IBM:143158": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Enterprise Content Management"
@@ -9210,6 +9246,10 @@
   "IBM:143171": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Enterprise Content Management"
+  },
+  "IBM:143204": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Engineer-Machine Learning"
   },
   "IBM:143207": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
@@ -9278,6 +9318,14 @@
   "IBM:143300": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:143321": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:143323": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist-Artificial Intelligence"
   },
   "IBM:143335": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
@@ -9647,6 +9695,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
+  "IBM:144554": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
   "IBM:144556": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Scientist-Artificial Intelligence"
@@ -9827,12 +9879,24 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:144700": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
   "IBM:144706": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
   "IBM:144707": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:144708": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:144713": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
   "IBM:144714": {
@@ -9999,6 +10063,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Software Developer - AuthMind"
   },
+  "IBM:145234": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Software Developer"
+  },
   "IBM:145302": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Fullstack / UI Developer (React.Js)"
@@ -10025,6 +10093,14 @@
   },
   "IBM:145357": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:145359": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:145360": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:145383": {
@@ -10075,12 +10151,28 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Microsoft .NET Stack"
   },
+  "IBM:145490": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Microsoft Power Platform"
+  },
+  "IBM:145534": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:145538": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:145543": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:145546": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:145549": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Application Developer-Cloud FullStack"
   },
   "IBM:145550": {
@@ -10163,6 +10255,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:145694": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
   "IBM:145695": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-Google"
@@ -10174,6 +10270,10 @@
   "IBM:145698": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:145699": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Google Cloud FullStack"
   },
   "IBM:145700": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
@@ -10187,6 +10287,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-Google"
   },
+  "IBM:145704": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Google Cloud FullStack"
+  },
   "IBM:145705": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Google Cloud FullStack"
@@ -10198,6 +10302,10 @@
   "IBM:145708": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-Google"
+  },
+  "IBM:145709": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Google Cloud FullStack"
   },
   "IBM:145710": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
@@ -10279,6 +10387,10 @@
     "first_seen": "2026-11-22T23:15:14.942164Z",
     "title": "Data Engineer-Data Platforms-AWS"
   },
+  "IBM:145881": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Engineer-Data Platforms-SnowFlake"
+  },
   "IBM:145883": {
     "first_seen": "2026-11-22T23:15:14.942164Z",
     "title": "Data Engineer-Data Platforms-AWS"
@@ -10289,6 +10401,22 @@
   },
   "IBM:146013": {
     "first_seen": "2026-11-21T20:13:08.989412Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:146014": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:146015": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:146016": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:146017": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Application Developer-Cloud FullStack"
   },
   "IBM:146112": {
@@ -10307,9 +10435,17 @@
     "first_seen": "2026-11-21T20:13:08.989412Z",
     "title": "Data Engineer-Data Integration"
   },
+  "IBM:146127": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Software Developer - Storage and Virtualization"
+  },
   "IBM:146128": {
     "first_seen": "2026-11-21T20:13:08.989412Z",
     "title": "Data Engineer-Data Integration"
+  },
+  "IBM:146348": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist-Artificial Intelligence"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -10381,6 +10517,10 @@
   },
   "Infor:608168": {
     "first_seen": "2026-11-05T19:33:39.183924Z",
+    "title": "Software Engineer, Associate"
+  },
+  "Infor:610324": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Software Engineer, Associate"
   },
   "Intuit:587e906bf9530e8a": {
@@ -12331,6 +12471,10 @@
     "first_seen": "2026-11-13T18:43:38.876838Z",
     "title": "Software Engineer"
   },
+  "PayPal:274923374983": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Software Development Engineer in Test"
+  },
   "PayPal:274923516746": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Machine Learning Engineer, Fraud (Crypto & Debit Card)"
@@ -12558,6 +12702,10 @@
   "S&P Global:332220": {
     "first_seen": "2026-10-21T02:20:03.178416Z",
     "title": "Data Engineer"
+  },
+  "S&P Global:332759": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist"
   },
   "S&P Global:332809": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
@@ -12922,6 +13070,10 @@
   "Texas Instruments:25017514": {
     "first_seen": "2026-10-21T14:33:00.788470Z",
     "title": "Embedded Software Engineer"
+  },
+  "Texas Instruments:25017780": {
+    "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Software Engineer - AIML"
   },
   "Texas Instruments:25017848": {
     "first_seen": "2026-09-23T12:27:58.133255Z",
