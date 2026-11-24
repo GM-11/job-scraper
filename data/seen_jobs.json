@@ -2175,6 +2175,14 @@
     "first_seen": "2026-11-20T13:56:25.797560Z",
     "title": "Data Scientist"
   },
+  "EXL:23025": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Full Stack Engineer"
+  },
+  "EXL:23030": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Engineer"
+  },
   "EXL:7078": {
     "first_seen": "2026-10-26T15:04:49.421777Z",
     "title": "Alteryx Developer"
@@ -2418,6 +2426,10 @@
   "Ericsson:563121777640335": {
     "first_seen": "2026-11-20T13:56:25.797560Z",
     "title": "Platform & Infrastructure Engineer"
+  },
+  "Ericsson:563121777658932": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "ESM DevOps Engineer"
   },
   "GlobalLogic:0061f22df64eb658": {
     "first_seen": "2026-08-18T22:47:01.768377Z",
@@ -9215,6 +9227,26 @@
     "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Data Scientist-Advanced Analytics"
   },
+  "IBM:143021": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Advanced Analytics"
+  },
+  "IBM:143022": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Advanced Analytics"
+  },
+  "IBM:143023": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Advanced Analytics"
+  },
+  "IBM:143025": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Advanced Analytics"
+  },
+  "IBM:143033": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
   "IBM:143035": {
     "first_seen": "2026-11-24T03:17:00.184551Z",
     "title": "Data Scientist-Artificial Intelligence"
@@ -9233,6 +9265,10 @@
   },
   "IBM:143064": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:143066": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
     "title": "Application Developer-SAP ABAP HANA"
   },
   "IBM:143072": {
@@ -9354,6 +9390,18 @@
   "IBM:143335": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:143354": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:143356": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:143357": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Artificial Intelligence"
   },
   "IBM:143358": {
     "first_seen": "2026-11-24T03:17:00.184551Z",
@@ -9743,6 +9791,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
+  "IBM:144548": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
   "IBM:144554": {
     "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Data Scientist-Artificial Intelligence"
@@ -9927,6 +9979,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-SnowFlake"
   },
+  "IBM:144695": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
   "IBM:144700": {
     "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Data Scientist-Artificial Intelligence"
@@ -9941,6 +9997,10 @@
   },
   "IBM:144708": {
     "first_seen": "2026-11-23T15:43:25.267438Z",
+    "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:144712": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
     "title": "Data Scientist-Artificial Intelligence"
   },
   "IBM:144713": {
@@ -9989,6 +10049,10 @@
   },
   "IBM:144724": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:144725": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
     "title": "Application Developer-Cloud FullStack"
   },
   "IBM:144729": {
@@ -10167,9 +10231,17 @@
     "first_seen": "2026-11-21T20:13:08.989412Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:145404": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Engineer-Data Platforms-Google"
+  },
   "IBM:145405": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:145408": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Engineer-Data Platforms-Google"
   },
   "IBM:145410": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
@@ -10431,6 +10503,10 @@
     "first_seen": "2026-11-22T23:15:14.942164Z",
     "title": "Data Engineer-Data Platforms-AWS"
   },
+  "IBM:145879": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Engineer-Data Platforms-Databricks"
+  },
   "IBM:145880": {
     "first_seen": "2026-11-22T23:15:14.942164Z",
     "title": "Data Engineer-Data Platforms-AWS"
@@ -10494,6 +10570,10 @@
   "IBM:146348": {
     "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Data Scientist-Artificial Intelligence"
+  },
+  "IBM:146406": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Application Developer-Experience Front End"
   },
   "IBM:79363": {
     "first_seen": "2026-09-07T17:07:29.007061Z",
@@ -10674,6 +10754,14 @@
   "JPMorgan:210806312": {
     "first_seen": "2026-11-13T18:43:38.876838Z",
     "title": "Commercial & Investment Bank - Payments Data Scientist Associate"
+  },
+  "JPMorgan:210808827": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Commercial & Investment Bank - Applied Artificial Intelligence & Machine Learning - Associate"
+  },
+  "JPMorgan:210809554": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "SRE III - VMware VCF"
   },
   "Jio:87303651": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
@@ -11622,6 +11710,10 @@
   "Moody's:103371576560": {
     "first_seen": "2026-11-16T12:14:31.889730Z",
     "title": "Asst Dir-DevOps Engineer"
+  },
+  "Moody's:103728629792": {
+    "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Software Engineer"
   },
   "Moody's:96590315056": {
     "first_seen": "2026-10-22T14:30:07.107634Z",
