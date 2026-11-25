@@ -691,6 +691,10 @@
     "first_seen": "2026-11-25T00:22:57.990836Z",
     "title": "Software Development Engineer, Finance Technology, FinTech TAX"
   },
+  "Amazon:10613775": {
+    "first_seen": "2026-11-25T09:32:11.411903Z",
+    "title": "Software Development Engineer"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -1338,6 +1342,14 @@
   "DocuSign:30628": {
     "first_seen": "2026-11-03T10:19:42.960094Z",
     "title": "Software Engineer"
+  },
+  "DocuSign:32178": {
+    "first_seen": "2026-11-25T09:32:11.411903Z",
+    "title": "Product Data Scientist"
+  },
+  "DocuSign:32179": {
+    "first_seen": "2026-11-25T09:32:11.411903Z",
+    "title": "Product Data Scientist"
   },
   "EA:215928": {
     "first_seen": "2026-10-06T11:09:33.753036Z",
@@ -2179,12 +2191,20 @@
     "first_seen": "2026-11-20T13:56:25.797560Z",
     "title": "Data Scientist"
   },
+  "EXL:23005": {
+    "first_seen": "2026-11-25T09:32:11.411903Z",
+    "title": "Full Stack Engineer"
+  },
   "EXL:23025": {
     "first_seen": "2026-11-24T14:48:40.797832Z",
     "title": "Full Stack Engineer"
   },
   "EXL:23030": {
     "first_seen": "2026-11-24T14:48:40.797832Z",
+    "title": "Data Engineer"
+  },
+  "EXL:23111": {
+    "first_seen": "2026-11-25T09:32:11.411903Z",
     "title": "Data Engineer"
   },
   "EXL:7078": {
@@ -10775,6 +10795,14 @@
     "first_seen": "2026-11-24T14:48:40.797832Z",
     "title": "SRE III - VMware VCF"
   },
+  "JPMorgan:210810729": {
+    "first_seen": "2026-11-25T09:32:11.411903Z",
+    "title": "SRE III - VMware VCF"
+  },
+  "JPMorgan:210811890": {
+    "first_seen": "2026-11-25T09:32:11.411903Z",
+    "title": "Securities Services - Global Service Initiatives - Data Scientist Analyst"
+  },
   "Jio:87303651": {
     "first_seen": "2026-10-13T18:19:05.761508Z",
     "title": "Software Engineer"
@@ -12626,6 +12654,10 @@
   "PayPal:274923374983": {
     "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Software Development Engineer in Test"
+  },
+  "PayPal:274923420765": {
+    "first_seen": "2026-11-25T09:32:11.411903Z",
+    "title": "Software Engineer, Web"
   },
   "PayPal:274923516746": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
