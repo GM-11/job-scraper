@@ -703,6 +703,10 @@
     "first_seen": "2026-11-26T23:16:18.951542Z",
     "title": "Software Developer - Kernel Engineer, SSG"
   },
+  "Amazon:10615646": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "Software Development Engineer, Finance Technology"
+  },
   "American Express:26010165": {
     "first_seen": "2026-09-09T15:17:52.901816Z",
     "title": "Software Engineer I"
@@ -2466,6 +2470,10 @@
   "Ericsson:563121777574044": {
     "first_seen": "2026-11-11T23:34:52.927864Z",
     "title": "Product Specialist Developer - IAM"
+  },
+  "Ericsson:563121777587544": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "Antenna Developer - Resident Engineer"
   },
   "Ericsson:563121777640335": {
     "first_seen": "2026-11-20T13:56:25.797560Z",
@@ -11623,6 +11631,18 @@
     "first_seen": "2026-11-20T13:56:25.797560Z",
     "title": "AI/ML Engineer"
   },
+  "Mercedes-Benz:248952": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "MB.OS 2.0 Cloud Platform Developer"
+  },
+  "Mercedes-Benz:248953": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "MB.OS 2.0 Cloud Platform Developer"
+  },
+  "Mercedes-Benz:248956": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "MB.OS 2.0 Cloud Platform Developer"
+  },
   "Microsoft:1970393556864918": {
     "first_seen": "2026-08-26T08:22:42.742129Z",
     "title": "Consultant - Dotnet Full Stack + AI"
@@ -12919,6 +12939,10 @@
     "first_seen": "2026-10-21T02:20:03.178416Z",
     "title": "Data Engineer"
   },
+  "S&P Global:332459": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "Azure Cloud Engineer"
+  },
   "S&P Global:332759": {
     "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Data Scientist"
@@ -13278,6 +13302,18 @@
   "Standard Chartered:64893": {
     "first_seen": "2026-10-23T14:16:46.504009Z",
     "title": "Assoc, BackEnd Eng, WRB Tech"
+  },
+  "Standard Chartered:66675": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "ML Engineer AI OPS (B5)"
+  },
+  "Standard Chartered:66676": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "ML Engineer AI OPS (B6)"
+  },
+  "Standard Chartered:66677": {
+    "first_seen": "2026-11-27T16:08:23.997636Z",
+    "title": "ML Engineer AI OPS (B6)"
   },
   "Standard Chartered:66797": {
     "first_seen": "2026-11-25T20:20:13.524689Z",
