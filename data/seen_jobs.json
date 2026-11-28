@@ -2527,6 +2527,10 @@
     "first_seen": "2026-11-12T21:42:37.948421Z",
     "title": "Application Developer-IT Automation"
   },
+  "HashiCorp:146426": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "DevOps Engineer - AuthMind"
+  },
   "IBM:112857": {
     "first_seen": "2026-08-24T11:55:48.251163Z",
     "title": "Data Engineer-Data Platforms-Azure"
@@ -9083,6 +9087,10 @@
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Application Developer-Contact Center"
   },
+  "IBM:142697": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Software Back-End Developer"
+  },
   "IBM:142700": {
     "first_seen": "2026-11-13T10:25:36.302315Z",
     "title": "Application Developer-Contact Center"
@@ -9658,6 +9666,10 @@
   "IBM:144293": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Data Engineer-Data Platforms-Azure"
+  },
+  "IBM:144298": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Data Engineer-Data Platforms"
   },
   "IBM:144300": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
@@ -10527,6 +10539,10 @@
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Applied AI Specialist-Cloud FullStack"
   },
+  "IBM:145756": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Applied AI Specialist-Cloud FullStack"
+  },
   "IBM:145759": {
     "first_seen": "2026-11-20T22:09:42.679519Z",
     "title": "Applied AI Specialist-Cloud FullStack"
@@ -10631,6 +10647,10 @@
     "first_seen": "2026-11-23T15:43:25.267438Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:146065": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-Experience Fullstack"
+  },
   "IBM:146067": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Application Developer-Experience Fullstack"
@@ -10675,8 +10695,20 @@
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Data Engineer-Business Intelligence"
   },
+  "IBM:146144": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Data Engineer-Business Intelligence"
+  },
   "IBM:146146": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:146148": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:146152": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
     "title": "Data Engineer-Data Platforms-AWS"
   },
   "IBM:146156": {
@@ -10691,8 +10723,24 @@
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Data Engineer-Data Integration"
   },
+  "IBM:146209": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:146220": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:146222": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-Experience Fullstack"
+  },
   "IBM:146223": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
+    "title": "Data Engineer-Data Integration"
+  },
+  "IBM:146224": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
     "title": "Data Engineer-Data Integration"
   },
   "IBM:146227": {
@@ -10701,6 +10749,10 @@
   },
   "IBM:146228": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
+    "title": "Data Engineer-Data Platforms-AWS"
+  },
+  "IBM:146229": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
     "title": "Data Engineer-Data Platforms-AWS"
   },
   "IBM:146230": {
@@ -10719,6 +10771,14 @@
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Application Developer-Experience Fullstack"
   },
+  "IBM:146249": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-Experience Fullstack"
+  },
+  "IBM:146250": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-Experience Fullstack"
+  },
   "IBM:146252": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Application Developer-Experience Fullstack"
@@ -10730,6 +10790,10 @@
   "IBM:146406": {
     "first_seen": "2026-11-24T14:48:40.797832Z",
     "title": "Application Developer-Experience Front End"
+  },
+  "IBM:146426": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "DevOps Engineer - AuthMind"
   },
   "IBM:146427": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
@@ -10743,9 +10807,21 @@
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Software Developer (Data Ingestion) - AuthMind"
   },
+  "IBM:146507": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-Experience Front End"
+  },
+  "IBM:146511": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-SAP ABAP HANA"
+  },
   "IBM:146567": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Application Developer-SAP ABAP HANA"
+  },
+  "IBM:146581": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-RDBMS"
   },
   "IBM:146584": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
@@ -10761,6 +10837,10 @@
   },
   "IBM:146594": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
+    "title": "Application Developer-RDBMS"
+  },
+  "IBM:146596": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
     "title": "Application Developer-RDBMS"
   },
   "IBM:146598": {
@@ -10783,12 +10863,24 @@
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:146879": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:146885": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
     "title": "Application Developer-Cloud FullStack"
   },
+  "IBM:146893": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
   "IBM:146894": {
     "first_seen": "2026-11-28T00:22:09.357030Z",
+    "title": "Application Developer-Cloud FullStack"
+  },
+  "IBM:147055": {
+    "first_seen": "2026-11-28T08:59:19.740138Z",
     "title": "Application Developer-Cloud FullStack"
   },
   "IBM:147159": {
